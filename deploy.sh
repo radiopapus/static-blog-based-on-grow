@@ -6,7 +6,7 @@ GROW_PATH=/home/devel/grow/scripts/grow
 $GROW_PATH build $DIST_PATH
 
 TAR_NAME=grow-deploy.tar.gz
-REMOTE_PATH=login@website.com:/home/login/vz-blog
+REMOTE_PATH=vz@hobby-work.ru:/home/vz/vz-blog
 
 cd $DIST_PATH
 
