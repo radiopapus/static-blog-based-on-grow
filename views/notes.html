@@ -1,0 +1,35 @@
+{% extends "/views/base.html" %}
+
+{% block main %}
+{% set last_post = g.docs('posts')|last %}
+<div class="meta">
+    <h2>{{_(last_post.title)}}</h2>
+    <div class="attribution attribution-container">
+        <div class="attribution-left">
+            {{_('Author')}}: {{_(last_post.author)}}
+        </div>
+        <div class="attribution-right">
+            {{_('Posted')}}: {{last_post.dates('published')}}
+        </div>
+    </div>
+</div>
+	{{last_post.html|safe}}
+<ul>
+    {% for post in g.docs('posts')[-9:]|reverse() %}
+        {% if post.title != last_post.title %}
+            <li><a href="{{post.url.path}}">{{_(post.title)}}</a>
+        {% endif %}
+    {% endfor %}
+</ul>
+{% endblock %}
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-11854444-4', 'auto');
+  ga('send', 'pageview');
+
+</script>

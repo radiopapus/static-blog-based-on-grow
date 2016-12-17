@@ -1,0 +1,278 @@
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('/static/fonts/typewritercyrnormal.woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'FontAwesome', tahoma, arial, sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.9rem;
+  background: #e9eaed;
+}
+
+p {
+  word-wrap:break-word;
+}
+
+ul {
+  clear: both;
+}
+
+a {
+  text-decoration: underline;
+  color: #000;
+}
+
+main,
+footer,
+header {
+  margin: 0 auto;
+  max-width: 1600px;
+}
+
+header h1 {
+  margin-top: 0;
+  padding: 0;
+}
+
+header h1 i {
+  margin: 0 5px 0 10px;
+}
+
+main {
+  height: 95%;
+  @media screen and (max-width: 700px) {
+    display: block;
+  }
+}
+
+nav,
+section {
+  flex: 1;
+  -webkit-box-flex: 1;
+}
+
+section {
+  background: #fff;
+  padding: 10px 40px;
+}
+
+.text-centered {
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  text-transform: uppercase;
+  text-align: center;
+  clear: both;
+  margin-top: 0;
+  padding-top: 0;
+  font-weight: 800;
+}
+
+h1 a,
+h2 a
+h3 a,
+h4 a {
+  clear: both;
+  text-decoration: none;
+  color: inherit;
+}
+
+h2 a:hover,
+h3 a:hover,
+h4 a:hover {
+  text-decoration: underline;
+}
+
+h2,
+h3,
+h4 {
+  text-transform: uppercase;
+  text-align: center;
+  clear: both;
+  font-weight: 800;
+}
+
+nav {
+  background: #fff;
+  @media screen and (max-width: 700px) {
+    max-width: 100%;
+    margin: 0 0 20px 0;
+  }
+}
+
+nav ul {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li.active {
+  border-bottom: 1px solid rgba(1, 1, 1, 0.2);
+}
+
+nav ul li a {
+  color: inherit;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  -webkit-transition: all 300ms;
+}
+
+nav ul li a i {
+  -webkit-transition: all 300ms;
+  display: inline-block;
+  float: left;
+  font-size: 21px;
+  height: 20px;
+  margin: 1px 8px 0 0;
+  opacity: .25;
+  width: 20px;
+}
+
+nav ul li.active a i {
+  color: #245dc1;
+  opacity: 1;
+}
+
+footer {
+  background-color: #fff;
+  text-align: center;
+  height: 2rem;
+}
+
+footer i {
+  font-size: 1rem;
+  margin: 0 5px;
+  vertical-align: middle;
+  -webkit-transition: all 300ms;
+}
+
+.banner .tagline {
+  background: rgba(0, 0, 0, .75);
+  color: #fff;
+  font-size: 1.5em;
+  font-style: italic;
+  font-weight: 300;
+  padding: 10px 20px;
+  position: absolute;
+}
+
+main img {
+  max-width: 100%;
+  margin: 0 0 20px 0;
+}
+
+section img {
+  float: left;
+  max-width: 100%;
+  margin: 0 20px 20px 0;
+}
+
+.page-nav {
+  clear: both;
+}
+
+.page-nav-prev {
+  float: left;
+}
+
+.page-nav-next {
+  float: right;
+}
+
+.posts {
+  display: flex;
+  margin-bottom: 40px;
+  @media screen and (max-width: 700px) {
+    display: block;
+  }
+}
+
+.posts .post {
+  width: 33%;
+  padding-right: 20px;
+  box-sizing: border-box;
+  height: 100px;
+  flex: 1;
+}
+
+.posts .snippet {
+  font-size: 12px;
+  color: #666;
+}
+
+.posts .post h4 {
+  font-weight: 300;
+  margin: 0 0 15px 0;
+  padding: 0;
+}
+
+.posts .post h4 a {
+  text-decoration: underline;
+}
+
+.posts .post h4 a:hover {
+  text-decoration: none;
+}
+
+.meta .attribution {
+  color: #666;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+
+.attribution-container {
+  width: 100%;
+  height: 1.5rem;
+}
+
+.meta h1 {
+  margin-bottom: 5px;
+}
+
+.meta {
+  border-bottom: 1px solid #dedede;
+  margin-bottom: 1rem;
+}
+
+.attribution-left {
+  float: left;
+}
+
+.attribution-right {
+  float: right;
+}
+
+.meta-alt {
+  border-top: 1px solid #dedede;
+}
+
+.meta-alt span {
+  font-size: 12px;
+  color: #666;
+  text-transform: uppercase;
+  margin-right: 10px;
+}
+
+.meta-alt > div {
+  margin-bottom: 7px;
+}
+
+.meta-alt a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.meta-alt a:hover {
+  text-decoration: none;
+}

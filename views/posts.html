@@ -1,0 +1,34 @@
+{% extends "/views/base.html" %}
+
+{% block main %}
+<div class="meta">
+    <h1><a href="{{doc.url.path}}">{{_(doc.title)}}</a></h1>
+    <div class="attribution attribution-container">
+        <div class="attribution-left">
+            {{_('Author')}}: {{_(doc.author)}}
+        </div>
+        <div class="attribution-right">
+            {{_('Posted')}}: {{doc.dates('published')}}
+        </div>
+    </div>
+</div>
+{{doc.html|safe}}
+{% set posts = g.docs('posts') %}
+{% set doc_prev = doc.prev(posts) %}
+
+<div class="page-nav">
+{% if doc_prev %}
+<div class="page-nav-prev">
+    <a href="{{doc_prev.url.path}}" title="{{_(doc_prev.title)}}">{{_('Prev')}}</a>
+</div>
+{% endif %}
+
+{% set doc_next = doc.next(posts) %}
+{% if doc_next %}
+<div class="page-nav-next">
+    <a href="{{doc_next.url.path}}" title="{{_(doc_next.title)}}">{{_('Next')}}</a>
+</div>
+{% endif %}
+
+</div>
+{% endblock %}

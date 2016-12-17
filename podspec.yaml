@@ -1,0 +1,37 @@
+grow_version: ">=0.0.55"
+title@: Viktor Zharina's Blog
+description@: "notes, books, programming, family, think about, films, photos"
+author@: Viktor Zharina
+
+error_routes:
+  default: /views/errors/default.html
+
+localization:
+  default_locale: ru
+  locales:
+  - en
+  - ru
+
+static_dirs:
+- static_dir: /dist/
+  serve_at: /static/css/
+- static_dir: /source/fonts/
+  serve_at: /static/fonts/
+- static_dir: /source/images/
+  serve_at: /static/images/
+
+preprocessors:
+- kind: sass
+  sass_dir: /source/sass/
+  out_dir: /dist/
+
+deployments:
+  default:
+    destination: local
+    out_dir: my-codelab-launch/
+  scp:
+    destination: scp
+    host: hobby-work.ru
+    port: 22
+    username: vz
+    root_dir: /home/vz/vz-blog
