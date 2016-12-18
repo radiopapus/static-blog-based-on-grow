@@ -11,7 +11,6 @@ REMOTE_PATH=vz@viktor.zharina.info:/home/vz/vz-blog
 cd $DIST_PATH
 
 touch upd
-git push origin master
 tar -czf $TAR_NAME build/
 scp $DIST_PATH/$TAR_NAME $REMOTE_PATH
 scp $DIST_PATH/upd $REMOTE_PATH
