@@ -6459,3 +6459,7 @@ msgstr "Vi-s-uma-soshli"
 msgid "Viktor-Pelevin.Chapaev-i-pustota"
 msgstr "Viktor-Pelevin.Chapaev-i-pustota"
 
+
+msgid "Kloun-programmist"
+msgstr "Kloun-programmist"
+

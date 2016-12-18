@@ -6462,3 +6462,7 @@ msgstr "Вы с ума сошли"
 msgid "Viktor-Pelevin.Chapaev-i-pustota"
 msgstr "Виктор Пелевин. Чапаев и пустота"
 
+
+msgid "Kloun-programmist"
+msgstr "Клоун-программист"
+
