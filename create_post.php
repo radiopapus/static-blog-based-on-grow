@@ -9,7 +9,7 @@ $titleSrc = $argv[1];
 
 $postTitle = str_replace(' ', '-', ucfirst(trim(transliterate($titleSrc))));
 $postTitle = str_replace('.-', '.', $postTitle);
-$postDate = date('Y-m-d-H-i-s', strtotime('now'));
+$postDate = date('Y-m-d-H:i:s', strtotime('now'));
 $postpath = 'content/posts/' . $postDate . '-' . $postTitle . '.md';
 
 $order = getOrder('content/posts/');
