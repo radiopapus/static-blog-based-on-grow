@@ -6466,3 +6466,7 @@ msgstr "Виктор Пелевин. Чапаев и пустота"
 msgid "Kloun-programmist"
 msgstr "Клоун-программист"
 
+
+msgid "Ya-dumayu-chto-ya-dumayu-vauuu--Ili-istorii-o-tom-kak-lyudi-zainteresovalis-naukoy"
+msgstr "Я думаю, что я думаю, ваууу! Или истории о том, как люди заинтересовались наукой"
+

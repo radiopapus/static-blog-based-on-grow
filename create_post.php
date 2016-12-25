@@ -7,8 +7,7 @@ if (!isset($argv[1])) {
 
 $titleSrc = $argv[1];
 
-$postTitle = str_replace(' ', '-', ucfirst(trim(transliterate($titleSrc))));
-$postTitle = str_replace('.-', '.', $postTitle);
+$postTitle = str_replace([', ', ',', ' ', '!', '?', "'", '#'], '-', ucfirst(trim(transliterate($titleSrc))));
 $postDate = date('Y-m-d-H-i-s', strtotime('now'));
 $postpath = 'content/posts/' . $postDate . '-' . $postTitle . '.md';
 
