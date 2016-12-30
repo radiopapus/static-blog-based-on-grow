@@ -6,7 +6,7 @@ $order: 1
 
 ---
 ## Виктор Жарина</h2>
-![Viktor Zharina](/static/images/viktorzharina.jpg) 
+![Viktor Zharina](/static/images/viktorzharina.jpg)
 
 Дата рождения: 28.12.1986 (29 лет)
 
@@ -18,7 +18,7 @@ $order: 1
 
 Доп. навыки: English, Technical writing, Работа с оборудованием, Frontend
 
-Знание иностранных языков: upper-intermediate english (lingualeo.ru - 15 level)
+Знание иностранных языков: upper-intermediate english ([lingualeo.com](http://lingualeo.com/ru/ref/8ap8nd))
 
 Опыт web-разработки: более 3 лет
 
@@ -27,7 +27,7 @@ $order: 1
 Семейный статус: женат, есть дети
 
 Вредные привычки отсуствуют
- 
+
 ## Опыт
 ### ООО «ОФТИ»
 
