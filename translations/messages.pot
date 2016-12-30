@@ -6467,3 +6467,7 @@ msgstr "Kloun-programmist"
 msgid "Ya-dumayu-chto-ya-dumayu-vauuu--Ili-istorii-o-tom-kak-lyudi-zainteresovalis-naukoy"
 msgstr "Ya-dumayu-chto-ya-dumayu-vauuu--Ili-istorii-o-tom-kak-lyudi-zainteresovalis-naukoy"
 
+
+msgid "Vozmozhnost-pobit-odnomu"
+msgstr "Vozmozhnost-pobit-odnomu"
+

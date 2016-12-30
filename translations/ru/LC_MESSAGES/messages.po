@@ -6470,3 +6470,7 @@ msgstr "Клоун-программист"
 msgid "Ya-dumayu-chto-ya-dumayu-vauuu--Ili-istorii-o-tom-kak-lyudi-zainteresovalis-naukoy"
 msgstr "Я думаю, что я думаю, ваууу! Или истории о том, как люди заинтересовались наукой"
 
+
+msgid "Vozmozhnost-pobit-odnomu"
+msgstr "Возможность побыть одному"
+
