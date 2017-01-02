@@ -6478,3 +6478,5 @@ msgstr "Возможность побыть одному"
 msgid "Zimoy-konki"
 msgstr "Зимой-коньки"
 
+msgid "Filmi-kotorie-mi-posmotreli-za-poslednie-paru-nedel"
+msgstr "Фильмы, которые мы посмотрели за последние пару недель"
