@@ -6471,3 +6471,7 @@ msgstr "Ya-dumayu-chto-ya-dumayu-vauuu--Ili-istorii-o-tom-kak-lyudi-zainteresova
 msgid "Vozmozhnost-pobit-odnomu"
 msgstr "Vozmozhnost-pobit-odnomu"
 
+
+msgid "Zimoy-konki"
+msgstr "Zimoy-konki"
+
