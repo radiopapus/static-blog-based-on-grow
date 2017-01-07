@@ -6478,3 +6478,7 @@ msgstr "Filmi-kotorie-mi-posmotreli-za-poslednie-paru-nedel"
 msgid "Zimoy-konki"
 msgstr "Zimoy-konki"
 
+
+msgid "Zamena-sensornogo-ekrana-Ritmix-1030"
+msgstr "Zamena-sensornogo-ekrana-Ritmix-1030"
+
