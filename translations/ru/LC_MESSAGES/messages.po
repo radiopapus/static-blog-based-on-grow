@@ -6480,3 +6480,7 @@ msgstr "Зимой-коньки"
 
 msgid "Filmi-kotorie-mi-posmotreli-za-poslednie-paru-nedel"
 msgstr "Фильмы, которые мы посмотрели за последние пару недель"
+
+msgid "Zamena-sensornogo-ekrana-Ritmix-1030"
+msgstr "Замена сенсорного экрана Ritmix 1030"
+
