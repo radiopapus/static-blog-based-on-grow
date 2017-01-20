@@ -6484,3 +6484,7 @@ msgstr "Фильмы, которые мы посмотрели за послед
 msgid "Zamena-sensornogo-ekrana-Ritmix-1030"
 msgstr "Замена сенсорного экрана Ritmix 1030"
 
+
+msgid "Kofemashina-kotoraya-nam-nravitsya"
+msgstr "Кофемашина, которая нам нравится"
+
