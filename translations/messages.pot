@@ -6482,3 +6482,7 @@ msgstr "Zimoy-konki"
 msgid "Zamena-sensornogo-ekrana-Ritmix-1030"
 msgstr "Zamena-sensornogo-ekrana-Ritmix-1030"
 
+
+msgid "Remont-kofemashini-Delologhi-BAR-14F"
+msgstr "Remont-kofemashini-Delologhi-BAR-14F"
+
