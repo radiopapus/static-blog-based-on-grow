@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DIST_PATH=/vagrant/my-codelab/
+DIST_PATH=/home/viktor/my-blog/
 GROW_PATH=grow
 
 $GROW_PATH build $DIST_PATH
