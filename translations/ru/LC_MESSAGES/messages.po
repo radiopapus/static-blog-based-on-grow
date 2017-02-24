@@ -6487,3 +6487,7 @@ msgstr "Замена сенсорного экрана Ritmix 1030"
 msgid "Remont-kofemashini-Delologhi-BAR-14F"
 msgstr "Ремонт кофемашины Delologhi BAR 14F"
 
+
+msgid "Chto-ya-hochu-videt-v-diplomnoy-rabote-po-razrabotke-programmnogo-obespecheniya"
+msgstr "Что я хочу видеть в дипломной работе по разработке программного обеспечения"
+
