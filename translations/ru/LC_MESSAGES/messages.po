@@ -6491,3 +6491,7 @@ msgstr "Ремонт кофемашины Delologhi BAR 14F"
 msgid "Chto-ya-hochu-videt-v-diplomnoy-rabote-po-razrabotke-programmnogo-obespecheniya"
 msgstr "Что я хочу видеть в дипломной работе по разработке программного обеспечения"
 
+
+msgid "Kak-ya-reshil-problemu-s-razresheniem-1440x900x32-pri-ispolzovanii-perehodnika-dvi-vga"
+msgstr "Как я решил проблему с разрешением 1440x900x32 при использовании переходника dvi-vga"
+
