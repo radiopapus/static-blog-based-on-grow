@@ -6495,3 +6495,7 @@ msgstr "Что я хочу видеть в дипломной работе по 
 msgid "Kak-ya-reshil-problemu-s-razresheniem-1440x900x32-pri-ispolzovanii-perehodnika-dvi-vga"
 msgstr "Как я решил проблему с разрешением 1440x900x32 при использовании переходника dvi-vga"
 
+
+msgid "Recenzirovanie.-Diplomnie-raboti.-Leto-2017."
+msgstr "Рецензирование. Дипломные работы. Лето 2017."
+
