@@ -6497,3 +6497,7 @@ msgstr "Kak-ya-reshil-problemu-s-razresheniem-1440x900x32-pri-ispolzovanii-pereh
 msgid "Recenzirovanie.-Diplomnie-raboti.-Leto-2017."
 msgstr "Recenzirovanie.-Diplomnie-raboti.-Leto-2017."
 
+
+msgid "Sovremennie-religii-ustareli"
+msgstr "Sovremennie-religii-ustareli"
+

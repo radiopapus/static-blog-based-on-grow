@@ -6499,3 +6499,7 @@ msgstr "Как я решил проблему с разрешением 1440x900
 msgid "Recenzirovanie.-Diplomnie-raboti.-Leto-2017."
 msgstr "Рецензирование. Дипломные работы. Лето 2017."
 
+
+msgid "Sovremennie-religii-ustareli"
+msgstr "Современные религии устарели"
+
