@@ -6503,3 +6503,7 @@ msgstr "Рецензирование. Дипломные работы. Лето 
 msgid "Sovremennie-religii-ustareli"
 msgstr "Современные религии устарели"
 
+
+msgid "Kniga---luchshiy-podarok.-Aviator.-Vodolazkin-Evgeniy"
+msgstr "Книга - лучший подарок. Авиатор. Водолазкин Евгений"
+

@@ -6501,3 +6501,7 @@ msgstr "Recenzirovanie.-Diplomnie-raboti.-Leto-2017."
 msgid "Sovremennie-religii-ustareli"
 msgstr "Sovremennie-religii-ustareli"
 
+
+msgid "Kniga---luchshiy-podarok.-Aviator.-Vodolazkin-Evgeniy"
+msgstr "Kniga---luchshiy-podarok.-Aviator.-Vodolazkin-Evgeniy"
+
