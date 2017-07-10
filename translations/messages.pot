@@ -6505,3 +6505,7 @@ msgstr "Sovremennie-religii-ustareli"
 msgid "Kniga---luchshiy-podarok.-Aviator.-Vodolazkin-Evgeniy"
 msgstr "Kniga---luchshiy-podarok.-Aviator.-Vodolazkin-Evgeniy"
 
+
+msgid "O-tom-kak-ya-po-drugomu-vzglyanul-na-process-semki-video-vmeste-s-Zoey"
+msgstr "O-tom-kak-ya-po-drugomu-vzglyanul-na-process-semki-video-vmeste-s-Zoey"
+
