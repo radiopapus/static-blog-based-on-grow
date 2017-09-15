@@ -6511,3 +6511,7 @@ msgstr "Книга - лучший подарок. Авиатор. Водолаз
 msgid "O-tom-kak-ya-po-drugomu-vzglyanul-na-process-semki-video-vmeste-s-Zoey"
 msgstr "О том, как я по-другому взглянул на процесс съемки видео вместе с Зоей"
 
+
+msgid "Kak-ya-gotovilsya-k-prezentacii-nashey-kompanii-dlya-proekta-Teamlab"
+msgstr "Как я готовился к презентации нашей компании для проекта Teamlab"
+

@@ -8,11 +8,14 @@ if (!isset($argv[1])) {
 $titleSrc = $argv[1];
 
 $postTitle = str_replace([', ', ',', ' ', '!', '?', "'", '#'], '-', ucfirst(trim(transliterate($titleSrc))));
-$postDate = date('Y-m-d-H-i-s', strtotime('now'));
-$postpath = 'content/posts/' . $postDate . '-' . $postTitle . '.md';
+$now = strtotime('now');
+$postTitleDate = date('Y-m-d-H-i-s', $now);
+$postpath = 'content/posts/' . $postTitleDate . '-' . $postTitle . '.md';
 
 $order = getOrder('content/posts/');
 $postContent = file_get_contents('drafts/post.md');
+
+$postDate = date('Y-m-d H:i:s', $now);
 
 $postHeader = '---
 author@: Viktor Zharina

@@ -6509,3 +6509,7 @@ msgstr "Kniga---luchshiy-podarok.-Aviator.-Vodolazkin-Evgeniy"
 msgid "O-tom-kak-ya-po-drugomu-vzglyanul-na-process-semki-video-vmeste-s-Zoey"
 msgstr "O-tom-kak-ya-po-drugomu-vzglyanul-na-process-semki-video-vmeste-s-Zoey"
 
+
+msgid "Kak-ya-gotovilsya-k-prezentacii-nashey-kompanii-dlya-proekta-Teamlab"
+msgstr "Kak-ya-gotovilsya-k-prezentacii-nashey-kompanii-dlya-proekta-Teamlab"
+
