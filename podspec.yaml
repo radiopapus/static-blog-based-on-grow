@@ -19,6 +19,8 @@ static_dirs:
   serve_at: /static/fonts/
 - static_dir: /source/images/
   serve_at: /static/images/
+- static_dir: /source/attachments/
+  serve_at: /static/attachments/
 
 preprocessors:
 - kind: sass
