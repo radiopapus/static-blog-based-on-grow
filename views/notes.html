@@ -14,6 +14,7 @@
     </div>
 </div>
 	{{last_post.html|safe}}
+  <h3>Прошлые записи</h3>
 <ul>
     {% for post in g.docs('posts')[-9:]|reverse() %}
         {% if post.title != last_post.title %}
