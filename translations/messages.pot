@@ -6513,3 +6513,7 @@ msgstr "O-tom-kak-ya-po-drugomu-vzglyanul-na-process-semki-video-vmeste-s-Zoey"
 msgid "Kak-ya-gotovilsya-k-prezentacii-nashey-kompanii-dlya-proekta-Teamlab"
 msgstr "Kak-ya-gotovilsya-k-prezentacii-nashey-kompanii-dlya-proekta-Teamlab"
 
+
+msgid "Teamlab-i-misli-o-tom-chto-ya-hochu-videt-u-kandidatov-na-stazhirovku"
+msgstr "Teamlab-i-misli-o-tom-chto-ya-hochu-videt-u-kandidatov-na-stazhirovku"
+
