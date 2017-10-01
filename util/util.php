@@ -20,7 +20,7 @@ function transliterate($string) {
         'Ч' => 'Ch',  'Ш' => 'Sh',  'Щ' => 'Sh', 'Ь' => '',  'Ы' => 'i',   'Ъ' => '',
         'Э' => 'E',   'Ю' => 'Yu',  'Я' => 'Ya'
     );
-    return strtr($string, $converter);
+    return trim(strtr($string, $converter));
 }
 
 /**
