@@ -6515,3 +6515,7 @@ msgstr "О том, как я по-другому взглянул на проц�
 msgid "Kak-ya-gotovilsya-k-prezentacii-nashey-kompanii-dlya-proekta-Teamlab"
 msgstr "Как я готовился к презентации нашей компании для проекта Teamlab"
 
+
+msgid "Teamlab-i-misli-o-tom-chto-ya-hochu-videt-u-kandidatov-na-stazhirovku"
+msgstr "Teamlab и мысли о том, что я хочу видеть у кандидатов на стажировку"
+
