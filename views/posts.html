@@ -14,6 +14,7 @@
 </div>
 {{doc.html|safe}}
 {% set posts = g.docs('posts') %}
+
 {% set doc_prev = doc.prev(posts) %}
 
 <div class="page-nav">
@@ -29,6 +30,15 @@
     <a href="{{doc_next.url.path}}" title="{{_(doc_next.title)}}">{{_('Next')}}</a>
 </div>
 {% endif %}
+
+<h3>Прошлые записи</h3>
+<ul>
+    {% for post in g.docs('posts')[-9:]|reverse() %}
+        {% if post.title != doc.title %}
+            <li><a href="{{post.url.path}}">{{_(post.title)}}</a>
+        {% endif %}
+    {% endfor %}
+</ul>
 
 </div>
 {% endblock %}
