@@ -6519,3 +6519,7 @@ msgstr "Как я готовился к презентации нашей ком
 msgid "Teamlab-i-misli-o-tom-chto-ya-hochu-videt-u-kandidatov-na-stazhirovku"
 msgstr "Teamlab и мысли о том, что я хочу видеть у кандидатов на стажировку"
 
+
+msgid "Pervaya-nedelya-Teamlab-zavershena"
+msgstr "Первая неделя Teamlab завершена"
+

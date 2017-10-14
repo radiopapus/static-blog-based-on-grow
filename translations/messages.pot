@@ -6517,3 +6517,7 @@ msgstr "Kak-ya-gotovilsya-k-prezentacii-nashey-kompanii-dlya-proekta-Teamlab"
 msgid "Teamlab-i-misli-o-tom-chto-ya-hochu-videt-u-kandidatov-na-stazhirovku"
 msgstr "Teamlab-i-misli-o-tom-chto-ya-hochu-videt-u-kandidatov-na-stazhirovku"
 
+
+msgid "Pervaya-nedelya-Teamlab-zavershena"
+msgstr "Pervaya-nedelya-Teamlab-zavershena"
+
