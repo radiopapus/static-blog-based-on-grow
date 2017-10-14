@@ -6521,5 +6521,5 @@ msgstr "Teamlab и мысли о том, что я хочу видеть у ка
 
 
 msgid "Pervaya-nedelya-Teamlab-zavershena"
-msgstr "Первая неделя Teamlab завершена"
+msgstr "Результаты первой недели Teamlab"
 
