@@ -6523,3 +6523,7 @@ msgstr "Teamlab и мысли о том, что я хочу видеть у ка
 msgid "Pervaya-nedelya-Teamlab-zavershena"
 msgstr "Результаты первой недели Teamlab"
 
+
+msgid "Problemi-s-kotorimi-ya-stolknulsya-kak-rukovoditel-proekta-Teamlab"
+msgstr "Проблемы, с которыми я столкнулся как руководитель проекта Teamlab"
+
