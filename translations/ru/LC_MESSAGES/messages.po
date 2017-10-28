@@ -6527,3 +6527,7 @@ msgstr "Результаты первой недели Teamlab"
 msgid "Problemi-s-kotorimi-ya-stolknulsya-kak-rukovoditel-proekta-Teamlab"
 msgstr "Проблемы, с которыми я столкнулся как руководитель проекта Teamlab"
 
+
+msgid "Rezultati-tretey-nedeli-Teamlab"
+msgstr "Результаты третьей недели Teamlab"
+
