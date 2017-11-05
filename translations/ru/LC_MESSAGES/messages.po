@@ -6531,3 +6531,7 @@ msgstr "Проблемы, с которыми я столкнулся как р�
 msgid "Rezultati-tretey-nedeli-Teamlab"
 msgstr "Результаты третьей недели Teamlab"
 
+
+msgid "Timlab.-Opit"
+msgstr "Тимлаб. Опыт"
+

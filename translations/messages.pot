@@ -6529,3 +6529,7 @@ msgstr "Problemi-s-kotorimi-ya-stolknulsya-kak-rukovoditel-proekta-Teamlab"
 msgid "Rezultati-tretey-nedeli-Teamlab"
 msgstr "Rezultati-tretey-nedeli-Teamlab"
 
+
+msgid "Timlab.-Opit"
+msgstr "Timlab.-Opit"
+
