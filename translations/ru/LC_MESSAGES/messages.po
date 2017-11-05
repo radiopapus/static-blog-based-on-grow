@@ -6535,3 +6535,7 @@ msgstr "Результаты третьей недели Teamlab"
 msgid "Timlab.-Opit"
 msgstr "Тимлаб. Опыт"
 
+
+msgid "Aviator.-Nebolshoy-otziv"
+msgstr "Aviator. Nebolshoy otziv"
+
