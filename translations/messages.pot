@@ -6535,5 +6535,5 @@ msgstr "Timlab.-Opit"
 
 
 msgid "Aviator.-Nebolshoy-otziv"
-msgstr "Aviator.-Nebolshoy-otziv"
+msgstr "Aviator. Review"
 

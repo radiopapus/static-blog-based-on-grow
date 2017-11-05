@@ -6537,5 +6537,5 @@ msgstr "Тимлаб. Опыт"
 
 
 msgid "Aviator.-Nebolshoy-otziv"
-msgstr "Aviator. Nebolshoy otziv"
+msgstr "Авиатор. Е. Водолазкин. Отзыв"
 
