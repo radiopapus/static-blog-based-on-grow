@@ -6539,3 +6539,7 @@ msgstr "Тимлаб. Опыт"
 msgid "Aviator.-Nebolshoy-otziv"
 msgstr "Авиатор. Е. Водолазкин. Отзыв"
 
+
+msgid "Highload-2017.-Kak-eto-bilo."
+msgstr "Highload 2017. Как это было."
+

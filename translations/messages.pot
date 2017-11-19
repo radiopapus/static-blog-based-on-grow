@@ -6537,3 +6537,7 @@ msgstr "Timlab.-Opit"
 msgid "Aviator.-Nebolshoy-otziv"
 msgstr "Aviator. Review"
 
+
+msgid "Highload-2017.-Kak-eto-bilo."
+msgstr "Highload-2017.-Kak-eto-bilo."
+
