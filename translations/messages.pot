@@ -6541,3 +6541,6 @@ msgstr "Aviator. Review"
 msgid "Highload-2017.-Kak-eto-bilo."
 msgstr "Highload-2017.-Kak-eto-bilo."
 
+
+msgid "Opit-uchastiya-v-Teamlab-v-roli-nastavnika"
+msgstr "Opit-uchastiya-v-Teamlab-v-roli-nastavnika"

@@ -21,7 +21,7 @@ msgstr "Записи"
 
 #: /views/posts.html:7 /views/notes.html:10
 msgid "Posted"
-msgstr "Опубликовано"
+msgstr "Дата публикации: "
 
 #: /views/posts.html:17
 msgid "Prev"
@@ -6542,4 +6542,8 @@ msgstr "Авиатор. Е. Водолазкин. Отзыв"
 
 msgid "Highload-2017.-Kak-eto-bilo."
 msgstr "Highload 2017. Как это было."
+
+
+msgid "Opit-uchastiya-v-Teamlab-v-roli-nastavnika"
+msgstr "Опыт участия в Teamlab в роли наставника"
 
