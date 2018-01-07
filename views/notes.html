@@ -1,24 +1,30 @@
 {% extends "/views/base.html" %}
 
 {% block main %}
-{% set last_post = g.docs('posts')|last %}
+{% set last_post = g.docs('posts', locale=doc.locale)|last %}
 <div class="meta">
     <h2>{{_(last_post.title)}}</h2>
     <div class="attribution attribution-container">
         <div class="attribution-left">
             {{_('Author')}}: {{_(last_post.author)}}
         </div>
-        <div class="attribution-right">
+        <div class="attribution-left text-centered">
+            <a href="{{root}}/en/posts/{{last_post.slug}}">EN</a>
+            <a href="{{root}}/posts/{{last_post.slug}}">RU</a>
+        </div>
+        <div class="attribution-right text-right">
             {{_('Posted')}}: {{last_post.dates.published}}
         </div>
     </div>
 </div>
 	{{last_post.html|safe}}
-  <h3>Прошлые записи</h3>
+  <h3>{{_('Recent')}}</h3>
 <ul>
-    {% for post in g.docs('posts')[-9:]|reverse() %}
+    {% for post in g.docs('posts', locale=doc.locale)[-9:]|reverse() %}
         {% if post.title != last_post.title %}
-            <li><a href="{{post.url.path}}">{{_(post.title)}}</a>
+          {% if post.title != None %}
+            <li><a href="{{post.url.path}}">{{_(post.title)}}</a></li>
+          {% endif %}
         {% endif %}
     {% endfor %}
 </ul>

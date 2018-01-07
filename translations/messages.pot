@@ -2,6 +2,10 @@
 msgid "About"
 msgstr "Об авторе"
 
+#: /views/notes.html:17
+msgid "Recent"
+msgstr "Recent"
+
 #: /views/notes.html:7
 #, python-format
 msgid "Author %(author)s"
@@ -37,12 +41,14 @@ msgstr "Viktor Zharina"
 
 #: /podspec.yaml
 msgid "Viktor Zharina's Blog"
-msgstr ""
+msgstr "Viktor Zharina's Blog"
+
+msgid "Viktor-Zharina"
+msgstr "Viktor Zharina"
 
 #: /podspec.yaml
 msgid "notes, books, programming, family, think about, films, photos"
-msgstr ""
-
+msgstr "notes, books, programming, family, think about, films, photos"
 
 msgid "Picce-sborka"
 msgstr "Picce-sborka"

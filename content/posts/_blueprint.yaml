@@ -3,4 +3,4 @@ path: /posts/{slug}/
 view: /views/posts.html
 
 localization:
-  path: /{locale}/{slug}/
+  path: /{locale}/posts/{slug}/

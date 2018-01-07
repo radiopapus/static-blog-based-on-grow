@@ -1,6 +1,12 @@
+msgid "All Rights Reserved"
+msgstr "Все права защищены"
+
 #: /content/pages/about.md
 msgid "About"
 msgstr "Об авторе"
+
+msgid "Recent"
+msgstr "Прошлые записи"
 
 #: /views/notes.html:7
 #, python-format
@@ -43,9 +49,8 @@ msgstr "Блог Виктора Жарины"
 msgid "notes, books, programming, family, think about, films, photos"
 msgstr "заметки, книги, программирование"
 
-msgid "Viktor Zharina"
+msgid "Viktor-Zharina"
 msgstr "Виктор Жарина"
-
 
 msgid "Picce-sborka"
 msgstr "Пицце-сборка"
@@ -6546,4 +6551,7 @@ msgstr "Highload 2017. Как это было."
 
 msgid "Opit-uchastiya-v-Teamlab-v-roli-nastavnika"
 msgstr "Опыт участия в Teamlab в роли наставника"
+
+msgid "Shooting-from-MP-443-Grach"
+msgstr "Стрельба из пистолета Ярыгина"
 

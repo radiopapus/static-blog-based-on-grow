@@ -67,6 +67,10 @@ section {
   text-align: center;
 }
 
+.text-right {
+  text-align: right;
+}
+
 h1,
 h2,
 h3 {
@@ -250,10 +254,12 @@ section img {
 
 .attribution-left {
   float: left;
+  width: 33.33%;
 }
 
 .attribution-right {
   float: right;
+  width: 33.33%;
 }
 
 .meta-alt {
