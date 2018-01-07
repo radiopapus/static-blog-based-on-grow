@@ -60,7 +60,7 @@ section {
 
 section {
   background: #fff;
-  padding: 10px 40px;
+  padding: 1rem 2rem;
 }
 
 .text-centered {
@@ -154,7 +154,6 @@ nav ul li.active a i {
 footer {
   background-color: #fff;
   text-align: center;
-  height: 2rem;
 }
 
 footer i {
@@ -199,7 +198,7 @@ section img {
 
 .posts {
   display: flex;
-  margin-bottom: 40px;
+  margin-bottom: 4rem;
   @media screen and (max-width: 700px) {
     display: block;
   }
@@ -207,7 +206,7 @@ section img {
 
 .posts .post {
   width: 33%;
-  padding-right: 20px;
+  padding-right: 2rem;
   box-sizing: border-box;
   height: 100px;
   flex: 1;
@@ -254,12 +253,10 @@ section img {
 
 .attribution-left {
   float: left;
-  width: 33.33%;
 }
 
 .attribution-right {
   float: right;
-  width: 33.33%;
 }
 
 .meta-alt {
@@ -284,4 +281,9 @@ section img {
 
 .meta-alt a:hover {
   text-decoration: none;
+}
+
+.lang {
+    background: #fff;
+    font-size: 75%;
 }
