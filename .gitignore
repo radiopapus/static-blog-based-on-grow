@@ -5,3 +5,4 @@ upd
 deploy.sh
 .podcache.yaml
 .depcache.json
+/nbproject/
