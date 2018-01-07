@@ -24,6 +24,9 @@ static_dirs:
   serve_at: /static/images/
 - static_dir: /source/attachments/
   serve_at: /static/attachments/
+  
+sitemap:
+  enabled: yes
 
 preprocessors:
 - kind: sass
