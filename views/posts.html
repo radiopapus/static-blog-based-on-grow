@@ -7,13 +7,17 @@
         <div class="attribution-left">
             {{_('Author')}}: {{_(doc.author)}}
         </div>
+        <div class="attribution-left text-centered">
+            <a href="{{root}}/en/posts/{{doc.slug}}">EN</a>
+            <a href="{{root}}/posts/{{doc.slug}}">РУС</a>
+        </div>
         <div class="attribution-right">
             {{_('Posted')}}: {{doc.dates.published}}
         </div>
     </div>
 </div>
 {{doc.html|safe}}
-{% set posts = g.docs('posts') %}
+{% set posts = g.docs('posts', locale=doc.locale) %}
 
 {% set doc_prev = doc.prev(posts) %}
 
@@ -31,11 +35,13 @@
 </div>
 {% endif %}
 
-<h3>Прошлые записи</h3>
+<h3>{{_('Recent')}}</h3>
 <ul>
-    {% for post in g.docs('posts')[-9:]|reverse() %}
+    {% for post in g.docs('posts', locale=doc.locale)[-9:]|reverse() %}
         {% if post.title != doc.title %}
+          {% if post.title != None %}
             <li><a href="{{post.url.path}}">{{_(post.title)}}</a>
+          {% endif %}
         {% endif %}
     {% endfor %}
 </ul>

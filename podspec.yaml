@@ -7,10 +7,13 @@ error_routes:
   default: /views/errors/default.html
 
 localization:
+  root_path: /{locale}/
   default_locale: ru
   locales:
-  - en
   - ru
+  - en
+
+root: /
 
 static_dirs:
 - static_dir: /dist/
