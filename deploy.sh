@@ -3,7 +3,7 @@
 DIST_PATH=/home/viktor/my-blog/
 GROW_PATH=grow
 
-$GROW_PATH build $DIST_PATH
+$GROW_PATH build $DIST_PATH --deployment default
 
 TAR_NAME=grow-deploy.tar.gz
 REMOTE_PATH=vz@viktor.zharina.info:/home/vz/vz-blog
