@@ -5,4 +5,5 @@ upd
 deploy.sh
 .podcache.yaml
 .depcache.json
+.phpintel/
 /nbproject/
