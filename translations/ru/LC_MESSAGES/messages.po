@@ -1,3 +1,6 @@
+msgid "Our-method-to-solve-problem-in-family"
+msgstr "Мы пишем друг другу письма, чтобы решить психологические проблемы внутри семьи"
+
 msgid "All Rights Reserved"
 msgstr "Все права защищены"
 

@@ -26,7 +26,7 @@ $date = date('Y-m-d-H-i-s', $now);
 $pathRu = sprintf('content/posts/ru/%s-%s%s', $date, $title, '@ru.md');
 $pathEn = sprintf('content/posts/en/%s-%s%s', $date, $title, '@en.md');
 
-$postHeader = sprintf('---
+$postHeaderRu = sprintf('---
 author@: Viktor Zharina
 $order: %s
 $dates:
@@ -35,15 +35,25 @@ $title@: %s
 ---
 ', getOrder('content/posts/ru/'), date('Y-m-d H:i:s', $now), $title);
 
-$post = $postHeader . file_get_contents('drafts/post.md');
+$postRu = $postHeaderRu . file_get_contents('drafts/post.md');
 
 // writes post
-file_put_contents($pathRu, $post);
-file_put_contents($pathEn, $post);
+file_put_contents($pathRu, $postRu);
+
+
+$postHeaderEn = sprintf('---
+author@: Viktor Zharina
+$order: %s
+$dates:
+  published: %s
+$title: %s
+---
+', getOrder('content/posts/ru/'), date('Y-m-d H:i:s', $now), $argv[1]);
+
+$postEn = $postHeaderEn . file_get_contents('drafts/post.md');
+file_put_contents($pathEn, $postEn);
 
 // write translations
 $msgId = sprintf('msgid "%s"%s', $title, PHP_EOL);
-$msgStr = sprintf('msgstr "%s"%s', $title, PHP_EOL);
 $ruMsgStr = sprintf('msgstr "%s"%s', $argv[1], PHP_EOL);
-filePrepend('translations/messages.pot', $msgId.$msgStr);//en
 filePrepend('translations/ru/LC_MESSAGES/messages.po', $msgId.$ruMsgStr);//ru
