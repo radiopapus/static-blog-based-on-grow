@@ -10,20 +10,23 @@
     <meta name="description" value="{{_(podspec.description)}}">
     <body>
         <header>
+            {% block lang %}
             <div class="lang text-right">
                 {% if doc.slug %}
-                    {% if doc.collection.title != 'Posts' %}
-                        <a href="/en/{{doc.slug}}">EN</a>
-                        <a href="/{{doc.slug}}">РУ</a>
+                    {% if doc.locale == 'en' %}
+                        <a href="/{{doc.slug}}">Русский</a>
                     {% else %}
-                        <a href="/en/posts/{{doc.slug}}">EN</a>
-                        <a href="/posts/{{doc.slug}}">РУ</a>
+                        <a href="/en/{{doc.slug}}">English</a>
                     {% endif %}
-                {% else %}
-                    <a href="/en">EN</a>
-                    <a href="/">РУ</a>
-                {% endif %}
+                 {% else %}
+                    {% if doc.locale == 'en' %}
+                        <a href="/">Русский</a>
+                    {% else %}
+                        <a href="/en/">English</a>
+                    {% endif %}
+                 {% endif %}
             </div>
+            {% endblock %}
             <nav>
                 <ul>
                     {% for page in g.docs('pages', locale=doc.locale) %}
@@ -35,15 +38,15 @@
                 </ul>
             </nav>
         </header>
-
         <main>
             <section>
-                {% block main %}
-                {{doc.html|safe}}
-                {% endblock %}
+
+                    {% block main %}
+                    {{doc.html|safe}}
+                    {% endblock %}
+
             </section>
         </main>
-
         <footer>© {{_('Viktor Zharina')}} - 2018. {{_('All Rights Reserved')}}.</footer>
         <script>
             (function (i, s, o, g, r, a, m) {
