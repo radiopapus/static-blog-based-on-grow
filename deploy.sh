@@ -1,6 +1,7 @@
 #!/bin/bash
 
-DIST_PATH=/home/viktor/my-blog/
+DIST_PATH=$(pwd)
+
 GROW_PATH=grow
 
 $GROW_PATH build $DIST_PATH --deployment default
