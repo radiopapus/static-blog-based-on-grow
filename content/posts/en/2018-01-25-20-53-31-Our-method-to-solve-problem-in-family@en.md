@@ -3,7 +3,7 @@ author@: Viktor Zharina
 $order: 295
 $dates:
   published: 2018-01-25 20:53:31
-$title: We write letters to each other and solve family psycological problems
+$title: One of the methods to solve the family psycological problems
 ---
 We argue sometimes. Talk has a disadvantages. You shoudl understand what you want to say, you have to plan your time with your partner, and always there is a probability to itnerrupt each other and continue argue.
 

@@ -1,8 +1,8 @@
-msgid "Ksenia-sobchak-v-gostyah-u-Poznera"
+msgid "ksenia-sobchak-a-candidate-for-president-of-the-russian-federation-is-a-guest-of-pozner"
 msgstr "Ксения Собчак в гостях у Познера"
 
-msgid "Our-method-to-solve-problem-in-family"
-msgstr "Мы пишем друг другу письма, чтобы решить психологические проблемы внутри семьи"
+msgid "One-of-the-methods-to-solve-the-family-psycological-problems"
+msgstr "Один из способов решения психологических проблем в семье"
 
 msgid "All Rights Reserved"
 msgstr "Все права защищены"
