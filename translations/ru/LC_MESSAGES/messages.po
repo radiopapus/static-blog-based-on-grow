@@ -1,3 +1,7 @@
+
+msgid "Why-I-think-that-ignoring-elections-is-a-bad-idea"
+msgstr "Почему я считаю, что бойкотировать выборы это плохая идея"
+
 msgid "ksenia-sobchak-a-candidate-for-president-of-the-russian-federation-is-a-guest-of-pozner"
 msgstr "Ксения Собчак в гостях у Познера"
 
