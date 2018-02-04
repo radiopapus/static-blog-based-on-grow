@@ -5,6 +5,10 @@ if (!isset($argv[1])) {
     die('Title must be set');
 }
 
+if (!isset($argv[2])) {
+    die('Title in russian must be set');
+}
+
 function getPostTitle($src)
 {
     $prepared = ucfirst(transliterate($src));
@@ -26,6 +30,8 @@ $date = date('Y-m-d-H-i-s', $now);
 $pathRu = sprintf('content/posts/ru/%s-%s%s', $date, $title, '@ru.md');
 $pathEn = sprintf('content/posts/en/%s-%s%s', $date, $title, '@en.md');
 
+$order = getOrder('content/posts/ru/');
+
 $postHeaderRu = sprintf('---
 author@: Viktor Zharina
 $order: %s
@@ -33,7 +39,7 @@ $dates:
   published: %s
 $title@: %s
 ---
-', getOrder('content/posts/ru/'), date('Y-m-d H:i:s', $now), $title);
+',$order , date('Y-m-d H:i:s', $now), $title);
 
 $postRu = $postHeaderRu . file_get_contents('drafts/post.md');
 
@@ -48,12 +54,12 @@ $dates:
   published: %s
 $title: %s
 ---
-', getOrder('content/posts/ru/'), date('Y-m-d H:i:s', $now), $argv[1]);
+', $order, date('Y-m-d H:i:s', $now), $argv[1]);
 
 $postEn = $postHeaderEn . file_get_contents('drafts/post.md');
 file_put_contents($pathEn, $postEn);
 
 // write translations
 $msgId = sprintf('msgid "%s"%s', $title, PHP_EOL);
-$ruMsgStr = sprintf('msgstr "%s"%s', $argv[1], PHP_EOL);
+$ruMsgStr = sprintf('msgstr "%s"%s', $argv[2], PHP_EOL);
 filePrepend('translations/ru/LC_MESSAGES/messages.po', $msgId.$ruMsgStr);//ru
