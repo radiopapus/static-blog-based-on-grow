@@ -1,4 +1,8 @@
 
+msgid "Math-lessons---Youtube-channel"
+msgstr "Уроки математики - Youtube-канал"
+
+
 msgid "Why-I-think-that-ignoring-elections-is-a-bad-idea"
 msgstr "Почему я считаю, что бойкотировать выборы это плохая идея"
 
