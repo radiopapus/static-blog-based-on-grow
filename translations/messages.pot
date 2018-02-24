@@ -1,6 +1,6 @@
 #: /content/pages/about.md
 msgid "About"
-msgstr "Об авторе"
+msgstr "About"
 
 #: /views/notes.html:17
 msgid "Recent"

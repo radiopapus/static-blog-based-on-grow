@@ -11,6 +11,8 @@ body {
   font-size: 18px;
   line-height: 1.9rem;
   background: #e9eaed;
+  margin: 0px;
+  padding: 0px;
 }
 
 p {
@@ -77,8 +79,8 @@ h3 {
   text-transform: uppercase;
   text-align: center;
   clear: both;
-  margin-top: 0;
-  padding-top: 0;
+  margin: 0px;
+  padding: 0px;
   font-weight: 800;
 }
 
@@ -251,14 +253,6 @@ section img {
   margin-bottom: 1rem;
 }
 
-.attribution-left {
-  float: left;
-}
-
-.attribution-right {
-  float: right;
-}
-
 .meta-alt {
   border-top: 1px solid #dedede;
 }
@@ -286,4 +280,10 @@ section img {
 .lang {
     background: #fff;
     font-size: 75%;
+}
+
+@media (max-width: 425px) {
+   .about-photo {
+       width: 400px;
+   }
 }

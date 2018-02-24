@@ -5,7 +5,7 @@ $titles:
 $order: 1
 
 ---
-![Viktor Zharina](/static/images/viktorzharina.jpg)
+<img src="/static/images/viktorzharina.jpg" alt="Фотография Виктора Жарины" class="about-photo" />
 Меня зовут Виктор Жари́на и мне <script type="text/javascript">var b = new Date('1986-12-28'); var t = Date.now() - b.getTime(); var a = new Date(t); document.write(Math.abs(a.getUTCFullYear() - 1970));
 </script>. Живу в Томске и на текущий момент работаю в OFTE (oft-e.com). Пишу для web (PHP, JS, HTML, CSS), много работал с Mysql,  использовал Redis, Memcache, дружу с командной строкой Linux и считаю GIT манной небесной.
 Я говорю, пишу и свободно читаю на английском, имею опыт в написании документации, люблю когда понятно и прозрачно. Женат, есть дети.
