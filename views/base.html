@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{doc.locale}}">
+<head>
     <meta charset="utf-8">
     <meta content="IE=Edge" http-equiv="X-UA-Compatible">
 
@@ -16,6 +17,7 @@
     <link rel="stylesheet" href="{{g.static('/dist/main.min.css').url.path}}">
     <link rel="stylesheet" href="{{g.static('/dist/timeline.min.css').url.path}}">
     <link rel="shortcut icon" href="{{g.static('/source/images/icon.png').url.path}}">
+</head>
     <body>
         <header>
             {% block lang %}
@@ -52,7 +54,6 @@
                     {% block main %}
                     {{doc.html|safe}}
                     {% endblock %}
-
             </section>
         </main>
         <footer>© {{_('Viktor Zharina')}} - 2018. {{_('All&nbsp;rights&nbsp;reserved')}}.</footer>
@@ -74,3 +75,4 @@
 
         </script>
     </body
+</html>

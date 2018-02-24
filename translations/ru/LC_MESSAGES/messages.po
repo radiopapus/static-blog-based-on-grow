@@ -1,4 +1,8 @@
 
+msgid "Cosmology-Baikal-Math-and-Minimalism"
+msgstr "Космология, Байкал, Математика, Минимализм"
+
+
 msgid "Math-lessons---Youtube-channel"
 msgstr "Уроки математики - Youtube-канал"
 
