@@ -12,8 +12,8 @@ msgstr "Ксения Собчак в гостях у Познера"
 msgid "One-of-the-methods-to-solve-the-family-psycological-problems"
 msgstr "Один из способов решения психологических проблем в семье"
 
-msgid "All Rights Reserved"
-msgstr "Все права защищены"
+msgid "All&nbsp;rights&nbsp;reserved"
+msgstr "Все&nbsp;права&nbsp;защищены"
 
 #: /content/pages/about.md
 msgid "About"
@@ -41,7 +41,7 @@ msgstr "Записи"
 
 #: /views/posts.html:7 /views/notes.html:10
 msgid "Posted"
-msgstr "Дата публикации: "
+msgstr "Опубликовано"
 
 #: /views/posts.html:17
 msgid "Prev"
