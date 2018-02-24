@@ -5,7 +5,7 @@ $titles:
 $order: 1
 
 ---
-![Viktor Zharina](/static/images/viktorzharina.jpg)
+<img src="/static/images/viktorzharina.jpg" alt="Viktor Zharina" class="about-photo" />
 My name is Viktor Zharina and I am <script type="text/javascript">var b = new Date('1986-12-28'); var t = Date.now() - b.getTime(); var a = new Date(t); document.write(Math.abs(a.getUTCFullYear() - 1970));
 </script>. I live in Siberia, Tomsk and work at OFTE (oft-e.com).
 I am a fullstack web-developer (PHP, MySQL, Redis, JS, HTML, CSS).
