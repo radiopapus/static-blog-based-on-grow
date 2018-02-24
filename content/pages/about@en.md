@@ -7,7 +7,7 @@ $order: 1
 ---
 ![Viktor Zharina](/static/images/viktorzharina.jpg)
 My name is Viktor Zharina and I am <script type="text/javascript">var b = new Date('1986-12-28'); var t = Date.now() - b.getTime(); var a = new Date(t); document.write(Math.abs(a.getUTCFullYear() - 1970));
-</script>. I live in Siberia, Tomsk and working in OFTE company (oft-e.com).
+</script>. I live in Siberia, Tomsk and work at OFTE (oft-e.com).
 I am a fullstack web-developer (PHP, MySQL, Redis, JS, HTML, CSS).
 My friend is Linux command line and it seems to me GIT is the best tool ever.
 My web-experience is more than 3 years and total is more than 9 years.
