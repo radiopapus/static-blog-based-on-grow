@@ -10,7 +10,18 @@
         </div>
     </div>
 </div>
-	{{last_post.html|safe}}
+  {{last_post.html|safe}}
+
+{% set posts = g.docs('posts', locale=doc.locale) %}
+{% set doc_prev = doc.prev(posts) %}
+
+<div class="page-nav__right">
+<script type="text/javascript"><!--
+document.write(VK.Share.button(false,{type: "round_nocount", text: "{{_('Share')}}"}))
+--></script>
+</div>
+
+
   <h3>{{_('Recent')}}</h3>
 <ul>
     {% for post in g.docs('posts', locale=doc.locale)[-9:]|reverse() %}
