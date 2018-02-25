@@ -15,6 +15,7 @@ $title@: Cosmology-Baikal-Math-and-Minimalism
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/4WejFC9HZPg?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
 
+
 ### 2. Урок 3. Визуальное представление бинома Ньютона. 
 
 Я нарезаю ролики, точнее склеиваю их и выкладываю на youtube. Ну и смотрю, что получилось, конечно.
@@ -22,11 +23,14 @@ $title@: Cosmology-Baikal-Math-and-Minimalism
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/Pwvp2H0hx4E?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
 
+
 ### 3. Борис Штерн: "Откуда взялась Вселенная?"
+
 Я смотрел это видео пару раз и советую посмотреть всем, кому интересно современное положение дел в космологии. Идеи кажутся фантастическими для обывателя.
 <div class="videoWrapper">
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/mU6p52J1CNY?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
+
 
 ### 4. Минимализм: Документальный фильм о важных вещах
 
