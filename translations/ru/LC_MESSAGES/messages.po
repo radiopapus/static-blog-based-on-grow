@@ -60,18 +60,18 @@ msgstr "Вторая запись или почему я выбрал стати
 
 #: /content/posts/Second-note-or-why-i-use-grow-io.md /podspec.yaml
 msgid "Viktor Zharina"
-msgstr "Виктор Жари́на"
+msgstr "Виктор Жарина"
 
 #: /podspec.yaml
 msgid "Viktor Zharina's Blog"
-msgstr "Блог Виктора Жари́ны"
+msgstr "Блог Виктора Жарины <script>alert('ttt');</script>"
 
 #: /podspec.yaml
 msgid "notes, books, programming, family, think about, films, photos"
 msgstr "заметки, книги, программирование"
 
 msgid "Viktor-Zharina"
-msgstr "Виктор Жари́на"
+msgstr "Виктор Жарина"
 
 msgid "Picce-sborka"
 msgstr "Пицце-сборка"
