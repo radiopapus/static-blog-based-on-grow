@@ -19,6 +19,9 @@ msgstr "Один из способов решения психологическ
 msgid "All&nbsp;rights&nbsp;reserved"
 msgstr "Все&nbsp;права&nbsp;защищены"
 
+msgid "Share"
+msgstr "Поделиться"
+
 #: /content/pages/about.md
 msgid "About"
 msgstr "Об авторе"

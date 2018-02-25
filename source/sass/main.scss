@@ -187,14 +187,11 @@ section img {
 }
 
 .page-nav {
-  clear: both;
+  display: flex;
+  justify-content: space-between;
 }
 
-.page-nav-prev {
-  float: left;
-}
-
-.page-nav-next {
+.page-nav__right {
   float: right;
 }
 
@@ -289,15 +286,15 @@ section img {
 }
 
 .videoWrapper {
-	position: relative;
-	padding-bottom: 56.25%; /* 16:9 */
-	padding-top: 25px;
-	height: 0;
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
 }
 .videoWrapper iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
