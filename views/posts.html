@@ -26,18 +26,18 @@
 
 <div class="page-nav">
 {% if doc_prev %}
-<div class="page-nav-prev">
     <a href="{{doc_prev.url.path}}" title="{{_(doc_prev.title)}}">{{_('Prev')}}</a>
-</div>
 {% endif %}
+
+<script type="text/javascript"><!--
+document.write(VK.Share.button(false,{type: "round_nocount", text: "{{_('Share')}}"}));
+--></script>
 
 {% set doc_next = doc.next(posts) %}
 {% if doc_next %}
-<div class="page-nav-next">
     <a href="{{doc_next.url.path}}" title="{{_(doc_next.title)}}">{{_('Next')}}</a>
-</div>
 {% endif %}
-
+</div>
 <h3>{{_('Recent')}}</h3>
 <ul>
     {% for post in g.docs('posts', locale=doc.locale)[-9:]|reverse() %}
@@ -48,6 +48,4 @@
         {% endif %}
     {% endfor %}
 </ul>
-
-</div>
 {% endblock %}

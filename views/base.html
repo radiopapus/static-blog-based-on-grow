@@ -11,12 +11,19 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{doc.url}}">
     {% if doc.description %}
-    <meta name="description" content="{{_(doc.description)}}">
-    <meta property="og:description" content="{{_(doc.description)}}">
+      <meta name="description" content="{{_(doc.description)}}">
+      <meta property="og:description" content="{{_(doc.description)}}">
     {% endif %}
+    {% if doc.image %}
+      <meta property="og:image" content="{{_(doc.image)}}">
+    {%else%}
+      <meta property="og:image" content="{{g.static('/source/images/icon.png').url.path}}">
+    {% endif %}
+
     <link rel="stylesheet" href="{{g.static('/dist/main.min.css').url.path}}">
     <link rel="stylesheet" href="{{g.static('/dist/timeline.min.css').url.path}}">
     <link rel="shortcut icon" href="{{g.static('/source/images/icon.png').url.path}}">
+    <script type="text/javascript" src="https://vk.com/js/api/share.js?95" charset="windows-1251"></script>
 </head>
     <body>
         <header>
@@ -50,7 +57,6 @@
         </header>
         <main>
             <section>
-
                     {% block main %}
                     {{doc.html|safe}}
                     {% endblock %}
