@@ -1,4 +1,8 @@
 
+msgid "Editing-work-for-math-lessons-was-finished"
+msgstr "Монтирование видео из серии 100 уроков по математике завершено"
+
+
 msgid "Cosmology-Baikal-Math-and-Minimalism"
 msgstr "Космология, Байкал, Математика, Минимализм"
 
