@@ -2,7 +2,7 @@
 author@: Viktor Zharina
 $order: 300
 image: https://rm-content.s3-accelerate.amazonaws.com/587cccdd54b5923c25005ee1/832831/upload-4a6a7240-cba2-11e7-b4f1-b757e3965c9d.jpg
-description: Монтирование видео для серии уроков по математике завершена
+description: Монтирование видео для серии уроков по математике завершено
 $dates:
   published: 2018-03-04 10:31:12
 $title@: Editing-work-for-math-lessons-was-finished
