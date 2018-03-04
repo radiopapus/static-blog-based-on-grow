@@ -68,7 +68,7 @@ msgstr "Виктор Жарина"
 
 #: /podspec.yaml
 msgid "Viktor Zharina's Blog"
-msgstr "Блог Виктора Жарины <script>alert('ttt');</script>"
+msgstr "Блог Виктора Жарины"
 
 #: /podspec.yaml
 msgid "notes, books, programming, family, think about, films, photos"
