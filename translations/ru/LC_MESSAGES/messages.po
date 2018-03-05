@@ -1,4 +1,8 @@
 
+msgid "Become-a-tourist-in-your-native-city"
+msgstr "Побыть туристом в своем городе"
+
+
 msgid "Editing-work-for-math-lessons-was-finished"
 msgstr "Монтирование видео из серии 100 уроков по математике завершено"
 
