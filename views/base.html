@@ -12,13 +12,18 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{doc.url}}">
     {% if doc.description %}
-      <meta name="description" content="{{_(doc.description)}}">
+    <meta name="description" content="{{_(doc.description)}}">
       <meta property="og:description" content="{{_(doc.description)}}">
+    {%else%}
+      {% set last_post = g.docs('posts', locale=doc.locale)|last %}
+      <meta name="description" content="{{_(last_post.description)}}">
+      <meta property="og:description" content="{{_(last_post.description)}}">
     {% endif %}
     {% if doc.image %}
       <meta property="og:image" content="{{_(doc.image)}}">
     {%else%}
-      <meta property="og:image" content="viktor.zharina.info/source/images/icon.png">
+      {% set last_post = g.docs('posts', locale=doc.locale)|last %}
+      <meta property="og:image" content="{{last_post.image}}">
     {% endif %}
 
     <link rel="stylesheet" href="{{g.static('/dist/main.min.css').url.path}}">
