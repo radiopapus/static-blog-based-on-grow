@@ -16,14 +16,18 @@
       <meta property="og:description" content="{{_(doc.description)}}">
     {%else%}
       {% set last_post = g.docs('posts', locale=doc.locale)|last %}
-      <meta name="description" content="{{_(last_post.description)}}">
-      <meta property="og:description" content="{{_(last_post.description)}}">
+      {% if last_post %}
+         <meta name="description" content="{{_(last_post.description)}}">
+         <meta property="og:description" content="{{_(last_post.description)}}">
+      {% endif %}
     {% endif %}
     {% if doc.image %}
       <meta property="og:image" content="{{_(doc.image)}}">
     {%else%}
       {% set last_post = g.docs('posts', locale=doc.locale)|last %}
-      <meta property="og:image" content="{{last_post.image}}">
+      {% if last_post %}
+         <meta property="og:image" content="{{last_post.image}}">
+      {% endif %}
     {% endif %}
 
     <link rel="stylesheet" href="{{g.static('/dist/main.min.css').url.path}}">
