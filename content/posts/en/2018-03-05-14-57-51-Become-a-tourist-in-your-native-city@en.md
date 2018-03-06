@@ -2,13 +2,13 @@
 author@: Viktor Zharina
 $order: 301
 image: /static/images/xander_227.jpg
-description: Новые впечатления дают ощущение замедления времени. Обычные выходные кажутся чуть длиннее, чувствуешь себя отдохнувшим. Так было и в этот раз.
+description: New impressions gives slomo effect in real life. Usual weekend seem longer, feel relax.So it was this time.
 $dates:
   published: 2018-03-05 14:57:51
 $title: Become a tourist in your native city
 ---
 <img src="/static/images/xander_227.jpg" class="post-picture" alt="Xander" />
-Новые впечатления дают ощущение замедления времени. Обычные выходные кажутся чуть длиннее, чувствуешь себя отдохнувшим. Так было и в этот раз. Мы забронировали номер в отеле [Xander](https://www.tripadvisor.ru/Hotel_Review-g665310-d12611741-Reviews-Xander_Hotel-Tomsk_Tomsk_Oblast_Siberian_District.html) и купили билеты в театр "Версия" на спектакль "Любовь на разных языках". Детей отвезли к родителям, а сами пошли гулять по городу, попутно заходя в магазины. Потом добраллись до номера и были приятно удивлены интерьером.
-Я считаю, что это лучший номер, в котором я когда-либо останавливался. Мы оставили вещи и пошли поужинать. Пока мы шли, я, вдруг, повчувствовал себя туристом. То чувство, когда приезжаешь в город впервые, ничего не знаешь, смотришь по сторонам. После театра мы шли пешком до номера, далее заказали завтрак и пошли греться в хамам.
-Что еще мне хотелось бы отметить, так это тишину, которая первое время была так непривычна и по которой я так соскучился. Про нее забываешь, когда живешь в городе, с детьми. 
-В отеле все здорово: прекрасный номер, вкусный завтрак, хамам, сайна, бассейн, сервис. В общем рекомендую.
+New impressions gives slomo effect in real life. Usual weekend seem longer, feel relax.So it was this time.
+We booked a room at the hotel [Xander](https://www.tripadvisor.ru/Hotel_Review-g665310-d12611741-Reviews-Xander_Hotel-Tomsk_Tomsk_Oblast_Siberian_District.html) and bought tickets to the theater "Version" for the play "Love in different languages". The children was taken to our parent and then we walked around the city, passing in the shops at the same time.
+Then we got to the room and were pleasantly surprised by the interior. I think this is the best room I've ever stayed in. We left things and went to dinner. As we walked, I, suddenly, felt yourself like a tourist. That feeling, when you come to the city for the first time, do not know anything, you look around. After the theater we came back to the hotel and ordered breakfast and went to the hammam.
+I would like to add is the silence, which was so unusual and which I so missed. You forget about it when live in the city, with children.
