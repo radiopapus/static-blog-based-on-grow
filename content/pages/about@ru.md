@@ -1,5 +1,7 @@
 ---
 $title@: About
+image: /static/images/viktorzharina.jpg
+description: Резюме. Меня зовут Виктор Жарина. Я профессиональный веб-разработчик. Пишу на PHP, Javascript, Html, CSS, много работал с Mysql, Redis. Memcache. Дружу с командной строкой Linux и считаю GIT манной небесной.
 $titles:
   nav@: About
 $order: 1

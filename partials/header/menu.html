@@ -1,0 +1,10 @@
+<nav>
+    <ul>
+        {% for page in g.docs('pages', locale=doc.locale) %}
+        <li {% if doc == page %}class="active"{% endif %}>
+            <a href="{{page.url.path}}">
+                *{{_(page.titles('nav'))}}*
+            </a>
+            {% endfor %}
+    </ul>
+</nav>
