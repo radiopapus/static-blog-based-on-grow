@@ -1,15 +1,5 @@
 {% extends "/views/base.html" %}
 
-{% block lang %}
-    <div class="lang text-right">
-        {% if doc.locale == 'en' %}
-            <a href="/posts/{{doc.slug}}">Русский</a>
-        {% else %}
-            <a href="/en/posts/{{doc.slug}}">English</a>
-        {% endif %}
-    </div>
-{% endblock %}
-
 {% block main %}
 <div class="meta">
     <h1><a href="{{doc.url.path}}">{{_(doc.title)}}</a></h1>
@@ -19,9 +9,10 @@
         </div>
     </div>
 </div>
-{{doc.html|safe}}
-{% set posts = g.docs('posts', locale=doc.locale) %}
 
+{{doc.html|safe}}
+
+{% set posts = g.docs('posts', locale=doc.locale) %}
 {% set doc_prev = doc.prev(posts) %}
 
 <div class="page-nav">
