@@ -1,0 +1,32 @@
+<meta charset="utf-8">
+<meta content="IE=Edge" http-equiv="X-UA-Compatible">
+
+<meta name="google-site-verification" content="hbwdYf8kFoU-_TuYxHeBUCNvRaT0IDwKmAGuI69snh4" />
+<meta name="yandex-verification" content="a5dab8b0976d420c" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, height=device-height">
+<title>{% if doc.title %}{{_(doc.title)}} – {% endif %}{{_(podspec.title)}}</title>
+<meta property="og:site_name" content="{{podspec.title}}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{doc.url}}">
+
+{% if doc.base == 'index' %}
+  {% set last_post = g.docs('posts', locale=doc.locale)|last %}
+
+  {% if last_post.description %}
+    <meta name="description" content="{{_(last_post.description)}}">
+    <meta property="og:description" content="{{_(last_post.description)}}">
+  {% endif %}
+
+  {% if last_post.image %}
+     <meta property="og:image" content="{{last_post.image}}">
+  {% endif %}
+{% else %}
+  {% if doc.description %}
+    <meta name="description" content="{{_(doc.description)}}">
+    <meta property="og:description" content="{{_(doc.description)}}">
+  {% endif %}
+
+  {% if doc.image %}
+    <meta property="og:image" content="{{doc.image}}">
+  {% endif %}
+{% endif %}

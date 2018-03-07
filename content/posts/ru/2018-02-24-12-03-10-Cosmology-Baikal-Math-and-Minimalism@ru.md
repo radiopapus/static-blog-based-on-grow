@@ -1,6 +1,8 @@
 ---
 author@: Viktor Zharina
 $order: 299
+description: Видеоролики о Байкале, космологии, Математике и минимализме
+image: /static/images/y.png
 $dates:
   published: 2018-02-24 12:03:10
 $title@: Cosmology-Baikal-Math-and-Minimalism
@@ -16,7 +18,7 @@ $title@: Cosmology-Baikal-Math-and-Minimalism
 </div>
 
 
-### 2. Урок 3. Визуальное представление бинома Ньютона. 
+### 2. Урок 3. Визуальное представление бинома Ньютона.
 
 Я нарезаю ролики, точнее склеиваю их и выкладываю на youtube. Ну и смотрю, что получилось, конечно.
 <div class="videoWrapper">

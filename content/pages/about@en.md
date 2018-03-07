@@ -1,5 +1,7 @@
 ---
 $title@: About
+image: /static/images/viktorzharina.jpg
+description: My name is Viktor Zharina and I am professional fullstack web-developer. I am 31 it seems to me GIT is the best tool ever. Write on PHP, JS, HTML, CSS
 $titles:
   nav@: About
 $order: 1

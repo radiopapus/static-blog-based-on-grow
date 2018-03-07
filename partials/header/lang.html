@@ -1,0 +1,28 @@
+<div class="lang text-right">
+    <!-- index page -->
+    {% if doc.base == 'index' %}
+        {% if doc.locale == 'en' %}
+            <a href="/">Русский</a>
+        {% else %}
+            <a href="/en/">English</a>
+        {% endif %}
+    {% endif %}
+
+    <!-- pages -->
+    {% if doc.collection.basename == 'pages' and doc.slug %}
+        {% if doc.locale == 'en' %}
+            <a href="/{{doc.slug}}">Русский</a>
+        {% else %}
+            <a href="/en/{{doc.slug}}">English</a>
+        {% endif %}
+    {% endif %}
+
+    <!-- posts -->
+    {% if doc.collection.basename == 'posts' and doc.slug %}
+        {% if doc.locale == 'en' %}
+            <a href="/posts/{{doc.slug}}">Русский</a>
+        {% else %}
+            <a href="/en/posts/{{doc.slug}}">English</a>
+        {% endif %}
+    {% endif %}
+</div>

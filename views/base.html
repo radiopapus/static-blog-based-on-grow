@@ -1,35 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{doc.locale}}">
 <head>
-    <meta charset="utf-8">
-    <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-
-    <meta name="google-site-verification" content="hbwdYf8kFoU-_TuYxHeBUCNvRaT0IDwKmAGuI69snh4" />
-    <meta name="yandex-verification" content="a5dab8b0976d420c" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, height=device-height">
-    <title>{% if doc.title %}{{_(doc.title)}} – {% endif %}{{_(podspec.title)}}</title>
-    <meta property="og:site_name" content="{{podspec.title}}">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="{{doc.url}}">
-    {% if doc.description %}
-    <meta name="description" content="{{_(doc.description)}}">
-      <meta property="og:description" content="{{_(doc.description)}}">
-    {%else%}
-      {% set last_post = g.docs('posts', locale=doc.locale)|last %}
-      {% if last_post %}
-         <meta name="description" content="{{_(last_post.description)}}">
-         <meta property="og:description" content="{{_(last_post.description)}}">
-      {% endif %}
-    {% endif %}
-    {% if doc.image %}
-      <meta property="og:image" content="{{_(doc.image)}}">
-    {%else%}
-      {% set last_post = g.docs('posts', locale=doc.locale)|last %}
-      {% if last_post %}
-         <meta property="og:image" content="{{last_post.image}}">
-      {% endif %}
-    {% endif %}
-
+    {% include "/partials/meta/meta.html" %}
     <link rel="stylesheet" href="{{g.static('/dist/main.min.css').url.path}}">
     <link rel="stylesheet" href="{{g.static('/dist/timeline.min.css').url.path}}">
     <link rel="shortcut icon" href="{{g.static('/source/images/icon.png').url.path}}">
@@ -37,38 +9,13 @@
 </head>
     <body>
         <header>
-            {% block lang %}
-            <div class="lang text-right">
-                {% if doc.slug %}
-                    {% if doc.locale == 'en' %}
-                        <a href="/{{doc.slug}}">Русский</a>
-                    {% else %}
-                        <a href="/en/{{doc.slug}}">English</a>
-                    {% endif %}
-                 {% else %}
-                    {% if doc.locale == 'en' %}
-                        <a href="/">Русский</a>
-                    {% else %}
-                        <a href="/en/">English</a>
-                    {% endif %}
-                 {% endif %}
-            </div>
-            {% endblock %}
-            <nav>
-                <ul>
-                    {% for page in g.docs('pages', locale=doc.locale) %}
-                    <li {% if doc == page %}class="active"{% endif %}>
-                        <a href="{{page.url.path}}">
-                            *{{_(page.titles('nav'))}}*
-                        </a>
-                        {% endfor %}
-                </ul>
-            </nav>
+            {% include "/partials/header/lang.html" %}
+            {% include "/partials/header/menu.html" %}
         </header>
         <main>
             <section>
                     {% block main %}
-                    {{doc.html|safe}}
+                        {{doc.html|render|safe}}
                     {% endblock %}
             </section>
         </main>

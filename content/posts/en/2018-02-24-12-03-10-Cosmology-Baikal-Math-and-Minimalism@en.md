@@ -1,6 +1,8 @@
 ---
 author@: Viktor Zharina
 $order: 299
+description: Video about Baikal, Cosmology, Math and Minimalism
+image: /static/images/y.png
 $dates:
   published: 2018-02-24 12:03:10
 $title: Cosmology, Baikal, Math and Minimalism
