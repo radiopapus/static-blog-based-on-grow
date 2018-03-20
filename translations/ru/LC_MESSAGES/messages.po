@@ -1,4 +1,8 @@
 
+msgid "Get-detailed-Tele2-calls-report"
+msgstr "Детализация по звонкам Теле2, совершенным более полугода назад"
+
+
 msgid "Become-a-tourist-in-your-native-city"
 msgstr "Побыть туристом в своем городе"
 
