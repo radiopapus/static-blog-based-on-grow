@@ -9,7 +9,7 @@
     {% endif %}
 
     <!-- pages -->
-    {% if doc.collection.basename == 'pages' and doc.slug %}
+    {% if doc and doc.collection.basename == 'pages' and doc.slug %}
         {% if doc.locale == 'en' %}
             <a href="/{{doc.slug}}">Русский</a>
         {% else %}
@@ -18,7 +18,7 @@
     {% endif %}
 
     <!-- posts -->
-    {% if doc.collection.basename == 'posts' and doc.slug %}
+    {% if doc and doc.collection.basename == 'posts' and doc.slug %}
         {% if doc.locale == 'en' %}
             <a href="/posts/{{doc.slug}}">Русский</a>
         {% else %}
