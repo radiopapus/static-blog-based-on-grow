@@ -6,6 +6,10 @@ msgid "About"
 msgstr "About"
 
 #: /views/notes.html:17
+msgid "Archive"
+msgstr "Archive"
+
+#: /views/notes.html:17
 msgid "Recent"
 msgstr "Recent"
 
