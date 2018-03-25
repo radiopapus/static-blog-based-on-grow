@@ -41,6 +41,9 @@ msgstr "Об авторе"
 msgid "Recent"
 msgstr "Прошлые записи"
 
+msgid "Archive"
+msgstr "Архив"
+
 #: /views/notes.html:7
 #, python-format
 msgid "Author"
