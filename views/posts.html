@@ -29,14 +29,5 @@ document.write(VK.Share.button(false,{type: "round_nocount", text: "{{_('Share')
     <a href="{{doc_next.url.path}}" title="{{_(doc_next.title)}}">{{_('Next')}}</a>
 {% endif %}
 </div>
-<h3>{{_('Recent')}}</h3>
-<ul>
-    {% for post in g.docs('posts', locale=doc.locale)[-9:]|reverse() %}
-        {% if post.title != doc.title %}
-          {% if post.title != None %}
-            <li><a href="{{post.url.path}}">{{_(post.title)}}</a>
-          {% endif %}
-        {% endif %}
-    {% endfor %}
-</ul>
+{% include "/partials/recent.html" %}
 {% endblock %}
