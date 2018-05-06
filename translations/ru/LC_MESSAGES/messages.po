@@ -1,4 +1,8 @@
 
+msgid "Highload-2017-vs-Codefest-2018"
+msgstr "Highload 2017 vs Codefest 2018"
+
+
 msgid "Get-detailed-Tele2-calls-report"
 msgstr "Детализация по звонкам Теле2, совершенным более полугода назад"
 
