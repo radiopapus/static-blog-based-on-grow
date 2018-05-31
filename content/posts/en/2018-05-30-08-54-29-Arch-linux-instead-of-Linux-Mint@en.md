@@ -5,28 +5,25 @@ $dates:
   published: 2018-05-30 08:54:29
 $title: Arch linux instead of Linux Mint
 ---
-## Предисловие
-Я хотел бы написать о впечатлениях от перехода на Arch Linux после, примерно года, использования Linux Mint.
+## Foreword
+This post contains my opinion about changing OS Linux from Mint to Arch. 
 
-### Причины 
-Отпуск.
-У меня старый ноубук Samsung X20, который мне достался бесплатно от моего брата, а ему от его подруги. Вообще, его хотели выкинуть, но я этого не допустил. Дело в том, что он сильно грелся. По
-странным причинам вентилятор не включался и срабатывала система отключения. Я его разобрал, почитил от пыли, но проблема все равно осталась. По каким-то неведомым мне причинам
-вентилятор запускается не всегда. Иногда он не включается и тогда ноут отключается по перегреву. Такое бывает редко. Недавно у него сломался винчетсер. Бед блоки. По счастливой
-случайности у моего знакомого где-то в загашниках остался старый винчестер, который был точь-в-точь как мне нужен. Это судьба. Я больше года использовал его как печатную машинку 
-и для серфинга в интернете. На нем тормозит даже видео в yootube. Спустя некоторое время он начал вообще тормозить. У меня сейчас отпуск и я подумал о том, чтобы оптимизировать 
-систему. Снес Mint, установил Arch и теперь пишу из консоли.
+### Reason
+Vacation.
+I have old laptop Samsung X20, which I got for free. I repaired FAN and clean cool system at all. Then hdd broke and
+I asked for a new to my colleages and fortunatelly got it. I used laptop as a typewritting machine. It was so slow
+so I had a problem with playing video on Youtube. So I removed Mint and installed Arch. It tooks some time but Arch
+is perfect simple solution for me. Right now I am writing this text from console.
 
-### Установка и настройка Arch
-Я уже делал это раньше, но кое-что подзабылось. Были проблемы с wifi, у меня ipw2200 и нужно было указать driver wext и настроить wpa_supplicant. А еще я узнал что у dhcpcd есть
-hook, который запускает wpa_supplicant с конфигом, если есть файл в /etc/wpa_supplicant/wpa_supplicant.conf
-Немного повозился со шрифтами и раскладкой клавиатуры. Шрифты никак не хотели применяться, пока не добавил в modules /etc/mkinitcpio.conf radeon. Уже установил grow, python и php.
-Arch я доволен, уже который раз я восхищаюсь той определенности и простоте, с которой он сделан. Возникают проблемы с актуальностью документации, но до этого момента 
-все гуглилось и решается.
+### Installing and custimizing Arch
+I did it before. I had a problem with WIFI (ipw2200 firmare). Solution was set -D wext foir wpa_supplicant. I knew about
+hook for dhcpcd that use /etc/wpa_uspplicant/wpa_supplicant.conf by default. Fonts was applied after adding 
+Modules radeon in mkinitcpio.conf. I have been already installed lynx, ssh, mc, grow, python and php. I am happy.
+There was some problem with documentation. Information is not topical on russian but google rules.
 
 ### Roadmap
-1. Планирую остаться в консоли. Браузером будет lynx. 
-2. Добавить ключ на сервер, чтобы delpo'ить из arch
-3. Отказаться от мыши настолько насколько возможно
-4. Написать статью о том, как мы делали проект вместе с бывшими тимлабовцами
-5. Написать статью о том, как выполнять перевод денег через вк, хотя эта возможность закрыта.
+1. I plan use console as long as possible. lynx is a browser
+2. Add ssh key to viktor.zharina.info server for deploy
+3. Don't use mouse
+4. Write post about my teamlead expirience with my teamlab colleages
+5. Write post about hidden feature of money transfering on vk.com 
