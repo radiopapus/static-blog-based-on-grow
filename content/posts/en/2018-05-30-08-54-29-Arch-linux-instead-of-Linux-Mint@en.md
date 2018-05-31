@@ -1,3 +1,10 @@
+---
+author@: Viktor Zharina
+$order: 303
+$dates:
+  published: 2018-05-30 08:54:29
+$title: Arch linux instead of Linux Mint
+---
 ## Предисловие
 Я хотел бы написать о впечатлениях от перехода на Arch Linux после, примерно года, использования Linux Mint.
 
