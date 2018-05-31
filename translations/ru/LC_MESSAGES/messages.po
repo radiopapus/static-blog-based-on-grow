@@ -1,4 +1,8 @@
 
+msgid "Arch-linux-instead-of-Linux-Mint"
+msgstr "Arch Linux вместо Linux Mint"
+
+
 msgid "Highload-2017-vs-Codefest-2018"
 msgstr "Highload 2017 vs Codefest 2018"
 
