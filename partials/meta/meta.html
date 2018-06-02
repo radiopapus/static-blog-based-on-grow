@@ -16,6 +16,10 @@
     <meta name="description" content="{{_(last_post.description)}}">
     <meta property="og:description" content="{{_(last_post.description)}}">
   {% endif %}
+  
+ {% if last_post.keywords %}
+    <meta name="keywords" content="{{_(last_post.keywords)}}">
+  {% endif %}
 
   {% if last_post.image %}
      <meta property="og:image" content="{{last_post.image}}">
@@ -24,6 +28,9 @@
   {% if doc.description %}
     <meta name="description" content="{{_(doc.description)}}">
     <meta property="og:description" content="{{_(doc.description)}}">
+  {% endif %}
+  {% if doc.keywords %}
+    <meta name="keywords" content="{{_(doc.keywords)}}">
   {% endif %}
 
   {% if doc.image %}

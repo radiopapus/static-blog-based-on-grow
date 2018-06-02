@@ -1,4 +1,7 @@
 
+msgid "Dream-of-ideal-Tomsk-city-Public-transport-and-problem-of-traffic-jam"
+msgstr "Мечты об идеальном Томске. Общественный транспорт и проблема пробок"
+
 msgid "Arch-linux-instead-of-Linux-Mint"
 msgstr "Arch Linux вместо Linux Mint"
 
