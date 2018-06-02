@@ -13,7 +13,7 @@ function getPostTitle($src)
 {
     $prepared = ucfirst(transliterate($src));
     $postTitle = str_replace([', ', ',', ' ', '!', '?', "'", '#'], '-', $prepared);
-    return trim(str_replace(['. '], '.', $postTitle), "-!?#'");
+    return trim(str_replace(['.-'], '-', $postTitle), "-!?#'");
 }
 
 function filePrepend($filename, $content)
