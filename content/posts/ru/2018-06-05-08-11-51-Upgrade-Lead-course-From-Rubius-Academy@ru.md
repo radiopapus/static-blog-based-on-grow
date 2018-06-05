@@ -1,3 +1,12 @@
+---
+author@: Viktor Zharina
+$order: 305
+description: Впечатления и мысли перед началом курса Upgrade руководителя
+keywords: Rubius Academy, Upgrade руководителя, обучение
+$dates:
+  published: 2018-06-05 08:11:51
+$title@: Upgrade-Lead-course-From-Rubius-Academy
+---
 Я оплатил курс Upgrade руководителя от компании Rubius. Как обычно долго принимал решение, жалел денег,
 но все же убедил себя в том, что мне это нужно.
 Более подробно с курсом можно ознакомиться (здесь):

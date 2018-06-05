@@ -1,4 +1,8 @@
 
+msgid "Upgrade-Lead-course-From-Rubius-Academy"
+msgstr "Курс Upgrade руководителя от Rubius Academy"
+
+
 msgid "Dream-of-ideal-Tomsk-city-Public-transport-and-problem-of-traffic-jam"
 msgstr "Мечты об идеальном Томске. Общественный транспорт и проблема пробок"
 
