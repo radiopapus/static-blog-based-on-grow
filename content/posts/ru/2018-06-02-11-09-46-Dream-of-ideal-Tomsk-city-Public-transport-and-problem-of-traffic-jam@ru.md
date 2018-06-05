@@ -1,8 +1,8 @@
 ---
 author@: Viktor Zharina
 $order: 304
-$description@: О том, как сделать общественный траспорт в Томске лучше, чем он есть сейчас
-$keywords@: мечты, Томск, идеальный, транспорт, проблема, пробки
+description: О том, как сделать общественный траспорт в Томске лучше, чем он есть сейчас
+keywords: мечты, Томск, идеальный, транспорт, проблема, пробки
 $dates:
   published: 2018-06-02 11:09:46
 $title@: Dream-of-ideal-Tomsk-city-Public-transport-and-problem-of-traffic-jam

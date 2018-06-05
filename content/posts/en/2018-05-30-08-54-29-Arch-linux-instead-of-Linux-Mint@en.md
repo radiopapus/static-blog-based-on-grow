@@ -1,6 +1,8 @@
 ---
 author@: Viktor Zharina
 $order: 303
+description: Small opinion about migration from Linux Mint to Arch Linux
+keywords: Linux Mint, Arch Linux, migration
 $dates:
   published: 2018-05-30 08:54:29
 $title: Arch linux instead of Linux Mint
