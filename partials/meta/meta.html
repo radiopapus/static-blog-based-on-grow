@@ -11,12 +11,10 @@
 
 {% if doc.base == 'index' %}
   {% set last_post = g.docs('posts', locale=doc.locale)|last %}
-
   {% if last_post.description %}
     <meta name="description" content="{{_(last_post.description)}}">
     <meta property="og:description" content="{{_(last_post.description)}}">
   {% endif %}
-  
  {% if last_post.keywords %}
     <meta name="keywords" content="{{_(last_post.keywords)}}">
   {% endif %}

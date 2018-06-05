@@ -1,6 +1,8 @@
 ---
 author@: Viktor Zharina
 $order: 303
+description: Короткие впечатления от перехода с Linux Mint на Arch Linux
+keywords: Arch Linux, migration, Linux Mint, samsung x20
 $dates:
   published: 2018-05-30 08:54:29
 $title@: Arch-linux-instead-of-Linux-Mint
