@@ -83,5 +83,5 @@ function writeTranslations($params)
 {
   $msgId = sprintf('msgid "%s"%s', $params['titleTranslateId'], PHP_EOL);
   $msgStr = sprintf('msgstr "%s"%s', $params['title'], PHP_EOL);
-  filePrepend($params, $content);
+  filePrepend($params['translatePath'], $msgId . $msgStr);
 }

@@ -34,14 +34,6 @@ $lcParams = [
 ];
 
 $params = array_merge($params, $lcParams[$lang]);
-
-file_put_contents(
-  $params['postPath'], 
-  getPostHeader($params) . file_get_contents('drafts/post.md')
-);
-
-writeTranslations($params['translatePath'], $msgId . $msgStr);
-// write translations
-$msgId = sprintf('msgid "%s"%s', $titleTranslateId, PHP_EOL);
-$msgStr = sprintf('msgstr "%s"%s', $title, PHP_EOL);
-filePrepend($params['translatePath'], $msgId . $msgStr);
+$content =   getPostHeader($params) . file_get_contents('drafts/post.md');
+file_put_contents($params['postPath'], $cotnent);
+writeTranslations($params);
