@@ -1,65 +1,47 @@
 <?php
+date_default_timezone_set('Asia/Novosibirsk');
 require 'util/util.php';
 
-if (!isset($argv[1])) {
-    die('Title must be set');
+if (!isset($argv[1]) || !isset($argv[2]) || !isset($argv[3]) || !isset($argv[4])) {
+    die('format: lang , title, description, keywords');
 }
-
-if (!isset($argv[2])) {
-    die('Title in russian must be set');
-}
-
-function getPostTitle($src)
-{
-    $prepared = ucfirst(transliterate($src));
-    $postTitle = str_replace([', ', ',', ' ', '!', '?', "'", '#'], '-', $prepared);
-    return trim(str_replace(['.-'], '-', $postTitle), "-!?#'");
-}
-
-function filePrepend($filename, $content)
-{
-    $fileContent = file_get_contents($filename);
-    $content = PHP_EOL.$content;
-    file_put_contents($filename, $content . PHP_EOL . $fileContent);
-}
-
-$title = getPostTitle($argv[1]);
+list($script, $lang, $title, $description, $keywords) = $argv;
+$titleTranslateId = getPostTitle($title);
 
 $now = strtotime('now');
 $date = date('Y-m-d-H-i-s', $now);
-$pathRu = sprintf('content/posts/ru/%s-%s%s', $date, $title, '@ru.md');
-$pathEn = sprintf('content/posts/en/%s-%s%s', $date, $title, '@en.md');
+$postPath = 'content/posts/';
 
-$order = getOrder('content/posts/ru/');
+$order = getOrder($postPath . 'ru/'); // use ru always due to ru contains more posts then en
+$params = [
+  'titleTranslateId' => $titleTranslateId,
+  'title' => $title,
+  'titleKey' => '$title@',
+  'description' => $description,
+  'keywords' => $keywords,
+  'order' => $order,
+  'postPath' => $postPath . "$lang/$date-$titleTranslateId@$lang.md",
+  'translatePath' => "translations/$lang/LC_MESSAGES/messages.po"
+];
 
-$postHeaderRu = sprintf('---
-author@: Viktor Zharina
-$order: %s
-$dates:
-  published: %s
-$title@: %s
----
-',$order , date('Y-m-d H:i:s', $now), $title);
+$lcParams = [
+ 'en' => [
+     'published' => date('m.d.Y H:i:s', $now),
+ ],
+ 'ru' => [
+     'published' => date('d.m.Y H:i:s', $now),
+ ],
+];
 
-$postRu = $postHeaderRu . file_get_contents('drafts/post.md');
+$params = array_merge($params, $lcParams[$lang]);
 
-// writes post
-file_put_contents($pathRu, $postRu);
+file_put_contents(
+  $params['postPath'], 
+  getPostHeader($params) . file_get_contents('drafts/post.md')
+);
 
-
-$postHeaderEn = sprintf('---
-author@: Viktor Zharina
-$order: %s
-$dates:
-  published: %s
-$title: %s
----
-', $order, date('Y-m-d H:i:s', $now), $argv[1]);
-
-$postEn = $postHeaderEn . file_get_contents('drafts/post.md');
-file_put_contents($pathEn, $postEn);
-
+writeTranslations($params['translatePath'], $msgId . $msgStr);
 // write translations
-$msgId = sprintf('msgid "%s"%s', $title, PHP_EOL);
-$ruMsgStr = sprintf('msgstr "%s"%s', $argv[2], PHP_EOL);
-filePrepend('translations/ru/LC_MESSAGES/messages.po', $msgId.$ruMsgStr);//ru
+$msgId = sprintf('msgid "%s"%s', $titleTranslateId, PHP_EOL);
+$msgStr = sprintf('msgstr "%s"%s', $title, PHP_EOL);
+filePrepend($params['translatePath'], $msgId . $msgStr);

@@ -31,3 +31,57 @@ function transliterate($string) {
 function getOrder($directory) {
     return count(glob($directory . "*")) + 1;
 }
+
+/**
+* Get post title for grow
+*/
+function getPostTitle($src)
+{
+    $prepared = ucfirst(transliterate($src));
+    $postTitle = str_replace([', ', ',', ' ', '!', '?', "'", '#'], '-', $prepared);
+    return trim(str_replace(['.-'], '-', $postTitle), "-!?#'");
+}
+
+/**
+* Prepend file instead of append
+* @param $filename is a absolute path to the file
+* @param $content data for prepending
+*/
+function filePrepend($filename, $content)
+{
+    $fileContent = file_get_contents($filename);
+    $content = PHP_EOL.$content;
+    file_put_contents($filename, $content . PHP_EOL . $fileContent);
+}
+
+/**
+* Make post header based on $params
+* $params array
+* return string;
+*/
+function getPostHeader($params)
+{
+    $header = '---
+author@: Viktor Zharina
+description: %s
+keywords: %s
+$order: %s
+$dates:
+  published: %s
+%s: %s
+---';
+    return sprintf($header, 
+      $params['description'], 
+      $params['keywords'], 
+      $params['order'],
+      $params['published'], 
+      $params['titleKey'], 
+      $params['titleTranslateId']) . PHP_EOL;
+}
+
+function writeTranslations($params)
+{
+  $msgId = sprintf('msgid "%s"%s', $params['titleTranslateId'], PHP_EOL);
+  $msgStr = sprintf('msgstr "%s"%s', $params['title'], PHP_EOL);
+  filePrepend($params, $content);
+}
