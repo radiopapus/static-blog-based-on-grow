@@ -35,5 +35,5 @@ $lcParams = [
 
 $params = array_merge($params, $lcParams[$lang]);
 $content =   getPostHeader($params) . file_get_contents('drafts/post.md');
-file_put_contents($params['postPath'], $cotnent);
+file_put_contents($params['postPath'], $content);
 writeTranslations($params);
