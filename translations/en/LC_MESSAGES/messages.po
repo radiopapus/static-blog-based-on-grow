@@ -1,4 +1,8 @@
 
+msgid "Two-story-about-patient"
+msgstr "Two story about patient"
+
+
 msgid "Letter-for-administration-of-Tomsk"
 msgstr "Letter for administration of Tomsk"
 

@@ -1,4 +1,12 @@
 
+msgid "Terpet-nelzya-deystvovat"
+msgstr "Терпеть нельзя, действовать"
+
+
+msgid "Spilit-derevya-za-oknom-Pismo-v-administraciyu."
+msgstr "Спилить деревья за окном. Письмо в администрацию."
+
+
 msgid "Pismo-v-administraciyu"
 msgstr "Письмо в администрацию"
 
