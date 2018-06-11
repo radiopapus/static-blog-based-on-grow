@@ -3,7 +3,7 @@ author: Viktor-Zharina
 $order: 295
 $dates:
   published: 2018-01-06 20:30:50
-$title@: Shooting-from-MP-443-Grach
+$title@: Strelba-iz-pistoleta-PYa
 ---
 Моя жена подарила на день рождения подарочный сертификат на "Ознакомительный курс по стрельбе из пистолета". Вчера я отстрелялся.
 
@@ -16,4 +16,3 @@ $title@: Shooting-from-MP-443-Grach
 
 [Стрелял тут](http://strelok.tomsk.ru)
 Про пистолет читаем [тут](http://zonwar.ru/shkolaspetsnaza/Pya.html)
-
