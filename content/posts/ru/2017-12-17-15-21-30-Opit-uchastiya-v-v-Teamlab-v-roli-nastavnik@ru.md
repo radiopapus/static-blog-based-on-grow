@@ -58,8 +58,11 @@ Teamlab давал право выгонять участников из про�
 
 ## Demo day
 На видео Дима - один из участников проекта.
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QBsaarwe3LU?ecver=1" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
-
+<p>
+  <div class="videoWrapper">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/QBsaarwe3LU?ecver=1" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+  </div>
+</p>
 Вы можете зайти  и посмотреть то, что у нас получилось.
 
 [Сайт](http://teamlab-srv.oft-e.com/)
