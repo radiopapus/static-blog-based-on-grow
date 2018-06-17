@@ -1,18 +1,14 @@
-У меня за окном бардак. Деревья выросли настолько, что мешают свету попадать в комнату. Птички жрут москитную сетку
-,а на земле гора пластиковых пивных бутылок. Их выбросили местные квартиранты, видимо потому что им лень выносить 
-мусор. Деревья спилить не получится, точнее спилить можно, но с риском получить штраф или даже срок. 
-Я написал письмо в департамент благоустройства, в котором изложил проблему. Через несколько дней мне пришел ответ, 
-в котором мне собщили о том, что мой запрос принят и перенаправлен в другой департамент. Я не уверен, 
-что до конца лета мне спилят деревья, но я хотя бы получу опыт в общении с администрацией. Писать письма, 
-не деревья рубить и пока мы друг другу бумажки пеерсылаем, я потихоньку собeру бутылки и выброшу их в ближайший
-пункте сбора пластика.
+There are trash behind my window. Trees is grown up and it is decrease sun light. There are a lot of beer cans, 
+bottles and other trash. I decided to fix it. I can't break trees due to law and I wrote letters to authorities.
+I am not sure that I'll have got result in the end of summer but I hope. I got answer from authorities over 
+4 days or kind of and they said that my request was registered and moved to other department. Writting letters is 
+a good idea and I did it for getting experience however it isn't bring closer my plan. So I have thrown about 4
+batches with plastic bottles.
 <p>
   <div class"videoWrapper">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/c-hoNi8SYkfAM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
   </div>
 </p>
 
-Я вынес 4 пакета бутылок. По-хорошему надо купить большие пластиковые пакеты литров на 200 и пользоваться ими.
-Бутылки надо сжимать для уменьшения объема, но это муторно и отнимает время поэтому я так не делаю.
-
-p.s. Также я планирую позвонить в пункт сбора пластика и попросить их об установке контейнера неподалеку от дома.
+I need to buy packets with more volume to throw away more bottles next time. I think 200 litres packates is enough.
+P.s. Also, I am going to call to plastic collection service and ask for installing container near my flat.
