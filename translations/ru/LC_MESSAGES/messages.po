@@ -1,4 +1,8 @@
 
+msgid "Ochistka-pridomovoy-territorii"
+msgstr "Очистка придомовой территории"
+
+
 msgid "Terpet-nelzya-deystvovat"
 msgstr "Терпеть нельзя, действовать"
 
