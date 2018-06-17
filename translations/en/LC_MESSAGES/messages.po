@@ -1,4 +1,8 @@
 
+msgid "Cleaning-garden-near-home"
+msgstr "Cleaning garden near home"
+
+
 msgid "Two-story-about-patient"
 msgstr "Two story about patient"
 
