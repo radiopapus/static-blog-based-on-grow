@@ -1,6 +1,6 @@
 
-msgid "Ochistka-pridomovoy-territorii"
-msgstr "Очистка придомовой территории"
+msgid "Uborka-pridomovoy-territorii"
+msgstr "Уборка придомовой территории"
 
 
 msgid "Terpet-nelzya-deystvovat"
