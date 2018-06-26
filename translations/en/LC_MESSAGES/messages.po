@@ -1,4 +1,8 @@
 
+msgid "Present-from-Georgia"
+msgstr "Present from Georgia"
+
+
 msgid "Cleaning-garden-near-home"
 msgstr "Cleaning garden near home"
 
