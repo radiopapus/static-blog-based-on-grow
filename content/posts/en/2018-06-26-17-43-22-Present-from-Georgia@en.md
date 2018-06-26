@@ -1,3 +1,12 @@
+---
+author@: Viktor Zharina
+description: Wine Saperavi Qvevri from Georgia
+keywords: Georgian's wine, present, surprise, saperavi qvevri, vranac, Monte Negro
+$order: 309
+$dates:
+  published: 06.26.2018 17:43:22
+$title@: Present-from-Georgia
+---
 <div>
     <img width="25%" src="/static/images/vranac.jpg" alt="Vranac from Monte negro" />
     <img width="25%" src="/static/images/saperavi_qvevri.jpg" alt="Saperavi Qvevri" />

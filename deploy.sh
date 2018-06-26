@@ -4,7 +4,7 @@ DIST_PATH=$(pwd)
 
 GROW_PATH=grow
 
-$GROW_PATH build $DIST_PATH --deployment default --old-routing
+$GROW_PATH build $DIST_PATH --deployment default
 
 TAR_NAME=grow-deploy.tar.gz
 REMOTE_PATH=vz@viktor.zharina.info:/home/vz/vz-blog
