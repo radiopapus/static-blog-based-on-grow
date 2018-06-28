@@ -39,8 +39,7 @@ deployments:
     out_dir: /home/viktor/my-blog/
     env:
       host: viktor.zharina.info
-      scheme: http
-      port: 80
+      scheme: https
   scp:
     destination: scp
     host: hobby-work.ru
@@ -49,5 +48,4 @@ deployments:
     root_dir: /home/vz/vz-blog
     env:
       host: viktor.zharina.info
-      scheme: http
-      port: 80
+      scheme: https
