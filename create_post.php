@@ -2,10 +2,23 @@
 date_default_timezone_set('Asia/Novosibirsk');
 require 'util/util.php';
 
-if (!isset($argv[1]) || !isset($argv[2]) || !isset($argv[3]) || !isset($argv[4])) {
-    die('format: lang , title, description, keywords');
+$rawDraft = file_get_contents('drafts/post.md');
+list($metaPart, $contentPart) = explode('---', $rawDraft);
+
+if (empty($contentPart)) {
+    die('Content must not be empty');
 }
-list($script, $lang, $title, $description, $keywords) = $argv;
+
+$metaArr = [];
+foreach (explode(PHP_EOL, $metaPart) as $item) {
+    if (empty($item)) {
+        continue;
+    }
+
+    list($t, $c) = explode(':', $item);
+    $metaArr[trim($t)] = trim($c);
+}
+extract($metaArr);
 $titleTranslateId = getPostTitle($title);
 
 $now = strtotime('now');
@@ -34,6 +47,7 @@ $lcParams = [
 ];
 
 $params = array_merge($params, $lcParams[$lang]);
-$content =   getPostHeader($params) . file_get_contents('drafts/post.md');
+$content = getPostHeader($params) . $contentPart;
 file_put_contents($params['postPath'], $content);
+file_put_contents('drafts/post.md', $rawDraft);
 writeTranslations($params);
