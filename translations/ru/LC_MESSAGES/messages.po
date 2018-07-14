@@ -1,4 +1,8 @@
 
+msgid "Podarok-iz-Gruzii"
+msgstr "Подарок из Грузии"
+
+
 msgid "Uborka-pridomovoy-territorii"
 msgstr "Уборка придомовой территории"
 
