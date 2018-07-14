@@ -15,7 +15,7 @@ a good idea and I did it for getting experience however it isn't bring closer my
 batches with plastic bottles.
 <p>
   <div class"videoWrapper">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/c-hoNi8SYkfAM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/hoNi8SYkfAM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
   </div>
 </p>
 
