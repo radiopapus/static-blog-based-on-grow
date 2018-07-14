@@ -17,7 +17,7 @@ $title@: Uborka-pridomovoy-territorii
 пункте сбора пластика.
 <p>
   <div class"videoWrapper">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/c-hoNi8SYkfAM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/hoNi8SYkfAM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
   </div>
 </p>
 
