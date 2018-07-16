@@ -5,6 +5,10 @@ require 'util/util.php';
 $rawDraft = file_get_contents('drafts/post.md');
 list($metaPart, $contentPart) = explode('---', $rawDraft);
 
+if (empty($metaPart)) {
+    die('Meta must not be empty');
+}
+
 if (empty($contentPart)) {
     die('Content must not be empty');
 }
@@ -19,13 +23,13 @@ foreach (explode(PHP_EOL, $metaPart) as $item) {
     $metaArr[trim($t)] = trim($c);
 }
 extract($metaArr);
-$titleTranslateId = getPostTitle($title);
-
 $now = strtotime('now');
 $date = date('Y-m-d-H-i-s', $now);
 $postPath = 'content/posts/';
 
 $order = getOrder($postPath . 'ru/'); // use ru always due to ru contains more posts then en
+$titleTranslateId = getPostTitle($title);
+
 $params = [
   'titleTranslateId' => $titleTranslateId,
   'title' => $title,
@@ -38,12 +42,8 @@ $params = [
 ];
 
 $lcParams = [
- 'en' => [
-     'published' => date('m.d.Y H:i:s', $now),
- ],
- 'ru' => [
-     'published' => date('d.m.Y H:i:s', $now),
- ],
+  'en' => ['published' => date('m.d.Y H:i:s', $now)],
+  'ru' => ['published' => date('d.m.Y H:i:s', $now)],
 ];
 
 $params = array_merge($params, $lcParams[$lang]);

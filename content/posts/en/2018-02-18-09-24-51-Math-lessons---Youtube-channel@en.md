@@ -3,7 +3,9 @@ author@: Viktor Zharina
 $order: 298
 $dates:
   published: 2018-02-18 09:24:51
-$title: Math lessons - Youtube channel
+$title@: math-lessons-youtube-channel
+slugEn: math-lessons-youtube-channel
+slugRu: uroki-matematiki-youtube-kanal
 ---
 I spent some time to get information about physics and math which can be interesting, simple to understand for me and for my children. I found Feynman lectures 
 but it is hard to find similar about math. I could not find it. Some month ago I watched Savvateev's lessons at Phillipovsakya school. He plans to record 100 video lessons. 

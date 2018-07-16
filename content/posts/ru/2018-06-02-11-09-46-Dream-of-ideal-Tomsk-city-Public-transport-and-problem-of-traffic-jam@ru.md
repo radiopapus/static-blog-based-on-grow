@@ -5,7 +5,9 @@ description: О том, как сделать общественный трас�
 keywords: мечты, Томск, идеальный, транспорт, проблема, пробки
 $dates:
   published: 2018-06-02 11:09:46
-$title@: Dream-of-ideal-Tomsk-city-Public-transport-and-problem-of-traffic-jam
+$title@: mechti-ob-idealnom-tomske-obschestveniy-transport-i-problema-probok
+slugRu: mechti-ob-idealnom-tomske-obschestveniy-transport-i-problema-probok
+slugEn: dream-of-ideal-tomsk-city-public-transport-and-traffic-jam-problem
 ---
 Я не редко делюсь с Таней своими мыслями о нашем городе. О том, как я хотел бы сделать его лучше. О том, что 
 у нас в Томске куда не глянь, везде широкое поле для деятельности. Вот и сегодня мы шли из магазина, и я опять

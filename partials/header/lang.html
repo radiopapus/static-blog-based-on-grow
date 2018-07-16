@@ -20,9 +20,9 @@
     <!-- posts -->
     {% if doc and doc.collection.basename == 'posts' and doc.slug %}
         {% if doc.locale == 'en' %}
-            <a href="/posts/{{doc.slug}}">Русский</a>
+            <a href="/posts/{{doc.slugRu}}">Русский</a>
         {% else %}
-            <a href="/en/posts/{{doc.slug}}">English</a>
+            <a href="/en/posts/{{doc.slugEn}}">English</a>
         {% endif %}
     {% endif %}
 </div>

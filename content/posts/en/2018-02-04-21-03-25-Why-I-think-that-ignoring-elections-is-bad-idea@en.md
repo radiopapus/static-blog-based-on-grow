@@ -3,7 +3,10 @@ author@: Viktor Zharina
 $order: 298
 $dates:
   published: 2018-02-04 21:03:25
-$title: Why I think that ignoring elections is a bad idea
+$title@: why-i-think-that-ignoring-elections-is-a-bad-idea
+slugRu: pochemu-ya-schitayu-chto-boykotirovat-vibory-eto-plohaya-ideya
+slugEn: why-i-think-that-ignoring-elections-is-a-bad-idea
+
 ---
 18 of March is an election in Russia. Perhaps, it is the first time for a long time when I want to make choice. This post is a reason to express my disagreement with the current situation with Navalny's appeal.He appeals to skip elections because he is not allowed to participate elections. This post will contain my opinion about it and I think that every man always has a choice.
 

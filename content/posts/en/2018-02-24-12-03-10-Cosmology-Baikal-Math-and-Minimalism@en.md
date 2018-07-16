@@ -5,7 +5,9 @@ description: Video about Baikal, Cosmology, Math and Minimalism
 image: /static/images/y.png
 $dates:
   published: 2018-02-24 12:03:10
-$title: Cosmology, Baikal, Math and Minimalism
+$title@: cosmology-baikal-math-minimalism
+slugRu: cosmologiya-baikal-matematica-minimalizm
+slugEn: cosmology-baikal-math-minimalism
 ---
 I bought headphones and I use it for watching video while go to work.
 All of this video is on russian except last one.

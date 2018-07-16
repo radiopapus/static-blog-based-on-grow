@@ -3,7 +3,9 @@ author: Viktor-Zharina
 $order: 295
 $dates:
   published: 2018-01-06 20:30:50
-$title@: Shooting-from-MP-443-Grach
+$title@: strelba-iz-pistoleta-yarigina
+slugRu: strelba-iz-pistoleta-yarigina
+slugEn: shooting-from-mp443-grach
 ---
 Моя жена подарила на день рождения подарочный сертификат на "Ознакомительный курс по стрельбе из пистолета". Вчера я отстрелялся.
 

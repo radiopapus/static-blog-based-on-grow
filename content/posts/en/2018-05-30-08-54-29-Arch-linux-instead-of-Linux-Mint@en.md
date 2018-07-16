@@ -5,7 +5,9 @@ description: Small opinion about migration from Linux Mint to Arch Linux
 keywords: Linux Mint, Arch Linux, migration
 $dates:
   published: 2018-05-30 08:54:29
-$title: Arch linux instead of Linux Mint
+$title@: arch-linux-instead-of-linux-mint
+slugRu: arch-linux-vmesto-linux-mint
+slugEn: arch-linux-instead-of-linux-mint
 ---
 ## Foreword
 This post contains my opinion about changing OS Linux from Mint to Arch. 

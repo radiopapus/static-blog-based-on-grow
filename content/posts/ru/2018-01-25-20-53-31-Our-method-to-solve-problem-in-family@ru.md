@@ -3,7 +3,9 @@ author@: Viktor Zharina
 $order: 295
 $dates:
   published: 2018-01-25 20:53:31
-$title@: One-of-the-methods-to-solve-the-family-psycological-problems
+$title@: odin-iz-sposobov-reshenia-psihologicheskih-problem-v-semye
+slugEn: one-of-the-methods-to-solve-the-family-psycological-problems
+slugRu: odin-iz-sposobov-reshenia-psihologicheskih-problem-v-semye
 ---
 Иногда мы ссоримся и не всегда получается поговорить. У разговора есть ряд недостатков. Прежде чем начать разговор нужно понимать то, что хочешь сказать, нужно во время разговора донести это до собеседника. Если тема щекотливая, то есть шанс, что собеседник не выдержит и перебьет тебя и есть шанс, что диалог скатится в ссору.
 

@@ -4,7 +4,9 @@ $order: 298
 $category: math lessons
 $dates:
   published: 2018-02-18 09:24:51
-$title@: Math-lessons---Youtube-channel
+$title@: uroki-matematiki-youtube-kanal
+slugRu: uroki-matematiki-youtube-kanal
+slugEn: math-lessons-youtube-channel
 ---
 Я некоторое время потратил на то, чтобы найти информацию по физике и математике, которая могла бы быть интересной для меня и в будущем для моих детей. 
 По физике я в свое время нашел Фейнмановские лекции, а с математикой было сложнее. Я никак не мог найти что-то доступное и понятное на русском языке. 

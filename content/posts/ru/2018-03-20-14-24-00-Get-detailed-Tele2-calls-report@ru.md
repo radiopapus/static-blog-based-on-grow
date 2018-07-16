@@ -3,7 +3,9 @@ author@: Viktor Zharina
 $order: 301
 $dates:
   published: 2018-03-20 14:24:00
-$title@: Get-detailed-Tele2-calls-report
+$title@: detalizacia-po-zvonkam-tele2-sovershennim-bolee-polugoda-nazad
+slugRu: detalizacia-po-zvonkam-tele2-sovershennim-bolee-polugoda-nazad
+slugEn: get-detailed-tele2-calls-report
 ---
 ## Предыстория
 <img class="post-picture" src="/static/images/tele2.png" alt="Скриншот из личного кабинета теле2" />
