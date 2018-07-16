@@ -5,7 +5,9 @@ image: /static/images/xander_227.jpg
 description: New impressions gives slomo effect in real life. Usual weekend seem longer, feel relax.So it was this time.
 $dates:
   published: 2018-03-05 14:57:51
-$title: Become a tourist in your native city
+$title@: become-a-tourist-in-hometown
+slugRu: pobit-turistom-v-svoem-gorode
+slugEn: become-a-tourist-in-hometown
 ---
 <img src="/static/images/xander_227.jpg" class="post-picture" alt="Xander" />
 New impressions gives slomo effect in real life. Usual weekend seem longer, feel relax.So it was this time.

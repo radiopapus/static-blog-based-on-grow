@@ -5,7 +5,9 @@ keywords: patient, Tomsk, stories, everyday problems
 $order: 307
 $dates:
   published: 06.11.2018 16:07:30
-$title@: Two-story-about-patient
+$title@: two-story-about-patient
+slugEn: two-story-about-patient
+slugRu: terpet-nelzya-deystvovat
 ---
 There was a two stories. We meet with my university groupmates several times in a year. Drink local beer, talk, discuss news. I told story which
 surprised me and my friend told story too. 

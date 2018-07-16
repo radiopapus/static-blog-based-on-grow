@@ -3,7 +3,9 @@ author@: Viktor Zharina
 $order: 297
 $dates:
   published: 2018-02-04 21:03:25
-$title@: Why-I-think-that-ignoring-elections-is-a-bad-idea
+$title@: pochemu-ya-schitayu-chto-boykotirovat-vibory-eto-plohaya-ideya
+slugRu: pochemu-ya-schitayu-chto-boykotirovat-vibory-eto-plohaya-ideya
+slugEn: why-i-think-that-ignoring-elections-is-a-bad-idea
 ---
 18 марта 2018 года в России выборы. Пожалуй, впервые за долгое время я хочу идти голосовать. Я поеду по месту прописки, несмотря на то, что это не удобно. Причиной написания поста послужило мое несогласие с тем, что Навальновцы призывают людей бойкотировать выборы, так как, по их мнению, выборы без Навлаьного не выборы вовсе. В этом посте я выскажу свое мнение по данному вопросу и призову людей идти голосовать, так как считаю, что выбор есть всегда.
 

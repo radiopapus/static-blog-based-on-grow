@@ -6,7 +6,9 @@ image: /static/images/saperavi_qvevri.jpg
 $order: 308
 $dates:
   published: 26.06.2018 17:07:45
-$title@: Podarok-iz-Gruzii
+$title@: podarok-iz-gruzii
+slugEn: present-from-georgia
+slugRu: podarok-iz-gruzii
 ---
 <div>
     <img width="25%" src="/static/images/vranac.jpg" alt="Vranac из Черногории" />

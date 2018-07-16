@@ -5,7 +5,9 @@ image: /static/images/xander_227.jpg
 description: Новые впечатления дают ощущение замедления времени. Обычные выходные кажутся чуть длиннее, чувствуешь себя отдохнувшим. Так было и в этот раз.
 $dates:
   published: 2018-03-05 14:57:51
-$title@: Become-a-tourist-in-your-native-city
+$title@: pobit-turistom-v-svoem-gorode
+slugRu: pobit-turistom-v-svoem-gorode
+slugEn: become-a-tourist-in-hometown
 ---
 <img class="post-picture" src="/static/images/xander_227.jpg" alt="Номер в отеле Xander"/>
 Новые впечатления дают ощущение замедления времени. Обычные выходные кажутся чуть длиннее, чувствуешь себя отдохнувшим. Так было и в этот раз. 

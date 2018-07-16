@@ -1,26 +1,53 @@
-
-msgid "Present-from-Georgia"
+msgid "present-from-georgia"
 msgstr "Present from Georgia"
 
-
-msgid "Cleaning-garden-near-home"
+msgid "cleaning-a-garden-near-home"
 msgstr "Cleaning garden near home"
 
+msgid "one-of-the-methods-to-solve-the-family-psycological-problems"
+msgstr "One of the method to solve the family psycological problems"
 
-msgid "Two-story-about-patient"
+msgid "two-story-about-patient"
 msgstr "Two story about patient"
 
+msgid "arch-linux-instead-of-linux-mint"
+msgstr "Arch Linux instead of Linux Mint"
 
-msgid "Letter-for-administration-of-Tomsk"
+msgid "become-a-tourist-in-hometown"
+msgstr "Become a tourist in hometown"
+
+msgid "math-lessons-youtube-channel"
+msgstr "Math lessons - Youtube channel"
+
+msgid "letter-for-administration-of-tomsk"
 msgstr "Letter for administration of Tomsk"
 
+msgid "ksenia-sobchak-a-candidate-for-president-of-the-russian-federation-is-a-guest-of-pozner"
+msgstr "Ksenia Sobchak (A candidate for president of the Russian Federation) is a guest of Pozner"
 
-msgid "Letter-for-administration-of-Tomsk"
+msgid "cosmology-baikal-math-minimalism"
+msgstr "Cosmology, Baikal, math and minimalism"
+
+msgid "get-detailed-tele2-calls-report"
+msgstr "Get detailed tele2 calls report"
+
+msgid "letter-for-administration-of-Tomsk"
 msgstr "Letter for administration of Tomsk"
 
+msgid "upgrade-lead-course-from-rubius-academy"
+msgstr "Manager Upgrade: manage like the best IT teams"
 
-msgid "Upgrade-Lead-course-From-Rubius-Academy"
-msgstr "Курс Upgrade руководителя от Rubius Academy"
+msgid "why-i-think-that-ignoring-elections-is-a-bad-idea"
+msgstr "Why I think that ignoring elections is a bad idea"
+
+msgid "dream-of-ideal-tomsk-city-public-transport-and-traffic-jam-problem"
+msgstr "Dream of ideal tomsk city. Public transport and traffic jam problem"
+
+msgid "highload-2017-vs-codefest-2018"
+msgstr "Highload 2017 vs Codefest 2018"
+
+msgid "shooting-from-mp443-grach"
+msgstr "Shooting from mp443 (Grach)"
 
 msgid "Kontar-moduli-rasshireniya-svyaz-s-lon-ustrojstvami-vidy-dispetcherizacii"
 msgstr "Контар: модули расширения, связь с LON устройствами, виды диспетчеризации"
@@ -6334,6 +6361,4 @@ msgstr "Highload 2017. Как это было."
 msgid "Opit-uchastiya-v-Teamlab-v-roli-nastavnika"
 msgstr "Опыт участия в Teamlab в роли наставника"
 
-msgid "Shooting-from-MP-443-Grach"
-msgstr "Стрельба из пистолета Ярыгина"
 

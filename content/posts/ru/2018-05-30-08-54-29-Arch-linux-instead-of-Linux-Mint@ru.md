@@ -5,7 +5,9 @@ description: Короткие впечатления от перехода с Li
 keywords: Arch Linux, migration, Linux Mint, samsung x20
 $dates:
   published: 2018-05-30 08:54:29
-$title@: Arch-linux-instead-of-Linux-Mint
+$title@: arch-linux-vmesto-linux-mint
+slugRu: arch-linux-vmesto-linux-mint
+slugEn: arch-linux-instead-of-linux-mint
 ---
 ## Предисловие
 Я хотел бы написать о впечатлениях от перехода на Arch Linux после, примерно года, использования Linux Mint.

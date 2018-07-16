@@ -5,7 +5,9 @@ keywords: authorities, Tomsk, garden, near home, trees, trash, bottlesm plastic
 $order: 308
 $dates:
   published: 06.17.2018 17:56:05
-$title@: Cleaning-garden-near-home
+$title@: cleaning-a-garden-near-home
+slugRu: uborka-pridomovoy-territorii
+slugEn: cleaning-a-garden-near-home
 ---
 There are trash behind my window. Trees is grown up and it is decrease sun light. There are a lot of beer cans, 
 bottles and other trash. I decided to fix it. I can't break trees due to law and I wrote letters to authorities.

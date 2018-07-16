@@ -5,7 +5,9 @@ keywords: уборка, письмо в администрацию, департ
 $order: 307
 $dates:
   published: 17.06.2018 17:27:00
-$title@: Uborka-pridomovoy-territorii
+$title@: uborka-pridomovoy-territorii
+slugRu: uborka-pridomovoy-territorii
+slugEn: cleaning-a-garden-near-home
 ---
 У меня за окном бардак. Деревья выросли настолько, что мешают свету попадать в комнату. Птички жрут москитную сетку
 ,а на земле гора пластиковых пивных бутылок. Их выбросили местные квартиранты, видимо потому что им лень выносить 

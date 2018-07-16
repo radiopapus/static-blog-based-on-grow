@@ -1,65 +1,60 @@
 
-msgid "Podarok-iz-Gruzii"
+msgid "podarok-iz-gruzii"
 msgstr "Подарок из Грузии"
 
 
-msgid "Uborka-pridomovoy-territorii"
+msgid "uborka-pridomovoy-territorii"
 msgstr "Уборка придомовой территории"
 
-
-msgid "Terpet-nelzya-deystvovat"
+msgid "terpet-nelzya-deystvovat"
 msgstr "Терпеть нельзя, действовать"
 
+msgid "spilit-derevya-za-oknom-pismo-v-administraciyu"
+msgstr "Спилить деревья за окном. Письмо в администрацию"
 
-msgid "Spilit-derevya-za-oknom-Pismo-v-administraciyu."
-msgstr "Спилить деревья за окном. Письмо в администрацию."
 
-
-msgid "Pismo-v-administraciyu"
+msgid "pismo-v-administraciyu"
 msgstr "Письмо в администрацию"
 
 
-msgid "Upgrade-Lead-course-From-Rubius-Academy"
-msgstr "Курс Upgrade руководителя от Rubius Academy"
+msgid "upgrade-rukovoditelya-ot-rubius"
+msgstr "Курс 'Upgrade руководителя' от Rubius Academy"
 
-msgid "Dream-of-ideal-Tomsk-city-Public-transport-and-problem-of-traffic-jam"
+msgid "mechti-ob-idealnom-tomske-obschestveniy-transport-i-problema-probok"
 msgstr "Мечты об идеальном Томске. Общественный транспорт и проблема пробок"
 
-msgid "Arch-linux-instead-of-Linux-Mint"
+msgid "arch-linux-vmesto-linux-mint"
 msgstr "Arch Linux вместо Linux Mint"
 
-
-msgid "Highload-2017-vs-Codefest-2018"
+msgid "highload-2017-vs-codefest-2018-ru"
 msgstr "Highload 2017 vs Codefest 2018"
 
+msgid "strelba-iz-pistoleta-yarigina"
+msgstr "Стрельба из пистолета Ярыгина"
 
-msgid "Get-detailed-Tele2-calls-report"
+
+msgid "detalizacia-po-zvonkam-tele2-sovershennim-bolee-polugoda-nazad"
 msgstr "Детализация по звонкам Теле2, совершенным более полугода назад"
 
-
-msgid "Become-a-tourist-in-your-native-city"
+msgid "pobit-turistom-v-svoem-gorode"
 msgstr "Побыть туристом в своем городе"
 
-
-msgid "Editing-work-for-math-lessons-was-finished"
+msgid "editing-work-for-math-lessons-was-finished"
 msgstr "Монтирование видео из серии 100 уроков по математике завершено"
 
-
-msgid "Cosmology-Baikal-Math-and-Minimalism"
+msgid "cosmologiya-baikal-matematica-minimalizm"
 msgstr "Космология, Байкал, Математика, Минимализм"
 
-
-msgid "Math-lessons---Youtube-channel"
+msgid "uroki-matematiki-youtube-kanal"
 msgstr "Уроки математики - Youtube-канал"
 
-
-msgid "Why-I-think-that-ignoring-elections-is-a-bad-idea"
+msgid "pochemu-ya-schitayu-chto-boykotirovat-vibory-eto-plohaya-ideya"
 msgstr "Почему я считаю, что бойкотировать выборы это плохая идея"
 
-msgid "ksenia-sobchak-a-candidate-for-president-of-the-russian-federation-is-a-guest-of-pozner"
+msgid "ksenia-sobchak-v-gostyah-u-poznera"
 msgstr "Ксения Собчак в гостях у Познера"
 
-msgid "One-of-the-methods-to-solve-the-family-psycological-problems"
+msgid "odin-iz-sposobov-reshenia-psihologicheskih-problem-v-semye"
 msgstr "Один из способов решения психологических проблем в семье"
 
 msgid "All&nbsp;rights&nbsp;reserved"
@@ -6622,6 +6617,4 @@ msgstr "Highload 2017. Как это было."
 msgid "Opit-uchastiya-v-Teamlab-v-roli-nastavnika"
 msgstr "Опыт участия в Teamlab в роли наставника"
 
-msgid "Shooting-from-MP-443-Grach"
-msgstr "Стрельба из пистолета Ярыгина"
 

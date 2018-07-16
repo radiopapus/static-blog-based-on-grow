@@ -5,7 +5,9 @@ keywords: Georgian's wine, present, surprise, saperavi qvevri, vranac, Monte Neg
 $order: 309
 $dates:
   published: 06.26.2018 17:43:22
-$title@: Present-from-Georgia
+$title@: present-from-georgia
+slugRu: podarok-iz-gruzii
+slugEn: present-from-georgia
 ---
 <div>
     <img width="25%" src="/static/images/vranac.jpg" alt="Vranac from Monte negro" />
