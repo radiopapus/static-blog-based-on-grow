@@ -18,10 +18,11 @@
     {% endif %}
 
     <!-- posts -->
-    {% if doc and doc.collection.basename == 'posts' and doc.slug %}
-        {% if doc.locale == 'en' %}
+    {% if doc and doc.collection.basename == 'posts' %}
+        {% if doc.locale == 'en' and doc.slugRu %}
             <a href="/posts/{{doc.slugRu}}">Русский</a>
-        {% else %}
+        {% endif %}
+        {% if doc.locale == 'ru' and doc.slugEn %}
             <a href="/en/posts/{{doc.slugEn}}">English</a>
         {% endif %}
     {% endif %}
