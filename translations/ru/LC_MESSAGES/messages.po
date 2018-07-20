@@ -1,4 +1,8 @@
 
+msgid "zagolovok-na-russkom"
+msgstr "Заголовок на русском"
+
+
 msgid "podarok-iz-gruzii"
 msgstr "Подарок из Грузии"
 

@@ -4,14 +4,15 @@
 * @param string - string for transliteration
 * @return string transliterated string
 */
-function transliterate($string) {
+function transliterate($string)
+{
     $converter = array(
         'а' => 'a',   'б' => 'b',   'в' => 'v', 'г' => 'g',   'д' => 'd',   'е' => 'e',
         'ё' => 'e',   'ж' => 'zh',  'з' => 'z', 'и' => 'i',   'й' => 'y',   'к' => 'k',
         'л' => 'l',   'м' => 'm',   'н' => 'n', 'о' => 'o',   'п' => 'p',   'р' => 'r',
         'с' => 's',   'т' => 't',   'у' => 'u', 'ф' => 'f',   'х' => 'h',   'ц' => 'c',
         'ч' => 'ch',  'ш' => 'sh',  'щ' => 'sh', 'ь' => '',  'ы' => 'i',   'ъ' => '',
-        'э' => 'e',   'ю' => 'yu',  'я' => 'ya', 
+        'э' => 'e',   'ю' => 'yu',  'я' => 'ya',
 
         'А' => 'A',   'Б' => 'B',   'В' => 'V', 'Г' => 'G',   'Д' => 'D',   'Е' => 'E',
         'Ё' => 'E',   'Ж' => 'Zh',  'З' => 'Z', 'И' => 'I',   'Й' => 'Y',   'К' => 'K',
@@ -28,7 +29,8 @@ function transliterate($string) {
 * @param $directory path which files must be counted
 * @param int count - num files in $directory
 */
-function getOrder($directory) {
+function getOrder($directory)
+{
     return count(glob($directory . "*")) + 1;
 }
 
@@ -40,7 +42,7 @@ function getPostTitle($src)
     $prepared = ucfirst(transliterate($src));
     $postTitle = str_replace([', ', ',', ' ', '!', '?', "'", '#'], '-', $prepared);
     $postTitle = str_replace(['.-'], '-', $postTitle);
-    return trim(str_replace(['.@'], '@', $postTitle));
+    return mb_strtolower(trim(str_replace(['.@'], '@', $postTitle)));
 }
 
 /**
@@ -69,20 +71,46 @@ keywords: %s
 $order: %s
 $dates:
   published: %s
-%s: %s
+$title@: %s
+slugRu: %s
+slugEn: %s
 ---';
-    return sprintf($header, 
-      $params['description'], 
-      $params['keywords'], 
-      $params['order'],
-      $params['published'], 
-      $params['titleKey'], 
-      $params['titleTranslateId']) . PHP_EOL;
+    return sprintf(
+        $header,
+        $params['description'],
+        $params['keywords'],
+        $params['$order'],
+        $params['published'],
+        $params['$title@'],
+        $params['slugRu'],
+        $params['slugEn']
+    ) . PHP_EOL;
 }
 
 function writeTranslations($params)
 {
-  $msgId = sprintf('msgid "%s"%s', $params['titleTranslateId'], PHP_EOL);
-  $msgStr = sprintf('msgstr "%s"%s', $params['title'], PHP_EOL);
-  filePrepend($params['translatePath'], $msgId . $msgStr);
+    $msgId = sprintf('msgid "%s"%s', $params['$title@'], PHP_EOL);
+    $msgStr = sprintf('msgstr "%s"%s', $params['title'], PHP_EOL);
+    filePrepend($params['translatePath'], $msgId . $msgStr);
+}
+
+function getMetaData($rawDraft)
+{
+    list($meta, $content) = explode('---', $rawDraft);
+    if (empty($meta)) {
+        die('Meta must not be empty');
+    }
+
+    if (empty($content)) {
+        die('Content must not be empty');
+    }
+    $metaArr = [];
+    $metaExplodedByLine = explode(PHP_EOL, $meta);
+    array_pop($metaExplodedByLine);
+    foreach ($metaExplodedByLine as $item) {
+        list($key, $value) = explode(':', $item);
+        $metaArr[trim($key)] = trim($value);
+    }
+
+    return [$metaArr, $content];
 }
