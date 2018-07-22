@@ -17,8 +17,6 @@ $lcParams = [
   'ru' => ['published' => date('d.m.Y H:i:s', $now), 'secondLang' => 'en'],
 ];
 
-$secondLang = ucfirst($lcParams[$lang]['secondLang']);
-
 $params = [
   'title' => $title,
   '$title@' => $slug,
@@ -30,9 +28,9 @@ $params = [
   'translatePath' => "translations/$lang/LC_MESSAGES/messages.po"
 ];
 
-$secondSlug = ${'slug' . $secondLang};
-if (isset($secondSlug)) {
-    $params['slug' . $secondLang] = getPostTitle($secondSlug);
+$secondLang = ucfirst($lcParams[$lang]['secondLang']);
+if (isset(${'slug' . $secondLang})) {
+    $params['slug' . $secondLang] = getPostTitle(${'slug' . $secondLang});
 }
 
 $params = array_merge($params, $lcParams[$lang]);
