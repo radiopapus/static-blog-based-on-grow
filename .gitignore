@@ -7,3 +7,4 @@ deploy.sh
 .depcache.json
 .phpintel/
 /nbproject/
+/source/images/
