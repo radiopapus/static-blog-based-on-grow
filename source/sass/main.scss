@@ -397,3 +397,9 @@ section img {
 {
   top:100%;
 }
+
+.lightgallery {
+  float: left;
+  display: flex;
+  flex-flow: row wrap;
+}
