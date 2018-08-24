@@ -24,6 +24,11 @@ function transliterate($string)
     return trim(strtr($string, $converter));
 }
 
+function getFileList($path) 
+{
+  return glob($path . "*");
+}
+
 /**
 * Count all posts and increase order value
 * @param $directory path which files must be counted
@@ -31,7 +36,7 @@ function transliterate($string)
 */
 function getOrder($directory)
 {
-    return count(glob($directory . "*")) + 1;
+    return count(getFileList()) + 1;
 }
 
 /**
@@ -121,4 +126,25 @@ function getMetaData($rawDraft)
     }
 
     return [$metaArr, $content];
+}
+
+/**
+* Method get list of images from path and return html for post
+*/
+function prepareGallery($path, $prefixPath="")
+{
+  $list = getFileList($path);
+  $names = array_map(
+  function($item) use ($prefixPath) {
+    $exploded = explode('/', $item);
+    $name = $exploded[count($exploded) - 1];
+    $thumb = "/static/images/$prefixPath/thumbs/$name";
+    $image = "/static/images/$prefixPath/$name";
+    return "
+<a href=$image>
+  <img src=$thumb />
+</a>";}, $list);
+ echo sprintf('<div id="lightGallery">
+  %s
+</div>', implode(' ', $names));
 }
