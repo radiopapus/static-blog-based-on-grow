@@ -24,6 +24,8 @@ static_dirs:
   serve_at: /static/images/
 - static_dir: /source/attachments/
   serve_at: /static/attachments/
+- static_dir: /source/js/
+  serve_at: /static/js/
 
 sitemap:
   enabled: yes
