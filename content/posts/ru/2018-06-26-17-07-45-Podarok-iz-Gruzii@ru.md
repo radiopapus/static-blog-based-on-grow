@@ -10,11 +10,16 @@ $title@: podarok-iz-gruzii
 slugEn: present-from-georgia
 slugRu: podarok-iz-gruzii
 ---
-<div>
-    <img width="25%" src="/static/images/vranac.jpg" alt="Vranac из Черногории" />
-    <img width="25%" src="/static/images/saperavi_qvevri.jpg" alt="Saperavi Qvevri" />
-    <p>
-        Не так давно мне привезли вино из Черногории. Это был Vranac. Такой в Томске я бы не купил. Понравилось, насыщенное вино. Говорят, что похоже на пино нуар, но я его еще не пробовал.
-        А сегодня мне написал Антоха, мой одногруппник и сказал, что хочет со мной встретиться. Он привез мне Saperavi Qvevri. Настоящее, грузинское. Z рад. Пробовать пока не буду, мои сейчас отдыхают в деревне, а я не могу выпить его без Тани, поэтому дождусь четверга и сам поеду в деревню.
-    </p>
+<div id="lightgallery" class="lightgallery">
+    <a href="/static/images/vranac.jpg">
+        <img  src="/static/images/vranac.thumb.jpg" alt="Vranac из Черногории" />
+    </a>
+    <a href="/static/images/saperavi_qvevri.jpg">
+        <img src="/static/images/saperavi_qvevri.thumb.jpg" alt="Saperavi Qvevri" />
+    </a>
 </div>
+
+<p>
+    Не так давно мне привезли вино из Черногории. Это был Vranac. Такой в Томске я бы не купил. Понравилось, насыщенное вино. Говорят, что похоже на пино нуар, но я его еще не пробовал.
+    А сегодня мне написал Антоха, мой одногруппник и сказал, что хочет со мной встретиться. Он привез мне Saperavi Qvevri. Настоящее, грузинское. Z рад. Пробовать пока не буду, мои сейчас отдыхают в деревне, а я не могу выпить его без Тани, поэтому дождусь четверга и сам поеду в деревню.
+</p>
