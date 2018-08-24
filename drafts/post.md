@@ -83,7 +83,9 @@ Eй не сидится на месте, у нее полно энергии, а
 попробовали жареные каштаны. Таня с Зоей сходили в музей квартиру Altes
 Haus и им очень понравилось. фото Калининграда
 
-https://trunov-dmitry.livejournal.com/669714.html - фотографии прогулки
+<a href="//trunov-dmitry.livejournal.com/669714.html" title="фотографии прогулки">
+фотографии прогулки
+</a>
 
 # Заключение и цифры Нам понравилось. Я вообще пришел на работу и подумал
 о том, что меня не было года полтора. Так это классно переключиться на
@@ -91,6 +93,129 @@ https://trunov-dmitry.livejournal.com/669714.html - фотографии про�
 разные сезоны, чтобы понять что такое мягкая зима, мягкий климат. Поездка
 обошлась нам примерно в 150-160 т.р. Из них около 90 это дорога, около 24
 жилье и 38 ушло на расходы в течении отпуска.
+
+<div id="lightGallery">
+<a href=/static/images/kaliningrad/IMG_20180722_200439.jpg>
+  <img src=/static/images/kaliningrad/thumbs/IMG_20180722_200439.jpg />
+</a> 
+<a href=/static/images/kaliningrad/IMG_20180723_125256.jpg>
+  <img src=/static/images/kaliningrad/thumbs/IMG_20180723_125256.jpg />
+</a> 
+<a href=/static/images/kaliningrad/IMG_20180723_182422.jpg>
+  <img src=/static/images/kaliningrad/thumbs/IMG_20180723_182422.jpg />
+</a> 
+<a href=/static/images/kaliningrad/IMG_20180723_182441.jpg>
+  <img src=/static/images/kaliningrad/thumbs/IMG_20180723_182441.jpg />
+</a> 
+<a href=/static/images/kaliningrad/IMG_20180723_182608.jpg>
+  <img src=/static/images/kaliningrad/thumbs/IMG_20180723_182608.jpg />
+</a> 
+<a href=/static/images/kaliningrad/IMG_20180723_182659.jpg>
+  <img src=/static/images/kaliningrad/thumbs/IMG_20180723_182659.jpg />
+</a> 
+<a href=/static/images/kaliningrad/IMG_20180723_182848.jpg>
+  <img src=/static/images/kaliningrad/thumbs/IMG_20180723_182848.jpg />
+</a> 
+<a href=/static/images/kaliningrad/IMG_20180723_183308.jpg>
+  <img src=/static/images/kaliningrad/thumbs/IMG_20180723_183308.jpg />
+</a> 
+<a href=/static/images/kaliningrad/IMG_20180723_183353.jpg>
+  <img src=/static/images/kaliningrad/thumbs/IMG_20180723_183353.jpg />
+</a> 
+<a href=/static/images/kaliningrad/IMG_20180723_183909.jpg>
+  <img src=/static/images/kaliningrad/thumbs/IMG_20180723_183909.jpg />
+</a> 
+<a href=/static/images/kaliningrad/IMG_20180723_184410.jpg>
+  <img src=/static/images/kaliningrad/thumbs/IMG_20180723_184410.jpg />
+</a> 
+<a href=/static/images/kaliningrad/IMG_20180723_190236.jpg>
+  <img src=/static/images/kaliningrad/thumbs/IMG_20180723_190236.jpg />
+</a> 
+<a href=/static/images/kaliningrad/IMG_20180723_190433.jpg>
+  <img src=/static/images/kaliningrad/thumbs/IMG_20180723_190433.jpg />
+</a> 
+<a href=/static/images/kaliningrad/IMG_20180724_073538.jpg>
+  <img src=/static/images/kaliningrad/thumbs/IMG_20180724_073538.jpg />
+</a> 
+<a href=/static/images/kaliningrad/IMG_20180724_141942.jpg>
+  <img src=/static/images/kaliningrad/thumbs/IMG_20180724_141942.jpg />
+</a> 
+<a href=/static/images/kaliningrad/IMG_20180724_160237.jpg>
+  <img src=/static/images/kaliningrad/thumbs/IMG_20180724_160237.jpg />
+</a> 
+<a href=/static/images/kaliningrad/IMG_20180724_165252.jpg>
+  <img src=/static/images/kaliningrad/thumbs/IMG_20180724_165252.jpg />
+</a> 
+<a href=/static/images/kaliningrad/IMG_20180724_183619.jpg>
+  <img src=/static/images/kaliningrad/thumbs/IMG_20180724_183619.jpg />
+</a> 
+<a href=/static/images/kaliningrad/IMG_20180726_160914.jpg>
+  <img src=/static/images/kaliningrad/thumbs/IMG_20180726_160914.jpg />
+</a> 
+<a href=/static/images/kaliningrad/IMG_20180726_162652.jpg>
+  <img src=/static/images/kaliningrad/thumbs/IMG_20180726_162652.jpg />
+</a> 
+<a href=/static/images/kaliningrad/IMG_20180730_142451.jpg>
+  <img src=/static/images/kaliningrad/thumbs/IMG_20180730_142451.jpg />
+</a> 
+<a href=/static/images/kaliningrad/IMG_20180730_150142.jpg>
+  <img src=/static/images/kaliningrad/thumbs/IMG_20180730_150142.jpg />
+</a> 
+<a href=/static/images/kaliningrad/IMG_20180730_150428.jpg>
+  <img src=/static/images/kaliningrad/thumbs/IMG_20180730_150428.jpg />
+</a> 
+<a href=/static/images/kaliningrad/IMG_20180731_094146.jpg>
+  <img src=/static/images/kaliningrad/thumbs/IMG_20180731_094146.jpg />
+</a> 
+<a href=/static/images/kaliningrad/IMG_20180731_094324.jpg>
+  <img src=/static/images/kaliningrad/thumbs/IMG_20180731_094324.jpg />
+</a> 
+<a href=/static/images/kaliningrad/IMG_20180731_094726.jpg>
+  <img src=/static/images/kaliningrad/thumbs/IMG_20180731_094726.jpg />
+</a> 
+<a href=/static/images/kaliningrad/IMG_20180731_095324.jpg>
+  <img src=/static/images/kaliningrad/thumbs/IMG_20180731_095324.jpg />
+</a> 
+<a href=/static/images/kaliningrad/IMG_20180731_111351.jpg>
+  <img src=/static/images/kaliningrad/thumbs/IMG_20180731_111351.jpg />
+</a> 
+<a href=/static/images/kaliningrad/IMG_20180731_130718.jpg>
+  <img src=/static/images/kaliningrad/thumbs/IMG_20180731_130718.jpg />
+</a> 
+<a href=/static/images/kaliningrad/IMG_20180731_131456.jpg>
+  <img src=/static/images/kaliningrad/thumbs/IMG_20180731_131456.jpg />
+</a> 
+<a href=/static/images/kaliningrad/IMG_20180801_141337.jpg>
+  <img src=/static/images/kaliningrad/thumbs/IMG_20180801_141337.jpg />
+</a> 
+<a href=/static/images/kaliningrad/IMG_20180801_143240.jpg>
+  <img src=/static/images/kaliningrad/thumbs/IMG_20180801_143240.jpg />
+</a> 
+<a href=/static/images/kaliningrad/IMG_20180801_145419.jpg>
+  <img src=/static/images/kaliningrad/thumbs/IMG_20180801_145419.jpg />
+</a> 
+<a href=/static/images/kaliningrad/IMG_20180801_153711.jpg>
+  <img src=/static/images/kaliningrad/thumbs/IMG_20180801_153711.jpg />
+</a> 
+<a href=/static/images/kaliningrad/IMG_20180801_155624.jpg>
+  <img src=/static/images/kaliningrad/thumbs/IMG_20180801_155624.jpg />
+</a> 
+<a href=/static/images/kaliningrad/IMG_20180801_160347.jpg>
+  <img src=/static/images/kaliningrad/thumbs/IMG_20180801_160347.jpg />
+</a> 
+<a href=/static/images/kaliningrad/IMG_20180801_161702.jpg>
+  <img src=/static/images/kaliningrad/thumbs/IMG_20180801_161702.jpg />
+</a> 
+<a href=/static/images/kaliningrad/IMG_20180801_161751.jpg>
+  <img src=/static/images/kaliningrad/thumbs/IMG_20180801_161751.jpg />
+</a> 
+<a href=/static/images/kaliningrad/IMG_20180802_151021.jpg>
+  <img src=/static/images/kaliningrad/thumbs/IMG_20180802_151021.jpg />
+</a> 
+<a href=/static/images/kaliningrad/IMG_20180802_173350.jpg>
+  <img src=/static/images/kaliningrad/thumbs/IMG_20180802_173350.jpg />
+</a>
+</div>
 
 Ниже я публикую свои заметки из telegram, так сказать, на память.
 
