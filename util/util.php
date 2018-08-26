@@ -34,9 +34,9 @@ function getFileList($path)
 * @param $directory path which files must be counted
 * @param int count - num files in $directory
 */
-function getOrder($directory)
+function getOrder($dir)
 {
-    return count(getFileList()) + 1;
+    return count(getFileList($dir)) + 1;
 }
 
 /**
@@ -144,7 +144,7 @@ function prepareGallery($path, $prefixPath="")
 <a href=$image>
   <img src=$thumb />
 </a>";}, $list);
- echo sprintf('<div id="lightGallery">
+ echo sprintf('<div id="lightgallery" class="lightgallery">
   %s
 </div>', implode(' ', $names));
 }
