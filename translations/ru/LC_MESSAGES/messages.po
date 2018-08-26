@@ -1,4 +1,8 @@
 
+msgid "otpusk-v-kaliningrade"
+msgstr "Отпуск в Калининграде"
+
+
 msgid "zagolovok-na-russkom"
 msgstr "Заголовок на русском"
 
