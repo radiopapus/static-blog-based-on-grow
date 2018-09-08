@@ -44,10 +44,10 @@ deployments:
       scheme: https
   scp:
     destination: scp
-    host: hobby-work.ru
+    host: viktor.zharina.info
     port: 22
     username: vz
-    root_dir: /home/vz/vz-blog
+    root_dir: /home/vz/vz-blog-test
     env:
       host: viktor.zharina.info
       scheme: https
