@@ -313,93 +313,114 @@ section img {
   width: 100%;
   height: 100%;
 }
-.timeline
-{
-  margin:0;
-}
-
-.timeline ul
-{
-  list-style:none;
-  position:relative;
-}
-
-.timeline ul:before
-{
-  content:'';
-  position:absolute;
-  top:0;
-  left:0;
-  width:0;
-  height:100%;
-  border:2px dashed #000;
-}
-
-.timeline ul li
-{
-  position:relative;
-  width:100%;
-  margin:120px 20px;
-}
-
-.timeline ul li:first-child
-{
-  margin:20px;
-}
-
-.timeline ul li>span
-{
-  content:'';
-  position:absolute;
-  top:0;
-  left:-60px;
-  width:0;
-  height:100%;
-  border:3px solid #000;
-}
-
-.timeline ul li>span:before,.timeline ul li>span:after
-{
-  position:absolute;
-  content:'';
-  width:45px;
-  height:45px;
-  border:3px solid #000;
-  left:-25px;
-  background:#fff;
-}
-
-.timeline ul li>span:before
-{
-  top:-3px;
-}
-
-.timeline ul li .year span
-{
-  font-size:15px;
-  position:absolute;
-  color:#000;
-  left:-70px;
-  line-height:25px;
-}
-
-.timeline ul li .year span:first-child
-{
-  top:0;
-}
-
-.timeline .title
-{
-  font-size:120%;
-}
-
-.timeline ul li>span:after,.timeline ul li .year span:last-child
-{
-  top:100%;
-}
-
 .lightgallery {
   float: left;
   display: flex;
   flex-flow: row wrap;
+}
+
+.timeline {
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.row__empty {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.points {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.points__empty {
+    width: 6rem;
+}
+
+.point {
+    text-align: center;
+    padding: 6px;
+    border: 2px solid black;
+    width: 5rem;
+    height: 5rem;
+}
+
+.point__interval {
+    text-align: center;
+    border: 0px solid black;
+}
+
+.point:last-child {
+    bottom: 100px;
+}
+
+.year, .month {
+    font-size: 2rem;
+}
+
+.line__red {
+    border-left: 5px solid red;
+    height: 10vh;
+}
+
+.line__grey {
+    border-left: 5px dashed grey;
+    height: 10vh;
+}
+
+.details {
+    padding-left: 30px;
+    font-size: 1.5rem;
+    line-height: 1.33;
+}
+
+@media (max-width: 1024px) {
+    .year, .month {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .details {
+        font-size: 1.3rem;
+    }
+    
+    .point {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .year, .month {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .details {
+        padding: 0px 0 0 20px;
+        font-size: 1rem;
+    }
+
+    .point {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .year, .month {
+        font-size: 0.9rem;
+    }
+}
+
+.details__title--main, .details__title--sub {
+    font-weight: bold;
 }
