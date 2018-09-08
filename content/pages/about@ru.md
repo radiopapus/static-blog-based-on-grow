@@ -18,61 +18,133 @@ $order: 1
 ## Опыт
 
 <div class="timeline">
-    <ul>
-        <li>
-            <span></span>
-            <div class="title"><a href="//oft-e.com">ООО «ОФТИ»</a></div>
-            <div class="position">Старший разработчик. Продуктовая разработка. Поддержка highload-проектов <a href="//usedcarsni.com">usercarsni.com</a>, <a href="//carfinderscotland.co.uk">carfinderscotland.co.uk</a>.</div>
-            <div class="info">Пишу API, добавляю новые функции в текущую бизнес логику, исправляю баги, ревью кода и т.д. </div>
-            <div class="tags">Навыки: #Car, #API, #HTML5, #CSS, #PHP, #MySQL, #Redis, #Memcache, #Redmine, #git, #iVendi, #Sphinx.</div>
-            <div class="year">
-                <span>2018<br/>ТЕК.</span>
-                <span>2016<br/>ИЮН</span>
+    <div class="row">
+        <div class="points">
+            <div class="point">
+                <div class="year">2018</div>
+                <div class="month">ТЕК.</div>
             </div>
-        </li>
-        <li>
-            <span></span>
-            <div class="title"><a href="//nts.su">Новые Телесистемы</a></div>
-            <div class="position">Программист.</div>
-            <div class="info">Инженер-разработчик. Разработка, рефакторинг и поддержка внутренней системы учета, внутренние утилиты, работа с сетевым оборудованием, скрипты, настройка серверов, понимание и автоматизация бизнес-процессов, интеграция с 1С, сопровождение. </div>
-            <div class="tags">Навыки: #PHP, #Codeigniter, #Ext4js, #MySQL, #MsSQL(2012), #Memcache.</div>
-            <div class="year">
-                <span>2016<br/>ИЮН</span>
-                <span>2014<br/>АПР</span>
+            <div class="line__red"></div>
+            <div class="point__interval">
+                <div class="year">>2 лет</div>
             </div>
-        </li>
-        <li>
-            <span></span>
-            <div class="title">ФорексИнн</div>
-            <div class="position">Программист. Поддержка сайта форекс-брокера.</div>
-            <div class="info"></div>
-            <div class="tags">Skills: #Symfony, #jQuery, #Mercurial, #metatrader4, #Payment, #finance.</div>
-            <div class="year">
-                <span>2014<br/>ИЮН</span>
-                <span>2013<br/>ИЮН</span>
+            <div class="line__red"></div>
+            <div class="point">
+                <div class="year">2016</div>
+                <div class="month">ИЮН</div>
             </div>
-        </li>
-        <li>
-            <span></span>
-            <div class="title"><a href="http://uetm.ru">ООО «Эльмаш (УЭТМ)». г. Екатеринбург.</a></div>
-            <div class="position">Специалист группы систем управления. Системный инжиниринг и разработка программного обеспечения, проектный менеджмент.</div>
-            <div class="info">Разрабатывал и внедрял программное обеспечение ПЛК Beckhoff, участвовал в командировках, писал документацию, был наставником.</div>
-            <div class="tags">Навыки: #PLC, #Beckhoff, #EtherCAT, #TwinCAT, #CodeSYS</div>
-            <div class="year">
-                <span>2012<br/>ДЕК</span>
-                <span>2009<br/>АПР</span>
+            <div class="line__grey"></div>
+        </div>
+        <div class="details">
+            <h2 class="details__title--main"><a href="//oft-e.com">ООО «Офти»</a></h2>
+            <h3 class="details__title--sub">Старший программист</h3>
+            <p class="details__text">Поддержка highload-проектов
+                <a href="//usedcarsni.com">usercarsni.com</a>,
+                <a href="//carfinderscotland.co.uk">carfinderscotland.co.uk</a>.</p>
+            <p class="details__skill">#Vehicles, #API, #HTML5, #CSS, #PHP, #MySQL, #Redis, #Memcache, #Redmine, #git,
+                #Sphinx.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="points">
+            <div class="point">
+                <div class="year">2016</div>
+                <div class="month">ИЮН</div>
             </div>
-        </li>
-        <li>
-            <span></span>
-            <div class="title"><a href="//datakrat.com">ЗАО НПФ «ДатаКрат-С» г. Томск</a></div>
-            <div class="position">Инженер ЦТО. Автоматизация ресторанов, кинотеатров.</div>
-            <div class="info">Автоматизация общепита и кинотеатров. Обучение персонала, презентации, разрабатывал инструкции, решал аппаратные и программные проблемы, вел деловую переписку с разработчиками программного обеспечения.</div>
-            <div class="tags">Навыки: #Rkeeper, #Delphi7, #StoreHouse, #UCS Cinema</div>
-            <div class="year">
-                <span>2007<br/>ОКТ</span>
-                <span>2005<br/>МАЙ</span>
+            <div class="line__red"></div>
+            <div class="point__interval">
+                <div class="year">2 года</div>
+                <div class="month">2 мес</div>
             </div>
-        </li>
-    </ul>
+            <div class="line__red"></div>
+            <div class="point">
+                <div class="year">2014</div>
+                <div class="month">АПР</div>
+            </div>
+            <div class="line__grey"></div>
+        </div>
+        <div class="details">
+            <h2 class="details__title--main"><a href="//nts.su">Интернет-провайдер "Новые Телесистемы"</a></h2>
+            <h3 class="details__title--sub">Программист</h3>
+            <p class="details__text">Разработка, рефакторинг и поддержка системы учета,
+                внутренние утилиты, работа с сетевым оборудованием, скрипты, настройка серверов, понимание и автоматизация бизнес-процессов, интеграция с 1С, сопровождение.</p>
+            <p class="details__skill">#PHP, #Codeigniter, #Ext4js, #MySQL, #MsSQL(2012), #Memcache</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="points">
+            <div class="point">
+                <div class="year">2014</div>
+                <div class="month">ИЮН</div>
+            </div>
+            <div class="line__red"></div>
+            <div class="point__interval">
+                <div class="year">1 год</div>
+            </div>
+            <div class="line__red"></div>
+            <div class="point">
+                <div class="year">2013</div>
+                <div class="month">ИЮН</div>
+            </div>
+            <div class="line__grey"></div>
+        </div>
+        <div class="details">
+            <h2 class="details__title--main">ФорексИнн</h2>
+            <h3 class="details__title--sub">Программист</h3>
+            <p class="details__text">Поддержка сайта форекс-брокера.</p>
+            <p class="details__skill">#Symfony, #jQuery, #Mercurial, #MetaTrader4, #Payment, #Finance</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="points">
+            <div class="point">
+                <div class="year">2012</div>
+                <div class="month">ДЕК</div>
+            </div>
+            <div class="line__red"></div>
+            <div class="point__interval">
+                <div class="year">3 года</div>
+                <div class="month">8 мес</div>
+            </div>
+            <div class="line__red"></div>
+            <div class="point">
+                <div class="year">2009</div>
+                <div class="month">АПР</div>
+            </div>
+            <div class="line__grey"></div>
+        </div>
+        <div class="details">
+            <h2 class="details__title--main"><a href="http://uetm.ru">ООО «Эльмаш (УЭТМ)». Екатеринбург</a></h2>
+            <h3 class="details__title--sub">Специалист группы систем управления</h3>
+            <p class="details__text">Разрабатывал и внедрял программное обеспечение ПЛК Beckhoff, командировки,
+                создание документации, наставничество.</p>
+            <p class="details__skill">#PLC, #Beckhoff, #EtherCAT, #TwinCAT, #CodeSYS</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="points">
+            <div class="point">
+                <div class="year">2007</div>
+                <div class="month">ОКТ</div>
+            </div>
+            <div class="line__red"></div>
+            <div class="point__interval">
+                <div class="year">2 года</div>
+                <div class="month">2 мес</div>
+            </div>
+            <div class="line__red"></div>
+            <div class="point">
+                <div class="year">2005</div>
+                <div class="month">МАЙ</div>
+            </div>
+        </div>
+        <div class="details">
+            <h2 class="details__title--main"><a href="//datakrat.com">ЗАО НПФ «ДатаКрат-С» г. Томск</a></h2>
+            <h3 class="details__title--sub">Инженер ЦТО</h3>
+            <p class="details__text">Автоматизация общепита и кинотеатров. Обучение персонала, презентации,
+                разрабатывал инструкции, решал аппаратные и программные проблемы, вел деловую переписку с
+                разработчиками программного обеспечения.</p>
+            <p class="details__skill">#Rkeeper, #Delphi7, #StoreHouse, #UCS Cinema</p>
+        </div>
+    </div>
 </div>
