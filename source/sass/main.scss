@@ -365,7 +365,7 @@ section img {
 }
 
 .year, .month {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .line__red {
@@ -383,6 +383,11 @@ section img {
     font-size: 1.5rem;
     line-height: 1.33;
 }
+
+.details__title--main, .details__title--sub {
+    font-weight: bold;
+}
+
 
 @media (max-width: 1024px) {
     .year, .month {
@@ -419,8 +424,4 @@ section img {
     .year, .month {
         font-size: 0.9rem;
     }
-}
-
-.details__title--main, .details__title--sub {
-    font-weight: bold;
 }
