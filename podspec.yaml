@@ -47,7 +47,7 @@ deployments:
     host: viktor.zharina.info
     port: 22
     username: vz
-    root_dir: /home/vz/vz-blog-test
+    root_dir: /home/vz/blog
     env:
       host: viktor.zharina.info
       scheme: https
