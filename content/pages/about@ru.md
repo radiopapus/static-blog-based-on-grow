@@ -36,8 +36,8 @@ $order: 1
             <div class="line__grey"></div>
         </div>
         <div class="details">
-            <h2 class="details__title--main"><a href="//oft-e.com">ООО «Офти»</a></h2>
-            <h3 class="details__title--sub">Старший программист</h3>
+            <div class="details__title--main"><a href="//oft-e.com">ООО «Офти»</a></div>
+            <div class="details__title--sub">Старший программист</div>
             <p class="details__text">Поддержка highload-проектов
                 <a href="//usedcarsni.com">usercarsni.com</a>,
                 <a href="//carfinderscotland.co.uk">carfinderscotland.co.uk</a>.</p>
@@ -64,8 +64,8 @@ $order: 1
             <div class="line__grey"></div>
         </div>
         <div class="details">
-            <h2 class="details__title--main"><a href="//nts.su">Интернет-провайдер "Новые Телесистемы"</a></h2>
-            <h3 class="details__title--sub">Программист</h3>
+            <div class="details__title--main"><a href="//nts.su">Интернет-провайдер "Новые Телесистемы"</a></div>
+            <div class="details__title--sub">Программист</div>
             <p class="details__text">Разработка, рефакторинг и поддержка системы учета,
                 внутренние утилиты, работа с сетевым оборудованием, скрипты, настройка серверов, понимание и автоматизация бизнес-процессов, интеграция с 1С, сопровождение.</p>
             <p class="details__skill">#PHP, #Codeigniter, #Ext4js, #MySQL, #MsSQL(2012), #Memcache</p>
@@ -89,8 +89,8 @@ $order: 1
             <div class="line__grey"></div>
         </div>
         <div class="details">
-            <h2 class="details__title--main">ФорексИнн</h2>
-            <h3 class="details__title--sub">Программист</h3>
+            <div class="details__title--main">ФорексИнн</div>
+            <div class="details__title--sub">Программист</div>
             <p class="details__text">Поддержка сайта форекс-брокера.</p>
             <p class="details__skill">#Symfony, #jQuery, #Mercurial, #MetaTrader4, #Payment, #Finance</p>
         </div>
@@ -114,8 +114,8 @@ $order: 1
             <div class="line__grey"></div>
         </div>
         <div class="details">
-            <h2 class="details__title--main"><a href="http://uetm.ru">ООО «Эльмаш (УЭТМ)». Екатеринбург</a></h2>
-            <h3 class="details__title--sub">Специалист группы систем управления</h3>
+            <div class="details__title--main"><a href="http://uetm.ru">ООО «Эльмаш (УЭТМ)». Екатеринбург</a></div>
+            <div class="details__title--sub">Специалист группы систем управления</div>
             <p class="details__text">Разрабатывал и внедрял программное обеспечение ПЛК Beckhoff, командировки,
                 создание документации, наставничество.</p>
             <p class="details__skill">#PLC, #Beckhoff, #EtherCAT, #TwinCAT, #CodeSYS</p>
@@ -139,8 +139,8 @@ $order: 1
             </div>
         </div>
         <div class="details">
-            <h2 class="details__title--main"><a href="//datakrat.com">ЗАО НПФ «ДатаКрат-С» г. Томск</a></h2>
-            <h3 class="details__title--sub">Инженер ЦТО</h3>
+            <div class="details__title--main"><a href="//datakrat.com">ЗАО НПФ «ДатаКрат-С» г. Томск</a></div>
+            <div class="details__title--sub">Инженер ЦТО</div>
             <p class="details__text">Автоматизация общепита и кинотеатров. Обучение персонала, презентации,
                 разрабатывал инструкции, решал аппаратные и программные проблемы, вел деловую переписку с
                 разработчиками программного обеспечения.</p>
