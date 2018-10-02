@@ -52,8 +52,7 @@ Contacts: [fb](https://www.facebook.com/viktor.zharina), viktorz1986 (gmail)
             </div>
             <div class="line__solid"></div>
             <div class="point__interval">
-                <div class="year">2 years</div>
-                <div class="month">2 months</div>
+                <div class="year">>2 years</div>
             </div>
             <div class="line__solid"></div>
             <div class="point">
@@ -101,8 +100,7 @@ Contacts: [fb](https://www.facebook.com/viktor.zharina), viktorz1986 (gmail)
             </div>
             <div class="line__solid"></div>
             <div class="point__interval">
-                <div class="year">3 years</div>
-                <div class="month">8 months</div>
+                <div class="year">>3 years</div>
             </div>
             <div class="line__solid"></div>
             <div class="point">
@@ -126,8 +124,7 @@ Contacts: [fb](https://www.facebook.com/viktor.zharina), viktorz1986 (gmail)
             </div>
             <div class="line__solid"></div>
             <div class="point__interval">
-                <div class="year">2 years</div>
-                <div class="month">2 months</div>
+                <div class="year">>2 years</div>
             </div>
             <div class="line__solid"></div>
             <div class="point">
