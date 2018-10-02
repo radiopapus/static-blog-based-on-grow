@@ -24,11 +24,11 @@ $order: 1
                 <div class="year">2018</div>
                 <div class="month">ТЕК.</div>
             </div>
-            <div class="line__red"></div>
+            <div class="line__solid"></div>
             <div class="point__interval">
                 <div class="year">>2 лет</div>
             </div>
-            <div class="line__red"></div>
+            <div class="line__solid"></div>
             <div class="point">
                 <div class="year">2016</div>
                 <div class="month">ИЮН</div>
@@ -51,12 +51,12 @@ $order: 1
                 <div class="year">2016</div>
                 <div class="month">ИЮН</div>
             </div>
-            <div class="line__red"></div>
+            <div class="line__solid"></div>
             <div class="point__interval">
                 <div class="year">2 года</div>
                 <div class="month">2 мес</div>
             </div>
-            <div class="line__red"></div>
+            <div class="line__solid"></div>
             <div class="point">
                 <div class="year">2014</div>
                 <div class="month">АПР</div>
@@ -77,11 +77,11 @@ $order: 1
                 <div class="year">2014</div>
                 <div class="month">ИЮН</div>
             </div>
-            <div class="line__red"></div>
+            <div class="line__solid"></div>
             <div class="point__interval">
                 <div class="year">1 год</div>
             </div>
-            <div class="line__red"></div>
+            <div class="line__solid"></div>
             <div class="point">
                 <div class="year">2013</div>
                 <div class="month">ИЮН</div>
@@ -101,12 +101,12 @@ $order: 1
                 <div class="year">2012</div>
                 <div class="month">ДЕК</div>
             </div>
-            <div class="line__red"></div>
+            <div class="line__solid"></div>
             <div class="point__interval">
                 <div class="year">3 года</div>
                 <div class="month">8 мес</div>
             </div>
-            <div class="line__red"></div>
+            <div class="line__solid"></div>
             <div class="point">
                 <div class="year">2009</div>
                 <div class="month">АПР</div>
@@ -127,12 +127,12 @@ $order: 1
                 <div class="year">2007</div>
                 <div class="month">ОКТ</div>
             </div>
-            <div class="line__red"></div>
+            <div class="line__solid"></div>
             <div class="point__interval">
                 <div class="year">2 года</div>
                 <div class="month">2 мес</div>
             </div>
-            <div class="line__red"></div>
+            <div class="line__solid"></div>
             <div class="point">
                 <div class="year">2005</div>
                 <div class="month">МАЙ</div>

@@ -20,62 +20,126 @@ Contacts: [fb](https://www.facebook.com/viktor.zharina), viktorz1986 (gmail)
 ## Experience
 
 <div class="timeline">
-    <ul>
-        <li>
-            <span></span>
-            <div class="title"><a href="//oft-e.com">OFTE. Tomsk</a></div>
-            <div class="position">Senior Web Developer. Support <a href="//usercarsni.com">usercarsni.com</a>, <a href="//carfinderscotland.co.uk">carfinderscotland.co.uk</a>.</div>
-            <div class="info">Customers from North Ireland. Api, new features, business logic, code review</div>
-            <div class="tags">Skills: #Car, #API, #HTML5, #CSS, #PHP, #MySQL, #Redis, #Memcache, #Redmine, #git, #iVendi, #Sphinx.</div>
-            <div class="year">
-                <span>2018<br/>NOW</span>
-                <span>2016<br/>JUN</span>
+    <div class="row">
+        <div class="points">
+            <div class="point">
+                <div class="year">2018</div>
+                <div class="month">NOW</div>
             </div>
-        </li>
-        <li>
-            <span></span>
-            <div class="title"><a href="//nts.su">NEW TELESYSTEMS. Tomsk.</a></div>
-            <div class="position">Engineer. Supported software, integration with other departments and work with network devices.</div>
-            <div class="info"></div>
-            <div class="tags">Skills: #PHP, #Codeigniter, #Ext4js, #MySQL, #MsSQL(2012), #Memcache.</div>
-
-            <div class="year">
-                <span>2016<br/>JUN</span>
-                <span>2014<br/>APR</span>
+            <div class="line__solid"></div>
+            <div class="point__interval">
+                <div class="year">>2 years</div>
             </div>
-        </li>
-        <li>
-            <span></span>
-            <div class="title">FOREXINN PARTNER. Tomsk.</div>
-            <div class="position">Programmer. Supported finance system.</div>
-            <div class="info"></div>
-            <div class="tags">Skills: #Symfony, #jQuery, #Mercurial, #phpDocumentor, #Payment.</div>
-            <div class="year">
-                <span>2014<br/>JUN</span>
-                <span>2013<br/>JUN</span>
+            <div class="line__solid"></div>
+            <div class="point">
+                <div class="year">2016</div>
+                <div class="month">JUN</div>
             </div>
-        </li>
-        <li>
-            <span></span>
-            <div class="title"><a href="http://uetm.ru/en">UETM. Yekaterinburg.</a></div>
-            <div class="position">Specialist of control system department. Programmed Beckhoff PLC controllers.</div>
-            <div class="info"></div>
-            <div class="tags">Skills: #Symfony, #jQuery, #Mercurial, #phpDocumentor, #Payment.</div>
-            <div class="year">
-                <span>2012<br/>DEC</span>
-                <span>2009<br/>APR</span>
+            <div class="line__grey"></div>
+        </div>
+        <div class="details">
+            <div class="details__title--main"><a href="//oft-e.com">OFTE (Tomsk)</a></div>
+            <div class="details__title--sub">Senior Web Developer</div>
+            <p class="details__text"><a href="//usercarsni.com">usercarsni.com</a>, <a href="//carfinderscotland.co.uk">carfinderscotland.co.uk</a>.
+            <p class="details__skill">#Car, #PHP, #MySQL, #Redis, #Memcache, #Redmine, #git, #API, #HTML5, #CSS, #iVendi, #Sphinx.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="points">
+            <div class="point">
+                <div class="year">2016</div>
+                <div class="month">JUN</div>
             </div>
-        </li>
-        <li>
-            <span></span>
-            <div class="title"><a href="//datakrat.com">DataKrat. Tomsk.</a></div>
-            <div class="position">Support engeneer. Installed restaurant and cinema software and tought staff</div>
-            <div class="info"></div>
-            <div class="tags">Skills: #Rkeeper, #Delphi7, #StoreHouse, #UCS Cinema</div>
-            <div class="year">
-                <span>2007<br/>OCT</span>
-                <span>2005<br/>MAY</span>
+            <div class="line__solid"></div>
+            <div class="point__interval">
+                <div class="year">2 years</div>
+                <div class="month">2 months</div>
             </div>
-        </li>
-    </ul>
+            <div class="line__solid"></div>
+            <div class="point">
+                <div class="year">2014</div>
+                <div class="month">APR</div>
+            </div>
+            <div class="line__grey"></div>
+        </div>
+        <div class="details">
+            <div class="details__title--main"><a href="//nts.su">New Telesystems (Tomsk)</a></div>
+            <div class="details__title--sub">Software Engineer</div>
+            <p class="details__text">Ledger software, integration, networks</p>
+            <p class="details__skill">#PHP, #Codeigniter, #Ext4js, #MySQL, #MsSQL(2012), #Memcache</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="points">
+            <div class="point">
+                <div class="year">2014</div>
+                <div class="month">JUN</div>
+            </div>
+            <div class="line__solid"></div>
+            <div class="point__interval">
+                <div class="year">1 year</div>
+            </div>
+            <div class="line__solid"></div>
+            <div class="point">
+                <div class="year">2013</div>
+                <div class="month">JUN</div>
+            </div>
+            <div class="line__grey"></div>
+        </div>
+        <div class="details">
+            <div class="details__title--main">FOREXINN PARTNER (Tomsk)</div>
+            <div class="details__title--sub">Web-developer.</div>
+            <p class="details__text">Support forex site</p>
+            <p class="details__skill">#Symfony, #jQuery, #Mercurial, #MetaTrader4, #Payment, #Finance</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="points">
+            <div class="point">
+                <div class="year">2012</div>
+                <div class="month">DEC</div>
+            </div>
+            <div class="line__solid"></div>
+            <div class="point__interval">
+                <div class="year">3 years</div>
+                <div class="month">8 months</div>
+            </div>
+            <div class="line__solid"></div>
+            <div class="point">
+                <div class="year">2009</div>
+                <div class="month">APR</div>
+            </div>
+            <div class="line__grey"></div>
+        </div>
+        <div class="details">
+            <div class="details__title--main"><a href="http://uetm.ru/en">UETM (Yekaterinburg)</a></div>
+            <div class="details__title--sub">Specialist of control system department</div>
+            <p class="details__text">Beckhoff PLC controllers and Human-machine interface</p>
+            <p class="details__skill">#PLC, #Beckhoff, #EtherCAT, #TwinCAT, #CodeSYS, #Delphi</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="points">
+            <div class="point">
+                <div class="year">2007</div>
+                <div class="month">OCT</div>
+            </div>
+            <div class="line__solid"></div>
+            <div class="point__interval">
+                <div class="year">2 years</div>
+                <div class="month">2 months</div>
+            </div>
+            <div class="line__solid"></div>
+            <div class="point">
+                <div class="year">2005</div>
+                <div class="month">MAY</div>
+            </div>
+        </div>
+        <div class="details">
+            <div class="details__title--main"><a href="//datakrat.com">DataKrat (Tomsk)</a></div>
+            <div class="details__title--sub">Engeneer</div>
+            <p class="details__text">Restaurant and cinema software</p>
+            <p class="details__skill">#Rkeeper, #Delphi7, #StoreHouse, #UCS Cinema</p>
+        </div>
+    </div>
 </div>
