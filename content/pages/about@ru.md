@@ -53,8 +53,7 @@ $order: 1
             </div>
             <div class="line__solid"></div>
             <div class="point__interval">
-                <div class="year">2 года</div>
-                <div class="month">2 мес</div>
+                <div class="year">>2 лет</div>
             </div>
             <div class="line__solid"></div>
             <div class="point">
@@ -103,8 +102,7 @@ $order: 1
             </div>
             <div class="line__solid"></div>
             <div class="point__interval">
-                <div class="year">3 года</div>
-                <div class="month">8 мес</div>
+                <div class="year">>3 лет</div>
             </div>
             <div class="line__solid"></div>
             <div class="point">
@@ -129,8 +127,7 @@ $order: 1
             </div>
             <div class="line__solid"></div>
             <div class="point__interval">
-                <div class="year">2 года</div>
-                <div class="month">2 мес</div>
+                <div class="year">>2 лет</div>
             </div>
             <div class="line__solid"></div>
             <div class="point">
