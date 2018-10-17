@@ -39,7 +39,7 @@ $order: 1
             <div class="details__title--main"><a href="//oft-e.com">ООО «Офти»</a></div>
             <div class="details__title--sub">Старший программист</div>
             <p class="details__text">Поддержка highload-проектов
-                <a href="//usedcarsni.com">usercarsni.com</a>,
+                <a href="//usedcarsni.com">usedcarsni.com</a>,
                 <a href="//carfinderscotland.co.uk">carfinderscotland.co.uk</a>.</p>
             <p class="details__skill">#Vehicles, #API, #HTML5, #CSS, #PHP, #MySQL, #Redis, #Memcache, #Redmine, #git,
                 #Sphinx.</p>

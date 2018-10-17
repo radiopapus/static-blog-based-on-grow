@@ -40,7 +40,7 @@ Contacts: [fb](https://www.facebook.com/viktor.zharina), viktorz1986 (gmail)
         <div class="details">
             <div class="details__title--main"><a href="//oft-e.com">OFTE (Tomsk)</a></div>
             <div class="details__title--sub">Senior Web Developer</div>
-            <p class="details__text"><a href="//usercarsni.com">usercarsni.com</a>, <a href="//carfinderscotland.co.uk">carfinderscotland.co.uk</a>.
+            <p class="details__text"><a href="//usedcarsni.com">usedcarsni.com</a>, <a href="//carfinderscotland.co.uk">carfinderscotland.co.uk</a>.
             <p class="details__skill">#Car, #PHP, #MySQL, #Redis, #Memcache, #Redmine, #git, #API, #HTML5, #CSS, #iVendi, #Sphinx.</p>
         </div>
     </div>
