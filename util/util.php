@@ -138,7 +138,7 @@ function prepareGallery($prefixPath="", $path='/home/viktorz/blog/source/images/
   function($item) use ($prefixPath) {
     $exploded = explode('/', $item);
     $name = $exploded[count($exploded) - 1];
-    $thumbPath = "/static/images/$prefixPath/thumbs/$name";
+    $thumbPath = "/static/images/$prefixPath/thumb/$name";
     $origPath = "/static/images/$prefixPath/orig/$name";
     return "
 <a href=$origPath data-responsive=\"$thumbPath 400, $origPath 759\">
