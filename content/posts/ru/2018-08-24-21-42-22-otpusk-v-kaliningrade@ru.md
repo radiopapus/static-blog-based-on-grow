@@ -21,7 +21,7 @@ slugRu: otpusk-v-kaliningrade
 
 Я старался выбирать рейсы так, чтобы перерыв между рейсами был
 не более 3 часов. Мы купили следующие билеты: Томск-Москва,
-Москва-Калининград и обратно. Лететь с детьми тяжело, особенно с младшей. 
+Москва-Калининград и обратно. Лететь с детьми тяжело, особенно с младшей.
 Eй не сидится на месте, у нее полно энергии, а в самолете
 не набегаешься. Больше всего досталось, конечно, Тане. Когда мы
 летели туда, то нам отказали в транзите багажа из-за сбоя системы. Также
@@ -31,13 +31,13 @@ Eй не сидится на месте, у нее полно энергии, а
 
 Мы уже не первый раз пользуемся airbnb. До этого не было
 никаких проблем. В этот раз возникла ситуация, когда собственница не
-отвечала на звонки и сообщения. Я связался со службой подержки и они 
+отвечала на звонки и сообщения. Я связался со службой подержки и они
 зафиксировали мою заявку. В таких ситуациях ставят некоторый лимит и если
 собственник не отвечает, то airbnb помогает найти новое жилье. До поиска
 нового жилья у нас не дошло, оказалось, что собственница была в дороге и
 была недоступна.
 
-# Светлогорск 
+# Светлогорск
 
 Мы прибыли в Калининград 23 июля, было жарко. Мы
 попробовали вызвать такси через яндекс, находясь в аэропорту, но ничего не вышло. Тогда вышли
@@ -53,8 +53,8 @@ Eй не сидится на месте, у нее полно энергии, а
 все благоухает цветами и растениями. Чего только
 стоит запах можжевельника. Мы каждый день ходили на море и каждый день я радовался местному ботаническому саду.
 Питались в кафе и дома. Могу порекомендовать кафе "Нимфа", там я, кстати, попробовал вкусное немецкое
-пиво "Spatten". А вот светлое нефильтрованное калининградское пиво "Варница" мне не понравилось, так же как 
-и "Кенигбрау Бархатное". Второе, похоже, было не свежим. 
+пиво "Spatten". А вот светлое нефильтрованное калининградское пиво "Варница" мне не понравилось, так же как
+и "Кенигбрау Бархатное". Второе, похоже, было не свежим.
 
 Численность населения Светлогорск где-то 15 тысяч. Возле
 нашей квартиры был мини-маркет, но он был чаще закрыт, чем открыт. За
@@ -65,7 +65,7 @@ Eй не сидится на месте, у нее полно энергии, а
 дня был примерно такой: утром-море, потом отдых от солнца и обед, потом
 поход в кафе, прогулка по городу, поиск достопримечательностей или парка для прогулок.
 К временному сдвигу привыкали несколько дней. Ложились вначале в 20
-часов, а вставали в 6 утра. Видимо влияние моря делает жару мягче. В Томске, обычно, при той же температуре, духота. 
+часов, а вставали в 6 утра. Видимо влияние моря делает жару мягче. В Томске, обычно, при той же температуре, духота.
 Из Светлогорска в Калининград мы ехали на электричке. Всего 45 минут и 4 остановки. Очень
 комфортно и недорого. Взрослый билет стоил 96 рублей.
 
@@ -104,124 +104,125 @@ Haus и им очень понравилось.
 жилье и 38 ушло на расходы в течении отпуска.
 
 <div id="lightgallery" class="lightgallery">
-<a href="/static/images/kaliningrad/IMG_20180722_200439.jpg">
-  <img src="/static/images/kaliningrad/thumbs/IMG_20180722_200439.jpg" />
-</a> 
-<a href="/static/images/kaliningrad/IMG_20180723_125256.jpg">
+<a href="/static/images/kaliningrad/orig/IMG_20180722_200439.jpg"
+data-responsive="/static/images/kaliningrad/thumbs/IMG_20180722_200439.jpg 400, /static/images/kaliningrad/orig/IMG_20180722_200439.jpg 759 ">
+  <img src="/static/images/kaliningrad/thumbs/IMG_20180722_200439.jpg" alt="Перед отъездом"/>
+</a>
+<a href="/static/images/kaliningrad/orig/IMG_20180723_125256.jpg">
   <img src="/static/images/kaliningrad/thumbs/IMG_20180723_125256.jpg" />
-</a> 
-<a href="/static/images/kaliningrad/IMG_20180723_182422.jpg">
+</a>
+<a href="/static/images/kaliningrad/orig/IMG_20180723_182422.jpg">
   <img src="/static/images/kaliningrad/thumbs/IMG_20180723_182422.jpg" />
-</a> 
-<a href="/static/images/kaliningrad/IMG_20180723_182441.jpg">
+</a>
+<a href="/static/images/kaliningrad/orig/IMG_20180723_182441.jpg">
   <img src="/static/images/kaliningrad/thumbs/IMG_20180723_182441.jpg" />
-</a> 
-<a href="/static/images/kaliningrad/IMG_20180723_182608.jpg">
+</a>
+<a href="/static/images/kaliningrad/orig/IMG_20180723_182608.jpg">
   <img src="/static/images/kaliningrad/thumbs/IMG_20180723_182608.jpg" />
-</a> 
-<a href="/static/images/kaliningrad/IMG_20180723_182659.jpg">
+</a>
+<a href="/static/images/kaliningrad/orig/IMG_20180723_182659.jpg">
   <img src="/static/images/kaliningrad/thumbs/IMG_20180723_182659.jpg" />
-</a> 
-<a href="/static/images/kaliningrad/IMG_20180723_182848.jpg">
+</a>
+<a href="/static/images/kaliningrad/orig/IMG_20180723_182848.jpg">
   <img src="/static/images/kaliningrad/thumbs/IMG_20180723_182848.jpg" />
-</a> 
-<a href="/static/images/kaliningrad/IMG_20180723_183308.jpg">
+</a>
+<a href="/static/images/kaliningrad/orig/IMG_20180723_183308.jpg">
   <img src="/static/images/kaliningrad/thumbs/IMG_20180723_183308.jpg" />
-</a> 
-<a href="/static/images/kaliningrad/IMG_20180723_183353.jpg">
+</a>
+<a href="/static/images/kaliningrad/orig/IMG_20180723_183353.jpg">
   <img src="/static/images/kaliningrad/thumbs/IMG_20180723_183353.jpg" />
-</a> 
-<a href="/static/images/kaliningrad/IMG_20180723_183909.jpg">
+</a>
+<a href="/static/images/kaliningrad/orig/IMG_20180723_183909.jpg">
   <img src="/static/images/kaliningrad/thumbs/IMG_20180723_183909.jpg" />
-</a> 
-<a href="/static/images/kaliningrad/IMG_20180723_184410.jpg">
+</a>
+<a href="/static/images/kaliningrad/orig/IMG_20180723_184410.jpg">
   <img src="/static/images/kaliningrad/thumbs/IMG_20180723_184410.jpg" />
-</a> 
-<a href="/static/images/kaliningrad/IMG_20180723_190236.jpg">
+</a>
+<a href="/static/images/kaliningrad/orig/IMG_20180723_190236.jpg">
   <img src="/static/images/kaliningrad/thumbs/IMG_20180723_190236.jpg" />
-</a> 
-<a href="/static/images/kaliningrad/IMG_20180723_190433.jpg">
+</a>
+<a href="/static/images/kaliningrad/orig/IMG_20180723_190433.jpg">
   <img src="/static/images/kaliningrad/thumbs/IMG_20180723_190433.jpg" />
-</a> 
-<a href="/static/images/kaliningrad/IMG_20180724_073538.jpg">
+</a>
+<a href="/static/images/kaliningrad/orig/IMG_20180724_073538.jpg">
   <img src="/static/images/kaliningrad/thumbs/IMG_20180724_073538.jpg" />
-</a> 
-<a href="/static/images/kaliningrad/IMG_20180724_141942.jpg">
+</a>
+<a href="/static/images/kaliningrad/orig/IMG_20180724_141942.jpg">
   <img src="/static/images/kaliningrad/thumbs/IMG_20180724_141942.jpg" />
-</a> 
-<a href="/static/images/kaliningrad/IMG_20180724_160237.jpg">
+</a>
+<a href="/static/images/kaliningrad/orig/IMG_20180724_160237.jpg">
   <img src="/static/images/kaliningrad/thumbs/IMG_20180724_160237.jpg" />
-</a> 
-<a href="/static/images/kaliningrad/IMG_20180724_165252.jpg">
+</a>
+<a href="/static/images/kaliningrad/orig/IMG_20180724_165252.jpg">
   <img src="/static/images/kaliningrad/thumbs/IMG_20180724_165252.jpg" />
-</a> 
-<a href="/static/images/kaliningrad/IMG_20180724_183619.jpg">
+</a>
+<a href="/static/images/kaliningrad/orig/IMG_20180724_183619.jpg">
   <img src="/static/images/kaliningrad/thumbs/IMG_20180724_183619.jpg" />
-</a> 
-<a href="/static/images/kaliningrad/IMG_20180726_160914.jpg">
+</a>
+<a href="/static/images/kaliningrad/orig/IMG_20180726_160914.jpg">
   <img src="/static/images/kaliningrad/thumbs/IMG_20180726_160914.jpg" />
-</a> 
-<a href="/static/images/kaliningrad/IMG_20180726_162652.jpg">
+</a>
+<a href="/static/images/kaliningrad/orig/IMG_20180726_162652.jpg">
   <img src="/static/images/kaliningrad/thumbs/IMG_20180726_162652.jpg" />
-</a> 
-<a href="/static/images/kaliningrad/IMG_20180730_142451.jpg">
+</a>
+<a href="/static/images/kaliningrad/orig/IMG_20180730_142451.jpg">
   <img src="/static/images/kaliningrad/thumbs/IMG_20180730_142451.jpg" />
-</a> 
-<a href="/static/images/kaliningrad/IMG_20180730_150142.jpg">
+</a>
+<a href="/static/images/kaliningrad/orig/IMG_20180730_150142.jpg">
   <img src="/static/images/kaliningrad/thumbs/IMG_20180730_150142.jpg" />
-</a> 
-<a href="/static/images/kaliningrad/IMG_20180730_150428.jpg">
+</a>
+<a href="/static/images/kaliningrad/orig/IMG_20180730_150428.jpg">
   <img src="/static/images/kaliningrad/thumbs/IMG_20180730_150428.jpg" />
-</a> 
-<a href="/static/images/kaliningrad/IMG_20180731_094146.jpg">
+</a>
+<a href="/static/images/kaliningrad/orig/IMG_20180731_094146.jpg">
   <img src="/static/images/kaliningrad/thumbs/IMG_20180731_094146.jpg" />
-</a> 
-<a href="/static/images/kaliningrad/IMG_20180731_094324.jpg">
+</a>
+<a href="/static/images/kaliningrad/orig/IMG_20180731_094324.jpg">
   <img src="/static/images/kaliningrad/thumbs/IMG_20180731_094324.jpg" />
-</a> 
-<a href="/static/images/kaliningrad/IMG_20180731_094726.jpg">
+</a>
+<a href="/static/images/kaliningrad/orig/IMG_20180731_094726.jpg">
   <img src="/static/images/kaliningrad/thumbs/IMG_20180731_094726.jpg" />
-</a> 
-<a href="/static/images/kaliningrad/IMG_20180731_095324.jpg">
+</a>
+<a href="/static/images/kaliningrad/orig/IMG_20180731_095324.jpg">
   <img src="/static/images/kaliningrad/thumbs/IMG_20180731_095324.jpg" />
-</a> 
-<a href="/static/images/kaliningrad/IMG_20180731_111351.jpg">
+</a>
+<a href="/static/images/kaliningrad/orig/IMG_20180731_111351.jpg">
   <img src="/static/images/kaliningrad/thumbs/IMG_20180731_111351.jpg" />
-</a> 
-<a href="/static/images/kaliningrad/IMG_20180731_130718.jpg">
+</a>
+<a href="/static/images/kaliningrad/orig/IMG_20180731_130718.jpg">
   <img src="/static/images/kaliningrad/thumbs/IMG_20180731_130718.jpg" />
-</a> 
-<a href="/static/images/kaliningrad/IMG_20180731_131456.jpg">
+</a>
+<a href="/static/images/kaliningrad/orig/IMG_20180731_131456.jpg">
   <img src="/static/images/kaliningrad/thumbs/IMG_20180731_131456.jpg" />
-</a> 
-<a href="/static/images/kaliningrad/IMG_20180801_141337.jpg">
+</a>
+<a href="/static/images/kaliningrad/orig/IMG_20180801_141337.jpg">
   <img src="/static/images/kaliningrad/thumbs/IMG_20180801_141337.jpg" />
-</a> 
-<a href="/static/images/kaliningrad/IMG_20180801_143240.jpg">
+</a>
+<a href="/static/images/kaliningrad/orig/IMG_20180801_143240.jpg">
   <img src="/static/images/kaliningrad/thumbs/IMG_20180801_143240.jpg" />
-</a> 
-<a href="/static/images/kaliningrad/IMG_20180801_145419.jpg">
+</a>
+<a href="/static/images/kaliningrad/orig/IMG_20180801_145419.jpg">
   <img src="/static/images/kaliningrad/thumbs/IMG_20180801_145419.jpg" />
-</a> 
-<a href="/static/images/kaliningrad/IMG_20180801_153711.jpg">
+</a>
+<a href="/static/images/kaliningrad/orig/IMG_20180801_153711.jpg">
   <img src="/static/images/kaliningrad/thumbs/IMG_20180801_153711.jpg" />
-</a> 
-<a href="/static/images/kaliningrad/IMG_20180801_155624.jpg">
+</a>
+<a href="/static/images/kaliningrad/orig/IMG_20180801_155624.jpg">
   <img src="/static/images/kaliningrad/thumbs/IMG_20180801_155624.jpg" />
-</a> 
-<a href="/static/images/kaliningrad/IMG_20180801_160347.jpg">
+</a>
+<a href="/static/images/kaliningrad/orig/IMG_20180801_160347.jpg">
   <img src="/static/images/kaliningrad/thumbs/IMG_20180801_160347.jpg" />
-</a> 
-<a href="/static/images/kaliningrad/IMG_20180801_161702.jpg">
+</a>
+<a href="/static/images/kaliningrad/orig/IMG_20180801_161702.jpg">
   <img src="/static/images/kaliningrad/thumbs/IMG_20180801_161702.jpg" />
-</a> 
-<a href="/static/images/kaliningrad/IMG_20180801_161751.jpg">
+</a>
+<a href="/static/images/kaliningrad/orig/IMG_20180801_161751.jpg">
   <img src="/static/images/kaliningrad/thumbs/IMG_20180801_161751.jpg" />
-</a> 
-<a href="/static/images/kaliningrad/IMG_20180802_151021.jpg">
+</a>
+<a href="/static/images/kaliningrad/orig/IMG_20180802_151021.jpg">
   <img src="/static/images/kaliningrad/thumbs/IMG_20180802_151021.jpg" />
-</a> 
-<a href="/static/images/kaliningrad/IMG_20180802_173350.jpg">
+</a>
+<a href="/static/images/kaliningrad/orig/IMG_20180802_173350.jpg">
   <img src="/static/images/kaliningrad/thumbs/IMG_20180802_173350.jpg" />
 </a>
 </div>

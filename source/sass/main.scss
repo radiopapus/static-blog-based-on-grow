@@ -37,7 +37,7 @@ main,
 footer,
 header {
   margin: 0 auto;
-  max-width: 1600px;
+  max-width: 1200px;
 }
 
 header h1 {
@@ -198,6 +198,31 @@ section img {
 .page-nav__right {
   float: right;
   clear: both;
+}
+
+.page-nav__right {
+  float: right;
+  clear: both;
+}
+
+nav.arrows {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+nav .arrow {
+  position: fixed;
+  top: 50vh;
+}
+
+.arrow__left {
+  left: 0;
+  font-size: 3rem;
+}
+
+.arrow__right {
+  right: 0;
+  font-size: 3rem;
 }
 
 .posts {
@@ -368,8 +393,8 @@ section img {
     font-size: 1.5rem;
 }
 
-.line__red {
-    border-left: 5px solid red;
+.line__solid {
+    border-left: 5px solid black;
     height: 10vh;
 }
 
@@ -399,7 +424,7 @@ section img {
     .details {
         font-size: 1.3rem;
     }
-    
+
     .point {
         width: 3rem;
         height: 3rem;
@@ -415,11 +440,11 @@ section img {
         padding: 0px 0 0 20px;
         font-size: 0.9rem;
     }
-  
+
     .line__grey {
         height: 25vh;
     }
-  
+
     .year, .month {
         font-size: 0.9rem;
     }

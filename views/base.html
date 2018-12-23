@@ -3,21 +3,26 @@
 <head>
     {% include "/partials/meta/meta.html" %}
     <link rel="stylesheet" href="{{g.static('/dist/main.min.css').url.path}}">
-    <link type="text/css" rel="stylesheet" href="{{g.static('/dist/lightgallery.min.css').url.path}}" /> 
+    <link type="text/css" rel="stylesheet" href="{{g.static('/dist/lightgallery.min.css').url.path}}" />
     <link rel="stylesheet" href="{{g.static('/dist/timeline.min.css').url.path}}">
     <link rel="shortcut icon" href="{{g.static('/source/images/icon.png').url.path}}">
     <script type="text/javascript" src="https://vk.com/js/api/share.js?95" charset="windows-1251"></script>
 </head>
     <body>
+        <!--<nav class="arrows">
+            <div class="arrow arrow__left"><a href="prev">←</a></div>
+            <div class="arrow arrow__right"><a href="next">→</a></div>
+        </nav>-->
         <header>
             {% include "/partials/header/lang.html" %}
             {% include "/partials/header/menu.html" %}
         </header>
+
         <main>
             <section>
-                    {% block main %}
-                        {{doc.html|render|safe}}
-                    {% endblock %}
+                {% block main %}
+                    {{doc.html|render|safe}}
+                {% endblock %}
             </section>
         </main>
         {% include "/partials/footer/footer.html" %}
