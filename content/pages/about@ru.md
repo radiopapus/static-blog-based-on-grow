@@ -141,7 +141,7 @@ $order: 1
         <div class="details">
             <div class="details__title--main"><a href="//datakrat.com">ЗАО НПФ «ДатаКрат-С» г. Томск</a></div>
             <div class="details__title--sub">Инженер ЦТО</div>
-            <p class="details__text">Автоматизация общепита и кинотеатров. Обучал персонал, решал аппаратные и программные проблемы, общялся с разработчиками программного обеспечения.</p>
+            <p class="details__text">Автоматизация общепита и кинотеатров. Обучал персонал, решал аппаратные и программные проблемы.</p>
             <p class="details__skill">#Rkeeper, #Delphi7, #StoreHouse, #UCS Cinema</p>
         </div>
     </div>
