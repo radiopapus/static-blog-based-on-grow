@@ -129,22 +129,22 @@ function getMetaData($rawDraft)
 }
 
 /**
-* Method get list of images from path and return html for post
-*/
-function prepareGallery($path, $prefixPath="")
+ * Get list of images from path and return html for post
+ */
+function prepareGallery($prefixPath="", $path='/home/viktorz/blog/source/images/')
 {
-  $list = getFileList($path);
+  $list = getFileList($path.$prefixPath.'/orig/');
   $names = array_map(
   function($item) use ($prefixPath) {
     $exploded = explode('/', $item);
     $name = $exploded[count($exploded) - 1];
-    $thumb = "/static/images/$prefixPath/thumbs/$name";
-    $image = "/static/images/$prefixPath/$name";
+    $thumbPath = "/static/images/$prefixPath/thumbs/$name";
+    $origPath = "/static/images/$prefixPath/orig/$name";
     return "
-<a href=$image>
-  <img src=$thumb />
+<a href=$origPath data-responsive=\"$thumbPath 400, $origPath 759\">
+  <img src=$thumbPath />
 </a>";}, $list);
- echo sprintf('<div id="lightgallery" class="lightgallery">
+ return sprintf('<div id="lightgallery" class="lightgallery">
   %s
 </div>', implode(' ', $names));
 }
