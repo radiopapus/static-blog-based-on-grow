@@ -27,6 +27,11 @@ a {
   text-decoration: underline;
 }
 
+.lightgallery a {
+  max-width: 32%;
+  margin: 5px;
+}
+
 iframe {
   float:left;
   clear: both;
