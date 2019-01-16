@@ -11,11 +11,11 @@ slugEn: present-from-georgia
 slugRu: podarok-iz-gruzii
 ---
 <div id="lightgallery" class="lightgallery">
-    <a href="/static/images/vranac.jpg">
-        <img  src="/static/images/vranac.thumb.jpg" alt="Vranac из Черногории" />
+    <a href="/static/images/orig/vranac.jpg">
+        <img  src="/static/images/orig/vranac.jpg" alt="Vranac из Черногории" />
     </a>
-    <a href="/static/images/saperavi_qvevri.jpg">
-        <img src="/static/images/saperavi_qvevri.thumb.jpg" alt="Saperavi Qvevri" />
+    <a href="/static/images/orig/saperavi_qvevri.jpg">
+        <img src="/static/images/orig/saperavi_qvevri.jpg" alt="Saperavi Qvevri" />
     </a>
 </div>
 
