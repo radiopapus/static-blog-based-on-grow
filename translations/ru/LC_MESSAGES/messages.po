@@ -1,4 +1,8 @@
 
+msgid "podgotovka-k-poezdke-v-rigu"
+msgstr "Подготовка к поездке в Ригу"
+
+
 msgid "otpusk-v-kaliningrade"
 msgstr "Отпуск в Калининграде"
 
