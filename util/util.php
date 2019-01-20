@@ -107,16 +107,22 @@ function writeTranslations($params)
     filePrepend($params['translatePath'], $msgId . $msgStr);
 }
 
+/**
+* 
+*/
 function getMetaData($rawDraft)
 {
     list($meta, $content) = explode('---', $rawDraft);
     if (empty($meta)) {
-        die('Meta must not be empty');
+        throw new \Exception(
+            sprintf('Meta must not be empty. Check --- delimiter. rawData = %s', print_r($rawDraft))
+        );
     }
 
     if (empty($content)) {
-        die('Content must not be empty');
+        throw new \Exception('Content is empty. Add empty line after meta and content --- delimiter');
     }
+
     $metaArr = [];
     $metaExplodedByLine = explode(PHP_EOL, $meta);
     array_pop($metaExplodedByLine);
