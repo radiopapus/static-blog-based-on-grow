@@ -1,3 +1,7 @@
+
+msgid "we-are-going-to-travel-to-latvia"
+msgstr "We are going to travel to Latvia"
+
 msgid "present-from-georgia"
 msgstr "Present from Georgia"
 
