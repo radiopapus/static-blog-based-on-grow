@@ -1,49 +1,39 @@
-title: Подготовка к поездке в Ригу
-lang: ru
-description: Подготовка к поездке в Латвию
-keywords: Латвия, Рига, отпуск, виза, Шенген, госуслуги
+title: We are going to travel to Latvia
+lang: en
+description: We are going to travel to Latvia.
+keywords: Latvia, Riga, vacation, visa
 image: /static/images/riga/orig/riga_panorama.jpg
 ---
 <div class="left">
-  <img src="/static/images/riga/orig/riga_panorama.jpg" alt="Панорама Рига" />
-  В этой статье я опишу то, как мы готовимся к поездке в Ригу. Я опишу сервисы, которые мы использовали, как мы копили деньги, как покупали билеты. Расскажу про наш опыт оформления документов и примерную сумму, которую мы планируем потратить.
+  <img src="/static/images/riga/orig/riga_panorama.jpg" alt="Panorama of Riga" />
+  We are going to travel to Latvia in April. This will about this. I am going to describe services, expenses, rent. Describe our experience for getting visa and what from travelling.
 </div>
 
-## Вначале
+## Getting started
 
-Мы решили, что хотим съездить в Европу поехали в Калининград, так как это проще всего по части документов. Об этой поездке вы можете прочесть в [этом посте](https://viktor.zharina.info/posts/otpusk-v-kaliningrade/).
+We decided to travel to Europe and visited Kaliningrad because of it is in our country and it is east city near Pribaltika. You can read about it [here](https://viktor.zharina.info/posts/otpusk-v-kaliningrade/). Only russian transalte is available.
 
-## Заграничные паспорта
+## Passports
 
-Для поездке за границу нужны заграничные паспорта. Мы оформляли их через сервис гос. услуги. Огромная благодарность всем, кто инициировал этот проект и кто воплотил его в жизнь. 
-Мы оформили документы практически не выходя из дома. Первый раз мы посетили УФМС для того, чтобы сделать фотографии, а второй раз забрали документы. Особенно хочется отметить форму заполнения трудового опыта. Сервис дает подсказки об оставшемся периоде, сохраняет введенные данные, указывает на перерывы между занятостью и если оона более месяца указывает и просит заполнить. Плюc ко всему это еще и дешевле. В правильном направлении движемся товарищи.
+We git it via special state internet service Gosuslugi. It was so easy and convenient. I am so glad and will recommend it all my friends. We visited passport building only two times. First we did photos, the second got passports.
 
-## Покупка билетов
+## Tickets
 
-Покупка билетов тоже дело несложное. Обычно мы предпочитаем брать билеты от одной компании и в пределах одного аэропорта. Это дороже, зато удобно. Обычно мы выбираем билеты через aviasales или подобные сервисы, но в это раз aviasales больше запутал, чем помог. При пеерходе по ссылке открывалась страница, но купить билеты не получилось. Оплата не проходила. Звонил в банкт, звонил в компанию, выяснил, что надо искать на самом сайте, а не на сайте партнера. В итоге пошел на сайт аэрофлота и купил там. 
-Советую обратить внимание на условия: весь ручной клади в 5 кг, багаж, условия обмена и возврата.
+We prefer to buy tickets via special services like aviasales, tutu but this time we bought tickets via aeroflot. We need luggage about 10 kg but it seems to me 5 kg is enough. 10 kg for sure.
 
-## Аренда жилья
+## Rent a flat
 
-Мы используем airbnb. Оплатили половину стоимости жилья сразу, а вторую половину оплатим за 2 недели до приезда. В этот раз мы будем как-то по особенному 
-получать ключи от квартиры - через сейф. До этого всегда встречались с хозяевами и слушали инструктаж.
+We use airbnb. Paid half and next half will have paid before 2 weeks from check-in. This time we will get keys via safe deposit box. It is something new. We usually meet to landlord ang get keys and advices.
 
-## Виза
+## Visa
 
-Я обратился в визовый центр недалеко от работы. Оказалось, что можно оформить все в Томске. На следующей неделе я уточню является ли эта виза Шенгенской, можем ли мы выехать за пределы Латвии.
-Документы, которые будут нужны: паспорта и их копии, свидетельство о браке, справка из банка о балансе счета, справка с места работы, фотографии 35 х 45 с 80% заполнением лица. 
+We use Pony Express for getting visa via Tomsk branch. We have all documents except survey.
 
-## Чего мы хотим от поездки
+## What we want to do
 
-Мы продолжаем продвигаться на Запад. В этот раз без детей. Мы решили, что первый раз границу лучше съездить 
-вдвоем. Мы хотим сменить обстановку, посмотреть на другой город. В идеале я хочу съездить в то место, где жила моя 
-бабушка по отцовской линии. Их раскулачили и выслали в Сибирь. Мне бы хотелось подробнее узнать эту историю. 
-Встретиться с родственниками вряд ли получится, так как они не очень хотят идти на контакт. Но я был бы рад 
-знакомству.
+We continue to travel on East. This time without children. We decided to travel abroad together is better idea than wait plane at the airport for three hours. We want to know about east city, visit historical places. Ideally I want to visit house where my grandparents lived.
+We want to visit theatres, opera, eat local food, visit Yurmala, visit Old Town. It will be cool meet my sister in Litva.
 
-У нас туристические цели. Мы хотим постетить театр оперы и балета, попробовать местную еду, съездитьв Юрмалу, 
-поглять по старому городу, фотографировать. Было бы здорово встретиться с сестрой и съездить в Литву.
+Also I want to meet colleagues in Riga's office. 
 
-Еще я хочу познакомиться с коллгеами из латвийского офиса. Это было бы интересно и полезно для меня.
-
-Продолжение следует...
+To be continued...
