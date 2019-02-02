@@ -1,9 +1,14 @@
-title: I live in Siberia this is not LA
-lang: en
-description: We live in Siberia and today we have -40 C degree 
-keywords: Siberia, cold, freez, SiberaiNotLA
-image: /static/images/orig/siberia.jpg
 ---
+author@: Viktor Zharina
+description: We live in Siberia and today we have -40 C degree
+keywords: Siberia, cold, freez, SiberaiNotLA
+$order: 311
+$dates:
+  published: 02.02.2019 18:32:11
+$title@: i-live-in-siberia-this-is-not-la
+
+---
+
 I live in Siberia<br/>
 This is not LA<br/>
 -40 shows thermometer<br/>
