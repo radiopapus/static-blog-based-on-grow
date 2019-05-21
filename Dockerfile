@@ -1,7 +1,10 @@
-FROM alpine:3.8Dockerfile
+FROM alpine:3.8
+
 MAINTAINER Viktor Zharina <viktorz1986@gmail.com>
 
 ARG grow_version
+
+RUN echo -e "\e[31m Grow version $grow_version will be installed \e[0m"
 
 RUN apk update && \
   apk add --update \
@@ -18,10 +21,6 @@ RUN apk update && \
   && pip install --upgrade grow==$grow_version \
   && rm -rf /var/cache/apk/*
 
-RUN echo -e "\e[31m Grow: `grow --version` \e[0m"
+RUN echo -e "\e[31m Grow: `grow --version` was installed\e[0m"
 
 COPY . src/
-
-EXPOSE 8080
-
-ENTRYPOINT ["grow"]
