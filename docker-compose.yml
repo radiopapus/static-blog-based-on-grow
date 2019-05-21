@@ -1,0 +1,19 @@
+version: '3.7'
+
+services:
+  blog:
+    build:
+      context: .
+      args:
+        grow_version: 0.7.6
+    container_name: blog
+    expose: 
+      - 8080
+    ports:
+      - 8080:8080
+    volumes:
+      - ./:/src
+    restart: 'unless-stopped'
+    command: sh -c "grow run src/ --host 0.0.0.0"
+    labels:
+      org.label-schema.group: "blog"

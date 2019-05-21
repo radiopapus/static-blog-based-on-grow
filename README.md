@@ -1,2 +1,4 @@
-# static-blog-based-on-grow
-My personal blog based on grow.io
+# My homepage based on grow
+
+## Docker
+docker-compose up -d
