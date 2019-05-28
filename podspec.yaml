@@ -22,6 +22,8 @@ static_dirs:
   serve_at: /static/fonts/
 - static_dir: /source/images/
   serve_at: /static/images/
+- static_dir: /source/video/
+  serve_at: /static/video/
 - static_dir: /source/attachments/
   serve_at: /static/attachments/
 - static_dir: /source/js/

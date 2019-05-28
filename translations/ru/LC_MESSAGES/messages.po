@@ -1,4 +1,8 @@
 
+msgid "poezdka-v-latviyu"
+msgstr "Поездка в Латвию"
+
+
 msgid "poluchenie-vizi-v-latviyu"
 msgstr "Получение визы в Латвию"
 
