@@ -47,7 +47,7 @@ function getPostTitle($src)
     $prepared = ucfirst(transliterate($src));
     $postTitle = str_replace([', ', ',', ' ', '!', '?', "'", '#'], '-', $prepared);
     $postTitle = str_replace(['.-'], '-', $postTitle);
-    return mb_strtolower(trim(str_replace(['.@'], '@', $postTitle)));
+    return strtolower(trim(str_replace(['.@'], '@', $postTitle)));
 }
 
 /**

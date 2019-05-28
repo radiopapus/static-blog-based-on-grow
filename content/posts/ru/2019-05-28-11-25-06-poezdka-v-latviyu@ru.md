@@ -1,9 +1,14 @@
-title: Поездка в Латвию
-lang: ru
+---
+author@: Viktor Zharina
 description: Заметки и фотографии о Латвии и Литве
 keywords: Латвия, Литва, Рига, Вильнюс, путешествие, Прибалтика, фото, видео, впечатления
-image: /static/images/baltic/thumb/1.jpg
+$order: 312
+$dates:
+  published: 28.05.2019 11:25:06
+$title@: poezdka-v-latviyu
+slugRu: poezdka-v-latviyu
 ---
+
 Вначале статья называлась "В Латвию", но позже произошли события, которые позволяют мне изменить заголовок и добавить "и в Литву".
 
 ## 27 апреля
