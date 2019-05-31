@@ -1,0 +1,10 @@
+stages:
+  - deploy
+
+deploy:
+  image: grow/base:alpine-latest
+  stage: deploy
+  only:
+    - master
+  script:
+    - grow deploy scp
