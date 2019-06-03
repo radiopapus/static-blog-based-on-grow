@@ -1,10 +1,23 @@
 stages:
+  - build
   - deploy
 
-deploy:
+build:
   image: grow/base:alpine-latest
-  stage: deploy
-  only:
-    - master
+  stage: build
   script:
-    - grow deploy scp
+    - grow build src/
+    - tar -czf b.tar.gz build/
+  artifacts:
+    paths:
+    - b.tar.gz
+    expire_in: 20 minutes
+
+deploy:
+  stage: deploy
+  script:
+    - export $SSH_HOST="$SSH_HOST=" | base64 -d
+    - export $SSH_PATH="$SSH_PATH=" | base64 -d
+    - echo SSH_HOST
+    - scp -r b.tar.gz $SSH_HOST$SSH_PATH
+    - ssh $SSH_HOST 'cd scp_test;tar -zxf b.tar.gz'
