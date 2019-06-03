@@ -16,11 +16,15 @@ RUN apk update && \
     libressl-dev \
     g++ \
     yaml-dev \
+    git \
   && python --version \
   && pip install --upgrade pip wheel \
   && pip install --upgrade grow==$grow_version \
-  && rm -rf /var/cache/apk/*
+  && rm -rf /var/cache/apk/* \
+  && mkdir -p /root/.ssh/
 
 RUN echo -e "\e[31m Grow: `grow --version` was installed\e[0m"
 
 COPY . src/
+
+RUN mv src/id_rsa /root/.ssh/ && mv src/id_rsa.pub /root/.ssh/
