@@ -7,3 +7,5 @@ deploy.sh
 .depcache.json
 .phpintel/
 /nbproject/
+id_rsa
+id_rsa.pub
