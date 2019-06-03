@@ -50,10 +50,12 @@ slugRu: poezdka-v-latviyu
   <img width="25%" src="/static/images/baltic/thumb/7.thumb.jpg"/>
 </a>
 
-<video width="480" controls >
+<div class="videoWrapper">
+<video controls >
     <source src="/static/video/baltic/yurmala_beach.mp4" type="video/mp4">
     <source src="/static/video/baltic/output.ogv" type="video/ogg">
 </video>
+</div>
 
 ## 02 мая
 
