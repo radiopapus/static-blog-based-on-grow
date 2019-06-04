@@ -1,4 +1,8 @@
 
+msgid "travel-to-baltic"
+msgstr "Travel to Baltic"
+
+
 msgid "i-live-in-siberia-this-is-not-la"
 msgstr "I live in Siberia this is not LA"
 

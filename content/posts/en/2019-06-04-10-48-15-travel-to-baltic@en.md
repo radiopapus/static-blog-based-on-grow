@@ -1,9 +1,14 @@
-title: Travel to Baltic
-lang: en
+---
+author@: Viktor Zharina
 description: Notes and photos about Baltic travel
 keywords: Latvia, Lithuania, Riga, Vilnius, travel, Baltic, photos, video
-image: /static/images/baltic/thumb/1.jpg
+$order: 313
+$dates:
+  published: 06.04.2019 10:48:15
+$title@: travel-to-baltic
+
 ---
+
 The first name of the post was "Travel to Latvia" but there were events that possible to rename it to "Travel to Baltic".
 
 ## 27 April
