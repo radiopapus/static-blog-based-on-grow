@@ -13,7 +13,7 @@ services:
       - 8080:8080
     volumes:
       - ./:/src
-    restart: 'unless-stopped'
+    restart: 'no'
     command: sh -c "grow run src/ --host 0.0.0.0"
     labels:
       org.label-schema.group: "blog"
