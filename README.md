@@ -4,4 +4,5 @@
 docker-compose up -d
 
 ## Usefull commands
-convert -resize 1200 -monitor src dst
+convert video to ogv
+ffmpeg -i $1 -acodec libvorbis -vcodec libtheora -f ogv $2.ogv
