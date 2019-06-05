@@ -1,11 +1,7 @@
 /build/
 /dist/
-grow-deploy.tar.gz
-upd
-deploy.sh
 .podcache.yaml
 .depcache.json
 .phpintel/
-/nbproject/
 id_rsa
 id_rsa.pub
