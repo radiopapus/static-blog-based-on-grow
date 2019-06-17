@@ -14,10 +14,10 @@ slugRu: poezdka-v-latviyu
 ## 27 апреля
 
 <a href="/static/images/baltic/orig/2.jpg">
-  <img width="25%" src="/static/images/baltic/thumb/2.thumb.jpg"/>
+  <img src="/static/images/baltic/thumb/2.thumb.jpg"/>
 </a>
 <a href="/static/images/baltic/orig/2_1.jpg">
-  <img width="25%" src="/static/images/baltic/thumb/2_1.thumb.jpg"/>
+  <img src="/static/images/baltic/thumb/2_1.thumb.jpg"/>
 </a>
 В аэропорту. Все оказалось проще, чем ожидал. Немного волнуюсь перед полётом. Удивительно, но уже сегодня будем в Риге.
 
@@ -47,7 +47,7 @@ slugRu: poezdka-v-latviyu
 
 Едем в Юрмалу на электричке. Цена 2.8 евро на двоих. В Риге много велосипедистов, роллеров, скейтеров. Проезд на общественном транспорте стоит 1.1 евро. Думаю это одна из причин такой распространнености альтернативного транспорта. Если бы в Томске поднять цену за проезд в два раза, то спустя время я бы тоже задумался о велике или самокате. Вообще хотели ехать в Юрмалу ещё вчера, но так получилось, что день быль занять прогулкой и покупкой подарков. Погода нас радует. 15-17 градусов тепла. Похоже, что ветер - это особенность Риги и близости к морю. Возвращаемся обратно из Юрмалы. Море и воздух чудесны. Пообедали в Lido. Шашлык, горох с салом, овощи, кофе, чай. За все 18 евро. Ноги болят, нужен отдых.
 <a href="/static/images/baltic/orig/7.jpg">
-  <img width="25%" src="/static/images/baltic/thumb/7.thumb.jpg"/>
+  <img src="/static/images/baltic/thumb/7.thumb.jpg"/>
 </a>
 
 <div class="videoWrapper">
@@ -72,16 +72,16 @@ slugRu: poezdka-v-latviyu
 Следующим крутым моментом было выйти на холм, где открылась чудесная панорама города. Как раз выглянуло солнце. А вчера вечером прокатились по городу. Тоже было очень красиво. Доволен и насыщен новыми впечатлениями. Я очень соскучился по детям и скорее хочу увидеть девчонок.
 
 <a href="/static/images/baltic/orig/8.jpg">
-  <img width="25%" src="/static/images/baltic/thumb/8.thumb.jpg"/>
+  <img src="/static/images/baltic/thumb/8.thumb.jpg"/>
 </a>
 <a href="/static/images/baltic/orig/9.jpg">
-  <img width="25%" src="/static/images/baltic/thumb/9.thumb.jpg"/>
+  <img src="/static/images/baltic/thumb/9.thumb.jpg"/>
 </a>
 <a href="/static/images/baltic/orig/10.jpg">
-  <img width="25%" src="/static/images/baltic/thumb/10.thumb.jpg"/>
+  <img src="/static/images/baltic/thumb/10.thumb.jpg"/>
 </a>
 <a href="/static/images/baltic/orig/11.jpg">
-  <img width="25%" src="/static/images/baltic/thumb/11.thumb.jpg"/>
+  <img src="/static/images/baltic/thumb/11.thumb.jpg"/>
 </a>
 
 ## 6 мая
