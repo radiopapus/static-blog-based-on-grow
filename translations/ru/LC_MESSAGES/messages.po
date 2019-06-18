@@ -1,4 +1,8 @@
 
+msgid "algorithmic-toolbox-na-coursera"
+msgstr "Algorithmic Toolbox на Coursera"
+
+
 msgid "poezdka-v-latviyu"
 msgstr "Поездка в Латвию"
 
