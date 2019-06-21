@@ -35,7 +35,7 @@ Contacts: [fb](https://www.facebook.com/viktor.zharina), viktor@zharina.info
             <div class="line__grey"></div>
         </div>
         <div class="details">
-            <div class="details__title--main"><a href="//oft-e.com">Quantumsoft (Tomsk)</a></div>
+            <div class="details__title--main">Quantumsoft</div>
             <div class="details__title--sub">Senior Web Developer</div>
             <p class="details__text">Modern PHP development.</p>
             <p class="details__skill">#Docker, #PHP, #Postgress, #Redis, #RabbitMQ, #JIRA, #git.</p>
