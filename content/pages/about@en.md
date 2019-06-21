@@ -9,17 +9,38 @@ $order: 1
 ---
 <img src="/static/images/viktorzharina.jpg" alt="Viktor Zharina" class="about-photo" />
 My name is Viktor Zharina and I am <script type="text/javascript">var b = new Date('1986-12-28'); var t = Date.now() - b.getTime(); var a = new Date(t); document.write(Math.abs(a.getUTCFullYear() - 1970));
-</script>. I live in Siberia, Tomsk and work at OFTE (oft-e.com).
-I am a fullstack web-developer (PHP, MySQL, Redis, JS, HTML, CSS).
-My friend is Linux command line and it seems to me GIT is the best tool ever.
-My web-experience is more than 3 years and total is more than 9 years.
-Also, I have engineering skills. I speak, write and read english. I like clean and readable code. I have beatiful wife and two cute daughters.
+</script>. I live in Siberia, Tomsk and work at Quantumsoft.
+I am experienced backend PHP developer. I like Linux command line and GIT. Also, I like clean and readable code.
 
-Contacts: [fb](https://www.facebook.com/viktor.zharina), viktorz1986 (gmail)
+Contacts: [fb](https://www.facebook.com/viktor.zharina), viktor@zharina.info
 
 ## Experience
 
 <div class="timeline">
+    <div class="row">
+        <div class="points">
+            <div class="point">
+                <div class="year">2019</div>
+                <div class="month">NOW</div>
+            </div>
+            <div class="line__solid"></div>
+            <div class="point__interval">
+                <div class="year">>1 year</div>
+            </div>
+            <div class="line__solid"></div>
+            <div class="point">
+                <div class="year">2018</div>
+                <div class="month">OCT</div>
+            </div>
+            <div class="line__grey"></div>
+        </div>
+        <div class="details">
+            <div class="details__title--main"><a href="//oft-e.com">Quantumsoft (Tomsk)</a></div>
+            <div class="details__title--sub">Senior Web Developer</div>
+            <p class="details__text">Modern PHP development.</p>
+            <p class="details__skill">#Docker, #PHP, #Postgress, #Redis, #RabbitMQ, #JIRA, #git.</p>
+        </div>
+    </div>
     <div class="row">
         <div class="points">
             <div class="point">
