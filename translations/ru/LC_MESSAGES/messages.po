@@ -1,4 +1,12 @@
 
+msgid "podhod-pri-reshenii-zadach-na-coursera"
+msgstr "Подход при решении задач на Coursera"
+
+
+msgid "posle-pereezda-v-oblachnoe-hranilishe"
+msgstr "После переезда в облачное хранилище"
+
+
 msgid "algorithmic-toolbox-na-coursera"
 msgstr "Algorithmic Toolbox на Coursera"
 
