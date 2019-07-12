@@ -17,10 +17,7 @@ git hook pre-push
 
 SSH_PATH='vz@viktor.zharina.info'
 
-docker-compose run blog sh -c 'cd src/ && grow build --clear-cache'
-tar -czf b.tar.gz build/
-scp -r b.tar.gz $SSH_PATH:/home/vz/scp_test/ && ssh $SSH_PATH 'cd scp_test;tar -zxf b.tar.gz;cp -R build/* /home/vz/blog/;rm -rf build b.tar.gz'
-rm b.tar.gz
-
+docker-compose run blog sh -c 'cd src && grow build --clear-cache --deployment default'
+cd build && sudo tar -czf b.tar.gz * --exclude=./*.gz
 exit 0
 
