@@ -1,9 +1,14 @@
-title: Знакомтесь это Купер
-lang: ru
+---
+author@: Viktor Zharina
 description: О том, как у нас появилась собака
 keywords: собака, корги, дети, воспитание
-image: /static/images/dog/cooper.jpg
+$order: 316
+$dates:
+  published: 13.08.2019 11:38:01
+$title@: znakomtes-eto-kuper
+slugRu: znakomtes-eto-kuper
 ---
+
 
 <div id="lightgallery" class="lightgallery">
     <a href="/static/images/dog/orig/3.jpg" data-responsive="/static/images/dog/thumb/3.thumb.jpg 800, /static/images/dog/orig/3.jpg 1600">
