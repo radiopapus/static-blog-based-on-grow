@@ -1,6 +1,6 @@
 
 msgid "znakomtes-eto-kuper"
-msgstr "Знакомтесь это Купер"
+msgstr "Знакомтесь - это Купер"
 
 
 msgid "podhod-pri-reshenii-zadach-na-coursera"

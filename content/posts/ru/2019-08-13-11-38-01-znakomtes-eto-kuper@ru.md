@@ -11,17 +11,17 @@ slugRu: znakomtes-eto-kuper
 
 
 <div id="lightgallery" class="lightgallery">
-    <a href="/static/images/dog/orig/3.jpg" data-responsive="/static/images/dog/thumb/3.thumb.jpg 800, /static/images/dog/orig/3.jpg 1600">
-        <img src="/static/images/dog/thumb/3.thumb.jpg" />
+    <a href="/static/images/dog/orig/photo_2019-08-13_11-12-59.jpg" data-responsive="/static/images/dog/thumb/photo_2019-08-13_11-12-59.thumb.jpg 800, /static/images/dog/orig/photo_2019-08-13_11-12-59.jpg 1600">
+        <img src="/static/images/dog/thumb/photo_2019-08-13_11-12-59.thumb.jpg" />
     </a>
-    <a href="/static/images/dog/orig/4.jpg" data-responsive="/static/images/dog/thumb/4.thumb.jpg 800, /static/images/dog/orig/4.jpg 1600">
-        <img src="/static/images/dog/thumb/4.thumb.jpg" />
+    <a href="/static/images/dog/orig/photo_2019-08-13_11-13-19.jpg" data-responsive="/static/images/dog/thumb/photo_2019-08-13_11-13-19.thumb.jpg 800, /static/images/dog/orig/photo_2019-08-13_11-13-19.jpg 1600">
+        <img src="/static/images/dog/thumb/photo_2019-08-13_11-13-19.thumb.jpg" />
     </a>
-    <a href="/static/images/dog/orig/5.jpg" data-responsive="/static/images/dog/thumb/5.thumb.jpg 800, /static/images/dog/orig/5.jpg 1600">
-        <img src="/static/images/dog/thumb/5.thumb.jpg" />
+    <a href="/static/images/dog/orig/photo_2019-08-13_11-13-24.jpg" data-responsive="/static/images/dog/thumb/photo_2019-08-13_11-13-24.thumb.jpg 800, /static/images/dog/orig/photo_2019-08-13_11-13-24.jpg 1600">
+        <img src="/static/images/dog/thumb/photo_2019-08-13_11-13-24.thumb.jpg" />
     </a>
-    <a href="/static/images/dog/orig/6.jpg" data-responsive="/static/images/dog/thumb/6.thumb.jpg 800, /static/images/dog/orig/6.jpg 1600">
-        <img src="/static/images/dog/thumb/6.thumb.jpg" />
+    <a href="/static/images/dog/orig/photo_2019-08-13_11-13-30.jpg" data-responsive="/static/images/dog/thumb/photo_2019-08-13_11-13-30.thumb.jpg 800, /static/images/dog/orig/photo_2019-08-13_11-13-30.jpg 1600">
+        <img src="/static/images/dog/thumb/photo_2019-08-13_11-13-30.thumb.jpg" />
     </a>
 </div>
 
@@ -34,16 +34,12 @@ slugRu: znakomtes-eto-kuper
 Таня с собакой строга. Ругает, иногда бьет, но за дело. Знает, что делает и куда можно шлепать, а куда нет. Таня пересмотрела кучу видео на youtube и перечитала статей на собачью тему. Она знает намного больше, чем я.
 Сейчас я отношусь к Куперу как к домашнему животному. Она, обычно, меня слушает, иногда вредничает, проверяет, но тогда я прижимаю пса к полу и он успокаивается, глажу, говорю спокойно. У Корги странная шерсть, я представлял себе иные ощущения. В наших планах пойти на занятия к кинологу в собачий клуб, до конца карантина осталось полторы недели.
 
-<div class="videoWrapper">
 <video controls >
     <source src="/static/video/dog/cooper1_20190802.mp4" type="video/mp4">
     <source src="/static/video/dog/cooper1_20190802.ogv" type="video/ogg">
 </video>
-</div>
 
-<div class="videoWrapper">
 <video controls >
     <source src="/static/video/dog/cooper2_20190813.mp4" type="video/mp4">
     <source src="/static/video/dog/cooper2_20190813.ogv" type="video/ogg">
 </video>
-</div>
