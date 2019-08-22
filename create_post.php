@@ -25,7 +25,8 @@ $params = [
   'keywords' => $keywords,
   '$order' => $order,
   'postPath' => $postPath . "$lang/$date-$slug@$lang.md",
-  'translatePath' => "translations/$lang/LC_MESSAGES/messages.po"
+  'translatePath' => "translations/$lang/LC_MESSAGES/messages.po",
+  'image' => $image
 ];
 
 $secondLang = ucfirst($lcParams[$lang]['secondLang']);
@@ -36,6 +37,7 @@ if (isset(${'slug' . $secondLang})) {
 $params = array_merge($params, $lcParams[$lang]);
 $content = getPostHeader($params) . $content;
 var_dump($content);
+
 file_put_contents($params['postPath'], $content);
 file_put_contents('drafts/post.md', $rawDraft);
 writeTranslations($params);

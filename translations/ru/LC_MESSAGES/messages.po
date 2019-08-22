@@ -1,4 +1,12 @@
 
+msgid "zakonchil-kurs-algorithmic-toolbox-na-coursera"
+msgstr "Закончил курс Algorithmic Toolbox на Coursera"
+
+
+msgid "znakomtes-eto-kuper"
+msgstr "Знакомтесь - это Купер"
+
+
 msgid "podhod-pri-reshenii-zadach-na-coursera"
 msgstr "Подход при решении задач на Coursera"
 
