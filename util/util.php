@@ -76,17 +76,18 @@ keywords: %s
 $order: %s
 $dates:
   published: %s
-$title@: %s' .PHP_EOL;
+$title@: %s
+image: %s' .PHP_EOL;
+    
+    if (isset($params['slugRu'])) {
+      $header .= '%s' . PHP_EOL;
+    }
 
-if (isset($params['slugRu'])) {
-  $header .= '%s' . PHP_EOL;
-}
+    if (isset($params['slugEn'])) {
+      $header .= '%s' . PHP_EOL;
+    }
 
-if (isset($params['slugEn'])) {
-  $header .= '%s' . PHP_EOL;
-}
-
-$header .= '---';
+    $header .= '---';
 
     return sprintf(
         $header,
@@ -95,6 +96,7 @@ $header .= '---';
         $params['$order'],
         $params['published'],
         $params['$title@'],
+        $params['image'],
         isset($params['slugRu']) ? 'slugRu: ' . $params['slugRu'] : '',
         isset($params['slugEn']) ? 'slugEn: ' . $params['slugEn'] : ''
     ) . PHP_EOL;
