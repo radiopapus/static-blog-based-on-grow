@@ -27,4 +27,4 @@ RUN echo -e "\e[31m Grow: `grow --version` was installed\e[0m"
 
 COPY . src/
 
-RUN mv src/id_rsa /root/.ssh/ && mv src/id_rsa.pub /root/.ssh/
+#RUN mv src/id_rsa /root/.ssh/ && mv src/id_rsa.pub /root/.ssh/
