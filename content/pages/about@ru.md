@@ -14,6 +14,8 @@ $order: 1
 
 Контакты: [vk](https://vk.com/id4330588), viktor@zharina.info
 
+Сертификаты: [Coursera Algorithmic Toolbox](/static/images/coursera/cert.png)
+
 ## Опыт
 
 <div class="timeline">

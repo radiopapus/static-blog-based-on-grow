@@ -9,10 +9,12 @@ $order: 1
 ---
 <img src="/static/images/viktorzharina.jpg" alt="Viktor Zharina" class="about-photo" />
 My name is Viktor Zharina and I am <script type="text/javascript">var b = new Date('1986-12-28'); var t = Date.now() - b.getTime(); var a = new Date(t); document.write(Math.abs(a.getUTCFullYear() - 1970));
-</script>. I live in Siberia, Tomsk and work at Quantumsoft.
-I am experienced backend PHP developer. I like Linux command line and GIT. Also, I like clean and readable code.
+</script>. I live in Tomsk (Siberia) and work at Quantumsoft.
+I am experienced software engineer. I like Linux CLI, GIT, clean and readable code.
 
 Contacts: [fb](https://www.facebook.com/viktor.zharina), viktor@zharina.info
+
+Certificates: [Coursera Algorithmic Toolbox](/static/images/coursera/cert.png)
 
 ## Experience
 
@@ -36,9 +38,9 @@ Contacts: [fb](https://www.facebook.com/viktor.zharina), viktor@zharina.info
         </div>
         <div class="details">
             <div class="details__title--main">Quantumsoft</div>
-            <div class="details__title--sub">Senior Web Developer</div>
-            <p class="details__text">Modern PHP development.</p>
-            <p class="details__skill">#Docker, #PHP, #Postgress, #Redis, #RabbitMQ, #JIRA, #git.</p>
+            <div class="details__title--sub">Software Engineer</div>
+            <p class="details__text">Modern software development.</p>
+            <p class="details__skill">#Docker, #PHP, #Python, #Kotlin, #Postgres, #Redis, #RabbitMQ, #JIRA, #git.</p>
         </div>
     </div>
     <div class="row">
