@@ -1,4 +1,8 @@
 
+msgid "coursera-algorithmic-toolbox-has-been-finished"
+msgstr "Coursera Algorithmic Toolbox has been finished"
+
+
 msgid "travel-to-baltic"
 msgstr "Travel to Baltic"
 
