@@ -1,4 +1,8 @@
 
+msgid "kak-dela-"
+msgstr "Как дела?"
+
+
 msgid "zakonchil-kurs-algorithmic-toolbox-na-coursera"
 msgstr "Закончил курс Algorithmic Toolbox на Coursera"
 
