@@ -40,7 +40,7 @@ Certificates: [Coursera Algorithmic Toolbox](/static/images/coursera/cert.png)
             <div class="details__title--main">Quantumsoft</div>
             <div class="details__title--sub">Software Engineer</div>
             <p class="details__text">Modern software development.</p>
-            <p class="details__skill">#Docker, #PHP, #Python, #Kotlin, #Postgres, #Redis, #RabbitMQ, #JIRA, #git.</p>
+            <p class="details__skill">#Docker, #PHP, #Python, #Kotlin, #Spring, #GraphQL, #Postgres, #Redis, #RabbitMQ, #JIRA, #git.</p>
         </div>
     </div>
     <div class="row">
