@@ -13,6 +13,7 @@ services:
       - 8080:8080
     volumes:
       - ./:/src
+      - /src/node_modules/
     restart: 'no'
     command: sh -c "grow run src/ --host 0.0.0.0"
     labels:
