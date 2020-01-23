@@ -1,4 +1,8 @@
 
+msgid "o-perenose-bloga-buruhina.ru-c-wordpress-na-jekyll"
+msgstr "О переносе блога buruhina.ru c wordpress на jekyll"
+
+
 msgid "kak-dela-"
 msgstr "Как дела?"
 

@@ -7,7 +7,12 @@ $order: 2
 
 ---
 
+## Cloud
+### Must read
+1. [The Open Guide to Amazon Web Services](https://github.com/open-guides/og-aws)
+
 ## Software development
+
 1. [Run Book](https://github.com/SkeltonThatcher/run-book-template/blob/master/run-book-template.md). Contains suggested checks and procedures for most non-trivial software systems that can be used as a template to create a Run Book or System Operation Manual (SOM).
 
 ### Event Sourcing
