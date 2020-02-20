@@ -23,7 +23,6 @@ Certificates: [Coursera Algorithmic Toolbox](/static/images/coursera/cert.png)
         <div class="points">
             <div class="point">
                 <div class="year">2019</div>
-                <div class="month">NOW</div>
             </div>
             <div class="line__solid"></div>
             <div class="point__interval">
@@ -37,7 +36,7 @@ Certificates: [Coursera Algorithmic Toolbox](/static/images/coursera/cert.png)
             <div class="line__grey"></div>
         </div>
         <div class="details">
-            <div class="details__title--main">Quantumsoft</div>
+            <div class="details__title--main"><a href="//www.quantumsoft.pro">Quantumsoft</a></div>
             <div class="details__title--sub">Software Engineer</div>
             <p class="details__text">Modern software development.</p>
             <p class="details__skill">#Docker, #PHP, #Python, #Kotlin, #Spring, #GraphQL, #Postgres, #Redis, #RabbitMQ, #JIRA, #git.</p>
