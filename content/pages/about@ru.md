@@ -25,7 +25,6 @@ $order: 1
         <div class="points">
             <div class="point">
                 <div class="year">2019</div>
-                <div class="month">NOW</div>
             </div>
             <div class="line__solid"></div>
             <div class="point__interval">
@@ -39,7 +38,7 @@ $order: 1
             <div class="line__grey"></div>
         </div>
         <div class="details">
-            <div class="details__title--main">Quantumsoft</div>
+            <div class="details__title--main"><a href="//quantumsoft.pro">Quantumsoft</a></div>
             <div class="details__title--sub">Разработчик программного обеспечения</div>
             <p class="details__text">Современная веб-разработка</p>
             <p class="details__skill">#Kotlin, #Spring, #GraphQL, #Docker, #PHP, #Postgres, #Redis, #RabbitMQ, #JIRA, #git.</p>
