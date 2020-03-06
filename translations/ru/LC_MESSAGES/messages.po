@@ -1,4 +1,8 @@
 
+msgid "pishem-perviy-custom-block-dlya-redaktora-gutenberg-v-wordpress"
+msgstr "Пишем первый custom block для редактора Gutenberg в Wordpress"
+
+
 msgid "o-perenose-bloga-buruhina.ru-c-wordpress-na-jekyll"
 msgstr "О переносе блога buruhina.ru c wordpress на jekyll"
 
