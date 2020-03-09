@@ -5,7 +5,7 @@ services:
     build:
       context: .
       args:
-        grow_version: 0.8.16
+        grow_version: 0.8.17
     container_name: blog
     expose: 
       - 8080
@@ -13,6 +13,7 @@ services:
       - 8080:8080
     volumes:
       - ./:/src
+      - node_modules/
     restart: 'no'
     command: sh -c "grow run src/ --host 0.0.0.0"
     labels:

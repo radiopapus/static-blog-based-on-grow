@@ -9,8 +9,10 @@ $order: 1
 ---
 <img src="/static/images/viktorzharina.jpg" alt="Фотография Виктора Жарины" class="about-photo" />
 Меня зовут Виктор Жари́на и мне <script type="text/javascript">var b = new Date('1986-12-28'); var t = Date.now() - b.getTime(); var a = new Date(t); document.write(Math.abs(a.getUTCFullYear() - 1970));
-</script>. Живу в Томске и на текущий момент работаю в Quantumsoft. Люблю Linux и GIT. Говорю, пишу и читаю на английском. Люблю когда понятно и прозрачно, особенно в коде и бизнес-процессах. Женат, есть дети.
+</script>. Живу в Томске и работаю в Quantumsoft. Люблю Linux и GIT. Говорю, пишу и читаю на английском. Люблю когда понятно и прозрачно, особенно в коде и бизнес-процессах. Женат, есть дети.
 Без вредных привычек.
+
+Образование: Томский Политехнический университет, Физико-технический факультет, Электроника и автоматика физических установок.
 
 Контакты: [vk](https://vk.com/id4330588), viktor@zharina.info
 
@@ -23,7 +25,6 @@ $order: 1
         <div class="points">
             <div class="point">
                 <div class="year">2019</div>
-                <div class="month">NOW</div>
             </div>
             <div class="line__solid"></div>
             <div class="point__interval">
@@ -37,10 +38,10 @@ $order: 1
             <div class="line__grey"></div>
         </div>
         <div class="details">
-            <div class="details__title--main">Quantumsoft</div>
-            <div class="details__title--sub">Разработчик программного обеспечение</div>
+            <div class="details__title--main"><a href="//quantumsoft.pro">Quantumsoft</a></div>
+            <div class="details__title--sub">Разработчик программного обеспечения</div>
             <p class="details__text">Современная веб-разработка</p>
-            <p class="details__skill">#Docker, #PHP, #Postgress, #Redis, #RabbitMQ, #JIRA, #git.</p>
+            <p class="details__skill">#Kotlin, #Spring, #GraphQL, #Docker, #PHP, #Postgres, #Redis, #RabbitMQ, #JIRA, #git.</p>
         </div>
     </div>
     <div class="row">

@@ -5,8 +5,8 @@ author@: Viktor Zharina
 
 root: /
 
-error_routes:
-  default: /views/errors/default.html
+# error_routes:
+#   default: /views/errors/default.html
 
 localization:
   root_path: /{locale}/
@@ -33,9 +33,9 @@ sitemap:
   enabled: yes
 
 preprocessors:
-- kind: sass
-  sass_dir: /source/sass/
-  out_dir: /dist/
+- kind: gulp
+  build_task: grow-build
+  command: "gulp"
 
 deployments:
   default:
