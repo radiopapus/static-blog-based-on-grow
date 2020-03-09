@@ -5,7 +5,7 @@ services:
     build:
       context: .
       args:
-        grow_version: 0.7.6
+        grow_version: 0.8.16
     container_name: blog
     expose: 
       - 8080
