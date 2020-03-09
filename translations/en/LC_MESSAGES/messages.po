@@ -1,4 +1,8 @@
 
+msgid "migrating-between-environments-for-wordpress"
+msgstr "Migrating between environments for wordpress"
+
+
 msgid "coursera-algorithmic-toolbox-has-been-finished"
 msgstr "Coursera Algorithmic Toolbox has been finished"
 

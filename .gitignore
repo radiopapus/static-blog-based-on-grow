@@ -1,8 +1,11 @@
 /build/
 /dist/
 .podcache.yaml
-.depcache.json
 .phpintel/
 id_rsa
 id_rsa.pub
+node_modules
+package-lock.json
+.dockerignore
+.grow/
 /.idea/
