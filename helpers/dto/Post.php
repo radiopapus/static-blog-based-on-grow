@@ -69,36 +69,4 @@ class Post extends AbstractContent
 
         return sprintf("$this->postsPathPrefix/%s-%s@%s.md", $date, $this->meta->slug, $this->meta->lang);
     }
-
-    public function __toString(): string
-    {
-        $header = '---' . PHP_EOL . 'author@: %s' . PHP_EOL . 'description: %s' . PHP_EOL . 'keywords: %s'
-            . PHP_EOL . '$order: %s'
-$dates:
-  published: %s
-$title@: %s
-image: %s' .PHP_EOL;
-
-        if (isset($params['slugRu'])) {
-            $header .= '%s' . PHP_EOL;
-        }
-
-        if (isset($params['slugEn'])) {
-            $header .= '%s' . PHP_EOL;
-        }
-
-        $header .= '---';
-
-        return sprintf(
-                $header,
-                $params['description'],
-                $params['keywords'],
-                $params['$order'],
-                $params['published'],
-                $params['$title@'],
-                $params['image'],
-                isset($params['slugRu']) ? 'slugRu: ' . $params['slugRu'] : '',
-                isset($params['slugEn']) ? 'slugEn: ' . $params['slugEn'] : ''
-            ) . PHP_EOL;
-    }
 }
