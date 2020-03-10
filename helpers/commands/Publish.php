@@ -72,7 +72,15 @@ class Publish implements CommandInterface
 
     private function load(Post $transformedPost, string $postFile): Post
     {
+        $data = [
+            
+        ];
+        
+        $template = file_get_contents('/templates/post.tpl');
 
+        foreach ($data as $datum) {
+            
+        }
         $draft = file_put_contents($postFile, $transformedPost);
         return new Post();
     }
