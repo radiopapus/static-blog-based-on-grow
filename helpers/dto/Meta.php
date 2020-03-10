@@ -15,6 +15,7 @@ namespace Mashinka\dto;
 class Meta
 {
     public $title;
+    public $author;
     public $order;
     public $image;
     public $lang;
