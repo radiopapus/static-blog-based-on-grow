@@ -25,13 +25,13 @@ class Publish implements CommandInterface
     }
 
     /**
-     * @param string $draft
-     *
-     * @return \Mashinka\dto\Post
+     * @param string $draftFile
+     * @return Post
      * @throws \Exception
      */
-    private function extract(string $draft): Post
+    private function extract(string $draftFile): Post
     {
+        $draft = file_get_contents($draftFile);
         list($meta, $content) = explode('---', $draft);
         if (empty($meta)) {
             throw new \Exception(
@@ -51,18 +51,30 @@ class Publish implements CommandInterface
         return $post;
     }
 
-    private function load(): Post
-    {
-        return new Post();
-    }
-
     private function transform(Post $draftPost): Post
     {
         $transformedPost = new Post();
         $transformedPost->setContent($draftPost->getContent());
 
+        $meta = new Meta();
+        $meta->author = empty($draftPost->meta->author) ? $draftPost->meta->author : "Viktor Zharina";
+        $meta->title = $draftPost->meta->title;
+        $meta->order = $draftPost->getOrder();
+        $meta->slug = $draftPost->meta->slug;
+        $meta->lang = empty($draftPost->meta->lang) ? $draftPost->meta->lang : "ru";
+        $meta->keywords = $draftPost->meta->keywords;
+        $meta->description = $draftPost->meta->description;
+        $meta->image = empty($draftPost->meta->image) ? $draftPost->meta->image : "/static/images/default.png";
+        $transformedPost->setMeta($meta);
 
-        $transformedPost->setContent($draftPost->getContent());
+        return $transformedPost;
+    }
+
+    private function load(Post $transformedPost, string $postFile): Post
+    {
+
+        $draft = file_put_contents($postFile, $transformedPost);
+        return new Post();
     }
 
     /**
@@ -79,10 +91,8 @@ class Publish implements CommandInterface
             throw new \Exception('post.md does not exist. Create it before publish');
         }
 
-        $draft = file_get_contents($draftFile);
-
-        $post = $this->extract($draft);
-        $transformedPost = $this->transform($post);
+        $extractedPost = $this->extract($draftFile);
+        $transformedPost = $this->transform($extractedPost);
         $this->load($transformedPost);
 
         // check if draft exists

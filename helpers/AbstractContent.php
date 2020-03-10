@@ -34,9 +34,4 @@ abstract class AbstractContent
 
         return trim(strtr($content, $converter));
     }
-
-    protected function getTitle(): string
-    {
-        return '';
-    }
 }
