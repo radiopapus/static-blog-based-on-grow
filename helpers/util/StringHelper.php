@@ -1,12 +1,9 @@
 <?php
 
-use Mashinka\dto\Meta;
+namespace Mashinka\Helper;
 
-abstract class AbstractContent
+class StringHelper
 {
-    public Meta $meta;
-    public $content;
-
     /**
      * Transliterate letters from russian to latin
      *
@@ -14,7 +11,7 @@ abstract class AbstractContent
      *
      * @return string transliterated string
      */
-    protected function transliterate($content)
+    public static function transliterate($content): string
     {
         $converter = [
             'а' => 'a', 'б' => 'b', 'в' => 'v', 'г' => 'g', 'д' => 'd', 'е' => 'e',

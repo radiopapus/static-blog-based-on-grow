@@ -7,16 +7,6 @@ function getFileList($path)
 }
 
 /**
- * Count all posts and increase order value
- * @param $directory path which files must be counted
- * @param int count - num files in $directory
- */
-function getOrder($dir)
-{
-    return count(getFileList($dir)) + 1;
-}
-
-/**
  * Get post title for grow
  */
 function getPostTitle($src)

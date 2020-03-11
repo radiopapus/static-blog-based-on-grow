@@ -2,37 +2,30 @@
 
 namespace Mashinka\Commands;
 
+use Exception;
+
 class CommandFactory
 {
     /**
      * @param string $command
      *
-     * @return \Mashinka\Commands\CommandInterface
+     * @param array  $params
+     *
+     * @return CommandInterface
      * @throws \Exception
      */
-    public static function getInstance(string $command): CommandInterface
+    public static function getInstance(string $command, array $params): CommandInterface
     {
-        if ($command == '--publish') {
-            return new Publish();
+        if ($command === '--publish') {
+            return new Publish($params);
         }
 
         $availableCommands = ['--publish', '--draft'];
 
         if (!in_array($command, $availableCommands, true)) {
-            die ("Command does not exist. see ");
+            die("Command does not exist.");
         }
 
-        throw new \Exception('Undefined command. See $availableCommands for details.');
-    }
-
-    /**
-     * @param array $params
-     *
-     * @return \Mashinka\Commands\CommandParamsInterface
-     * @throws \Exception
-     */
-    public static function getParamsInstance(array $params): CommandParamsInterface
-    {
-        throw new \Exception('Undefined command. See $availableCommands for details.');
+        throw new Exception('Undefined command. See $availableCommands for details.');
     }
 }
