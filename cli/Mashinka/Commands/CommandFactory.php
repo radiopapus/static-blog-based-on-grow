@@ -16,11 +16,11 @@ class CommandFactory
      */
     public static function getInstance(string $command, array $params): CommandInterface
     {
-        if ($command === '--publish') {
+        if ($command === 'publish') {
             return new Publish($params);
         }
 
-        $availableCommands = ['--publish', '--draft'];
+        $availableCommands = ['publish', 'draft'];
 
         if (!in_array($command, $availableCommands, true)) {
             die("Command does not exist.");

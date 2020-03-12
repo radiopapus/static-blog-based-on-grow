@@ -502,7 +502,7 @@ msgstr "Новый элемент для СКБ-банка"
 msgid "Otkosy-finishnoe-shpaklevanie"
 msgstr "Откосы. Финишное шпаклевание"
 
-msgid "Pechatnaya-mashinka-triumf"
+msgid "Pechatnaya-Mashinka-triumf"
 msgstr "Печатная машинка Триумф"
 
 msgid "Servis-sravneniya-kursov-valyut-iz-raznyx-bankov"
@@ -1300,7 +1300,7 @@ msgstr "Новый элемент для СКБ-банка"
 msgid "Otkosy-finishnoe-shpaklevanie"
 msgstr "Откосы. Финишное шпаклевание"
 
-msgid "Pechatnaya-mashinka-triumf"
+msgid "Pechatnaya-Mashinka-triumf"
 msgstr "Печатная машинка Триумф"
 
 msgid "Servis-sravneniya-kursov-valyut-iz-raznyx-bankov"
@@ -2098,7 +2098,7 @@ msgstr "Новый элемент для СКБ-банка"
 msgid "Otkosy-finishnoe-shpaklevanie"
 msgstr "Откосы. Финишное шпаклевание"
 
-msgid "Pechatnaya-mashinka-triumf"
+msgid "Pechatnaya-Mashinka-triumf"
 msgstr "Печатная машинка Триумф"
 
 msgid "Servis-sravneniya-kursov-valyut-iz-raznyx-bankov"
@@ -2896,7 +2896,7 @@ msgstr "Новый элемент для СКБ-банка"
 msgid "Otkosy-finishnoe-shpaklevanie"
 msgstr "Откосы. Финишное шпаклевание"
 
-msgid "Pechatnaya-mashinka-triumf"
+msgid "Pechatnaya-Mashinka-triumf"
 msgstr "Печатная машинка Триумф"
 
 msgid "Servis-sravneniya-kursov-valyut-iz-raznyx-bankov"
@@ -3694,7 +3694,7 @@ msgstr "Новый элемент для СКБ-банка"
 msgid "Otkosy-finishnoe-shpaklevanie"
 msgstr "Откосы. Финишное шпаклевание"
 
-msgid "Pechatnaya-mashinka-triumf"
+msgid "Pechatnaya-Mashinka-triumf"
 msgstr "Печатная машинка Триумф"
 
 msgid "Servis-sravneniya-kursov-valyut-iz-raznyx-bankov"
@@ -4492,7 +4492,7 @@ msgstr "Новый элемент для СКБ-банка"
 msgid "Otkosy-finishnoe-shpaklevanie"
 msgstr "Откосы. Финишное шпаклевание"
 
-msgid "Pechatnaya-mashinka-triumf"
+msgid "Pechatnaya-Mashinka-triumf"
 msgstr "Печатная машинка Триумф"
 
 msgid "Servis-sravneniya-kursov-valyut-iz-raznyx-bankov"
@@ -5290,7 +5290,7 @@ msgstr "Новый элемент для СКБ-банка"
 msgid "Otkosy-finishnoe-shpaklevanie"
 msgstr "Откосы. Финишное шпаклевание"
 
-msgid "Pechatnaya-mashinka-triumf"
+msgid "Pechatnaya-Mashinka-triumf"
 msgstr "Печатная машинка Триумф"
 
 msgid "Servis-sravneniya-kursov-valyut-iz-raznyx-bankov"
@@ -6088,7 +6088,7 @@ msgstr "Новый элемент для СКБ-банка"
 msgid "Otkosy-finishnoe-shpaklevanie"
 msgstr "Откосы. Финишное шпаклевание"
 
-msgid "Pechatnaya-mashinka-triumf"
+msgid "Pechatnaya-Mashinka-triumf"
 msgstr "Печатная машинка Триумф"
 
 msgid "Servis-sravneniya-kursov-valyut-iz-raznyx-bankov"
