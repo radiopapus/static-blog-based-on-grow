@@ -2,10 +2,7 @@
 
 namespace Mashinka\Util;
 
-use Exception;
 use Mashinka\DTO\Post;
-use Mashinka\DTO\PostMeta;
-use Mashinka\DTO\Translation;
 
 class PostHelper
 {
@@ -21,7 +18,7 @@ class PostHelper
     public static function buildPostFileName(string $path, Post $post, string $ext = 'md'): string
     {
         $lang = $post->meta->lang;
-        $date = date('Y-m-d-H-i-s', $post->meta->publishTime);
+        $date = date('Y-m-d-H-i-s', $post->timestamp);
         $slug = $post->meta->slug;
 
         return sprintf('%s/%s/%s-%s@%s.%s', $path, $lang, $date, $slug, $lang, $ext);
@@ -53,113 +50,5 @@ class PostHelper
         ];
 
         return trim(strtr($content, $converter));
-
-    }
-
-    /**
-     * @param \Mashinka\DTO\Post $post
-     *
-     * @return string
-     */
-    public static function buildContent(Post $post): string
-    {
-        $data = [
-            'title'       => $post->meta->title,
-            'author'      => $post->meta->author,
-            'description' => $post->meta->description,
-            'keywords'    => $post->meta->keywords,
-            'order'       => $post->meta->order,
-            'image'       => $post->meta->image,
-            'slug'        => $post->meta->slug,
-            'lang'        => ucfirst($post->meta->lang),
-            'publishDate' => date('d.m.Y H:i:s', $post->timestamp),
-            'content'     => $post->content,
-        ];
-
-        if ($post->meta->lang == 'en') {
-            $data['publishDate'] = date('m.d.Y H:i:s', $post->timestamp);
-        }
-
-        return self::processTemplate(getenv('POST_TEMPLATE_PATH'), $data);
-    }
-
-    private static function processTemplate(string $templatePath, array $data): string
-    {
-        $template = file_get_contents($templatePath);
-        foreach ($data as $key => $value) {
-            $template = str_replace(sprintf('{%s}', $key), $value, $template);
-        }
-
-        return $template;
-    }
-
-
-    public static function buildTranslation(Post $post): string
-    {
-        $data = [
-            'id'    => $post->meta->slug,
-            'value' => $post->meta->title,
-        ];
-
-        $translationFile = str_replace('{lang}', $post->meta->lang, getenv('TRANSLATIONS_PATH'));
-
-        return self::processTemplate($translationFile, $data);
-    }
-
-    public static function writeContent(string $file, string $content)
-    {
-        $result = file_put_contents($file, $content);
-
-        if ($result === false) {
-            throw new Exception("Unable to write to file $file");
-        }
-    }
-
-    public function extractMeta(string $meta): PostMeta
-    {
-        if (empty($meta)) {
-            throw new Exception(
-                sprintf('Meta must not be empty. Check --- delimiter. rawData = %s', print_r($draft))
-            );
-        }
-
-        $explodedByLine = explode(PHP_EOL, $meta);
-        array_pop($explodedByLine);
-
-        $meta = new PostMeta();
-
-        foreach ($explodedByLine as $item) {
-            [$key, $value] = explode(':', $item);
-            $meta->$key = $value;
-        }
-
-        return $meta;
-    }
-
-    /**
-     * @param \Mashinka\DTO\Post $post
-     * @param bool               $dry
-     *
-     * @throws \Exception
-     */
-    public static function loadContent(Post $post, bool $dry = false): void
-    {
-        $postFile = self::buildPostFileName(getenv('POSTS_PATH'), $post);
-        $content  = self::buildContent($post);
-
-        $translationContent = self::buildTranslation($post);
-
-        if ($dry) {
-            var_dump(sprintf('file: %s', $postFile));
-            var_dump($content);
-
-            var_dump(sprintf('translation: %s', substr($translationContent, 0, 500)));
-
-            return;
-        }
-
-        self::writeContent($postFile, $content);
-
-        self::writeContent(getenv('TRANSLATIONS_PATH'), $translationContent);
     }
 }

@@ -3,6 +3,7 @@
 namespace Mashinka\Commands;
 
 use Exception;
+use Mashinka\Util\Template;
 
 class CommandFactory
 {
@@ -17,7 +18,7 @@ class CommandFactory
     public static function getInstance(string $command, array $params): CommandInterface
     {
         if ($command === 'publish') {
-            return new Publish($params);
+            return new Publish(new Template(), $params);
         }
 
         $availableCommands = ['publish', 'draft'];

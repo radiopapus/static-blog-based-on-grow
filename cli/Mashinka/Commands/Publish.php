@@ -6,16 +6,32 @@ use Exception;
 use Mashinka\DTO\PostMeta;
 use Mashinka\DTO\Post;
 use Mashinka\Util\PostHelper;
+use Mashinka\Util\Template;
 
 class Publish implements CommandInterface
 {
-    private array $params = [];
-    private bool  $dry    = false;
+    private Template $template;
+    private array    $params = [];
+    private bool     $dry    = false;
 
-    public function __construct(array $params)
+    public function __construct(Template $template, array $params)
     {
-        $this->params = $params;
-        $this->dry    = in_array('--dry-run', $params, true);
+        $this->template = $template;
+        $this->params   = $params;
+        $this->dry      = in_array('--dry-run', $params, true);
+    }
+
+    /**
+     * Move content from draft to published post.
+     *
+     * @throws \Exception
+     */
+    public function run()
+    {
+        $draft           = getenv('POST_DRAFT_FILE');
+        $draftPost       = $this->extract($draft);
+        $transformedPost = $this->transform($draftPost);
+        $this->load($transformedPost);
     }
 
     /**
@@ -24,7 +40,7 @@ class Publish implements CommandInterface
      * @return Post
      * @throws Exception
      */
-    private function extractPostFromDraft(string $draftFile): Post
+    private function extract(string $draftFile): Post
     {
         if (!file_exists($draftFile)) {
             throw new Exception("$draftFile does not exist. Create it before publish");
@@ -37,7 +53,7 @@ class Publish implements CommandInterface
             throw new Exception('Content is empty. Add empty line after meta and content --- delimiter');
         }
 
-        $meta = PostHelper::extractMeta($meta);
+        $meta = $this->extractMeta($meta);
 
         $post          = new Post();
         $post->meta    = $meta;
@@ -46,13 +62,13 @@ class Publish implements CommandInterface
         return $post;
     }
 
-    private function transformPost(Post $draftPost): Post
+    private function transform(Post $draftPost): Post
     {
         $transformedPost            = new Post();
         $transformedPost->timestamp = strtotime('now');
         $transformedPost->content   = $draftPost->content;
 
-        $lang  = !empty($lang) ? $lang : 'ru';
+        $lang  = !isset($draftPost->meta->lang) ? $draftPost->meta->lang : 'ru';
         $title = $draftPost->meta->title;
 
         $meta = new PostMeta();
@@ -80,23 +96,96 @@ class Publish implements CommandInterface
     /**
      * @param Post $post
      *
-     * @return int
+     * @return void
      * @throws \Exception
      */
     private function load(Post $post): void
     {
-        PostHelper::loadContent($post, $this->dry);
+        $postFile = PostHelper::buildPostFileName(getenv('POSTS_PATH'), $post);
+        $content  = $this->buildContent($post);
+
+        $translationFile    = str_replace('{lang}', $post->meta->lang, getenv('TRANSLATIONS_PATH'));
+        $translationContent = $this->buildTranslation($post);
+
+        if ($this->dry) {
+            var_dump(sprintf('file: %s', $postFile));
+            var_dump($content);
+
+            var_dump(sprintf('translation file: %s', $translationFile));
+            var_dump(sprintf('translation: %s', substr($translationContent, 0, 500)));
+
+            return;
+        }
+
+        $this->writeContent($postFile, $content);
+        $this->writeContent($translationFile, $translationContent);
+    }
+
+    private function extractMeta(string $meta): PostMeta
+    {
+        if (empty($meta)) {
+            throw new Exception(
+                sprintf('Meta must not be empty. Check --- delimiter. rawData = %s', $meta)
+            );
+        }
+
+        $explodedByLine = explode(PHP_EOL, $meta);
+        array_pop($explodedByLine);
+
+        $meta = new PostMeta();
+
+        foreach ($explodedByLine as $item) {
+            [$key, $value] = explode(':', $item);
+            $meta->$key = trim($value);
+        }
+
+        return $meta;
     }
 
     /**
-     * Move content from draft to published post.
+     * @param \Mashinka\DTO\Post $post
      *
-     * @throws \Exception
+     * @return string
      */
-    public function run()
+    public function buildContent(Post $post): string
     {
-        $extractedPost   = $this->extractPostFromDraft(getenv('POST_DRAFT_FILE'));
-        $transformedPost = $this->transformPost($extractedPost);
-        $this->load($transformedPost);
+        $data = [
+            'title'       => $post->meta->title,
+            'author'      => $post->meta->author,
+            'description' => $post->meta->description,
+            'keywords'    => $post->meta->keywords,
+            'order'       => $post->meta->order,
+            'image'       => $post->meta->image,
+            'slug'        => $post->meta->slug,
+            'lang'        => ucfirst($post->meta->lang),
+            'publishDate' => date('d.m.Y H:i:s', $post->timestamp),
+            'content'     => $post->content,
+        ];
+
+        if ($post->meta->lang == 'en') {
+            $data['publishDate'] = date('m.d.Y H:i:s', $post->timestamp);
+        }
+
+        return $this->template->process(getenv('POST_TEMPLATE_PATH'), $data);
+    }
+
+
+    private function buildTranslation(Post $post): string
+    {
+        $data = [
+            'id'    => $post->meta->slug,
+            'value' => $post->meta->title,
+        ];
+
+        return $this->template->process(getenv('TRANSLATION_TEMPLATE_PATH'), $data);
+    }
+
+    private function writeContent(string $file, string $content)
+    {
+        $result = file_put_contents($file, $content, FILE_APPEND | LOCK_EX);
+
+        if ($result === false) {
+            throw new Exception("Unable to write to file $file");
+        }
     }
 }
