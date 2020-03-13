@@ -1,51 +1,131 @@
-title: Wordpress. Migrating between environments such as development, staging and prod
-lang: en
-description: How to migrate wordpress between different environments (dev, staging, production)
-keywords: wordpress, merge database, migrate between environments, WPMerge, WP MIGRATE DB PRO, WP Sync DB, WP Staging PRO 
+title: Пишем первый custom block для редактора Gutenberg в Wordpress
+lang: ru
+description: Как написать свой блок для редактора Gutenberg в Wordpress. Статья написана, чтобы закрепить
+полученные знания на практике. На этой основе будут созданы другие, более сложные блоки.
+keywords: wordpress, custom block, gutenberg
 ---
-## Requirements and task definition
 
-We have a separate install of wordpress in each environment. We’ll need an easy way to sync content between them, through the wordpress GUI (so that this can be done by nontechnical admins).
-Prove out migrating content between installs. There’s no need to be able to integrate multiple versions or resolve conflicts, but if it’s possible to detect a conflict that would be nice.
-This should be able to be bi-directional (from eg prod environment into dev or from dev back into prod).
-More detailed explanation can be found in sitepoint article (https://www.sitepoint.com/synchronize-wordpress-live-development-databases/)
+## Прежде, чем начать
+Wordpress богат плагинами и как CMS мощная штука. Заказчик использует Wordpress для создания контента. Начиная
+с версии 5.0 Wordpress использует редактор Gutenberg по-умолчанию. Редактор отличается тем, что предлагает создавать
+контент в виде набора блоков. Блок это некоторая надстройка над HTML. Вы, как редактор, добавляете в статью галерею, ссылку на twitter, вставить цитату и так далее.
 
-## Candidates
-I filtered candidates by reading description and list below is more relevant to my task. I decided to not to 
-hide other candidates and placed it to Out of scope list.
-  
-1. [WPMerge](https://wpmerge.io/)
-2. [WP MIGRATE DB PRO](https://deliciousbrains.com/wp-migrate-db-pro/)
-3. [WP Sync DB](http://wp-sync-db.github.io/)
-4. [WPSiteSync for Content](https://wordpress.org/plugins/wpsitesynccontent/) + https://wpsitesync.com/ as a premium.
-5. [WP Staging](https://wordpress.org/plugins/wp-staging/) + Pro version
-6. [UpdraftPlus Migrator](https://updraftplus.com/migrator/)
+### Версии программ
+1. npm = 6.13.7
+2. nodejs = 8.10.0
+3. wordpress = 5.2.3
+4. Linux = Ubuntu 18.04.3 LTS 
 
-### Out of scope
-* [VersionPress](https://versionpress.net/) - The product is in development but seems promising.
-* [Database Sync](https://wordpress.org/plugins/database-sync/) - WARNING: This plugin is for advanced users. If used incorrectly it could wipe out all your content!
-* [WordPress Importer](https://wordpress.org/plugins/wordpress-importer/) - manual process, only import and there is no bi directional features.
-* [SyncDB](https://github.com/jplew/SyncDB) - bash script is not user friendly.
-* [WordPress GitHub Sync](https://wordpress.org/plugins/wp-github-sync/) - This could be an interesting option for teams requiring content editing collaboration and pull request approval workflows.
-* [PushLive – Staging Sites to Live in One Click](https://wordpress.org/plugins/pushlive/) - Seems interesting but looks like no longer supported or mainteined. There is no pull feature.
-* [WP Stagecoach](https://wpstagecoach.com/pricing/) - external service. More expensive than others. Looks good but not sure about bo directional feature.
-* All of MySQL Synchronization Tools or not user friendly.
+## Задача
+Задачей будет создать собственный block, который выводит текст. Информация взята  из
+документации wordpress. В планы входит создать plugin, который подключу к блогу. Plugin добавляет custom block, который выводит текст Hola, mundo! обернутый в div.
 
+# Подготовка
 
-## Comparison table
+Создадим структуру
 
-| Product                | Price, $ | BiDirectional Sync        | Trial | Notice                                                |
-|------------------------|----------|---------------------------|-------|-------------------------------------------------------|
-| WPMerge                | 147/site | Yes                       | No    | Refund for 14 days. https://youtu.be/lEnGhHa6f1c?t=92 |
-| WP MIGRATE DB PRO      | 99/site  | Yes                       | No    | Refund for 60 days. https://youtu.be/8u_kX5d78Bs      |
-| WP Sync DB             | 0        | Yes                       | N/A   |                                                       |
-| WP Staging PRO         | 96       | Yes                       | No    | Refund for 60 days. https://youtu.be/V9zkyluQJp4      |
-| WPSiteSync for Content | N/A      | N/A                       | N/A   | Could not open site, seems unreachable from Russia.   |
-| UpdraftPlus Migrator   | 30/70    | Yes via manual restoring. | No    |                                                       |
+```mkdir my-first-custom-block && cd my-first-custom-block```
 
-All of plugins does not support trial version or demo. Seems that WP Staging PRO suits better. But the difference is only 3$.
-I am not sure I need media files sync function. I use plugin that stores media content in amazon s3 buckets. 
-So I need a tool to sync content between buckets and look at was sync utility. Media content stores in wordpress as a link.
-I used WP Sync DB as a trial version of WP MIGRATE DB PRO and it seems working. I am happy to suggest it to my customer.
-WP MIGRATE DB PRO makes sense to me due to support and updates. So my choice is WP MIGRATE DB PRO for business and
-WP Sync DB for personal usage.
+```mkdir build src```
+
+```touch src/index.js index.php``` 
+
+npm init # создаст package.json где пропишем зависимости и необходимые команды
+
+Добавим в блок scripts команды и в результате package.json будет выглядеть так
+```json
+{
+  "name": "my-first-custom-block",
+  "version": "1.0.0",
+  "description": "My First Custom Block Example",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "wp-scripts build",
+    "start": "wp-scripts start",
+    "check-engines": "wp-scripts check-engines",
+    "check-licenses": "wp-scripts check-licenses",
+    "format:js": "wp-scripts format-js",
+    "lint:css": "wp-scripts lint-style",
+    "lint:js": "wp-scripts lint-js",
+    "lint:md:docs": "wp-scripts lint-md-docs",
+    "lint:md:js": "wp-scripts lint-md-js",
+    "lint:pkg-json": "wp-scripts lint-pkg-json",
+    "packages-update": "wp-scripts packages-update",
+    "test:e2e": "wp-scripts test-e2e",
+    "test:unit": "wp-scripts test-unit-js"
+  },
+  "author": "Viktor Zharina <viktor.zharina@quantumsoft.ru>",
+  "license": "MIT",
+  "devDependencies": {
+    "@wordpress/scripts": "^7.1.0"
+  }
+}
+```
+
+выполним npm install и дождемся окончания установки зависимостей.
+
+В index.php добавим
+
+```php
+<?php
+/**
+ * Plugin Name: My Custom Block Example
+ * Description: This is a plugin demonstrating how to register new blocks for the Gutenberg editor.
+ * Version: 1.0.0
+ * Author: Viktor Zharina
+ *
+ * @package gutenberg-examples
+ */
+
+defined( 'ABSPATH' ) || exit;
+
+function register_my_custom_block() {
+    // Добавляем артефакты сборки плагина
+    $assetFile = include( plugin_dir_path( __FILE__ ) . 'build/index.asset.php');
+
+    // регистрируем скрипт 
+    wp_register_script(
+        'my-custom-block', // имя
+        plugins_url('build/index.js', __FILE__ ), // путь до скрипта
+        $assetFile['dependencies'], // зависимости доступные в скрипте
+        $assetFile['version'], // версия
+    );
+
+    // регистрируем новый тип блока - здесь же можно добавить стили
+    register_block_type( 'myguten/test-block', [ // имя совпадает с именем с src/index.js 
+        'editor_script' => 'my-custom-block', // имя совпадает с именем выше 
+    ]);
+}
+
+// Регистрируем новую функцию register_my_custom_block
+add_action( 'init', 'register_my_custom_block' );
+```
+в src/index.js добавим
+
+```js
+import {registerBlockType} from '@wordpress/blocks';
+
+registerBlockType('myguten/test-block', {
+    title: 'My Custom Block Example', // Заголовок
+    icon: 'smiley', // иконка
+    category: 'layout', // категория блока
+    edit: () => <div>Hola, mundo123!</div>, // текст при редактировании поста  
+    save: () => <div>Hola, mundo444!</div>, // текст при сохранении поста
+});
+```
+
+Далее build и делаем zip файл 
+```bash 
+npm run build && zip myguten.zip index.php build/*
+```
+, чтобы в дальнейшем загрузить
+myguten.zip в wordpress как плагин.
+
+<img alt="My custom block" src="/static/images/wordpress/custom-block/orig/screen1.jpg">
+
+<img alt="My custom block - added" src="/static/images/wordpress/custom-block/orig/screen2.jpg">
+
+### Ссылки
+[Gutenberg tutorial](https://developer.wordpress.org/block-editor/tutorials/)
+
+[Gutenberg examples](https://github.com/WordPress/gutenberg-examples) 

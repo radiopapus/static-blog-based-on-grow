@@ -1,0 +1,3 @@
+
+msgid "{id}"
+msgstr "{value}"
