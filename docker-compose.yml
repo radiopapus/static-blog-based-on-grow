@@ -25,7 +25,7 @@ services:
     volumes:
       - ./:/src
     restart: 'no'
-    command: sh -c "php src/cli/mashinka.php publish --dry-run"
+    entrypoint: "php src/cli/mashinka.php"
     environment:
       BASE_PATH: ${BASE_PATH}
       POST_DRAFT_FILE: ${POST_DRAFT_FILE}
