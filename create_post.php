@@ -37,6 +37,7 @@ if (isset(${'slug' . $secondLang})) {
 $params = array_merge($params, $lcParams[$lang]);
 $content = getPostHeader($params) . $content;
 var_dump($content);
+var_dump($params);
 
 file_put_contents($params['postPath'], $content);
 file_put_contents('drafts/post.md', $rawDraft);

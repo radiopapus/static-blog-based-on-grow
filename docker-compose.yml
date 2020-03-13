@@ -7,7 +7,7 @@ services:
       args:
         grow_version: 0.8.17
     container_name: blog
-    expose: 
+    expose:
       - 8080
     ports:
       - 8080:8080
@@ -18,3 +18,21 @@ services:
     command: sh -c "grow run src/ --host 0.0.0.0"
     labels:
       org.label-schema.group: "blog"
+
+  mashinka:
+    image: php:7.4-cli
+    container_name: mashinka
+    volumes:
+      - ./:/src
+    restart: 'no'
+    entrypoint: "php src/cli/mashinka.php"
+    environment:
+      BASE_PATH: ${BASE_PATH}
+      POST_DRAFT_FILE: ${POST_DRAFT_FILE}
+      POSTS_PATH: ${POSTS_PATH}
+      POST_TEMPLATE_PATH: ${POST_TEMPLATE_PATH}
+      TRANSLATIONS_PATH: ${TRANSLATIONS_PATH}
+      TRANSLATION_TEMPLATE_PATH: ${TRANSLATION_TEMPLATE_PATH}
+      DEFAULT_LANG: ${DEFAULT_LANG}
+    labels:
+      org.label-schema.group: "php-cli"
