@@ -19,9 +19,9 @@ services:
     labels:
       org.label-schema.group: "blog"
 
-  php-cli:
+  mashinka:
     image: php:7.4-cli
-    container_name: php-cli
+    container_name: mashinka
     volumes:
       - ./:/src
     restart: 'no'

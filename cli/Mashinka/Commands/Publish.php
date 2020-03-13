@@ -68,7 +68,7 @@ class Publish implements CommandInterface
         $transformedPost->timestamp = strtotime('now');
         $transformedPost->content   = $draftPost->content;
 
-        $lang  = !isset($draftPost->meta->lang) ? $draftPost->meta->lang : 'ru';
+        $lang  = isset($draftPost->meta->lang) ? $draftPost->meta->lang : 'ru';
         $title = $draftPost->meta->title;
 
         $meta = new PostMeta();
@@ -130,13 +130,14 @@ class Publish implements CommandInterface
         }
 
         $explodedByLine = explode(PHP_EOL, $meta);
-        array_pop($explodedByLine);
 
         $meta = new PostMeta();
 
         foreach ($explodedByLine as $item) {
-            [$key, $value] = explode(':', $item);
-            $meta->$key = trim($value);
+            if (!empty($item)) {
+                [$key, $value] = explode(':', $item);
+                $meta->$key = trim($value);
+            }
         }
 
         return $meta;
