@@ -6677,3 +6677,6 @@ msgstr "Опыт участия в Teamlab в роли наставника"
 
 msgid "pishem-perviy-custom-block-dlya-redaktora-gutenberg-v-wordpress"
 msgstr "Пишем первый custom block для редактора Gutenberg в Wordpress"
+
+msgid "o-moey-reakcii-na-situaciyu-na-rinke"
+msgstr "О моей реакции на ситуацию на рынке"
