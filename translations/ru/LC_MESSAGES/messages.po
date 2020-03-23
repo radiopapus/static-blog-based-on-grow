@@ -6680,3 +6680,6 @@ msgstr "Пишем первый custom block для редактора Gutenberg
 
 msgid "o-moey-reakcii-na-situaciyu-na-rinke"
 msgstr "О моей реакции на ситуацию на рынке"
+
+msgid "testovaya-zapis-posle-transfera-domena-s-reg.ru-na-amazon"
+msgstr "Тестовая запись после трансфера домена с reg.ru на amazon"
