@@ -56,3 +56,4 @@ So I need a tool to sync content between buckets. Media content stores in wordpr
 I used WP Sync DB as a trial version of WP MIGRATE DB PRO and it seems working. I am happy to suggest it to my customer.
 WP MIGRATE DB PRO makes sense to me due to support and updates. So my choice is WP MIGRATE DB PRO for business and
 WP Sync DB for personal usage.
+Pay attention that WP MIGRATE DB PRO is not merge content it is replace it at all. For merging content you have to use WPMerge plugin.
