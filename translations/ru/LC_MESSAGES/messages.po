@@ -6683,3 +6683,6 @@ msgstr "О моей реакции на ситуацию на рынке"
 
 msgid "testovaya-zapis-posle-transfera-domena-s-reg.ru-na-amazon"
 msgstr "Тестовая запись после трансфера домена с reg.ru на amazon"
+
+msgid "pro-reakciyu-lyudey-pro-koronavirus-pro-trampa"
+msgstr "Про реакцию людей, про коронавирус, про Трампа"
