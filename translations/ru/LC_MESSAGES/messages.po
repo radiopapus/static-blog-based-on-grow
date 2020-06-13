@@ -6689,3 +6689,6 @@ msgstr "Про реакцию людей, про коронавирус, про 
 
 msgid "o-regine-todorenko-i-nasilii"
 msgstr "О Регине Тодоренко и насилии"
+
+msgid "o-protestah-v-amerike"
+msgstr "О протестах в Америке"
