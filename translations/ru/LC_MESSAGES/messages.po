@@ -6686,3 +6686,6 @@ msgstr "Тестовая запись после трансфера домена
 
 msgid "pro-reakciyu-lyudey-pro-koronavirus-pro-trampa"
 msgstr "Про реакцию людей, про коронавирус, про Трампа"
+
+msgid "o-regine-todorenko-i-nasilii"
+msgstr "О Регине Тодоренко и насилии"
