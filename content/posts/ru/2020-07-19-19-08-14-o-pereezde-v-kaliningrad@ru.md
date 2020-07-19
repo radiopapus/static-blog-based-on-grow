@@ -1,8 +1,15 @@
-title: О переезде в Калининград
-lang: ru
+---
+$title@: o-pereezde-v-kaliningrad
+author@: Виктор Жарина
 description: О переезде в Калининград
 keywords: переезд, другой город, Томск, Калининград
+$order: 325
+image: /static/images/default.png
+slugRu: o-pereezde-v-kaliningrad
+$dates:
+  published: 19.07.2020 19:08:14
 ---
+
 
 Мы снова решили сменить место жительства. На это раз это Калининград. Мы решили, что хотим пожить возле моря и раз выпала такая вохможность, то почему бы ее не использовать.
 

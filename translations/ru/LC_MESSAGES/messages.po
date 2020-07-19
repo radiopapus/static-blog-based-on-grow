@@ -6692,3 +6692,9 @@ msgstr "О Регине Тодоренко и насилии"
 
 msgid "o-protestah-v-amerike"
 msgstr "О протестах в Америке"
+
+msgid "o-pereezde-v-kaliningrad"
+msgstr "О переезде в Калининград"
+
+msgid "o-pereezde-v-kaliningrad"
+msgstr "О переезде в Калининград"
