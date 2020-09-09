@@ -6698,3 +6698,6 @@ msgstr "О переезде в Калининград"
 
 msgid "o-pereezde-v-kaliningrad"
 msgstr "О переезде в Калининград"
+
+msgid "kak-za-odin-den-nayti-zhile-v-avguste-2020-(posle-pandemii)-i-chut-ne-ostatsya-na-ulice-s-dvumya-detmi"
+msgstr "Как за один день найти жилье в августе 2020 (после пандемии) и чуть не остаться на улице с двумя детьми"
