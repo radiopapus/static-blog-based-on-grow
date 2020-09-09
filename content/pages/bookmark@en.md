@@ -50,6 +50,10 @@ Google has many generalized engineering practices that cover all languages and a
 
 ### Programming
 
+### Unicode
+https://dmitripavlutin.com/what-every-javascript-developer-should-know-about-unicode/
+
+
 #### Kotlin
 
 1. [Idiomatic Kotlin. Best Practices.](phauer.com/2017/idiomatic-kotlin-best-practices)
