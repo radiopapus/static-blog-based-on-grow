@@ -6704,3 +6704,6 @@ msgstr "Как за один день найти жилье в августе 20
 
 msgid "teper-mi-zhivem-v-staroy-nemeckoy-kvartire-i-schastlivi"
 msgstr "Теперь мы живем в старой немецкой квартире и счастливы"
+
+msgid "viyti-na-rabotu-ili-sidet-doma"
+msgstr "Выйти на работу или сидеть дома"
