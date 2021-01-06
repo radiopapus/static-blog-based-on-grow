@@ -6707,3 +6707,6 @@ msgstr "Теперь мы живем в старой немецкой кварт
 
 msgid "viyti-na-rabotu-ili-sidet-doma"
 msgstr "Выйти на работу или сидеть дома"
+
+msgid "v-kaliningrade-spustya-polgoda"
+msgstr "В Калининграде спустя полгода"
