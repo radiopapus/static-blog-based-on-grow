@@ -20,9 +20,11 @@
     <a href="{{doc_prev.url.path}}" title="{{_(doc_prev.title)}}">{{_('Prev')}}</a>
 {% endif %}
 
+<!-- Put this script tag to the place, where the Share button will be -->
 <script type="text/javascript"><!--
-document.write(VK.Share.button(false,{type: "round_nocount", text: "{{_('Share')}}"}));
+document.write(VK.Share.button(false,{type: "link_noicon", text: "Поделиться"}));
 --></script>
+</div>
 
 {% set doc_next = doc.next(posts) %}
 {% if doc_next %}
