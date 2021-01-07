@@ -1,14 +1,16 @@
-<h3>{{_('Recent')}}</h3>
-<ol>
-    {% if doc and doc.title != None %}
-        {% set cur_doc = doc %}
-    {% else %}
-        {% set cur_doc = last_post %}
-    {% endif %}
-
-    {% for post in g.docs('posts', locale=doc.locale)[-11:]|reverse() %}
-        {% if post.title != cur_doc.title %}
-            <li><a href="{{post.url.path}}">{{_(post.title)}}</a>
+<div class="recent-posts">
+    <h3>{{_('Recent')}}</h3>
+    <ol>
+        {% if doc and doc.title != None %}
+            {% set cur_doc = doc %}
+        {% else %}
+            {% set cur_doc = last_post %}
         {% endif %}
-    {% endfor %}
-</ol>
+
+        {% for post in g.docs('posts', locale=doc.locale)[-11:]|reverse() %}
+            {% if post.title != cur_doc.title %}
+                <li><a href="{{post.url.path}}">{{_(post.title)}}</a></li>
+            {% endif %}
+        {% endfor %}
+    </ol>
+</div>
