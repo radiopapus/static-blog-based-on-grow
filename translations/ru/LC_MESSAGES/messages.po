@@ -6710,3 +6710,6 @@ msgstr "Выйти на работу или сидеть дома"
 
 msgid "v-kaliningrade-spustya-polgoda"
 msgstr "В Калининграде спустя полгода"
+
+msgid "prodazha-garazha-iz-drugogo-goroda"
+msgstr "Продажа гаража из другого города"
