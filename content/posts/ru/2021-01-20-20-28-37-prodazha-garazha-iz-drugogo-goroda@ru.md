@@ -1,8 +1,15 @@
-title: Продажа гаража из другого города
-lang: ru
+---
+$title@: prodazha-garazha-iz-drugogo-goroda
+author@: Виктор Жарина
 description: О том, как продать гараж находясь в другом регионе РФ
 keywords: продажа, недвижимость, доверенность, гараж, другой регион
+$order: 330
+image: /static/images/default.png
+slugRu: prodazha-garazha-iz-drugogo-goroda
+$dates:
+  published: 20.01.2021 20:28:37
 ---
+
 
 <h3>Начальные данные</h3>
 
