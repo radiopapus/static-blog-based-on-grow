@@ -2,9 +2,25 @@
 © {{_('Viktor Zharina')}} - <script type="text/javascript">var t = Date.now(); var a = new Date(t); document.write(a.getUTCFullYear());
 </script>
 <script src="/static/js/lightgallery.min.js"></script>
+<script src="/static/js/elasticlunr.min.js"></script>
+<script src="/static/js/lunr.stemmer.support.js"></script>
+<script src="/static/js/lunr.multi.js"></script>
+<script src="/static/js/lunr.ru.js"></script>
+
+<script src="/static/index/index.json"></script>
+<script src="/static/index/data.json"></script>
 <script type="text/javascript">
-        lightGallery(document.getElementById('lightgallery')); 
+    lightGallery(document.getElementById('lightgallery'));
+
+    var ii = elasticlunr(function () {
+      this.use(lunr.multiLanguage('en', 'ru'));
+      this.addField('title')
+      this.addField('content')
+    });
+
+    window.idx = elasticlunr.Index.load(index)
 </script>
+<script src="/static/js/search.js"></script>
 </footer>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
