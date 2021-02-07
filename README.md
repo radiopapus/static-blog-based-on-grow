@@ -1,5 +1,9 @@
 # My homepage based on grow
 
+Installing
+
+npm install on local machine
+
 ## Docker
 docker-compose up -d
 
