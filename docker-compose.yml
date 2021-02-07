@@ -5,7 +5,7 @@ services:
     build:
       context: .
       args:
-        grow_version: 0.8.17
+        grow_version: 0.8.28
     container_name: blog
     expose:
       - 8080
@@ -13,9 +13,8 @@ services:
       - 8080:8080
     volumes:
       - ./:/src
-      - ./node_modules
     restart: 'no'
-    command: sh -c "grow run src/ --host 0.0.0.0"
+    command: sh -c "grow run --host 0.0.0.0"
     labels:
       org.label-schema.group: "blog"
 
@@ -34,5 +33,6 @@ services:
       TRANSLATIONS_PATH: ${TRANSLATIONS_PATH}
       TRANSLATION_TEMPLATE_PATH: ${TRANSLATION_TEMPLATE_PATH}
       DEFAULT_LANG: ${DEFAULT_LANG}
+      INDEX_DATA_FILE: ${INDEX_DATA_FILE}
     labels:
       org.label-schema.group: "php-cli"

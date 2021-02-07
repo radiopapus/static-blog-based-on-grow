@@ -9,8 +9,12 @@
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^6.1.0",
     "gulp-rename": "^1.4.0",
-    "gulp-sass": "^4.0.2",
+    "gulp-sass": "^4.1.0",
     "webpack": "4.33.0",
     "webpack-stream": "5.2.1"
+  },
+  "dependencies": {
+    "elasticlunr": "^0.9.5",
+    "lunr-languages": "git+https://github.com/weixsong/lunr-languages.git"
   }
 }
