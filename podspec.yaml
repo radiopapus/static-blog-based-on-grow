@@ -28,6 +28,8 @@ static_dirs:
   serve_at: /static/attachments/
 - static_dir: /source/js/
   serve_at: /static/js/
+- static_dir: /source/index/
+  serve_at: /static/index/
 
 sitemap:
   enabled: yes
@@ -35,6 +37,7 @@ sitemap:
 preprocessors:
 - kind: gulp
   build_task: grow-build
+  run_task: build-index
   command: "gulp"
 
 deployments:
