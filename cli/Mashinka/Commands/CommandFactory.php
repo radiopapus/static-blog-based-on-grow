@@ -21,7 +21,11 @@ class CommandFactory
             return new Publish(new Template(), $params);
         }
 
-        $availableCommands = ['publish', 'draft'];
+        if ($command === 'index') {
+            return new Index($params);
+        }
+
+        $availableCommands = ['publish', 'draft', "index"];
 
         if (!in_array($command, $availableCommands, true)) {
             die("Command does not exist.");
