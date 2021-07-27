@@ -18,8 +18,11 @@ function renderSearchList(refs) {
     let list = rawData.filter(d => refs.includes(d.id))
 
     var rrr = list.map((l) => {
-            return `<div style="clear: both"><a href=${l.id}>${l.title}</a></div>`
-        });
+        if (l.id.includes("/ru/")) {
+            return `<div style="clear: both"><a href=${l.id.replace("/ru", "")}>${l.title}</a></div>`
+        }
+        return `<div style="clear: both"><a href=${l.id}>${l.title}</a></div>`
+    });
     
 
     document.getElementById('searchResults').innerHTML = rrr.join('')
