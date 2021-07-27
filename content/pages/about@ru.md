@@ -1,16 +1,15 @@
 ---
 $title@: About
 image: /static/images/viktorzharina.jpg
-description: Резюме. Меня зовут Виктор Жарина. Я профессиональный веб-разработчик. Пишу на PHP, Javascript, Html, CSS, много работал с Mysql, Redis. Memcache. Дружу с командной строкой Linux и считаю GIT манной небесной.
+description: Резюме. Меня зовут Виктор Жарина. Я профессиональный веб-разработчик. Последние пару лет пишу на Kotlin, до этого неколько лет писал на PHP. Использовал Redis, Memcache в качестве NoSQL и MySQL, Postgres в качестве БД. Дружу с командной строкой Linux и считаю GIT манной небесной.
 $titles:
   nav@: About
 $order: 1
 
 ---
 <img src="/static/images/viktorzharina.jpg" alt="Фотография Виктора Жарины" class="about-photo" />
-Меня зовут Виктор Жари́на и мне <script type="text/javascript">var b = new Date('1986-12-28'); var t = Date.now() - b.getTime(); var a = new Date(t); document.write(Math.abs(a.getUTCFullYear() - 1970));
-</script>. Живу в Томске и работаю в Quantumsoft. Люблю Linux и GIT. Говорю, пишу и читаю на английском. Люблю когда понятно и прозрачно, особенно в коде и бизнес-процессах. Женат, есть дети.
-Без вредных привычек.
+Меня зовут Виктор Жарина (ударение на и) и мне <script type="text/javascript">var b = new Date('1986-12-28'); var t = Date.now() - b.getTime(); var a = new Date(t); document.write(Math.abs(a.getUTCFullYear() - 1970));
+</script>. Сейчас живу в Калининграде и удаленно работаю на Quantumsoft. Люблю Linux и GIT. Говорю, пишу и читаю на английском. Люблю когда понятно и прозрачно, особенно в коде и бизнес-процессах. Женат, есть дети. Без вредных привычек. Последние пару лет участвую в американском стартапе, который делает софт для людей, у которых диагностировали рак головного мозга. Пишу на Kotlin в связке со Spring Boot. Ииспользуем Graphql и пробуем Event Sourcing.
 
 Образование: Томский Политехнический университет, Физико-технический факультет, Электроника и автоматика физических установок.
 
@@ -24,16 +23,16 @@ $order: 1
     <div class="row">
         <div class="points">
             <div class="point">
-                <div class="year">2019</div>
+                <div class="year">2021</div>
             </div>
-            <div class="line__solid"></div>
+            <div class="line__solid">...</div>
             <div class="point__interval">
-                <div class="year">>1 year</div>
+                <div class="year">>2 лет</div>
             </div>
             <div class="line__solid"></div>
             <div class="point">
                 <div class="year">2018</div>
-                <div class="month">OCT</div>
+                <div class="month">ОКТ</div>
             </div>
             <div class="line__grey"></div>
         </div>
@@ -41,14 +40,14 @@ $order: 1
             <div class="details__title--main"><a href="//quantumsoft.pro">Quantumsoft</a></div>
             <div class="details__title--sub">Разработчик программного обеспечения</div>
             <p class="details__text">Современная веб-разработка</p>
-            <p class="details__skill">#Kotlin, #Spring, #GraphQL, #Docker, #PHP, #Postgres, #Redis, #RabbitMQ, #JIRA, #git.</p>
+            <p class="details__skill">#Kotlin, #Spring, #GraphQL, #Docker, #PHP, #Postgres, #Redis, #JIRA, #git.</p>
         </div>
     </div>
     <div class="row">
         <div class="points">
             <div class="point">
                 <div class="year">2018</div>
-                <div class="month">ТЕК.</div>
+                <div class="month">ОКТ</div>
             </div>
             <div class="line__solid"></div>
             <div class="point__interval">
@@ -91,8 +90,7 @@ $order: 1
         <div class="details">
             <div class="details__title--main"><a href="//nts.su">Интернет-провайдер "Новые Телесистемы"</a></div>
             <div class="details__title--sub">Программист</div>
-            <p class="details__text">Разработка, рефакторинг и поддержка системы учета,
-                внутренние утилиты, работа с сетевым оборудованием, скрипты, настройка серверов, понимание и автоматизация бизнес-процессов, интеграция с 1С, сопровождение.</p>
+            <p class="details__text">Разработка, рефакторинг и поддержка системы учета, внутренние утилиты, Cisco, 1С. Внедрил GIT в процесс разработки.</p>
             <p class="details__skill">#PHP, #Codeigniter, #Ext4js, #MySQL, #MsSQL(2012), #Memcache</p>
         </div>
     </div>
@@ -140,8 +138,7 @@ $order: 1
         <div class="details">
             <div class="details__title--main"><a href="http://uetm.ru">ООО «Эльмаш (УЭТМ)». Екатеринбург</a></div>
             <div class="details__title--sub">Специалист группы систем управления</div>
-            <p class="details__text">Разрабатывал и внедрял программное обеспечение ПЛК Beckhoff, командировки,
-                создание документации, наставничество.</p>
+            <p class="details__text">Программное обеспечение ПЛК Beckhoff, командировки, создание документации, наставничество.</p>
             <p class="details__skill">#PLC, #Beckhoff, #EtherCAT, #TwinCAT, #CodeSYS</p>
         </div>
     </div>
