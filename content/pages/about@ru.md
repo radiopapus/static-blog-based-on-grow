@@ -9,7 +9,7 @@ $order: 1
 ---
 <img src="/static/images/viktorzharina.jpg" alt="Фотография Виктора Жарины" class="about-photo" />
 Меня зовут Виктор Жари́на и мне <script type="text/javascript">var b = new Date('1986-12-28'); var t = Date.now() - b.getTime(); var a = new Date(t); document.write(Math.abs(a.getUTCFullYear() - 1970));
-</script>. Живу в Томске и работаю в Quantumsoft. Люблю Linux и GIT. Говорю, пишу и читаю на английском. Люблю когда понятно и прозрачно, особенно в коде и бизнес-процессах. Женат, есть дети.
+</script>. Сейчас живу в Калининграде и работаю в Quantumsoft. Жил в 3 городах России, а был в 15. Люблю Linux, GIT и Sublime Text. Говорю, пишу и читаю на английском. Люблю когда понятно и прозрачно: в коде, в жизни, в бизнес-процессах. Женат, есть дети.
 Без вредных привычек.
 
 Образование: Томский Политехнический университет, Физико-технический факультет, Электроника и автоматика физических установок.
@@ -24,11 +24,11 @@ $order: 1
     <div class="row">
         <div class="points">
             <div class="point">
-                <div class="year">2019</div>
+                <div class="year"><script type="text/javascript">document.write(Math.abs(new Date().getUTCFullYear()));</script></div>
             </div>
             <div class="line__solid"></div>
             <div class="point__interval">
-                <div class="year">>1 year</div>
+                <div class="year">~<script type="text/javascript">document.write(Math.abs(new Date().getUTCFullYear() - 2018));</script> лет</div>
             </div>
             <div class="line__solid"></div>
             <div class="point">

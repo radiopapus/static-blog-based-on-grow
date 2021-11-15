@@ -1,6 +1,10 @@
 msgid "Share"
 msgstr "Share"
 
+msgid "Search"
+msgstr "Search"
+
+
 #: /content/pages/about.md
 msgid "About"
 msgstr "About"

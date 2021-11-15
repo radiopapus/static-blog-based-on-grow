@@ -1,4 +1,3 @@
-
 msgid "pishem-perviy-custom-block-dlya-redaktora-gutenberg-v-wordpress"
 msgstr "Пишем первый custom block для редактора Gutenberg в Wordpress"
 
@@ -145,6 +144,9 @@ msgstr "След."
 #: /content/pages/index.md
 msgid "Notes"
 msgstr "Записи"
+
+msgid "Search"
+msgstr "Поиск"
 
 #: /views/posts.html:7 /views/notes.html:10
 msgid "Posted"
@@ -6672,7 +6674,6 @@ msgstr "Highload 2017. Как это было."
 
 msgid "Opit-uchastiya-v-Teamlab-v-roli-nastavnika"
 msgstr "Опыт участия в Teamlab в роли наставника"
-
 
 
 msgid "pishem-perviy-custom-block-dlya-redaktora-gutenberg-v-wordpress"
