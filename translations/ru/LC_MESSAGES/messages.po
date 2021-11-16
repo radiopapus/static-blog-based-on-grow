@@ -6714,3 +6714,6 @@ msgstr "В Калининграде спустя полгода"
 
 msgid "prodazha-garazha-iz-drugogo-goroda"
 msgstr "Продажа гаража из другого города"
+
+msgid "svobodnoe-vremya-na-uluchshenie-bloga"
+msgstr "Свободное время на улучшение блога"

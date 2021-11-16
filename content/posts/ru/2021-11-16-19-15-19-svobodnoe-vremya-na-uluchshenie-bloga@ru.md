@@ -1,8 +1,15 @@
-title: Свободное время на улучшение блога
-lang: ru
+---
+$title@: svobodnoe-vremya-na-uluchshenie-bloga
+author@: Виктор Жарина
 description: Появилось свободное время, чтобы улучшить блог и подумать, что делать дальше
 keywords: блог, elasticlunr, статический сайт с поиском, планы
+$order: 331
+image: /static/images/default.png
+slugRu: svobodnoe-vremya-na-uluchshenie-bloga
+$dates:
+  published: 16.11.2021 19:15:19
 ---
+
 
 <h3>Немного улучшений</h3>
 
