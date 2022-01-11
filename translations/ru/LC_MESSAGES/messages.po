@@ -6717,3 +6717,6 @@ msgstr "Продажа гаража из другого города"
 
 msgid "svobodnoe-vremya-na-uluchshenie-bloga"
 msgstr "Свободное время на улучшение блога"
+
+msgid "o-serverless-tehnologii-dlya-chatbotov"
+msgstr "О serverless технологии для чатботов"
