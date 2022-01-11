@@ -9,3 +9,5 @@ package-lock.json
 .dockerignore
 .grow/
 /.idea/
+.env
+.depcache.json
