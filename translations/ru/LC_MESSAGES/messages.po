@@ -6720,3 +6720,6 @@ msgstr "Свободное время на улучшение блога"
 
 msgid "o-serverless-tehnologii-dlya-chatbotov"
 msgstr "О serverless технологии для чатботов"
+
+msgid "pereezd-v-kaliningrad"
+msgstr "Переезд в Калининград"
