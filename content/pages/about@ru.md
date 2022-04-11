@@ -9,7 +9,7 @@ $order: 1
 ---
 <img src="/static/images/viktorzharina.jpg" alt="Фотография Виктора Жарины" class="about-photo" />
 Меня зовут Виктор Жарина (ударение на и) и мне <script type="text/javascript">var b = new Date('1986-12-28'); var t = Date.now() - b.getTime(); var a = new Date(t); document.write(Math.abs(a.getUTCFullYear() - 1970));
-</script>. Сейчас живу в Калининграде и удаленно работаю на Quantumsoft. Люблю Linux и GIT. Говорю, пишу и читаю на английском. Люблю когда понятно и прозрачно, особенно в коде и бизнес-процессах. Женат, есть дети. Без вредных привычек. Последние пару лет участвую в американском стартапе, который делает софт для людей, у которых диагностировали рак головного мозга. Пишу на Kotlin в связке со Spring Boot. Ииспользуем Graphql и пробуем Event Sourcing.
+</script>. Сейчас живу в Калининграде и удаленно работаю на Quantumsoft. Люблю Linux и GIT. Говорю, пишу и читаю на английском. Люблю когда понятно и прозрачно, особенно в коде и бизнес-процессах. Женат, есть дети. Без вредных привычек. Последние несколько лет участвую в американском стартапе, который делает софт для людей, у которых диагностировали рак головного мозга. Пишу на Kotlin в связке со Spring Boot. Ииспользуем Graphql и пробуем Event Sourcing.
 
 Образование: Томский Политехнический университет, Физико-технический факультет, Электроника и автоматика физических установок.
 
@@ -23,11 +23,13 @@ $order: 1
     <div class="row">
         <div class="points">
             <div class="point">
-                <div class="year">2021</div>
+                <div class="year"><script type="text/javascript">document.write(Math.abs(new Date().getUTCFullYear()));</script>
+                </div>
+                <div class="month">Т.М.</div>
             </div>
-            <div class="line__solid">...</div>
+            <div class="line__solid"></div>
             <div class="point__interval">
-                <div class="year">>2 лет</div>
+                <div class="year">~<script type="text/javascript">document.write(Math.abs(new Date().getUTCFullYear() - 2018));</script> лет</div>
             </div>
             <div class="line__solid"></div>
             <div class="point">
