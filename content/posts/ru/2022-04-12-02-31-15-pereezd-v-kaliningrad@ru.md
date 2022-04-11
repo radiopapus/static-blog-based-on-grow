@@ -1,8 +1,15 @@
-title: Переезд в Калининград
-lang: ru
-keywords: переезд, Калининград, Томск
-description: Переезд в Калининград 
 ---
+$title@: pereezd-v-kaliningrad
+author@: Виктор Жарина
+description: Переезд в Калининград
+keywords: переезд, Калининград, Томск
+$order: 334
+image: /static/images/default.png
+slugRu: pereezd-v-kaliningrad
+$dates:
+  published: 12.04.2022 02:31:15
+---
+
 
 Отправимся мы аж в август 2018 года. В это время мы были в отпуске в Калининграде.
 Сразу отмечу, что мы первоначально рассматривали город как место для отпуска.
