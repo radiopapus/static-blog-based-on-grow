@@ -10,3 +10,4 @@ package-lock.json
 .grow/
 /.idea/
 .env
+.depcache.json

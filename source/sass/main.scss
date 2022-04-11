@@ -1,10 +1,3 @@
-@font-face {
-  font-family: 'FontAwesome';
-  src: url('/static/fonts/typewritercyrnormal.woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
 body {
   font-family: 'FontAwesome', tahoma, arial, sans-serif;
   font-weight: 600;
@@ -425,6 +418,33 @@ video {
 
 .details__title--main, .details__title--sub {
     font-weight: bold;
+}
+
+form > div.search-panel {
+  background: white;
+  height: 2rem;
+}
+
+.search-panel > div {
+  padding: 0.5rem
+}
+
+#searchInput {
+  height: inherit;
+  width: 100%;
+  padding: 0.5rem;
+}
+
+#searchResults {
+  background: white;
+  padding: 1.5rem;
+}
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('/static/fonts/typewritercyrnormal.woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 
