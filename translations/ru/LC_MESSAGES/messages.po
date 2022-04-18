@@ -6720,3 +6720,6 @@ msgstr "Свободное время на улучшение блога"
 
 msgid "o-serverless-tehnologii-dlya-chatbotov"
 msgstr "О serverless технологии для чатботов"
+
+msgid "bila-li-specoperaciya-na-ukraine-neizbezhna-"
+msgstr "Была ли спецоперация на Украине неизбежна?"
