@@ -6721,5 +6721,10 @@ msgstr "Свободное время на улучшение блога"
 msgid "o-serverless-tehnologii-dlya-chatbotov"
 msgstr "О serverless технологии для чатботов"
 
+<<<<<<< HEAD
 msgid "bila-li-specoperaciya-na-ukraine-neizbezhna-"
 msgstr "Была ли спецоперация на Украине неизбежна?"
+=======
+msgid "pereezd-v-kaliningrad"
+msgstr "Переезд в Калининград"
+>>>>>>> cb1624124fa9399e8d7e63b38291a2bf52b63363
