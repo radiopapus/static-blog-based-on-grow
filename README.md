@@ -24,6 +24,7 @@ SSH_PATH='vz@viktor.zharina.info'
 ##install
 docker-compose run --rm blog sh -c 'npm install' #instal npm modules
 
+=======
 docker-compose run --rm mashinka index && docker-compose run --rm blog sh -c "grow build"
 docker-compose run --rm blog sh -c 'grow build --clear-cache --deployment default'
 cd build && sudo tar -czf b.tar.gz * && cd ..
