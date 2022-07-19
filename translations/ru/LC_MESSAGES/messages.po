@@ -6731,3 +6731,6 @@ msgstr "Переезд в Калининград"
 
 msgid "bila-li-specoperaciya-na-ukraine-neizbezhna-"
 msgstr "Была ли спецоперация на Украине неизбежна?"
+
+msgid "bila-li-specoperaciya-na-ukraine-neizbezhna-"
+msgstr "Была ли спецоперация на Украине неизбежна?"
