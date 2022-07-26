@@ -23,11 +23,11 @@ $slug@: modern-web-development
  
 1. Эволюция приложений
 
-    2.1. Multi Page Application, Single Page Application, Progressive Web App
+    1.1. Multi Page Application, Single Page Application, Progressive Web App
 
-    2.2. Монолит, Микросервисы, Serverless
+    1.2. Монолит, Микросервисы, Serverless
 
-    2.3. HTML, REST, GraphQL
+    1.3. HTML, REST, GraphQL
 
 2. Frontend и Backend хирургия
 
