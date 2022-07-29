@@ -1,8 +1,15 @@
-title: Эволюция веб-приложений. От статичного HTML до Single Page Application и Progressive Web Application
-lang: ru
+---
+$title@: evolyuciya-veb-prilozheniy-ot-statichnogo-html-do-single-page-application-i-progressive-web-application
+author@: Виктор Жарина
 description: Первый пост из цикла "Современная веб-разработка". От статичного HTML до Single Page Application и Progressive Web Application
 keywords: современная веб-разработка, веб, web, web-development, history, приложение, эволюция веб приложений, multi page application, single page application, progressive web app, ajax, json, jquery
+$order: 336
+image: /static/images/default.png
+slugRu: evolyuciya-veb-prilozheniy-ot-statichnogo-html-do-single-page-application-i-progressive-web-application
+$dates:
+  published: 29.07.2022 18:03:19
 ---
+
 
 <i>Про историю web-приложений: расскажу про web-приложения в начале 2000-ых и раньше, как они эволюционировали до приложений, которые называют современным.</i>
 
