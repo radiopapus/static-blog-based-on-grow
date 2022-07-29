@@ -6734,3 +6734,6 @@ msgstr "Была ли спецоперация на Украине неизбе�
 
 msgid "bila-li-specoperaciya-na-ukraine-neizbezhna-"
 msgstr "Была ли спецоперация на Украине неизбежна?"
+
+msgid "evolyuciya-veb-prilozheniy-ot-statichnogo-html-do-single-page-application-i-progressive-web-application"
+msgstr "Эволюция веб-приложений. От статичного HTML до Single Page Application и Progressive Web Application"

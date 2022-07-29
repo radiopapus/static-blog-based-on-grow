@@ -178,13 +178,25 @@ footer i {
 main img {
   max-width: 100%;
   margin: 0 0 20px 0;
+  height: auto;
 }
 
 section img {
-  float: left;
   max-width: 100%;
   margin: 0 20px 20px 0;
+  height: auto;
 }
+
+fig {
+  text-align: center;
+  margin: 1.5em 0 0 !important;
+}
+
+figsign {
+  text-align: center;
+  margin: 0 0 1.3em !important;
+}
+
 
 .page-nav {
   display: flex;
