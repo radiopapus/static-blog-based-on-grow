@@ -6721,19 +6721,11 @@ msgstr "Свободное время на улучшение блога"
 msgid "o-serverless-tehnologii-dlya-chatbotov"
 msgstr "О serverless технологии для чатботов"
 
-<<<<<<< HEAD
 msgid "bila-li-specoperaciya-na-ukraine-neizbezhna-"
 msgstr "Была ли спецоперация на Украине неизбежна?"
-=======
+
 msgid "pereezd-v-kaliningrad"
 msgstr "Переезд в Калининград"
->>>>>>> cb1624124fa9399e8d7e63b38291a2bf52b63363
-
-msgid "bila-li-specoperaciya-na-ukraine-neizbezhna-"
-msgstr "Была ли спецоперация на Украине неизбежна?"
-
-msgid "bila-li-specoperaciya-na-ukraine-neizbezhna-"
-msgstr "Была ли спецоперация на Украине неизбежна?"
 
 msgid "evolyuciya-veb-prilozheniy-ot-statichnogo-html-do-single-page-application-i-progressive-web-application"
 msgstr "Эволюция веб-приложений. От статичного HTML до Single Page Application и Progressive Web Application"
