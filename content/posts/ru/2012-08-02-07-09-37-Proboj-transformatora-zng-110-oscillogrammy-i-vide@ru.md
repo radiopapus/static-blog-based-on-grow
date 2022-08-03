@@ -9,8 +9,4 @@ $dates:
 
 
 
-[gallery link="file" columns="4"]
-
-
-
 http://youtu.be/VvW0Wptm9fk
