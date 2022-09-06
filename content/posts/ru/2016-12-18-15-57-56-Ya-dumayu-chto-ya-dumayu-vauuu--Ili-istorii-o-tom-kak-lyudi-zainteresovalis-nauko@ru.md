@@ -2,7 +2,7 @@
 author@: Viktor Zharina
 $order: 274
 $dates:
-  published: 2016-12-18-15-57-56
+  published: 2016-12-18 15:57:56
 $title@: Ya-dumayu-chto-ya-dumayu-vauuu--Ili-istorii-o-tom-kak-lyudi-zainteresovalis-naukoy
 ---
 <p>

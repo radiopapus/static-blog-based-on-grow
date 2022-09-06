@@ -1,8 +1,14 @@
-title: Эволюция веб-приложений. От раздачи статики до Serverless
-lang: ru
+---
+$title@: evolyuciya-veb-prilozheniy-ot-razdachi-statiki-do-serverless
+author@: Виктор Жарина
 description: Cовременная web-разработка. Про серверную часть. Про монолит, микросервисы и Serverless
 keywords: современная веб-разработка, веб, web, web-development, history, приложение, эволюция приложений, monolith, microservices, serverless, apache, nginx, cloud, облачные технологии, микросервисы, монолит
+image: /static/images/default.png
+slugRu: evolyuciya-veb-prilozheniy-ot-razdachi-statiki-do-serverless
+$dates:
+  published: 2022-09-06 16:00:54
 ---
+
 
 Этот пост будет про эволюцию web-приложений с фокусом на серверную часть (backend). Начнем мы снова со схемы работы статичного сайта и поговорим про web-сервер и протокол HTTP.
 

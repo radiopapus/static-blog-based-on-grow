@@ -7,7 +7,7 @@ $order: 333
 image: /static/images/default.png
 slugRu: bila-li-specoperaciya-na-ukraine-neizbezhna-
 $dates:
-  published: 06.03.2022 19:01:30
+  published: 2022-03-06 19:01:30
 ---
 
 

@@ -4,7 +4,7 @@ description: Небольшая инструкция для получения �
 keywords: Латвия, виза, документы, пони экспресс
 $order: 311
 $dates:
-  published: 01.04.2019 13:26:06
+  published: 2019-04-01 13:26:06
 $title@: poluchenie-vizi-v-latviyu
 slugRu: poluchenie-vizi-v-latviyu
 ---

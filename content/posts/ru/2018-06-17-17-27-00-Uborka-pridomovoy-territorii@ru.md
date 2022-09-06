@@ -4,7 +4,7 @@ description: О том, как я решил навести порядок и п
 keywords: уборка, письмо в администрацию, департамент по благоустройству, инициатива, спил деревьев, пластик
 $order: 307
 $dates:
-  published: 17.06.2018 17:27:00
+  published: 2018-06-17 17:27:00
 $title@: uborka-pridomovoy-territorii
 slugRu: uborka-pridomovoy-territorii
 slugEn: cleaning-a-garden-near-home

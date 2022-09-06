@@ -6729,3 +6729,9 @@ msgstr "Переезд в Калининград"
 
 msgid "evolyuciya-veb-prilozheniy-ot-statichnogo-html-do-single-page-application-i-progressive-web-application"
 msgstr "Эволюция веб-приложений. От статичного HTML до Single Page Application и Progressive Web Application"
+
+msgid "evolyuciya-veb-prilozheniy-ot-razdachi-statiki-do-serverless"
+msgstr "Эволюция веб-приложений. От раздачи статики до Serverless"
+
+msgid "evolyuciya-veb-prilozheniy-ot-razdachi-statiki-do-serverless"
+msgstr "Эволюция веб-приложений. От раздачи статики до Serverless"

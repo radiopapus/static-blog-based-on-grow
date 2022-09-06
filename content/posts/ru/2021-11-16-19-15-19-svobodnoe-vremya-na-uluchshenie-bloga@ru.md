@@ -7,7 +7,7 @@ $order: 331
 image: /static/images/default.png
 slugRu: svobodnoe-vremya-na-uluchshenie-bloga
 $dates:
-  published: 16.11.2021 19:15:19
+  published: 2021-11-16 19:15:19
 ---
 
 

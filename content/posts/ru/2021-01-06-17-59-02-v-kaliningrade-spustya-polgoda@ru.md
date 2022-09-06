@@ -7,7 +7,7 @@ $order: 329
 image: /static/images/default.png
 slugRu: v-kaliningrade-spustya-polgoda
 $dates:
-  published: 06.01.2021 17:59:02
+  published: 2021-01-06 17:59:02
 ---
 
 

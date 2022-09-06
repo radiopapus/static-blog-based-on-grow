@@ -7,7 +7,7 @@ $order: 328
 image: /static/images/default.png
 slugRu: viyti-na-rabotu-ili-sidet-doma
 $dates:
-  published: 03.10.2020 19:32:29
+  published: 2020-10-03 19:32:29
 ---
 
 

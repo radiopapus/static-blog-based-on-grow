@@ -4,7 +4,7 @@ description: Истории о том, как разные люди добиви
 keywords: терпение, настойчивоть, добиться результата, решение проблем, история, магнит
 $order: 307
 $dates:
-  published: 11.06.2018 10:56:33
+  published: 2018-06-11 10:56:33
 $title@: terpet-nelzya-deystvovat
 slugRu: terpet-nelzya-deystvovat
 slugEn: two-story-about-patient

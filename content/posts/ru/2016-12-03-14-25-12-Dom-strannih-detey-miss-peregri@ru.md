@@ -3,7 +3,7 @@ $title@: Dom-strannih-detey-miss-peregrin
 author@: Viktor Zharina
 $order: 269
 $dates:
-  published: 2016-12-03
+  published: 2016-12-03 00:01:01
 ---
 
 ## Впечатления

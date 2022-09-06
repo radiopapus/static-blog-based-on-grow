@@ -5,7 +5,7 @@ keywords: вино из Грузии, подарок, saperavi qvevri, vranac, �
 image: /static/images/saperavi_qvevri.jpg
 $order: 308
 $dates:
-  published: 26.06.2018 17:07:45
+  published: 2018-06-26 17:07:45
 $title@: podarok-iz-gruzii
 slugEn: present-from-georgia
 slugRu: podarok-iz-gruzii

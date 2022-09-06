@@ -7,7 +7,7 @@ $order: 324
 image: /static/images/default.png
 slugRu: o-protestah-v-amerike
 $dates:
-  published: 13.06.2020 13:11:00
+  published: 2020-06-13 13:11:00
 ---
 
 

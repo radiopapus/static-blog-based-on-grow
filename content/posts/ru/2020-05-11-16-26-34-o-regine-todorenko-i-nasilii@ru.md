@@ -7,7 +7,7 @@ $order: 323
 image: /static/images/default.png
 slugRu: o-regine-todorenko-i-nasilii
 $dates:
-  published: 11.05.2020 16:26:34
+  published: 2020-11-05 16:26:34
 ---
 
 

@@ -7,7 +7,7 @@ $order: 322
 image: /static/images/default.png
 slugRu: pro-reakciyu-lyudey-pro-koronavirus-pro-trampa
 $dates:
-  published: 20.04.2020 12:34:45
+  published: 2020-04-20 12:34:45
 ---
 
 

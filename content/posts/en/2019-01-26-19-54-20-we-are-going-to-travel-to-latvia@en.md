@@ -4,7 +4,7 @@ description: We are going to travel to Latvia.
 keywords: Latvia, Riga, vacation, visa
 $order: 311
 $dates:
-  published: 01.26.2019 19:54:20
+  published: 2019-01-26 19:54:20
 $title@: we-are-going-to-travel-to-latvia
 
 ---

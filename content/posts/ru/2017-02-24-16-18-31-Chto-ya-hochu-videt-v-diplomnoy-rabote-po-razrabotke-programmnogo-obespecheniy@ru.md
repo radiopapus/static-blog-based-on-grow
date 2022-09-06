@@ -2,7 +2,7 @@
 author@: Viktor Zharina
 $order: 280
 $dates:
-  published: 2017-02-24-16-18-31
+  published: 2017-02-24 16:18:31
 $title@: Chto-ya-hochu-videt-v-diplomnoy-rabote-po-razrabotke-programmnogo-obespecheniya
 ---
 ### Предисловие

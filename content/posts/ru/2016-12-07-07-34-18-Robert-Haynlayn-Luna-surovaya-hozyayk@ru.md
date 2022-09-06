@@ -1,7 +1,7 @@
 ---
 author@: Viktor Zharina
 $dates:
-  published: 2016-12-07-07-34-18
+  published: 2016-12-07 07:34:18
 $order: 270
 $title@: Robert Haynlayn. Luna - surovaya hozyayka
 ---

@@ -4,7 +4,7 @@ description: Two story about russian patient and communication with authorities 
 keywords: patient, Tomsk, stories, everyday problems
 $order: 307
 $dates:
-  published: 06.11.2018 16:07:30
+  published: 2018-06-11 16:07:30
 $title@: two-story-about-patient
 slugEn: two-story-about-patient
 slugRu: terpet-nelzya-deystvovat

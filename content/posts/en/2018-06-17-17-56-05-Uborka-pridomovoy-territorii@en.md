@@ -4,7 +4,7 @@ description: About how I decided to do my garden better
 keywords: authorities, Tomsk, garden, near home, trees, trash, bottlesm plastic
 $order: 308
 $dates:
-  published: 06.17.2018 17:56:05
+  published: 2018-06-17 17:56:05
 $title@: cleaning-a-garden-near-home
 slugRu: uborka-pridomovoy-territorii
 slugEn: cleaning-a-garden-near-home

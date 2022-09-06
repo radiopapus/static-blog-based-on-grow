@@ -4,7 +4,7 @@ description: How to migrate wordpress between different environments (dev, stagi
 keywords: wordpress, merge database, migrate between environments, WPMerge, WP MIGRATE DB PRO, WP Sync DB, WP Staging PRO
 $order: 320
 $dates:
-  published: 02.20.2020 11:15:40
+  published: 2020-02-20 11:15:40
 $title@: migrating-between-environments-for-wordpress
 image: 
 

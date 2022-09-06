@@ -4,7 +4,7 @@ description: Notes and photos about Baltic travel
 keywords: Latvia, Lithuania, Riga, Vilnius, travel, Baltic, photos, video
 $order: 313
 $dates:
-  published: 06.04.2019 10:48:15
+  published: 2019-06-04 10:48:15
 $title@: travel-to-baltic
 
 ---

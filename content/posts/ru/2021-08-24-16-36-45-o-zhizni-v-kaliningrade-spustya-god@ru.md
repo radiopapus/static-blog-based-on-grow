@@ -7,7 +7,7 @@ $order: 331
 image: /static/images/default.png
 slugRu: o-zhizni-v-kaliningrade-spustya-god
 $dates:
-  published: 24.08.2021 16:36:45
+  published: 2021-08-24 16:36:45
 ---
 
 

@@ -18,7 +18,7 @@ class PostHelper
     public static function buildPostFileName(string $path, Post $post, string $ext = 'md'): string
     {
         $lang = $post->meta->lang;
-        $date = date('Y-m-d-H-i-s', $post->timestamp);
+        $date = date('Y-m-d', $post->timestamp);
         $slug = $post->meta->slug;
 
         return sprintf('%s/%s/%s-%s@%s.%s', $path, $lang, $date, $slug, $lang, $ext);

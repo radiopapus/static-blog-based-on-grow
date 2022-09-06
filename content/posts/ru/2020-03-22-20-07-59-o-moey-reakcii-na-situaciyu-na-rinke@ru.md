@@ -7,7 +7,7 @@ $order: 320
 image: /static/images/default.png
 slugRu: o-moey-reakcii-na-situaciyu-na-rinke
 $dates:
-  published: 22.03.2020 20:07:59
+  published: 2020-03-22 20:07:59
 ---
 
 
