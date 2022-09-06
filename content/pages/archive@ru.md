@@ -8,7 +8,7 @@ $order: 1
 ---
 <h3>{{_('Archive')}}</h3>
 <ol start="11">
-    {% for post in g.docs('posts', locale=doc.locale)[0:-11]|reverse %}
+    {% for post in g.docs('posts', order_by=('dates.published', 'title'), locale=doc.locale)[0:-11]|reverse %}
           {% if post.title != None %}
             <li><a href="{{post.url.path}}">{{_(post.title)}}</a></li>
 
