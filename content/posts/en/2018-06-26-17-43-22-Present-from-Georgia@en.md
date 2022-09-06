@@ -4,7 +4,7 @@ description: Wine Saperavi Qvevri from Georgia
 keywords: Georgian's wine, present, surprise, saperavi qvevri, vranac, Monte Negro
 $order: 309
 $dates:
-  published: 06.26.2018 17:43:22
+  published: 2018-06-26 17:43:22
 $title@: present-from-georgia
 slugRu: podarok-iz-gruzii
 slugEn: present-from-georgia

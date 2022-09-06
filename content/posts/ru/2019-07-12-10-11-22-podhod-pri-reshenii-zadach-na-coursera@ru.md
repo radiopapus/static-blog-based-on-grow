@@ -4,7 +4,7 @@ description: Как можно обойти ограничения при сда
 keywords: Coursera, ограничения, подход, учеба, Python, PHP, Java
 $order: 315
 $dates:
-  published: 12.07.2019 10:11:22
+  published: 2019-07-12 10:11:22
 $title@: podhod-pri-reshenii-zadach-na-coursera
 slugRu: podhod-pri-reshenii-zadach-na-coursera
 ---

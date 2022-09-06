@@ -7,7 +7,7 @@ $order: 321
 image: /static/images/default.png
 slugRu: testovaya-zapis-posle-transfera-domena-s-reg.ru-na-amazon
 $dates:
-  published: 23.03.2020 20:43:12
+  published: 2020-03-23 20:43:12
 ---
 
 

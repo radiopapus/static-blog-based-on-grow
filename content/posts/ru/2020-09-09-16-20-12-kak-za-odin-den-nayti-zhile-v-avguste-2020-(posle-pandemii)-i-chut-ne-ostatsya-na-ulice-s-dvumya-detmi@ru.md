@@ -7,7 +7,7 @@ $order: 326
 image: /static/images/default.png
 slugRu: kak-za-odin-den-nayti-zhile-v-avguste-2020-(posle-pandemii)-i-chut-ne-ostatsya-na-ulice-s-dvumya-detmi
 $dates:
-  published: 09.09.2020 16:20:12
+  published: 2020-09-09 16:20:12
 ---
 
 

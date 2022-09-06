@@ -2,7 +2,7 @@
 author@: Viktor Zharina
 $order: 283
 $dates:
-  published: 2017-06-16-23-37-27
+  published: 2017-06-16 23:37:27
 $title@: Sovremennie-religii-ustareli
 ---
 # Предисловие

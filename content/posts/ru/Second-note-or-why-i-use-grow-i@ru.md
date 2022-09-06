@@ -3,7 +3,7 @@ $title@: Second-note-or-why-use-the-static-site-based-on-grow.io
 author@: Viktor Zharina
 $order: 268
 $dates:
-  published: 2016-11-21
+  published: 2016-11-21 00:00:01
 ---
 
 ## Чем меня не устроил wordpress?

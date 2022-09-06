@@ -4,7 +4,7 @@ description: Я начал заниматься на Coursera
 keywords: Coursera, образование, алгоритмы и структуры данных
 $order: 313
 $dates:
-  published: 18.06.2019 11:01:25
+  published: 2019-06-18 11:01:25
 $title@: algorithmic-toolbox-na-coursera
 slugRu: algorithmic-toolbox-na-coursera
 ---

@@ -7,7 +7,7 @@ $order: 334
 image: /static/images/default.png
 slugRu: pereezd-v-kaliningrad
 $dates:
-  published: 12.04.2022 02:31:15
+  published: 2022-04-12 02:31:15
 ---
 
 

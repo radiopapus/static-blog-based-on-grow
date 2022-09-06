@@ -155,16 +155,15 @@ class Publish implements CommandInterface
             'author'      => $post->meta->author,
             'description' => $post->meta->description,
             'keywords'    => $post->meta->keywords,
-            'order'       => $post->meta->order,
             'image'       => $post->meta->image,
             'slug'        => $post->meta->slug,
             'lang'        => ucfirst($post->meta->lang),
-            'publishDate' => date('d.m.Y H:i:s', $post->timestamp),
+            'publishDate' => date('Y-m-d H:i:s', $post->timestamp),
             'content'     => $post->content,
         ];
 
         if ($post->meta->lang == 'en') {
-            $data['publishDate'] = date('m.d.Y H:i:s', $post->timestamp);
+            $data['publishDate'] = date('Y-m-d H:i:s', $post->timestamp);
         }
 
         return $this->template->process(getenv('POST_TEMPLATE_PATH'), $data);

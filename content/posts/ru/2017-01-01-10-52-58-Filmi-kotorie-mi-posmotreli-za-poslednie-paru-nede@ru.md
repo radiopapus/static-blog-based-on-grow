@@ -2,7 +2,7 @@
 author@: Viktor Zharina
 $order: 276
 $dates:
-  published: 2017-01-01-10-52-58
+  published: 2017-01-01 10:52:58
 $title@: Filmi-kotorie-mi-posmotreli-za-poslednie-paru-nedel
 ---
 [Мир дикого запада](https://www.kinopoisk.ru/film/195523/)

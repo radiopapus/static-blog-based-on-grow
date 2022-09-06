@@ -28,7 +28,7 @@ class CommandFactory
         $availableCommands = ['publish', 'draft', "index"];
 
         if (!in_array($command, $availableCommands, true)) {
-            die("Command does not exist.");
+            die("Command $command does not exist.");
         }
 
         throw new Exception('Undefined command. See $availableCommands for details.');

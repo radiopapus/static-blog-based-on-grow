@@ -7,7 +7,7 @@ $order: 330
 image: /static/images/default.png
 slugRu: prodazha-garazha-iz-drugogo-goroda
 $dates:
-  published: 20.01.2021 20:28:37
+  published: 2021-01-20 20:28:37
 ---
 
 

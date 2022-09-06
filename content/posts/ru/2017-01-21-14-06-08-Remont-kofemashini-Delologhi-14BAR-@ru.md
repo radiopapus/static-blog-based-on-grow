@@ -2,7 +2,7 @@
 author@: Viktor Zharina
 $order: 279
 $dates:
-  published: 2017-01-21-14-06-08
+  published: 2017-01-21 14:06:08
 $title@: Remont-kofemashini-Delologhi-BAR-14F
 ---
 ## Предыстория

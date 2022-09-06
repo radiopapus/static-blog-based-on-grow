@@ -4,7 +4,7 @@ description: Подготовка к поездке в Латвию
 keywords: Латвия, Рига, отпуск, виза, Шенген, госуслуги
 $order: 310
 $dates:
-  published: 20.01.2019 14:01:42
+  published: 2019-01-20 14:01:42
 $title@: podgotovka-k-poezdke-v-rigu
 slugRu: podgotovka-k-poezdke-v-rigu
 ---

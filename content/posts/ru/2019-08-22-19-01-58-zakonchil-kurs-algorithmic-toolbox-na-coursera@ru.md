@@ -4,7 +4,7 @@ description: Я закончил курс Algorithmic Toolbox на Coursera. Н�
 keywords: Coursera, курс, Algorithmic Toolbox, достижения, сертификат
 $order: 317
 $dates:
-  published: 22.08.2019 19:01:58
+  published: 2019-08-22 19:01:58
 $title@: zakonchil-kurs-algorithmic-toolbox-na-coursera
 image: /static/images/coursera/cert.png
 slugRu: zakonchil-kurs-algorithmic-toolbox-na-coursera

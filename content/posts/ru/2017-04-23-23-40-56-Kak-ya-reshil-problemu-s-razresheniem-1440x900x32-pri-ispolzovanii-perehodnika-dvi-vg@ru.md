@@ -2,7 +2,7 @@
 author@: Viktor Zharina
 $order: 281
 $dates:
-  published: 2017-04-23-23-40-56
+  published: 2017-04-23 23:40:56
 $title@: Kak-ya-reshil-problemu-s-razresheniem-1440x900x32-pri-ispolzovanii-perehodnika-dvi-vga
 ---
 ### Предисловие

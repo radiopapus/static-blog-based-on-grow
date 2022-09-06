@@ -2,7 +2,7 @@
 author@: Viktor Zharina
 $order: 278
 $dates:
-  published: 2017-01-07-09-58-22
+  published: 2017-01-07 09:58:22
 $title@: Zamena-sensornogo-ekrana-Ritmix-1030
 ---
 ## Предыстория

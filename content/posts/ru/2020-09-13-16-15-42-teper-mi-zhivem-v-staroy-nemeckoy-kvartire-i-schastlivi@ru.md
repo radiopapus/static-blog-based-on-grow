@@ -7,7 +7,7 @@ $order: 327
 image: /static/images/default.png
 slugRu: teper-mi-zhivem-v-staroy-nemeckoy-kvartire-i-schastlivi
 $dates:
-  published: 13.09.2020 16:15:42
+  published: 2020-09-13 16:15:42
 ---
 
 

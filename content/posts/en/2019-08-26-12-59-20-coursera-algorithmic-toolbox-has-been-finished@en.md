@@ -4,7 +4,7 @@ description: I finished Coursera Algorithmic Toolbox. It was not easy but makes 
 keywords: Coursera, course, online education, Algorithmic Toolbox, achievement, certificate
 $order: 318
 $dates:
-  published: 08.26.2019 12:59:20
+  published: 2019-08-26 12:59:20
 $title@: coursera-algorithmic-toolbox-has-been-finished
 image: /static/images/coursera/cert.png
 

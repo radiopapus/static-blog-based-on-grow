@@ -1,12 +1,13 @@
 {% extends "/views/base.html" %}
 
 {% block main %}
-{% set last_post = g.docs('posts', locale=doc.locale)|last %}
+
+{% set last_post = g.docs('posts', order_by=('dates.published', 'title'), locale=doc.locale)|last %}
 <div class="meta">
     <h2>{{_(last_post.title)}}</h2>
     <div class="attribution attribution-container">
         <div class="text-centered">
-            {{_('Posted')}}: {{last_post.dates.published}}
+            {{_('Posted')}}: {{last_post.dates.published|datetime(format="dd MMM yyy hh:mm:ss")}}
         </div>
     </div>
 </div>

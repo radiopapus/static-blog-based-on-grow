@@ -7,7 +7,7 @@ $order: 332
 image: /static/images/default.png
 slugRu: o-serverless-tehnologii-dlya-chatbotov
 $dates:
-  published: 11.01.2022 17:57:51
+  published: 2022-01-11 17:57:51
 ---
 
 

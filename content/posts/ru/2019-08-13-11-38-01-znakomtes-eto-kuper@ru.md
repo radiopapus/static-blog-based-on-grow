@@ -4,7 +4,7 @@ description: О том, как у нас появилась собака
 keywords: собака, корги, дети, воспитание
 $order: 316
 $dates:
-  published: 13.08.2019 11:38:01
+  published: 2019-08-13 11:38:01
 $title@: znakomtes-eto-kuper
 slugRu: znakomtes-eto-kuper
 ---

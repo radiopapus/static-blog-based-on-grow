@@ -4,7 +4,7 @@ description: Перенос блога buruhina.ru с wordpress на jekyll 4.0
 keywords: wordpress, jekyll, migration, cloudflare
 $order: 319
 $dates:
-  published: 13.01.2020 16:02:40
+  published: 2020-01-13 16:02:40
 $title@: o-perenose-bloga-buruhina.ru-c-wordpress-na-jekyll
 image: https://blog.webjeda.com/assets/thumbs/wordpress-to-jekyll-migration-tutorial.png
 slugRu: o-perenose-bloga-buruhina.ru-c-wordpress-na-jekyll

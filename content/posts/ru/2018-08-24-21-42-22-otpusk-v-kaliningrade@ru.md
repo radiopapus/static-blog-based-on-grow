@@ -4,7 +4,7 @@ description: О том, как мы съездили в Светлогорск �
 keywords: Светлогорск, Калининград, отпуск, море, Кенигсберг
 $order: 309
 $dates:
-  published: 24.08.2018 21:42:22
+  published: 2018-08-24 21:42:22
 $title@: otpusk-v-kaliningrade
 slugRu: otpusk-v-kaliningrade
 ---

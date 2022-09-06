@@ -7,7 +7,7 @@ $order: 325
 image: /static/images/default.png
 slugRu: o-pereezde-v-kaliningrad
 $dates:
-  published: 19.07.2020 19:08:14
+  published: 2020-07-19 19:08:14
 ---
 
 

@@ -4,7 +4,7 @@ description: После переезда в облачное хранилище
 keywords: Selectel, переезд, digitalocean, облачное хранилище
 $order: 314
 $dates:
-  published: 28.06.2019 17:05:39
+  published: 2019-06-28 17:05:39
 $title@: posle-pereezda-v-oblachnoe-hranilishe
 slugRu: posle-pereezda-v-oblachnoe-hranilishe
 ---
