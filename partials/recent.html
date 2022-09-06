@@ -7,7 +7,7 @@
             {% set cur_doc = last_post %}
         {% endif %}
 
-        {% for post in g.docs('posts', locale=doc.locale)[-11:]|reverse() %}
+        {% for post in g.docs('posts', order_by=('dates.published', 'title'), locale=doc.locale)[-11:]|reverse() %}
             {% if post.title != cur_doc.title %}
                 <li><a href="{{post.url.path}}">{{_(post.title)}}</a></li>
             {% endif %}

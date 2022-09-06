@@ -25,7 +25,7 @@ $slug@: modern-web-development
 
     1.1. [От статичного HTML до Single Page Application и Progressive Web Application](/posts/evolyuciya-veb-prilozheniy-ot-statichnogo-html-do-single-page-application-i-progressive-web-application/)
 
-    1.2. Монолит, Микросервисы, Serverless
+    1.2. [От раздачи статики до Serverless](/posts/evolyuciya-veb-prilozheniy-ot-razdachi-statiki-do-serverless/)
 
     1.3. HTML, REST, GraphQL
 

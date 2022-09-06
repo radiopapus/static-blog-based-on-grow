@@ -5,14 +5,14 @@
     <h1><a href="{{doc.url.path}}">{{_(doc.title)}}</a></h1>
     <div class="attribution attribution-container">
         <div class="text-centered">
-            {{_('Posted')}}: {{doc.dates.published}}
+            {{_('Posted')}} {{doc.dates.published}}
         </div>
     </div>
 </div>
 
 {{doc.html|safe}}
 
-{% set posts = g.docs('posts', locale=doc.locale) %}
+{% set posts = g.docs('posts', order_by=('dates.published', 'title'), locale=doc.locale) %}
 {% set doc_prev = doc.prev(posts) %}
 
 <div class="page-nav">

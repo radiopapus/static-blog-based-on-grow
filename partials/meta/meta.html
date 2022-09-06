@@ -10,7 +10,7 @@
 <meta property="og:url" content="{{doc.url}}">
 
 {% if doc.base == 'index' %}
-  {% set last_post = g.docs('posts', locale=doc.locale)|last %}
+  {% set last_post = g.docs('posts', order_by=('dates.published', 'title'), locale=doc.locale)|last %}
   {% if last_post.description %}
     <meta name="description" content="{{_(last_post.description)}}">
     <meta property="og:description" content="{{_(last_post.description)}}">
