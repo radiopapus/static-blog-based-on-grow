@@ -6735,3 +6735,6 @@ msgstr "Эволюция веб-приложений. От раздачи ста
 
 msgid "evolyuciya-veb-prilozheniy-ot-razdachi-statiki-do-serverless"
 msgstr "Эволюция веб-приложений. От раздачи статики до Serverless"
+
+msgid "perevod---pochemu-bumaga-formata-a4-imeet-razmer-297-mm-na-210-mm-"
+msgstr "Перевод - Почему бумага формата А4 имеет размер 297 мм на 210 мм?"
