@@ -2,28 +2,28 @@
     <!-- index page -->
     {% if doc.base == 'index' %}
         {% if doc.locale == 'en' %}
-            <a href="/">Русский</a>
+            <a href="/">Руc</a>
         {% else %}
-            <a href="/en/">English</a>
+            <a href="/en/">Eng</a>
         {% endif %}
     {% endif %}
 
     <!-- pages -->
     {% if doc and doc.collection.basename == 'pages' and doc.slug %}
         {% if doc.locale == 'en' %}
-            <a href="/{{doc.slug}}">Русский</a>
+            <a href="/{{doc.slug}}">Рус</a>
         {% else %}
-            <a href="/en/{{doc.slug}}">English</a>
+            <a href="/en/{{doc.slug}}">Eng</a>
         {% endif %}
     {% endif %}
 
     <!-- posts -->
     {% if doc and doc.collection.basename == 'posts' %}
         {% if doc.locale == 'en' and doc.slugRu %}
-            <a href="/posts/{{doc.slugRu}}">Русский</a>
+            <a href="/posts/{{doc.slugRu}}">Рус</a>
         {% endif %}
         {% if doc.locale == 'ru' and doc.slugEn %}
-            <a href="/en/posts/{{doc.slugEn}}">English</a>
+            <a href="/en/posts/{{doc.slugEn}}">Eng</a>
         {% endif %}
     {% endif %}
 </div>
