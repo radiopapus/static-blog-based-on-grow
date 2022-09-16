@@ -38,5 +38,3 @@ $dates:
 
 
 Далее он предложил мне выполнить тестовое задание в течении недели. Я получил задание в среду, а ответ выслал в следующий понедельник. Задание, результат и исходные коды вы можете посмотреть во вложении к топику.
-
-Вложения: <a href="http://viktor.zharina.info/wp-content/uploads/2013/01/Тестовое-задание-Технический-писатель.pdf">Тестовое задание - Технический писатель</a>, <a href="http://viktor.zharina.info/wp-content/uploads/2013/01/How-to-use-ActiveX-Java-Uploader-for-fail-safe-uploading-files.doc">How-to-use-ActiveX-Java-Uploader-for-fail-safe-uploading-files</a>, <a href="http://viktor.zharina.info/wp-content/uploads/2013/01/FailSafeApp.zip">FailSafeApp</a>
