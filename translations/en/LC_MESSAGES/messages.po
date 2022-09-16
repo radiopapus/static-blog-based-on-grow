@@ -6,14 +6,11 @@ msgstr "Migrating between environments for wordpress"
 msgid "coursera-algorithmic-toolbox-has-been-finished"
 msgstr "Coursera Algorithmic Toolbox has been finished"
 
-
 msgid "travel-to-baltic"
 msgstr "Travel to Baltic"
 
-
 msgid "i-live-in-siberia-this-is-not-la"
 msgstr "I live in Siberia this is not LA"
-
 
 msgid "we-are-going-to-travel-to-latvia"
 msgstr "We are going to travel to Latvia"
@@ -6381,4 +6378,5 @@ msgstr "Highload 2017. Как это было."
 msgid "Opit-uchastiya-v-Teamlab-v-roli-nastavnika"
 msgstr "Опыт участия в Teamlab в роли наставника"
 
-
+msgid "o-zhizni-v-kaliningrade-spustya-god"
+msgstr "О жизни в Калининграде спустя год"

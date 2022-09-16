@@ -2,10 +2,7 @@ msgid "Share"
 msgstr "Share"
 
 msgid "Search"
-msgstr "Search"
-
-
-#: /content/pages/about.md
+msgstr "Search"#: /content/pages/about.md
 msgid "About"
 msgstr "About"
 
@@ -65,14 +62,8 @@ msgid "Picce-sborka"
 msgstr "Picce-sborka"
 
 msgid "Latest updates"
-msgstr "Latest updates"
-
-
-msgid "Obzor-sposobov-ciklicheskogo-izmereniya-signalov-s-chastotoj-do-5-kgc"
-msgstr "Obzor-sposobov-ciklicheskogo-izmereniya-signalov-s-chastotoj-do-5-kgc"
-
-
-msgid "Picce-sborka"
+msgstr "Latest updates"msgid "Obzor-sposobov-ciklicheskogo-izmereniya-signalov-s-chastotoj-do-5-kgc"
+msgstr "Obzor-sposobov-ciklicheskogo-izmereniya-signalov-s-chastotoj-do-5-kgc"msgid "Picce-sborka"
 msgstr "Picce-sborka"
 
 msgid "Obzor-sposobov-ciklicheskogo-izmereniya-signalov-s-chastotoj-do-5-kgc"
@@ -6463,47 +6454,25 @@ msgid "Https12factor-netconfig-devops-must-read"
 msgstr "Https12factor-netconfig-devops-must-read"
 
 msgid "Dom-strannih-detey-miss-peregrin"
-msgstr "Dom-strannih-detey-miss-peregrin"
-
-
-msgid "Robert Haynlayn. Luna - surovaya hozyayka"
+msgstr "Dom-strannih-detey-miss-peregrin"msgid "Robert Haynlayn. Luna - surovaya hozyayka"
 msgstr "Robert Haynlayn. Luna - surovaya hozyayka"
 
 msgid "Vi-s-uma-soshli"
-msgstr "Vi-s-uma-soshli"
-
-
-msgid "Viktor-Pelevin.Chapaev-i-pustota"
-msgstr "Viktor-Pelevin.Chapaev-i-pustota"
-
-
-msgid "Kloun-programmist"
-msgstr "Kloun-programmist"
-
-
-msgid "Ya-dumayu-chto-ya-dumayu-vauuu--Ili-istorii-o-tom-kak-lyudi-zainteresovalis-naukoy"
-msgstr "Ya-dumayu-chto-ya-dumayu-vauuu--Ili-istorii-o-tom-kak-lyudi-zainteresovalis-naukoy"
-
-
-msgid "Vozmozhnost-pobit-odnomu"
+msgstr "Vi-s-uma-soshli"msgid "Viktor-Pelevin.Chapaev-i-pustota"
+msgstr "Viktor-Pelevin.Chapaev-i-pustota"msgid "Kloun-programmist"
+msgstr "Kloun-programmist"msgid "Ya-dumayu-chto-ya-dumayu-vauuu--Ili-istorii-o-tom-kak-lyudi-zainteresovalis-naukoy"
+msgstr "Ya-dumayu-chto-ya-dumayu-vauuu--Ili-istorii-o-tom-kak-lyudi-zainteresovalis-naukoy"msgid "Vozmozhnost-pobit-odnomu"
 msgstr "Vozmozhnost-pobit-odnomu"
 
 msgid "Filmi-kotorie-mi-posmotreli-za-poslednie-paru-nedel"
-msgstr "Filmi-kotorie-mi-posmotreli-za-poslednie-paru-nedel"
-
-
-msgid "Zimoy-konki"
+msgstr "Filmi-kotorie-mi-posmotreli-za-poslednie-paru-nedel"msgid "Zimoy-konki"
 msgstr "Zimoy-konki"
 
 msgid "Zamena-sensornogo-ekrana-Ritmix-1030"
 msgstr "Zamena-sensornogo-ekrana-Ritmix-1030"
 
 msgid "Remont-kofemashini-Delologhi-BAR-14F"
-msgstr "Remont-kofemashini-Delologhi-BAR-14F"
-
-
-
-msgid "Chto-ya-hochu-videt-v-diplomnoy-rabote-po-razrabotke-programmnogo-obespecheniya"
+msgstr "Remont-kofemashini-Delologhi-BAR-14F"msgid "Chto-ya-hochu-videt-v-diplomnoy-rabote-po-razrabotke-programmnogo-obespecheniya"
 msgstr "Chto-ya-hochu-videt-v-diplomnoy-rabote-po-razrabotke-programmnogo-obespecheniya"
 
 
@@ -6553,11 +6522,8 @@ msgstr "Timlab.-Opit"
 
 msgid "Aviator.-Nebolshoy-otziv"
 msgstr "Aviator. Review"
-
-
 msgid "Highload-2017.-Kak-eto-bilo."
-msgstr "Highload-2017.-Kak-eto-bilo."
+msgstr "Highload-2017.-Kak-eto-bilo."msgid "Opit-uchastiya-v-Teamlab-v-roli-nastavnika"
 
-
-msgid "Opit-uchastiya-v-Teamlab-v-roli-nastavnika"
-msgstr "Opit-uchastiya-v-Teamlab-v-roli-nastavnika"
+msgid "o-zhizni-v-kaliningrade-spustya-god"
+msgstr "o-zhizni-v-kaliningrade-spustya-god"
