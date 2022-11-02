@@ -74,7 +74,7 @@ task('build-index', function() {
   );
 });
 
-task('grow-build', parallel('compile-sass', 'build-index'))
+task('grow-build', series('compile-sass', 'build-index'))
 
-exports.build = parallel('compile-sass')
-exports.default = series('compile-sass', parallel('watch-sass'))
+exports.build = parallel('grow-build')
+exports.default = series('grow-build', parallel('watch-sass'))
