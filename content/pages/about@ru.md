@@ -24,11 +24,11 @@ $order: 1
                 </div>
                 <div class="month">Т.М.</div>
             </div>
-            <div class="line__solid" style="height:60vh"></div>
+            <div class="line__solid" style="height:40vh"></div>
             <div class="point__interval">
                 <div class="year">><script type="text/javascript">document.write(Math.abs(new Date().getUTCFullYear() - 2018));</script> лет</div>
             </div>
-            <div class="line__solid" style="height:60vh"></div>
+            <div class="line__solid" style="height:40vh"></div>
             <div class="point">
                 <div class="year">2018</div>
                 <div class="month">ОКТ</div>
@@ -64,11 +64,11 @@ $order: 1
                 <div class="year">2018</div>
                 <div class="month">ОКТ</div>
             </div>
-            <div class="line__solid" style="height:30vh"></div>
+            <div class="line__solid" style="height:20vh"></div>
             <div class="point__interval">
                 <div class="year">>2 лет</div>
             </div>
-            <div class="line__solid" style="height:30vh"></div>
+            <div class="line__solid" style="height:20vh"></div>
             <div class="point">
                 <div class="year">2016</div>
                 <div class="month">ИЮН</div>
