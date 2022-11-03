@@ -427,8 +427,8 @@ video {
 
 .details {
     padding-left: 30px;
-    font-size: 1.5rem;
-    line-height: 1.33;
+    font-size: 1.3rem;
+    line-height: 1.11;
 }
 
 .details__title--main, .details__title--sub {
@@ -471,7 +471,7 @@ form > div.search-panel {
 
 @media (max-width: 768px) {
     .details {
-        font-size: 1.3rem;
+        font-size: 0.9rem;
     }
 
     .point {
