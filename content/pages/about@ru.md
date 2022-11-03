@@ -12,7 +12,7 @@ $order: 1
 
 Образование: Томский Политехнический университет, Физико-технический факультет, Электроника и автоматика физических установок.
 
-Контакты: [vk](https://vk.com/id4330588), [email](viktor@zharina.info)
+Контакты: viktor@zharina.info
 
 Сертификаты: [Coursera Algorithmic Toolbox](/static/images/coursera/cert.png)
 
@@ -48,11 +48,11 @@ $order: 1
             <p class="details__text">Разработал сервис для хранения данных пациентов</p>
             <p class="details__text">Активно участвовал в разработке новых функций для приложений пациента и доктора.</p>
             <p class="details__text">Участвовал в применении подхода Event Sourcing и Kafka в качестве брокера сообщений.</p>
-            <p class="details__text">Участвовал в разработке event-source фреймворка, специального созданного для проекта и написанного на Kotlin. Разработал специальный сервис (event-migrator), который отправлял сообщения в Kafka и далее они считывались на стороне приложения.</p>
+            <p class="details__text">Участвовал в разработке event-source фреймворка, созданного для проекта и написанного на Kotlin. Разработал специальный сервис (event-migrator), который отправлял сообщения в Kafka и далее они считывались на стороне приложения.</p>
             <p class="details__text">Предложил способ backup/restore на основе утилиты kafkacat для kafka.</p>
             <p class="details__text">Улучшил логгирование данных тем, что добавил correaltion id в события Kafka и считывание его и добавление в логи системы. Это повзолило быстрее идентифицировать проблему.</p>
             <p class="details__text">Разработал функцию поиска данных в elasticsearch по данным пациента.</p>
-            <p class="details__text">Написал несколько библиотек, которые использовали внутри проекта, такие как шаблонизатор сообщения для sms и email и клиента для cognito для выполнения простых CRUD операций для user pool.</p>
+            <p class="details__text">Написал несколько библиотек, которые использовали внутри проекта, такие как шаблонизатор сообщений для sms и email и клиента для cognito для выполнения простых CRUD операций для user pool.</p>
             <p class="details__text">Периодически обновлял проекты для аудита системы и по соображениям безопасности</p>
             <p class="details__text"><b>Технологии</b></p>
             <p class="details__skill">GraphQL, REST, Kafka, Postgres, Redis, Elasticsearch, Spring Boot, Hibernate, Junit, Kotlin, Twilio, CopperCRM, Datadog, Sentry, Slack, Google Meet, Jira.</p>
@@ -82,7 +82,7 @@ $order: 1
             <p class="details__text"><a href="//usedcarsni.com">usedcarsni.com</a></p> 
             <p class="details__text">Сервис в Серверной Ирландии для покупки и продажи авто/мото транспорта</p> 
             <p class="details__text"><b>Чем занимался</b></p> 
-            <p class="details__text">Активно разрабатывал функции и интеграции с сервисами: финансовый провайдер кредитных предложений Ivendi, фильтр и поиск автомобилей доступных в кредит, Trustpilot, Worldpay, Visitor Chat, 360 degree Image.</p>
+            <p class="details__text">Разрабатывал функции и интеграции с сервисами: финансовый провайдер кредитных предложений Ivendi, фильтр и поиск автомобилей доступных в кредит, Trustpilot, Worldpay, Visitor Chat, 360 degree Image.</p>
             <p class="details__text">Участвовал в переходе с версии 5.3 до 7 для PHP.</p>
             <p class="details__text">Общение с заказчиками: планирование, задачи в Redmine.</p>
             <p class="details__text">Участвовал в разделении монолитного legacy приложения на отдельные сервисы.</p>
@@ -115,7 +115,7 @@ $order: 1
             <p class="details__text">Инернет провайдер с более чем 20 000 клиентами</p> 
             <p class="details__text"><b>Чем занимался</b></p> 
             <p class="details__text">Участвовал в разработке и поддержке системы учета.</p>
-            <p class="details__text">Работал и писал скрипты для оборудования Cisco, Eltex, Dlink</p>
+            <p class="details__text">Работал и писал скрипты для работы с роутерами Cisco, Eltex, Dlink.</p>
             <p class="details__text">Разработал утилиту для перемещения группы пользователей с одного ip на другой.</p>
             <p class="details__text">Разработал модуль для системы учета для создания запросов на включение/отключение пользователей.</p>
             <p class="details__text">Внедрил систему GIT вместо SVN.</p>
@@ -146,8 +146,8 @@ $order: 1
             <p class="details__text"><b>Заказчик</b></p>
             <p class="details__text">Форекс брокер</p> 
             <p class="details__text"><b>Чем занимался</b></p> 
-            <p class="details__text">Занимался поддрежкой сайта форекс-брокера</p>
-            <p class="details__text">Изучил основы финансовой торговли</p>
+            <p class="details__text">Занимался поддрежкой сайта форекс-брокера.</p>
+            <p class="details__text">Изучил основы финансовой торговли.</p>
             <p class="details__text">Познакомился и начал сипользовать фреймворк symfony за короткий срок.</p>
             <p class="details__text">Разработал модуль для проведения соревнований среди инвесторов.</p>
             <p class="details__text"><b>Технологии</b></p>
@@ -175,7 +175,7 @@ $order: 1
             <div class="details__title--main"><a href="http://uetm.ru">ООО «Эльмаш (УЭТМ)». Екатеринбург</a></div>
             <div class="details__title--sub">Специалист группы систем управления</div>
             <p class="details__text">Программное обеспечение ПЛК Beckhoff, командировки, создание документации, наставничество.</p>
-            <p class="details__skill">#PLC, #Beckhoff, #EtherCAT, #TwinCAT, #CodeSYS</p>
+            <p class="details__skill">PLC, Beckhoff, EtherCAT, TwinCAT, CodeSYS</p>
         </div>
     </div>
     <div class="row">
