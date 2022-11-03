@@ -22,11 +22,11 @@ Certificates: [Coursera Algorithmic Toolbox](/static/images/coursera/cert.png)
                 </div>
                 <div class="month">Now</div>
             </div>
-            <div class="line__solid" style="height:60vh"></div>
+            <div class="line__solid" style="height:40vh"></div>
             <div class="point__interval">
                 <div class="year">~<script type="text/javascript">document.write(Math.abs(new Date().getUTCFullYear() - 2018));</script> years</div>
             </div>
-            <div class="line__solid" style="height:60vh"></div>
+            <div class="line__solid" style="height:40vh"></div>
             <div class="point">
                 <div class="year">2018</div>
                 <div class="month">OCT</div>
@@ -43,7 +43,7 @@ Certificates: [Coursera Algorithmic Toolbox](/static/images/coursera/cert.png)
             <p class="details__text">One of the first person who was hired and started development after CTO interview.</p>
             <p class="details__text">Switched from PHP stack to Java/Kotlin.</p>
             <p class="details__text">Communicated with customer: sprint plannings, 1-1 discussions every week.</p>
-            <p class="details__text">Developed patient PHI test covered with a reference to 12 factors methodology micro-service based on Spring <p class="details__text">Boot framework and Kotlin as a language.</p>
+            <p class="details__text">Developed patient PHI test covered with a reference to 12 factors methodology micro-service based on Spring Boot framework and Kotlin as a language.</p>
             <p class="details__text">Actively participated in development of different  business features for patient and provider apps which used GraphQL as API and for front-end communications.</p>
             <p class="details__text">Participated in apllying of event sourcing approach and Kafka as a message broker.</p>
             <p class="details__text">Participated in development and review event sourcing framework for the JVM written in Kotlin specially  created for Navio. Developed a special short-lived application that emit messages to Kafka and share content between other apps, so called event-migrator (10x faster than previous solution).</p>
@@ -62,11 +62,11 @@ Certificates: [Coursera Algorithmic Toolbox](/static/images/coursera/cert.png)
                 <div class="year">2018</div>
                 <div class="month">NOW</div>
             </div>
-            <div class="line__solid" style="height:30vh"></div>
+            <div class="line__solid" style="height:20vh"></div>
             <div class="point__interval">
                 <div class="year">~2 years</div>
             </div>
-            <div class="line__solid" style="height:30vh"></div>
+            <div class="line__solid" style="height:20vh"></div>
             <div class="point">
                 <div class="year">2016</div>
                 <div class="month">JUN</div>
@@ -96,7 +96,7 @@ Certificates: [Coursera Algorithmic Toolbox](/static/images/coursera/cert.png)
                 <div class="year">2016</div>
                 <div class="month">JUN</div>
             </div>
-            <div class="line__solid" style="height:20vh"></div>
+            <div class="line__solid" style="height:10vh"></div>
             <div class="point__interval">
                 <div class="year">>2 years</div>
             </div>
