@@ -1,14 +1,14 @@
 ---
 $title@: About
 image: /static/images/viktorzharina.jpg
-description: Резюме. Меня зовут Виктор Жарина. Я профессиональный веб-разработчик. Последние пару лет пишу на Kotlin, до этого неколько лет писал на PHP. Использовал Redis, Memcache в качестве NoSQL и MySQL, Postgres в качестве БД. Дружу с командной строкой Linux и считаю GIT манной небесной.
+description: Резюме. Меня зовут Виктор Жарина. Я профессиональный веб-разработчик. Последние несколько лет пишу на Kotlin, до этого неколько лет писал на PHP.
 $titles:
   nav@: About
 $order: 1
 
 ---
 <img src="/static/images/viktorzharina.jpg" alt="Фотография Виктора Жарины" class="about-photo" />
-Меня зовут Виктор Жарина (ударение на и). Сейчас живу в Калининграде и удаленно работаю на Quantumsoft. Люблю Linux и GIT. Говорю, пишу и читаю на английском. Без вредных привычек. Последние несколько лет участвую в американском стартапе, который делает софт для людей, у которых диагностировали рак головного мозга. Пишу на Kotlin в связке со Spring Boot. Ииспользуем Graphql и пробуем Event Sourcing.
+Меня зовут Виктор Жарина (ударение на и). Сейчас живу в Калининграде и удаленно работаю на Quantumsoft. Люблю Linux и GIT. Говорю, пишу и читаю на английском. Без вредных привычек. Последние несколько лет участвую в стартапе, который делает софт для людей, у которых диагностировали рак головного мозга. Пишу на Kotlin в связке со Spring Boot. Используем Graphql и пробуем Event Sourcing.
 
 Образование: Томский Политехнический университет, Физико-технический факультет, Электроника и автоматика физических установок.
 
@@ -24,11 +24,11 @@ $order: 1
                 </div>
                 <div class="month">Т.М.</div>
             </div>
-            <div class="line__solid" style="height:40vh"></div>
+            <div class="line__solid" style="height:30vh"></div>
             <div class="point__interval">
                 <div class="year">><script type="text/javascript">document.write(Math.abs(new Date().getUTCFullYear() - 2018));</script> лет</div>
             </div>
-            <div class="line__solid" style="height:40vh"></div>
+            <div class="line__solid" style="height:30vh"></div>
             <div class="point">
                 <div class="year">2018</div>
                 <div class="month">ОКТ</div>
@@ -64,11 +64,11 @@ $order: 1
                 <div class="year">2018</div>
                 <div class="month">ОКТ</div>
             </div>
-            <div class="line__solid" style="height:20vh"></div>
+            <div class="line__solid" style="height:15vh"></div>
             <div class="point__interval">
                 <div class="year">>2 лет</div>
             </div>
-            <div class="line__solid" style="height:20vh"></div>
+            <div class="line__solid" style="height:15vh"></div>
             <div class="point">
                 <div class="year">2016</div>
                 <div class="month">ИЮН</div>
@@ -80,7 +80,7 @@ $order: 1
             <div class="details__title--sub">Senior Web Developer</div>
             <p class="details__text"><b>Заказчик</b></p>
             <p class="details__text"><a href="//usedcarsni.com">usedcarsni.com</a></p> 
-            <p class="details__text">Сервис в Серверной Ирландии для покупки и продажи авто/мото транспорта</p> 
+            <p class="details__text">Сервис в Северной Ирландии для покупки и продажи авто/мото транспорта</p> 
             <p class="details__text"><b>Чем занимался</b></p> 
             <p class="details__text">Разрабатывал функции и интеграции с сервисами: финансовый провайдер кредитных предложений Ivendi, фильтр и поиск автомобилей доступных в кредит, Trustpilot, Worldpay, Visitor Chat, 360 degree Image.</p>
             <p class="details__text">Участвовал в переходе с версии 5.3 до 7 для PHP.</p>
@@ -97,11 +97,11 @@ $order: 1
                 <div class="year">2016</div>
                 <div class="month">ИЮН</div>
             </div>
-            <div class="line__solid" style="height:20vh"></div>
+            <div class="line__solid" style="height:15vh"></div>
             <div class="point__interval">
                 <div class="year">>2 лет</div>
             </div>
-            <div class="line__solid" style="height:20vh"></div>
+            <div class="line__solid" style="height:15vh"></div>
             <div class="point">
                 <div class="year">2014</div>
                 <div class="month">АПР</div>
@@ -112,12 +112,12 @@ $order: 1
             <div class="details__title--main">Интернет-провайдер "Новые Телесистемы"</div>
             <div class="details__title--sub">Программист</div>
             <p class="details__text"><b>Заказчик</b></p>
-            <p class="details__text">Инернет провайдер с более чем 20 000 клиентами</p> 
+            <p class="details__text">Интернет-провайдер с более чем 20 000 клиентами</p> 
             <p class="details__text"><b>Чем занимался</b></p> 
             <p class="details__text">Участвовал в разработке и поддержке системы учета.</p>
             <p class="details__text">Работал и писал скрипты для работы с роутерами Cisco, Eltex, Dlink.</p>
-            <p class="details__text">Разработал утилиту для перемещения группы пользователей с одного ip на другой.</p>
-            <p class="details__text">Разработал модуль для системы учета для создания запросов на включение/отключение пользователей.</p>
+            <p class="details__text">Разработал утилиту для перемещения групп пользователей с одной подсети в другую.</p>
+            <p class="details__text">Разработал модуль для создания запросов на включение/отключение пользователей.</p>
             <p class="details__text">Внедрил систему GIT вместо SVN.</p>
             <p class="details__text"><b>Технологии</b></p>
             <p class="details__skill">PHP, Mysql, Codeigniter, Ext4js, GIT, MSSQL(2012) network devices, bash, telnet</p>
