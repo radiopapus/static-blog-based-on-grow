@@ -6,7 +6,6 @@ $order: 313
 $dates:
   published: 2019-06-04 10:48:15
 $title@: travel-to-baltic
-
 ---
 
 The first name of the post was "Travel to Latvia" but there were events that possible to rename it to "Travel to Baltic".

@@ -1,7 +1,6 @@
 ---
 author@: Viktor Zharina
 $order: 298
-$category: math lessons
 $dates:
   published: 2018-02-18 09:24:51
 $title@: uroki-matematiki-youtube-kanal
