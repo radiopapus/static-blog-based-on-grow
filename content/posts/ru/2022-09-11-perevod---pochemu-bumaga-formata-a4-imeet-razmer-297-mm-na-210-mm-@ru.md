@@ -1,10 +1,10 @@
 ---
-$title@: perevod---pochemu-bumaga-formata-a4-imeet-razmer-297-mm-na-210-mm-
+$title@: perevod-pochemu-bumaga-formata-a4-imeet-razmer-297-mm-na-210-mm
 author@: Виктор Жарина
 description: Перевод статьи "Почему бумага формата А4 имеет размер 297 мм на 210 мм?"
 keywords: бумага, А4, 297 мм, почему, корень, математика, подобие, квадратный корень, иррациональные числа
 image: /static/images/default.png
-slugRu: perevod---pochemu-bumaga-formata-a4-imeet-razmer-297-mm-na-210-mm-
+slugRu: perevod-pochemu-bumaga-formata-a4-imeet-razmer-297-mm-na-210-mm
 $dates:
   published: 2022-09-11 08:59:56
 ---
