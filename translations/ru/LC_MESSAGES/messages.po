@@ -6741,3 +6741,5 @@ msgstr "Перевод - Почему бумага формата А4 имеет
 
 msgid "o-zhizni-v-kaliningrade-spustya-god"
 msgstr "О жизни в Калининграде спустя год"
+msgid "mashinka-na-rust-pervie-vpechatleniya"
+msgstr "Mashinka на Rust. Первые впечатления."

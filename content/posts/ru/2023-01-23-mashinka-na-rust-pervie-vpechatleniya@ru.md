@@ -1,8 +1,12 @@
 ---
-title: Mashinka на Rust. Первые впечатления.
-lang: ru
+$title@: mashinka-na-rust-pervie-vpechatleniya
+author@: Виктор Жарина
 description: Это тестовая запись, опубликованная с помощью Mashinka (Rust)
-keywords: запись, mashinka, rust
+keywords: запись,mashinka,rust
+image: /static/images/default.png
+slugRu: mashinka-na-rust-pervie-vpechatleniya
+$dates:
+  published: 2023-01-23 12:36:51
 ---
 <p>
 <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Rust_programming_language_black_logo.svg" style="float:left;"/> Проект, в котором я участвовал поставлен на паузу, нового пока не предвидится. Я устал и хочу отдохнуть. У меня накопилось более 30 рабочих дней отпуска, но я думаю мне этого не хватит. Как мне кажется прекрасное время заняться образованием и всякой ерундой и хорошенько побездельничать.
@@ -126,4 +130,3 @@ Rust - современный, мультипарадигменный язык, 
 <a href="https://github.com/zesterer/chumsky">zesterer/chumsky: A parser library for humans with powerful error recovery.</a>
 
 <a href="https://github.com/rust-bakery/nom">rust-bakery/nom: Rust parser combinator framework</a>
-
