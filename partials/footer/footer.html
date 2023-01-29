@@ -11,14 +11,6 @@
 <script src="/static/index/data.json"></script>
 <script type="text/javascript">
     lightGallery(document.getElementById('lightgallery'));
-
-    var ii = elasticlunr(function () {
-      this.use(lunr.multiLanguage('en', 'ru'));
-      this.addField('title')
-      this.addField('content')
-    });
-
-    window.idx = elasticlunr.Index.load(index)
 </script>
 <script src="/static/js/search.js"></script>
 </footer>
