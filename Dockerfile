@@ -1,4 +1,4 @@
-FROM alpine:3.8
+FROM alpine:3.16
 
 MAINTAINER Viktor Zharina <viktorz1986@gmail.com>
 
@@ -9,31 +9,31 @@ COPY . src/
 WORKDIR src/
 
 RUN apk update && \
-  apk add --update \
-    python \
-    python-dev \
-    py-pip \
+  apk add --no-cache --update \
+    python3 \
+    python3-dev \
+    py3-pip \
     build-base \
     libffi-dev \
     libressl-dev \
     g++ \
     yaml-dev \
+    py3-yaml \
     git \
     nodejs \
     npm \
-  && python --version \
-  && pip install --upgrade pip wheel \
-  && pip install --upgrade grow==$grow_version \
+  && python3 --version \
+  && pip3 install markupsafe==2.0.1 \
+  && pip3 install --upgrade pip wheel \
+  && pip3 install --global-option="--with-libyaml" --force pyyaml \
+  && pip3 install --upgrade grow==$grow_version \
   && rm -rf /var/cache/apk/* \
-  && mkdir -p /root/.ssh/ \
   && rm -rf /tmp/*
 
-RUN echo -e "\e[31m Grow: `grow --version` was installed\e[0m"
+RUN echo -e "\e[31m Grow installed\e[0m"
 
 ENV PATH /src/node_modules/.bin:$PATH
 
-RUN chmod +x npm_startup.sh
+RUN chmod +x startup.sh
 
-CMD ["npm_startup.sh"]
-
-#RUN mv src/id_rsa /root/.ssh/ && mv src/id_rsa.pub /root/.ssh/
+CMD ["startup.sh"]

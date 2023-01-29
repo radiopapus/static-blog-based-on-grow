@@ -1,3 +1,11 @@
+elasticlunr(function () {
+    this.use(lunr.multiLanguage('en', 'ru'));
+    this.addField('title')
+    this.addField('content')
+});
+
+window.idx = elasticlunr.Index.load(window.index) // window.index in the index.json
+
 function debounce(func, wait, immediate) {
     var timeout;
     return function() {
@@ -13,29 +21,29 @@ function debounce(func, wait, immediate) {
     };
 }
 
-function renderSearchList(refs) {
+function renderSearchList(ids) {
+    var html = ids.map((docId) => {
+        let doc = window.index.documentStore.docs[docId];
 
-    let list = rawData.filter(d => refs.includes(d.id))
-
-    var rrr = list.map((l) => {
-        if (l.id.includes("/ru/")) {
-            return `<div style="clear: both"><a href=${l.id.replace("/ru", "")}>${l.title}</a></div>`
+        if (docId.includes("/ru/")) {
+            return `<div style="clear: both"><a href=${docId.replace("/ru", "")}>${doc.title}</a></div>`
         }
-        return `<div style="clear: both"><a href=${l.id}>${l.title}</a></div>`
+        return `<div style="clear: both"><a href=${docId}>${doc.title}</a></div>`
     });
-    
 
-    document.getElementById('searchResults').innerHTML = rrr.join('')
+    document.getElementById('searchResults').innerHTML = html.join('')
 }
 
 let onInput = debounce(function () {
-    if (this.value.length < 2) return
-
     let query = this.value
 
-    let refs = idx.search(query).map((result) => result.ref)
+    if (query.length < 2) return
 
-    renderSearchList(refs)
+    // do search
+    let ids = window.idx.search(query)
+        .map((result) => result.ref)
+
+    renderSearchList(ids)
 })
 
 document.getElementById('searchInput')

@@ -9,7 +9,7 @@ const {
 const gulpAutoprefixer = require('gulp-autoprefixer');
 const path = require('path');
 const rename = require('gulp-rename');
-const sass = require('gulp-sass');
+const sass = require('gulp-sass')(require('sass'));
 const elasticlunr = require('elasticlunr');
 require('./node_modules/lunr-languages/lunr.stemmer.support.js')(elasticlunr);
 require('./node_modules/lunr-languages/lunr.ru.js')(elasticlunr);
@@ -50,12 +50,15 @@ async function buildIndex(dataFile, indexFile) {
     this.setRef('id');
     this.addField('title');
     this.addField('content');
-    this.saveDocument(false);
+    this.saveDocument(true);
   });
 
-  const data = JSON.parse(fs.readFileSync(dataFile, 'utf8'));
+  const indexRawJson = fs.readFileSync(dataFile, 'utf8')
+    .replace('window.rawData=', '');
+
+  const json = JSON.parse(indexRawJson);
       
-  data.map(function (p) {
+  json.map(function (p) {
     idx.addDoc({
       id: p.id,
       title: p.title,
@@ -63,8 +66,7 @@ async function buildIndex(dataFile, indexFile) {
     });
   });
 
-  fs.writeFileSync(indexFile, "index = " + JSON.stringify(idx));
-  await fs.writeFile(dataFile, "rawData = " + JSON.stringify(data), () => {});
+  await fs.writeFile(indexFile, "window.index="+JSON.stringify(idx), () => {});
 }
 
 task('build-index', function() {
