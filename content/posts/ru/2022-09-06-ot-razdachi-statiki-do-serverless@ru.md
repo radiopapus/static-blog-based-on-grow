@@ -1,10 +1,10 @@
 ---
-$title@: evolyuciya-veb-prilozheniy-ot-razdachi-statiki-do-serverless
+$title@: ot-razdachi-statiki-do-serverless
 author@: Виктор Жарина
 description: Cовременная web-разработка. Про серверную часть. Про монолит, микросервисы и Serverless
 keywords: web, web-development, history, monolith, microservices, serverless, apache, nginx, cloud, облачные технологии
 image: /static/images/default.png
-slugRu: evolyuciya-veb-prilozheniy-ot-razdachi-statiki-do-serverless
+slugRu: ot-razdachi-statiki-do-serverless
 $dates:
   published: 2022-09-06 16:00:54
 ---

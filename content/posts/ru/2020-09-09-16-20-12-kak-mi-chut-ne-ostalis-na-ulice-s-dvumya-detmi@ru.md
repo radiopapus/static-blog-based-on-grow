@@ -1,11 +1,11 @@
 ---
-$title@: kak-za-odin-den-nayti-zhile-v-avguste-2020-(posle-pandemii)-i-chut-ne-ostatsya-na-ulice-s-dvumya-detmi
+$title@: kak-mi-chut-ne-ostalis-na-ulice-s-dvumya-detmi
 author@: Виктор Жарина
 description: О том как мы нашли жилье, а потом за день до прибытия его потеряли, но нашли другое.
 keywords: переезд, другой город, Томск, Калининград
 $order: 326
 image: /static/images/default.png
-slugRu: kak-za-odin-den-nayti-zhile-v-avguste-2020-(posle-pandemii)-i-chut-ne-ostatsya-na-ulice-s-dvumya-detmi
+slugRu: kak-mi-chut-ne-ostalis-na-ulice-s-dvumya-detmi
 $dates:
   published: 2020-09-09 16:20:12
 ---

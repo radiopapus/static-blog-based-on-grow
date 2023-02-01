@@ -6700,7 +6700,7 @@ msgstr "О переезде в Калининград"
 msgid "o-pereezde-v-kaliningrad"
 msgstr "О переезде в Калининград"
 
-msgid "kak-za-odin-den-nayti-zhile-v-avguste-2020-(posle-pandemii)-i-chut-ne-ostatsya-na-ulice-s-dvumya-detmi"
+msgid "kak-mi-chut-ne-ostalis-na-ulice-s-dvumya-detmi"
 msgstr "Как за один день найти жилье в августе 2020 (после пандемии) и чуть не остаться на улице с двумя детьми"
 
 msgid "teper-mi-zhivem-v-staroy-nemeckoy-kvartire-i-schastlivi"
@@ -6727,13 +6727,10 @@ msgstr "Была ли спецоперация на Украине неизбе�
 msgid "pereezd-v-kaliningrad"
 msgstr "Переезд в Калининград"
 
-msgid "evolyuciya-veb-prilozheniy-ot-statichnogo-html-do-single-page-application-i-progressive-web-application"
+msgid "ot-statichnogo-html-do-single-page-application"
 msgstr "Эволюция веб-приложений. От статичного HTML до Single Page Application и Progressive Web Application"
 
-msgid "evolyuciya-veb-prilozheniy-ot-razdachi-statiki-do-serverless"
-msgstr "Эволюция веб-приложений. От раздачи статики до Serverless"
-
-msgid "evolyuciya-veb-prilozheniy-ot-razdachi-statiki-do-serverless"
+msgid "ot-razdachi-statiki-do-serverless"
 msgstr "Эволюция веб-приложений. От раздачи статики до Serverless"
 
 msgid "perevod-pochemu-bumaga-formata-a4-imeet-razmer-297-mm-na-210-mm"
@@ -6743,3 +6740,5 @@ msgid "o-zhizni-v-kaliningrade-spustya-god"
 msgstr "О жизни в Калининграде спустя год"
 msgid "mashinka-na-rust-pervie-vpechatleniya"
 msgstr "Mashinka на Rust. Первые впечатления."
+msgid "test-deploy-komandi"
+msgstr "Тест Deploy команды"

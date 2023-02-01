@@ -1,11 +1,11 @@
 ---
-$title@: evolyuciya-veb-prilozheniy-ot-statichnogo-html-do-single-page-application-i-progressive-web-application
+$title@: ot-statichnogo-html-do-single-page-application
 author@: Виктор Жарина
 description: Первый пост из цикла "Современная веб-разработка". От статичного HTML до Single Page Application и Progressive Web Application
 keywords: современная веб-разработка, web, web-development, history, приложение, multi page application, single page application
 $order: 336
 image: /static/images/default.png
-slugRu: evolyuciya-veb-prilozheniy-ot-statichnogo-html-do-single-page-application-i-progressive-web-application
+slugRu: ot-statichnogo-html-do-single-page-application
 $dates:
   published: 2022-07-29 18:03:19
 ---
