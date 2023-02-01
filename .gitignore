@@ -11,5 +11,4 @@ package-lock.json
 /.idea/
 .env
 .depcache.json
-/source/index/data.json
-/souce/index/index.json
+/source/index/
