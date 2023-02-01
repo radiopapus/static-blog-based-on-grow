@@ -53,8 +53,7 @@ async function buildIndex(dataFile, indexFile) {
     this.saveDocument(true);
   });
 
-  const indexRawJson = fs.readFileSync(dataFile, 'utf8')
-    .replace('window.rawData=', '');
+  const indexRawJson = fs.readFileSync(dataFile, 'utf8');
 
   const json = JSON.parse(indexRawJson);
       
