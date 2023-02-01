@@ -1,8 +1,8 @@
 ---
-title: test docker
-lang: en
-description: test record
-keywords: docker, grow, update
+title: Тест Deploy команды
+lang: ru
+description: тест деплой команды из mashinka на rust
+keywords: deploy, rust, mashinka, grow, update
 ---
 
-test record
+Проверка deploy команды Mashinka

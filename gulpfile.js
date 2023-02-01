@@ -54,7 +54,6 @@ async function buildIndex(dataFile, indexFile) {
   });
 
   const indexRawJson = fs.readFileSync(dataFile, 'utf8');
-
   const json = JSON.parse(indexRawJson);
       
   json.map(function (p) {
