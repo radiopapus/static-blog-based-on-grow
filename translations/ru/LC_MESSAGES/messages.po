@@ -725,3 +725,6 @@ msgid "mashinka-na-rust-pervie-vpechatleniya"
 msgstr "Mashinka на Rust. Первые впечатления."
 msgid "test-deploy-komandi"
 msgstr "Тест Deploy команды"
+
+msgid "telegram-bot-na-rust-i-raspberry-pi-2"
+msgstr "Telegram бот на Rust и Raspberry Pi 2"

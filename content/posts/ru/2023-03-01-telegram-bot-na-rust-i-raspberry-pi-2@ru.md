@@ -1,10 +1,13 @@
 ---
-title: Telegram бот на Rust и Raspberry Pi 2
-lang: ru
+$title@: telegram-bot-na-rust-i-raspberry-pi-2
+author@: Виктор Жарина
 description: Разработка telegram бота на rust и Raspberry Pi. От идеи до реализации.
-keywords: telegram, bot, rust, teloxide, raspberry pi
+keywords: telegram,bot,rust,teloxide,raspberry pi
+image: /static/images/default.png
+slugRu: telegram-bot-na-rust-i-raspberry-pi-2
+$dates:
+  published: 2023-03-01 14:45:14
 ---
-
 <h3>Идея</h3>
 
 Написать telegram бота-помощника на Rust, серверная часть которого будет работать на raspberry pi.
