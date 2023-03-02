@@ -9,32 +9,37 @@ keywords: telegram, bot, rust, teloxide, raspberry pi
 
 Написать telegram бота-помощника на Rust, серверная часть которого будет работать на raspberry pi.
 
-Идея создания telegram бота была давно. Изучал Rust, решил оценить что может Rust в web. Не классическое crud - приложение конечно, но для разогрева вполне сгодится.
+Идея создания telegram бота была давно. Изучал Rust, решил  попробовать Rust в web. Не классическое crud - приложение, но для разогрева вполне сгодится.
 
-Существуют разные сервисы, вроде перевода раскладки с одного языка на другой, конвертера unix timestamp в форматированную дату, base64 кодирования, jwt, json validator/prettifier, bin2hex и так далее. Почему бы не переместить эти функции в телеграм бота и пользоваться ими из одного приложения. Да и выглядит довольно просто в реализации. Набор команд, преобразование, результат. И да, давно валяется без дела Raspberry Pi 2, купленная у бывшего коллеги за символические деньги.
-
-<iframe style="margin: 1rem auto; display: block; float: none" width="560" height="315" src="https://www.youtube.com/embed/sDludSLpM0k" title="YouTube video player" frameborder="0" allow="autoplay; picture-in-picture; web-share"></iframe>
+Существуют разные сервисы, вроде перевода раскладки с одного языка на другой, конвертера unix timestamp в форматированную дату, base64 кодирования, jwt, json validator/prettifier, bin2hex и так далее. Почему бы не переместить эти функции в телеграм бота и пользоваться из одного приложения вместо посещения нескольких ресурсов. Да и реализовать вроде бы . Набор команд, преобразование, результат. И да, давно валяется без дела Raspberry Pi 2, купленная у бывшего коллеги за символическую сумму.
 
 <h3>Подготовка и выбор инструментов</h3>
-Для реализации идеи я вижу 3 вида работ: работа с железом, написание программы, интеграция.
+Вижу три фронта работ : работа с железом, написание программы и интеграция.
 
-Начнём с железяки aka малинка aka <a href="https://amperka.ru/product/raspberry-pi-2-model-b">Raspberry PI 2 Model B.</a> Вначале нужно установить на неё ОС. Делается это с помощью записи образа на карту памяти. Этот процесс не представляет ничего интересного и описан <a href="https://www.tomshardware.com/how-to/set-up-raspberry-pi">тут</a>. Я выбрал Debian. Подключаете малинку к монитору, настраиваете ssh, упаси вас господь настраивать вход по паролю, в 2023 году живём, SSH ключ наше все. Для своих нужд я разрешил доступ только из локальной сети. После того как ssh настроен, можно убрать плату подальше (поближе к роутеру).
+Начнём с железяки aka малинка aka <a href="https://amperka.ru/product/raspberry-pi-2-model-b">Raspberry PI 2 Model B</a>. Вначале нужно установить на неё ОС. Делается это с помощью записи образа на карту памяти. Этот процесс прост и описан <a href="https://www.tomshardware.com/how-to/set-up-raspberry-pi">тут</a>. Выбрал Debian. Подключаете малинку к монитору, настраиваете ssh, SSH ключ наше всё. После того как ssh настроен, можно убрать плату подальше (поближе к роутеру).
 
 <p class="fig">
-    <img width="25%" alt="Рисунок 1 - соотношение сторон 1 к x" src="https://322111.selcdn.ru/blog/static/images/bezzabot/raspberry.jpg" />
-    <p class="figsign">Рисунок 1 - Raspberry Pi 2</p>
+  <img width="25%" alt="Рисунок 1 - Raspberry Pi 2" src="/static/images/bezzabot/raspberry.jpg" />
+  <p class="figsign">Рисунок 1 - Raspberry Pi 2</p>
 </p>
 
-Далее переместимся к своему прекрасному, мощному, удивительному и неповторимому компьютеру, где я столько раз проливал чай и кофе и подключаться по ssh и творить дела удалённо. Первое что я сделал это поудалял ненужные пакеты и отключил службы, которые не планирую использовать. Только не удаляй python - не совершай ошибку. Его используют другие утилиты и удаление python скорее всего сделает систему не пригодной для дальнейшей работы. С железякой закончили.
+Далее переместимся к своему прекрасному, мощному, удивительному и неповторимому компьютеру, где столько раз проливал чай и кофе, подключаться по ssh, и творить дела удалённо. Удалил ненужные пакеты и отключил службы, которые не планирую использовать. Только не удаляй python - не совершай ошибку. Python используют другие утилиты и удаление python сделает систему не пригодной для работы. С железякой закончили.
 
-Дальше надо написать простейшее приложение на рабочей машине, скомпилировать его под платформу arm, выгрузить на Raspberry Pi и запустить. Добавлю немного подробностей. Рабочий компьютер это x86 архитектура, а Raspberry Pi это arm. Если коротко, то нельзя просто взять и скомпилировать программу на одной архитектуре, а исполнять на другой. Умные люди придумали кросс-компиляторы. Это программы, которые собирают программу под целевую (target) платформу. Помучавшись со сборкой libc и openssl я нашёл проект <a href = "https://github.com/cross-rs/cross">cross - zero setup cross compilation and cross testing of Rust crates</a>. Для меня это стало панацеей. 
-```bash 
+Дальше надо написать простейшее приложение (привет hello world) на рабочей машине, скомпилировать под платформу arm, выгрузить на Raspberry Pi и запустить. Добавлю подробностей. Рабочий компьютер это x86 архитектура, а Raspberry Pi это arm. Если коротко
+<p class="fig">
+    <img width="25%" alt="Рисунок 2 - Нельзя просто так скомпилировать программу на одной архитектуре, а исполнить на другой" src="/static/images/bezzabot/nelza.jpg" />
+    <p class="figsign">Рисунок 2 - Нельзя просто так скомпилировать программу для другой платформы</p>
+</p>
+
+Умные люди придумали кросс-компиляторы. Это программы, которые собирают программу под целевую (target) платформу. Помучавшись со сборкой libc и openssl нашёл проект <a href = "https://github.com/cross-rs/cross">cross - zero setup cross compilation and cross testing of Rust crates</a>, который решил все проблемы.
+
+```bash
 cross build --release --target arm-unknown-linux-musleabihf
 ```
+
 так выглядит команда на сборку под Raspberry Pi. Под капотом у cross работает docker. Указываете target и cross выкачивает нужный образ и собирает проект. Изящно, не правда ли?
 
-А да, есть ряд настроек, которые позволяют уменьшить размер бинарника. 
-
+Есть ряд настроек, которые позволяют уменьшить размер бинарника. 
 ```bash
 [profile.release]
 strip = true
@@ -42,7 +47,7 @@ opt-level = "z"
 lto = true
 codegen-units = 1
 ```
-Сделал я это для того, чтобы быстрее выгружать бинарник по ssh. Деплоить rust приложение - одно удовольстивие. Rust бинарник содержит все необходимое и достаточно перенести его на платформу, где он будет исполнятся и запустить. В моем случае я добавил .env файл, чтобы задать переменные окружения. В systemd файле конфигураций /etc/systemd/system/bezzabot.service я указал .env файл. Из него будут загружены пемренные окружения, необходимые для бота. 
+теперь можно быстрее выгружать бинарник по ssh. Деплоить rust приложение - одно удовольстивие. Бинарник достаточно перенести на платформу и запустить. Также добавил .env файл, чтобы задать переменные окружения. В systemd файле конфигурации /etc/systemd/system/bezzabot.service указал .env файл. Из него будут загружены пeременные окружения, необходимые для бота.
 
 ```bash
 [Service]
@@ -53,36 +58,39 @@ EnvironmentFile=/srv/bezzabot/.env
 Restart=always
 RestartSec=2
 ```
-Считаем, что вопрос со сборкой и deploy приложения временно решен. Перейдём к регистрации бота, домена, сертификатам. Это была самая ненавистная часть, но, как оказалось, зря. Я выбрал webhooks вместо long-polling как способ коммуникации бота. В таком случае telegram требует https со всеми вытекающими. Я являюсь счастливым обладателем роутера keenetic zyxel и в dashboard я обнаружил пункт меню Domain name. Оказалось Keenetic предоставляет доменное имя 5-го уровня для своих клиентов (это я). Вместе с сертификатом. Кайф. Я зарегистрировал доменное имя и пробросил порты до raspberry и, забегая вперед, скажу, что это прекрасно работает. Таким образом ещё одна проблема решена малой кровью. Как регистрировать бота в телеграм я рассказывать не буду, а оставлю <a href="https://core.telegram.org/bots#how-do-i-create-a-bot">ссылку</a>.
 
-Бот зарегистрирован и настроен webhook. Переходим к написанию кода. Сэкономить время можно на API. Несмотря на то, что для текущей задачи не нужна большая функциональность я бы не хотел ограничивать себя в будущем. Первой ссылкой по теме telegram bot rust выпадает <a hre="https://github.com/teloxide/teloxide">teloxide</a>. Это заслуженно. Пример с <a href="https://github.com/teloxide/teloxide/blob/master/crates/teloxide/examples/command.rs">командами</a> это почти все что мне нужно.
-Определяете набор команд в enum Command. Определяете реакцию на команды в функции answer. Теперь к деталям. По-умолчанию teloxide работает в long-polling режиме, и поэтому надо перенастроить его на webhook-mode. Смотрите <a href="https://github.com/teloxide/teloxide/blob/master/crates/teloxide/examples/ngrok_ping_pong.rs">пример здесь</a>. Кстати, ngrok отлично подходит для старта разработки как, собственно и локальный telegram сервер, выбор за вами. А дальше пишем логику. Единственное, что хочу отметить это парсинг аргументов. В моем случае команды могут содержать 
-обязательные и необязательные параметры. Пользователь может задать лишние параметры, перепутать, ввести ерунду. Я использую поле parse_with макроса BotCommand, который позволяет написать свою функцию парсинга, вместо функции по-умолчанию. parse_with - это функция, которая принимает на вход строку, а на выходе у нее Result<(), ParseError>.
+Считаем, что вопрос со сборкой и deploy приложения временно решен. Перейдём к регистрации бота, домена, сертификатам. Это была самая ненавистная часть, но, как оказалось, зря я её ненавидел. Выбрал webhooks вместо long-polling как способ коммуникации бота. В таком случае telegram требует https со всеми вытекающими. Я являюсь счастливым обладателем роутера keenetic zyxel и в dashboard обнаружил пункт меню Domain name. Оказалось Keenetic предоставляет доменное имя 5-го уровня для клиентов (это я). Вместе с сертификатом. Кайф. Зарегистрировал доменное имя и пробросил порты до raspberry и, забегая вперед, скажу, что это работает. Ещё одна проблема решена малой кровью. Как регистрировать бота в телеграм рассказывать не буду, а оставлю <a href="https://core.telegram.org/bots#how-do-i-create-a-bot">ссылку</a>.
+
+Бот зарегистрирован, webhook настроен, https работает. Переходим к созданию бота. Сэкономить время можно на API. Несмотря на то, что для текущей задачи не нужна большая функциональность я бы не хотел ограничивать себя в будущем. Первой ссылкой по теме telegram bot rust выпадает <a hre="https://github.com/teloxide/teloxide">teloxide</a>. Это заслуженно. Пример с <a href="https://github.com/teloxide/teloxide/blob/master/crates/teloxide/examples/command.rs">командами</a> это почти все что мне нужно.
+
+Определяете набор команд в enum Command. Определяете реакцию на команды в функции answer. Теперь к деталям. По-умолчанию teloxide работает в long-polling режиме, и поэтому надо перенастроить на webhook-mode. Смотрите <a href="https://github.com/teloxide/teloxide/blob/master/crates/teloxide/examples/ngrok_ping_pong.rs">пример здесь</a>. Кстати, ngrok отлично подходит для старта разработки как, собственно и локальный telegram сервер, выбор за вами. А дальше пишем логику. Единственное, что хочу отметить это парсинг аргументов. Команды содержат обязательные и необязательные параметры. Пользователь может задать лишние параметры, перепутать, ввести ерунду. Я использую поле parse_with макроса BotCommand, в которой укажем собственную функцию для разбора аргументов.
 
 ```rust
 #[derive(BotCommands, Debug, Clone)]
 #[command(rename_rule = "lowercase", description = "Доступные команды:")]
 pub enum BotCommand {
-    #[command(description = "Отображает этот текст")]
-    Help,
+  #[command(description = "Отображает этот текст")]
+  Help,
 
-    #[command(
-        parse_with = skb_parser,
-        description = "Превращает йцукен -> qwerty. Пример: /skb йцукен")]
-    Skb(String, Layout, FromLanguage, ToLanguage),
-    ...
+  #[command(
+   parse_with = skb_parser,
+   description = "Превращает йцукен -> qwerty. Пример: /skb йцукен"
+  )]
+  Skb(String, Layout, FromLanguage, ToLanguage),
+  ...
 }
 ```
 
-На текущий момент доступны 3 команды, не считая help. 
+Доступны 3 команды, не считая help.
 ```bash
-/skb — Превращает йцукен -> qwerty. Пример: /skb йцукен
+/skb — Превращает йцукен в qwerty. Пример: /skb йцукен
 /utime — Превращает unix timestamp в дату в формате %Y-%m-%d %H:%M:%S.
-/winner — Выбирает  случайный id из списка. Пример: /winner 1 2 3 4 5
+/winner — Выбирает случайный id из списка. Пример: /winner 1 2 3 4 5
 ```
-и в планах добавить парочку, троечку. Кстати, если есть идеи команд - скидывайте. 
+В планах добавить ещё. Кстати, если есть идеи команд - буду рад рассмотреть и реализовать.
+В завершении отмечу, что создать dev-окружение для бота не составило никакого труда. Я создал второго бота, ещё один домен и пробросил порт до рабочей машины.
 
-В завершении отмечу, что создать dev окружение для бота не составило вообще никакого труда. Я просто создал второго бота, ещё один домен и пробросил порт до рабочей машины.
+<iframe style="margin: 1rem auto; display: block; float: none" width="560" height="315" src="https://www.youtube.com/embed/sDludSLpM0k" title="YouTube video player" frameborder="0" allow="fullscreen; autoplay; picture-in-picture; web-share"></iframe>
 
 В качестве вывода и отчёта о проделанной работе я оставлю список задач, которые я решил и напишу то, что создание простого telegram бота это совсем не сложно и даже весело.
 
@@ -96,7 +104,7 @@ pub enum BotCommand {
 
 - Собрать проект, написанный на рабочей машине под Raspberry Pi (x86 -> arm 32 bit)
 
-- Выгрузить и запустить собранный проект на Raspberry Pi 
+- Выгрузить и запустить собранный проект на Raspberry Pi
 
 - Написать systemd сервис, который будет запускать бота при загрузке и перезапускать, если сервис упал (такого у нас точно не произойдет)
 
@@ -119,24 +127,24 @@ pub enum BotCommand {
 
 <h3>Ссылки</h3>
 
-[Bezzabot - Helper for developers - github](https://github.com/radiopapus/bezzabot)
+[Bezzabot - Helper for developers - github](github.com/radiopapus/bezzabot)
 
-[Bezzabot - Telegram](https://t.me/Ym90X2JlX3ph_bot)
+[Bezzabot - Telegram](t.me/Ym90X2JlX3ph_bot)
 
-[Teloxide - library to build Telegram bots on Rust](https://github.com/teloxide/teloxide)
+[Teloxide - library to build Telegram bots on Rust](github.com/teloxide/teloxide)
 
-[How Do I Create a Bot?](https://core.telegram.org/bots#how-do-i-create-a-bot)
+[How Do I Create a Bot?](core.telegram.org/bots#how-do-i-create-a-bot)
 
-[Botfather](https://telegram.me/BotFather)
+[Botfather](telegram.me/BotFather)
 
-[Asynchronous Programming in Rust](https://rust-lang.github.io/async-book/)
+[Asynchronous Programming in Rust](rust-lang.github.io/async-book)
 
-[How to Set Up a Raspberry Pi for the First Time](https://www.tomshardware.com/how-to/set-up-raspberry-pi)
+[How to Set Up a Raspberry Pi for the First Time](www.tomshardware.com/how-to/set-up-raspberry-pi)
 
-[Telegram Bot API](https://core.telegram.org/bots/api)
+[Telegram Bot API](core.telegram.org/bots/api)
 
-[Cross - zero setup cross compilation](https://github.com/cross-rs/cross)
+[Cross - zero setup cross compilation](github.com/cross-rs/cross)
 
-[Rust](https://www.rust-lang.org/)
+[Rust](www.rust-lang.org)
 
-[Характеристики raspberry pi](https://amperka.ru/product/raspberry-pi-2-model-b)
+[Характеристики Raspberry Pi](amperka.ru/product/raspberry-pi-2-model-b)
