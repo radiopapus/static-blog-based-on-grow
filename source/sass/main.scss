@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('/static/fonts/typewritercyrnormal.woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   font-family: 'FontAwesome', tahoma, arial, sans-serif;
   font-size: 18px;
@@ -8,7 +15,7 @@ body {
 }
 
 p {
-  word-wrap:break-word;
+  word-wrap: break-word;
 }
 
 ul {
@@ -455,14 +462,6 @@ form > div.search-panel {
   padding: 1.5rem;
 }
 
-@font-face {
-  font-family: 'FontAwesome';
-  src: url('/static/fonts/typewritercyrnormal.woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-
 @media (max-width: 1024px) {
     .year, .month {
         font-size: 1.5rem;
@@ -485,6 +484,9 @@ form > div.search-panel {
 }
 
 @media (max-width: 480px) {
+    .code {
+        font-size: 0.8rem;
+    }
     .details {
         padding: 0px 0 0 20px;
         font-size: 0.9rem;
@@ -503,7 +505,6 @@ form > div.search-panel {
     float: left;
 }
 
-/* Default table styles for this demo */
 table {
     border-collapse: collapse;
     text-align: left;

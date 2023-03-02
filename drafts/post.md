@@ -82,15 +82,20 @@ pub enum BotCommand {
 ```
 
 Доступны 3 команды, не считая help.
-```bash
+
+```sh
 /skb — Превращает йцукен в qwerty. Пример: /skb йцукен
+
 /utime — Превращает unix timestamp в дату в формате %Y-%m-%d %H:%M:%S.
+
 /winner — Выбирает случайный id из списка. Пример: /winner 1 2 3 4 5
 ```
 В планах добавить ещё. Кстати, если есть идеи команд - буду рад рассмотреть и реализовать.
 В завершении отмечу, что создать dev-окружение для бота не составило никакого труда. Я создал второго бота, ещё один домен и пробросил порт до рабочей машины.
 
-<iframe style="margin: 1rem auto; display: block; float: none" width="560" height="315" src="https://www.youtube.com/embed/sDludSLpM0k" title="YouTube video player" frameborder="0" allow="fullscreen; autoplay; picture-in-picture; web-share"></iframe>
+<div class="videoWrapper">
+    <iframe style="margin: 1rem auto; display: block; float: none" width="560" height="315" src="https://www.youtube.com/embed/sDludSLpM0k" title="YouTube video player" frameborder="0" allow="fullscreen; autoplay; picture-in-picture; web-share"></iframe>
+</div>
 
 В качестве вывода и отчёта о проделанной работе я оставлю список задач, которые я решил и напишу то, что создание простого telegram бота это совсем не сложно и даже весело.
 

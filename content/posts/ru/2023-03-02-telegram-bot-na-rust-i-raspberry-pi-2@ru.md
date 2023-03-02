@@ -37,7 +37,9 @@ $dates:
 Умные люди придумали кросс-компиляторы. Это программы, которые собирают программу под целевую (target) платформу. Помучавшись со сборкой libc и openssl нашёл проект <a href = "https://github.com/cross-rs/cross">cross - zero setup cross compilation and cross testing of Rust crates</a>, который решил все проблемы.
 
 ```bash
-cross build --release --target arm-unknown-linux-musleabihf
+cross build 
+  --release  
+  --target arm-unknown-linux-musleabihf
 ```
 
 так выглядит команда на сборку под Raspberry Pi. Под капотом у cross работает docker. Указываете target и cross выкачивает нужный образ и собирает проект. Изящно, не правда ли?
@@ -55,7 +57,7 @@ codegen-units = 1
 ```bash
 [Service]
 ExecStart=/srv/bezzabot/bezzabot
-ExecRestart=bash -c "/srv/bezzabot/bezzabot"
+ExecReload=bash -c "/srv/bezzabot/bezzabot"
 User=radio
 EnvironmentFile=/srv/bezzabot/.env
 Restart=always
@@ -70,30 +72,44 @@ RestartSec=2
 
 ```rust
 #[derive(BotCommands, Debug, Clone)]
-#[command(rename_rule = "lowercase", description = "Доступные команды:")]
+#[command(
+  rename_rule = "lowercase", 
+  description = "Доступные команды:"
+)]
 pub enum BotCommand {
-  #[command(description = "Отображает этот текст")]
+  #[command(
+    description = "Отображает этот текст")
+  ]
   Help,
 
   #[command(
-   parse_with = skb_parser,
-   description = "Превращает йцукен -> qwerty. Пример: /skb йцукен"
+    parse_with = skb_parser,
+    description = "йцукен -> qwerty"
   )]
-  Skb(String, Layout, FromLanguage, ToLanguage),
+  Skb(
+    String, 
+    Layout, 
+    FromLanguage, 
+    ToLanguage
+  ),
   ...
 }
 ```
 
-Доступны 3 команды, не считая help.
-```bash
-/skb — Превращает йцукен в qwerty. Пример: /skb йцукен
-/utime — Превращает unix timestamp в дату в формате %Y-%m-%d %H:%M:%S.
-/winner — Выбирает случайный id из списка. Пример: /winner 1 2 3 4 5
-```
+Доступны 3 команды, не считая help:
+
+- /skb — Превращает йцукен в qwerty. Пример: /skb йцукен
+
+- /utime — Превращает unix timestamp в дату в формате %Y-%m-%d %H:%M:%S
+
+- /winner — Выбирает случайный id из списка. Пример: /winner 1 2 3 4 5
+
 В планах добавить ещё. Кстати, если есть идеи команд - буду рад рассмотреть и реализовать.
 В завершении отмечу, что создать dev-окружение для бота не составило никакого труда. Я создал второго бота, ещё один домен и пробросил порт до рабочей машины.
 
-<iframe style="margin: 1rem auto; display: block; float: none" width="560" height="315" src="https://www.youtube.com/embed/sDludSLpM0k" title="YouTube video player" frameborder="0" allow="fullscreen; autoplay; picture-in-picture; web-share"></iframe>
+<div class="videoWrapper">
+    <iframe style="margin: 1rem auto; display: block; float: none" width="560" height="315" src="https://www.youtube.com/embed/sDludSLpM0k" title="YouTube video player" frameborder="0" allow="fullscreen; autoplay; picture-in-picture; web-share"></iframe>
+</div>
 
 В качестве вывода и отчёта о проделанной работе я оставлю список задач, которые я решил и напишу то, что создание простого telegram бота это совсем не сложно и даже весело.
 
