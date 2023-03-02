@@ -22,7 +22,7 @@ $dates:
 Начнём с железяки aka малинка aka <a href="https://amperka.ru/product/raspberry-pi-2-model-b">Raspberry PI 2 Model B</a>. Вначале нужно установить на неё ОС. Делается это с помощью записи образа на карту памяти. Этот процесс прост и описан <a href="https://www.tomshardware.com/how-to/set-up-raspberry-pi">тут</a>. Выбрал Debian. Подключаете малинку к монитору, настраиваете ssh, SSH ключ наше всё. После того как ssh настроен, можно убрать плату подальше (поближе к роутеру).
 
 <p class="fig">
-  <img width="50%" alt="Рисунок 1 - Raspberry Pi 2" src="/static/images/bezzabot/raspberry.jpg" />
+  <img width="25%" alt="Рисунок 1 - Raspberry Pi 2" src="/static/images/bezzabot/raspberry.jpg" />
   <p class="figsign">Рисунок 1 - Raspberry Pi 2</p>
 </p>
 
