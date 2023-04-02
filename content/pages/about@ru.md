@@ -24,11 +24,11 @@ $order: 1
                 </div>
                 <div class="month">Т.М.</div>
             </div>
-            <div class="line__solid" style="height:30vh"></div>
+            <div class="line__solid line__solid_quantum"></div>
             <div class="point__interval">
-                <div class="year">><script type="text/javascript">document.write(Math.abs(new Date().getUTCFullYear() - 2018));</script> лет</div>
+                <div class="year">><script type="text/javascript">document.write(Math.abs(new Date().getUTCFullYear() - 2018 - 1));</script> лет</div>
             </div>
-            <div class="line__solid" style="height:30vh"></div>
+            <div class="line__solid line__solid_quantum"></div>
             <div class="point">
                 <div class="year">2018</div>
                 <div class="month">ОКТ</div>
@@ -38,11 +38,9 @@ $order: 1
         <div class="details">
             <div class="details__title--main"><a href="//www.quantumsoft.pro">Quantumsoft (Удаленно)</a></div>
             <div class="details__title--sub">Software Developer</div>
-            <p class="details__text"><b>Заказчик</b></p>
-            <p class="details__text"><a href="//navio.com">navio.com</a></p>
+            <p class="details__text"><a href="navio.com">navio.com</a></p>
             <p class="details__text">Разработка программного обеспечения для людей, у которых диагностировали рак.</p> 
             <p class="details__text"><b>Чем занимался</b></p>
-            <p class="details__text">Был одни из первых инженеров, кто начал разработку после собеседования с тех. директором</p>
             <p class="details__text">Переключился с PHP стэка на Kotlin</p>
             <p class="details__text">Общение с заказчиками: еженедельные стречи, 1-1, планирование работ</p>
             <p class="details__text">Разработал сервис для хранения данных пациентов</p>
@@ -64,11 +62,11 @@ $order: 1
                 <div class="year">2018</div>
                 <div class="month">ОКТ</div>
             </div>
-            <div class="line__solid" style="height:15vh"></div>
+            <div class="line__solid line__solid_ofte"></div>
             <div class="point__interval">
                 <div class="year">>2 лет</div>
             </div>
-            <div class="line__solid" style="height:15vh"></div>
+            <div class="line__solid line__solid_ofte"></div>
             <div class="point">
                 <div class="year">2016</div>
                 <div class="month">ИЮН</div>
@@ -78,7 +76,6 @@ $order: 1
         <div class="details">
             <div class="details__title--main">ООО "Офти"</div>
             <div class="details__title--sub">Senior Web Developer</div>
-            <p class="details__text"><b>Заказчик</b></p>
             <p class="details__text"><a href="//usedcarsni.com">usedcarsni.com</a></p> 
             <p class="details__text">Сервис в Северной Ирландии для покупки и продажи авто/мото транспорта</p> 
             <p class="details__text"><b>Чем занимался</b></p> 
@@ -97,11 +94,11 @@ $order: 1
                 <div class="year">2016</div>
                 <div class="month">ИЮН</div>
             </div>
-            <div class="line__solid" style="height:15vh"></div>
+            <div class="line__solid line__solid_nts"></div>
             <div class="point__interval">
                 <div class="year">>2 лет</div>
             </div>
-            <div class="line__solid" style="height:15vh"></div>
+            <div class="line__solid line__solid_nts"></div>
             <div class="point">
                 <div class="year">2014</div>
                 <div class="month">АПР</div>
@@ -111,7 +108,6 @@ $order: 1
         <div class="details">
             <div class="details__title--main">Интернет-провайдер "Новые Телесистемы"</div>
             <div class="details__title--sub">Программист</div>
-            <p class="details__text"><b>Заказчик</b></p>
             <p class="details__text">Интернет-провайдер с более чем 20 000 клиентами</p> 
             <p class="details__text"><b>Чем занимался</b></p> 
             <p class="details__text">Участвовал в разработке и поддержке системы учета.</p>
@@ -143,7 +139,6 @@ $order: 1
         <div class="details">
             <div class="details__title--main">ФорексИнн</div>
             <div class="details__title--sub">Junior web-developer</div>
-            <p class="details__text"><b>Заказчик</b></p>
             <p class="details__text">Форекс брокер</p> 
             <p class="details__text"><b>Чем занимался</b></p> 
             <p class="details__text">Занимался поддержкой сайта форекс-брокера.</p>

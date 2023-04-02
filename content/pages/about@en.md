@@ -24,7 +24,7 @@ Certificates: [Coursera Algorithmic Toolbox](/static/images/coursera/cert.png)
             </div>
             <div class="line__solid" style="height:30vh"></div>
             <div class="point__interval">
-                <div class="year">~<script type="text/javascript">document.write(Math.abs(new Date().getUTCFullYear() - 2018));</script> years</div>
+                <div class="year">~<script type="text/javascript">document.write(Math.abs(new Date().getUTCFullYear() - 2018 - 1));</script> years</div>
             </div>
             <div class="line__solid" style="height:30vh"></div>
             <div class="point">
