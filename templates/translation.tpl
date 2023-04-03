@@ -1,3 +1,0 @@
-
-msgid "{id}"
-msgstr "{value}"
