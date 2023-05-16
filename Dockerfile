@@ -8,7 +8,13 @@ COPY . src/
 
 WORKDIR src/
 
-RUN apk update && \
+# Setup for ssh onto github
+RUN mkdir -p /root/.ssh
+ADD id_ed25519 /root/.ssh/id_ed25519
+RUN chmod 700 /root/.ssh/id_ed25519 && echo "Host github.com\n\tStrictHostKeyChecking no\n" >> /root/.ssh/config
+
+RUN adduser --disabled-password --gecos "" grow && \
+    apk update && \
   apk add --no-cache --update \
     python3 \
     python3-dev \
@@ -16,6 +22,7 @@ RUN apk update && \
     build-base \
     libffi-dev \
     libressl-dev \
+    openssh-client \
     g++ \
     yaml-dev \
     py3-yaml \

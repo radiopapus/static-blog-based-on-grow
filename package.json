@@ -7,17 +7,17 @@
   ],
   "devDependencies": {
     "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^6.1.0",
-    "gulp-rename": "^1.4.0",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-rename": "^2.0.0",
     "gulp-sass": "^5.1.0",
     "webpack": "4.33.0",
     "webpack-stream": "5.2.1"
   },
   "dependencies": {
     "elasticlunr": "^0.9.5",
+    "gulp-cli": "^2.3.0",
     "lunr-languages": "git+https://github.com/weixsong/lunr-languages.git",
     "node-gyp": "^9.3.1",
-    "node-sass": "^8.0.0",
-    "sass": "^1.57.1"
+    "sass": "^1.62.1"
   }
 }

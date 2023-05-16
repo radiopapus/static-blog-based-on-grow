@@ -1,13 +1,13 @@
 #!/bin/sh
 
-npm i gulp-cli
-npm i gulp
-npm i gulp-autoprefixer
-npm i gulp-rename
-npm i gulp-sass && npm config set python "/usr/bin/python3"
+yarn add gulp-cli
+yarn add gulp
+yarn add gulp-autoprefixer
+yarn add gulp-rename
+yarn add gulp-sass
 
-npm i node-gyp && npm config set python "/usr/bin/python3"
-npm i sass && npm config set python "/usr/bin/python3"
+yarn add node-gyp
+yarn add sass
 
-npm i elasticlunr
-npm i git+https://github.com/weixsong/lunr-languages.git
+yarn add elasticlunr
+yarn add git+https://github.com/weixsong/lunr-languages.git
