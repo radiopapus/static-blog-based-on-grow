@@ -18,15 +18,14 @@ Certificates: [Coursera Algorithmic Toolbox](/static/images/coursera/cert.png)
     <div class="row">
         <div class="points">
             <div class="point">
-                <div class="year"><script type="text/javascript">document.write(Math.abs(new Date().getUTCFullYear()));</script>
-                </div>
-                <div class="month">Now</div>
+                <div class="year">2023</div>
+                <div class="month">MAR</div>
             </div>
-            <div class="line__solid" style="height:30vh"></div>
+            <div class="line__solid line__solid_quantum"></div>
             <div class="point__interval">
-                <div class="year">~<script type="text/javascript">document.write(Math.abs(new Date().getUTCFullYear() - 2018 - 1));</script> years</div>
+                <div class="year">~<script type="text/javascript">document.write(2023 - 2018 - 1);</script> years</div>
             </div>
-            <div class="line__solid" style="height:30vh"></div>
+            <div class="line__solid line__solid_quantum"></div>
             <div class="point">
                 <div class="year">2018</div>
                 <div class="month">OCT</div>
@@ -62,11 +61,11 @@ Certificates: [Coursera Algorithmic Toolbox](/static/images/coursera/cert.png)
                 <div class="year">2018</div>
                 <div class="month">NOW</div>
             </div>
-            <div class="line__solid" style="height:15vh"></div>
+            <div class="line__solid line__solid_ofte"></div>
             <div class="point__interval">
                 <div class="year">~2 years</div>
             </div>
-            <div class="line__solid" style="height:15vh"></div>
+            <div class="line__solid line__solid_ofte"></div>
             <div class="point">
                 <div class="year">2016</div>
                 <div class="month">JUN</div>
@@ -96,11 +95,11 @@ Certificates: [Coursera Algorithmic Toolbox](/static/images/coursera/cert.png)
                 <div class="year">2016</div>
                 <div class="month">JUN</div>
             </div>
-            <div class="line__solid" style="height:15vh"></div>
+            <div class="line__solid line__solid_nts"></div>
             <div class="point__interval">
                 <div class="year">>2 years</div>
             </div>
-            <div class="line__solid" style="height:15vh"></div>
+            <div class="line__solid line__solid_nts"></div>
             <div class="point">
                 <div class="year">2014</div>
                 <div class="month">APR</div>

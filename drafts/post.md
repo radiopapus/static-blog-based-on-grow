@@ -1,167 +1,28 @@
 ---
-title: Telegram бот на Rust, два, три и Raspberry Pi 2
+title: План на видео про набор для веб-разработки
 lang: ru
-description: Разработка telegram бота на Rust и Raspberry Pi. От идеи до реализации.
-keywords: telegram, bot, rust, teloxide, raspberry pi
+description: Джентельменский набор для backend-разработки
+keywords: разработка, it, технологии
 ---
 
-<h3>Идея</h3>
+Давно была идея составить некий джентельменский набор веб-разработчика. Думаю сделать это в формате видео, точнее серии роликов и начать с общего введение и перечисления технологий и инструментов. Отличная информация представлена на сайте https://roadmap.sh/backend, но в своих видео я расскажу про те, инструменты которые использую сам.
 
-Написать telegram бота-помощника на Rust, который будет работать на Raspberry pi.
-
-Идея создания telegram бота была давно. Изучал Rust, решил  попробовать Rust в web. Не классическое crud - приложение, без базы, без авторизации, но для разогрева сгодится.
-
-Существуют разные сервисы, вроде перевода раскладки с одного языка на другой, конвертера unix timestamp в форматированную дату, base64 кодирования, jwt, json validator/prettifier, bin2hex и так далее. Почему бы не переместить эти функции в телеграм бота и пользоваться из одного приложения вместо посещения нескольких ресурсов. Реализовать вроде не сложно. При этом давно валяется без дела Raspberry Pi 2, купленная у бывшего коллеги за символическую сумму. Звезды сошлись.
-
-<h3>Подготовка и выбор инструментов</h3>
-Вижу три фронта работ : работа с железом, написание программы и интеграция.
-
-Начнём с железяки aka малинка aka <a href="https://amperka.ru/product/raspberry-pi-2-model-b">Raspberry PI 2 Model B</a>. Вначале нужно было установить на неё ОС. Делается это с помощью записи образа на карту памяти. Этот процесс описан <a href="https://www.tomshardware.com/how-to/set-up-raspberry-pi">тут</a>. Выбрал Debian. Подключил малинку к монитору, настроил ssh. После того как ssh настроен, можно убрать плату подальше (поближе к роутеру).
-
-<p class="fig">
-  <img width="25%" alt="Рисунок 1 - Raspberry Pi 2" src="/static/images/bezzabot/raspberry.jpg" />
-  <p class="figsign">Рисунок 1 - Raspberry Pi 2</p>
-</p>
-
-Далее переместился к своему прекрасному, мощному, удивительному и неповторимому компьютеру, где я столько раз проливал чай и кофе, теперь можно подключиться по ssh, и творить дела удалённо. Удалил ненужные пакеты и отключил службы, которые не планирую использовать. Хотел удалить python, но подумал и не стал. Не удаляй python - не совершай ошибку. Python используют другие утилиты и удаление python сделает систему не пригодной для работы. С железякой закончили.
-
-Дальше надо написать простейшее приложение (hello world) на рабочей машине, скомпилировать под платформу arm, выгрузить на Raspberry Pi и запустить. Добавлю подробностей. Рабочий компьютер это x86 архитектура, а Raspberry Pi это arm. Если коротко
-<p class="fig">
-    <img width="75%" alt="Рисунок 2 - Нельзя просто так скомпилировать программу на одной архитектуре, а исполнить на другой" src="/static/images/bezzabot/nelza.jpg" />
-    <p class="figsign">Рисунок 2 - Нельзя просто так скомпилировать программу для другой платформы</p>
-</p>
-
-Умные люди придумали кросс-компиляторы. Это программы, которые собирают программу под целевую (target) платформу. Помучавшись со сборкой libc и openssl нашёл проект <a href = "https://github.com/cross-rs/cross">cross - zero setup cross compilation and cross testing of Rust crates</a>, который решил все проблемы.
-
-```bash
-cross build 
-  --release  
-  --target arm-unknown-linux-musleabihf
-```
-
-так выглядит команда на сборку под Raspberry Pi. Под капотом у cross работает docker. Указываете target и cross выкачивает нужный образ и собирает проект. Изящно, не правда ли?
-
-Есть ряд настроек, которые позволяют уменьшить размер бинарника. 
-```bash
-[profile.release]
-strip = true
-opt-level = "z"
-lto = true
-codegen-units = 1
-```
-теперь можно быстрее выгружать бинарник по ssh. Деплоить rust приложение - одно удовольстивие. Бинарник достаточно перенести на платформу и запустить. Также добавил .env файл, чтобы задать переменные окружения. В systemd файле конфигурации /etc/systemd/system/bezzabot.service указал .env файл. Из него будут загружены пeременные окружения, необходимые для бота.
-
-```bash
-[Service]
-ExecStart=/srv/bezzabot/bezzabot
-ExecReload=bash -c "/srv/bezzabot/bezzabot"
-User=radio
-EnvironmentFile=/srv/bezzabot/.env
-Restart=always
-RestartSec=2
-```
-
-Считаем, что вопрос со сборкой и deploy приложения временно решен. Перейдём к регистрации бота, домена, сертификатам. Это была самая ненавистная часть, но, как оказалось, зря я её ненавидел. Выбрал webhooks вместо long-polling как способ коммуникации бота. В таком случае telegram требует https со всеми вытекающими. Я являюсь счастливым обладателем роутера keenetic zyxel и в dashboard обнаружил пункт меню Domain name. Оказалось Keenetic предоставляет доменное имя 5-го уровня. Вместе с сертификатом. Кайф. Зарегистрировал доменное имя и пробросил порты до raspberry. Ещё одна проблема решена малой кровью. 
-
-Как регистрировать бота в телеграм рассказывать не буду, а оставлю <a href="https://core.telegram.org/bots#how-do-i-create-a-bot">ссылку</a>.
-
-Бот зарегистрирован, webhook настроен, https работает. Переходим к созданию бота. Сэкономить время можно на API. Несмотря на то, что для текущей задачи не нужна большая функциональность я бы не хотел ограничивать себя в будущем. Первой ссылкой по теме telegram bot rust выпадает <a hre="https://github.com/teloxide/teloxide">teloxide</a>.  Пример с <a href="https://github.com/teloxide/teloxide/blob/master/crates/teloxide/examples/command.rs">командами</a> это почти все, что мне нужно.
-
-Определяете набор команд. Определяете реакцию на команды. Теперь к деталям. По-умолчанию teloxide работает в long-polling режиме, и поэтому надо (мне надо) перенастроить на webhook-mode. Смотрите <a href="https://github.com/teloxide/teloxide/blob/master/crates/teloxide/examples/ngrok_ping_pong.rs">пример здесь</a>. А дальше пишем логику. Единственное, что хочу отметить это парсинг аргументов. В моем случае команды содержат обязательные и необязательные параметры. Пользователь может задать лишние параметры, перепутать, ввести ерунду. Я использую поле parse_with макроса BotCommand, в которой указываю собственную функцию для разбора аргументов.
-
-```rust
-#[derive(BotCommands, Debug, Clone)]
-#[command(
-  rename_rule = "lowercase", 
-  description = "Доступные команды:"
-)]
-pub enum BotCommand {
-  #[command(
-    description = "Отображает этот текст")
-  ]
-  Help,
-
-  #[command(
-    parse_with = skb_parser,
-    description = "йцукен -> qwerty"
-  )]
-  Skb(
-    String, 
-    Layout, 
-    FromLanguage, 
-    ToLanguage
-  ),
-  ...
-}
-```
-
-Доступны 3 команды, не считая help:
-
-- /skb — Превращает йцукен в qwerty. Пример: /skb йцукен
-
-- /utime — Превращает unix timestamp в дату в формате %Y-%m-%d %H:%M:%S
-
-- /winner — Выбирает случайный id из списка. Пример: /winner 1 2 3 4 5
-
-В планах добавить ещё. Кстати, если есть идеи команд - буду рад рассмотреть и реализовать.
-В завершении отмечу, что создать dev-окружение для бота не составило никакого труда. Я создал второго бота, ещё один домен и пробросил порт до рабочей машины.
-
-<div class="videoWrapper">
-    <iframe style="margin: 1rem auto; display: block; float: none" width="560" height="315" src="https://www.youtube.com/embed/sDludSLpM0k" title="YouTube video player" frameborder="0" allow="fullscreen; autoplay; picture-in-picture; web-share"></iframe>
-</div>
-
-В качестве вывода и отчёта о проделанной работе я оставлю список задач, которые я решил и напишу то, что создание простого telegram бота это совсем не сложно и даже весело.
-
-Список задач:
-
-- Установить ОС на Raspberry Pi 2
-
-- Настроить SSH
-
-- Поудалять лишние пакеты и остановить ненужные службы (alsa, bluetooth, wifi и т.д.)
-
-- Собрать проект, написанный на рабочей машине под Raspberry Pi (x86 -> arm 32 bit)
-
-- Выгрузить и запустить собранный проект на Raspberry Pi
-
-- Написать systemd сервис, который будет запускать бота при загрузке и перезапускать, если сервис упал (такого у нас точно не произойдет)
-
-- Исследовать тему с IP адресом от провайдера и понять как получить фиксированный ip
-
-- Зарегить домен для бота
-
-- Получить и настроить сертификат (let's encrypt?)
-
-- Зарегить telegram бота (придумать имя меньше чем за 1 день)
-
-- Telegram API (режим работы бота long polling или webhook)
-
-- Поискать готовое решение для работы с API на Rust (teloxide)
-
-- Написать бота на rust
-
-- Создать dev окружение (dev бота) для разработки
-
-<h3>Ссылки</h3>
-
-[Bezzabot - Helper for developers - github](github.com/radiopapus/bezzabot)
-
-[Bezzabot - Telegram](t.me/Ym90X2JlX3ph_bot)
-
-[Teloxide - library to build Telegram bots on Rust](github.com/teloxide/teloxide)
-
-[How Do I Create a Bot?](core.telegram.org/bots#how-do-i-create-a-bot)
-
-[Botfather](telegram.me/BotFather)
-
-[Asynchronous Programming in Rust](rust-lang.github.io/async-book)
-
-[How to Set Up a Raspberry Pi for the First Time](www.tomshardware.com/how-to/set-up-raspberry-pi)
-
-[Telegram Bot API](core.telegram.org/bots/api)
-
-[Cross - zero setup cross compilation](github.com/cross-rs/cross)
-
-[Rust](www.rust-lang.org)
-
-[Характеристики Raspberry Pi](amperka.ru/product/raspberry-pi-2-model-b)
+Вот список того, про что я хочу рассказать:
+1. Браузер - чтобы смотреть за запросы, которые отправляет клиент
+2. curl, wget, httpie - инструменты для создания и отправки запросов
+3. Postman или Insomnia
+4. IDE - среда разработки, какую использую я, какие есть 
+5. Terminal и команды linux. zsh + terminator + горячие клавиши
+6. Инструменты командной строки jq, jless
+6. Операционная система
+7. Язык программирования
+9. Пакетный менеджер
+10. Мессенджер телеграм, slack
+11. Система контроля версий (git какие еще бывают)
+12. Хостинг для проектов (github, gitlab)
+13. Docker и docker-compose
+14. Документация и язык разметки md
+15. Инструменты для программных продуктов: kafkacat, mirror maker, phpmyadmin, phpRedisAdmin
+16. Системы форматирования кода linters
+17. Анализаторы кода
+18. Утилиты вроде jwt.io, base64 enc/dec, json prettyfier
