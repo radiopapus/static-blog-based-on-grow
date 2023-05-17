@@ -8,7 +8,8 @@ $order: 1
 
 ---
 <img src="/static/images/viktorzharina.jpg" alt="Фотография Виктора Жарины" class="about-photo" />
-Меня зовут Виктор Жарина (ударение на и). Сейчас живу в Калининграде и удаленно работаю на Quantumsoft. Говорю, пишу и читаю на английском. Без вредных привычек. Последние несколько лет участвую в стартапе, который делает софт для людей, у которых диагностировали рак головного мозга. Пишу на Kotlin в связке со Spring Boot. Используем Graphql и пробуем Event Sourcing.
+Меня зовут Виктор Жарина (ударение на и). Сейчас живу в Калининграде. Разработчик программного обеспечения с фокусом на backend-разработке web-приложений. Последние несколько лет использовал Kotlin вместе со Spring Boot. До этого использовал PHP. Имею опыт использования Graphql и EventSourcing подхода. Участвовал в проектах с нуля и до эксплуатации. В проекте navio получил опцион за проделанную работу и участие в развитии компании.
+Говорю, пишу и читаю на английском. Без вредных привычек. Последние несколько лет участвовал в стартапе, который делает софт для людей, у которых диагностировали рак головного мозга.
 
 Образование: Томский Политехнический университет, Физико-технический факультет, Электроника и автоматика физических установок.
 
@@ -16,17 +17,18 @@ $order: 1
 
 Сертификаты: [Coursera Algorithmic Toolbox](/static/images/coursera/cert.png)
 
+Творчество: [youtube](https://www.youtube.com/@radiopapus), [telegram](https://t.me/radiopapus)
+
 <div class="timeline">
     <div class="row">
         <div class="points">
             <div class="point">
-                <div class="year"><script type="text/javascript">document.write(Math.abs(new Date().getUTCFullYear()));</script>
-                </div>
-                <div class="month">Т.М.</div>
+                <div class="year">2023</div>
+                <div class="month">МАР</div>
             </div>
             <div class="line__solid line__solid_quantum"></div>
             <div class="point__interval">
-                <div class="year">><script type="text/javascript">document.write(Math.abs(new Date().getUTCFullYear() - 2018 - 1));</script> лет</div>
+                <div class="year">><script type="text/javascript">document.write(2023 - 2018 - 1);</script> лет</div>
             </div>
             <div class="line__solid line__solid_quantum"></div>
             <div class="point">
@@ -41,19 +43,19 @@ $order: 1
             <p class="details__text"><a href="navio.com">navio.com</a></p>
             <p class="details__text">Разработка программного обеспечения для людей, у которых диагностировали рак.</p> 
             <p class="details__text"><b>Чем занимался</b></p>
-            <p class="details__text">Переключился с PHP стэка на Kotlin</p>
-            <p class="details__text">Общение с заказчиками: еженедельные стречи, 1-1, планирование работ</p>
-            <p class="details__text">Разработал сервис для хранения данных пациентов</p>
+            <p class="details__text">Переключился с PHP на Kotlin.</p>
+            <p class="details__text">Общение с заказчиками: еженедельные стречи, 1-1, планирование работ.</p>
+            <p class="details__text">Разработал REST-сервис для хранения данных пациентов.</p>
             <p class="details__text">Активно участвовал в разработке новых функций для приложений пациента и доктора.</p>
             <p class="details__text">Участвовал в применении подхода Event Sourcing и Kafka в качестве брокера сообщений.</p>
             <p class="details__text">Участвовал в разработке event-source фреймворка, созданного для проекта и написанного на Kotlin. Разработал специальный сервис (event-migrator), который отправлял сообщения в Kafka и далее они считывались на стороне приложения.</p>
             <p class="details__text">Предложил способ backup/restore на основе утилиты kafkacat для kafka.</p>
-            <p class="details__text">Улучшил логгирование данных тем, что добавил correaltion id в события Kafka и считывание его и добавление в логи системы. Это позволило быстрее идентифицировать проблему и найти .</p>
+            <p class="details__text">Добавил correaltion id в события Kafka. Это позволило быстрее идентифицировать проблемы.</p>
             <p class="details__text">Разработал функцию поиска данных в elasticsearch по данным пациента.</p>
             <p class="details__text">Написал несколько библиотек, которые использовали внутри проекта, такие как шаблонизатор сообщений для sms и email и клиента для cognito для выполнения простых CRUD операций для user pool.</p>
-            <p class="details__text">Периодически обновлял проекты для аудита системы и по соображениям безопасности</p>
+            <p class="details__text">Периодически обновлял проекты для аудита системы и по соображениям безопасности.</p>
             <p class="details__text"><b>Технологии</b></p>
-            <p class="details__skill">GraphQL, REST, Kafka, Postgres, Redis, Elasticsearch, Spring Boot, Hibernate, Junit, Kotlin, Twilio, CopperCRM, Datadog, Sentry, Slack, Google Meet, Jira.</p>
+            <p class="details__skill">GraphQL, REST, Kafka, Postgres, Redis, Elasticsearch, Spring Boot, Hibernate, Junit, Kotlin, Twilio, CopperCRM, Datadog, Sentry, Slack, Jira.</p>
         </div>
     </div>
     <div class="row">
@@ -77,7 +79,7 @@ $order: 1
             <div class="details__title--main">ООО "Офти"</div>
             <div class="details__title--sub">Senior Web Developer</div>
             <p class="details__text"><a href="//usedcarsni.com">usedcarsni.com</a></p> 
-            <p class="details__text">Сервис в Северной Ирландии для покупки и продажи авто/мото транспорта</p> 
+            <p class="details__text">Сервис для покупки и продажи авто/мото транспорта в Северной Ирландии</p> 
             <p class="details__text"><b>Чем занимался</b></p> 
             <p class="details__text">Разрабатывал функции и интеграции с сервисами: финансовый провайдер кредитных предложений Ivendi, фильтр и поиск автомобилей доступных в кредит, Trustpilot, Worldpay, Visitor Chat, 360 degree Image.</p>
             <p class="details__text">Участвовал в переходе с версии 5.3 до 7 для PHP.</p>
