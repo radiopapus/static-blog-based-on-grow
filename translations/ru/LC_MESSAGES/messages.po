@@ -733,3 +733,6 @@ msgid "mozg-protiv-zhivota-ili-naskolko-trudno-upravlyat-svoey-zhiznyu"
 msgstr "Мозг против живота или насколько трудно управлять своей жизнью"
 msgid "tvorcheskiy-otpusk"
 msgstr "Творческий отпуск"
+
+msgid "jvm-internals-perevod"
+msgstr "Jvm Internals - Перевод"

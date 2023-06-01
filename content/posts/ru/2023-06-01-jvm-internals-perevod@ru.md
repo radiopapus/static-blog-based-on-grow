@@ -1,10 +1,13 @@
 ---
-title: Jvm Internals - Перевод
-lang: ru
+$title@: jvm-internals-perevod
+author@: Виктор Жарина
 description: Перевод статьи блога jamesdbloom об устройстве jvm.
-keywords: jvm, java 7, internals, перевод
+keywords: jvm,java 7,internals,перевод
+image: /static/images/default.png
+slugRu: jvm-internals-perevod
+$dates:
+  published: 2023-06-01 19:19:13
 ---
-
 <i>От переводчика: <a href="https://blog.jamesdbloom.com/JVMInternals.html">Оригинальная статья</a> написана 24 ноября 2013 года. В нескольких местах я оставил термины без перевода, вроде runtime constant pool и native стек, так как не придумал корректного и благозвучного перевода на русский. Также я дополнил статью примечаниями и дополнительными ссылками и немного изменил структуру заголовков.</i>
 
 Статья объясняет внутреннюю архитектуру виртуальной машины Java (JVM). Диаграмма отображает ключевые внутренние компоненты типичной JVM, которая соответствует спецификации <a href="https://docs.oracle.com/javase/specs/jvms/se7/html/index.html">The Java Virtual Machine Specification Java SE 7 Edition</a>
