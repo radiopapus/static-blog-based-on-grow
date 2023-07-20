@@ -380,21 +380,16 @@ video {
 .row {
     display: flex;
     flex-flow: row nowrap;
-    align-items: center;
-    justify-content: flex-start;
 }
 
 .row__empty {
     display: flex;
     flex-flow: row nowrap;
-    align-items: center;
-    justify-content: flex-start;
 }
 
 .points {
     display: flex;
     flex-flow: column nowrap;
-    align-items: center;
 }
 
 .points__empty {
@@ -405,12 +400,11 @@ video {
     text-align: center;
     padding: 6px;
     border: 2px solid black;
-    width: 5rem;
-    height: 5rem;
+    width: 55px;
+    height: 55px;
 }
 
 .point__interval {
-    text-align: center;
     border: 0px solid black;
 }
 
@@ -424,28 +418,16 @@ video {
 
 .line__solid {
     border-left: 5px solid black;
-    height: 7vh;
+    height: auto;
+    padding: 1rem;
+    margin-left: 32px;
 }
 
-.line__solid_quantum {
-    height: 40vh;
-}
-
-.line__solid_30 {
-    height: 30vh;
-}
-
-.line__solid_ofte {
-    height: 20vh;
-}
-
-.line__solid_nts {
-    height: 15vh;
-}
 
 .line__grey {
     border-left: 5px dashed grey;
-    height: 10vh;
+    min-height: 4vh;
+    margin-left: 32px;
 }
 
 .details {
@@ -489,23 +471,6 @@ form > div.search-panel {
         font-size: 0.9rem;
     }
 
-    .line__solid_quantum {
-      height: 45vh;
-    }
-
-    .line__solid_ofte {
-      height: 20vh;
-    }
-
-    .line__solid_nts {
-      height: 20vh;
-    }
-
-    .point {
-        width: 3rem;
-        height: 3rem;
-    }
-
     .year, .month {
         font-size: 1rem;
     }
@@ -524,28 +489,6 @@ form > div.search-panel {
         font-size: 0.9rem;
     }
 
-    .line__solid_quantum {
-      height: 70vh;
-    }
-
-    .line__solid_ofte {
-      height: 35vh;
-    }
-}
-
-@media (max-width: 420px) {
-
-    .line__solid_quantum {
-      height: 60vh;
-    }
-
-    .line__solid_ofte {
-      height: 25vh;
-    }
-
-    .line__solid_nts {
-      height: 15vh;
-    }
 }
 
 .left {
@@ -600,6 +543,20 @@ table td span {
     }
     table td span {
         display: block;
+    }
+}
+
+@media print {
+    .timeline {
+      font-size: 12px;
+    }
+
+    header {
+     display: none;
+    }
+
+    .lang {
+        display: none;
     }
 }
 

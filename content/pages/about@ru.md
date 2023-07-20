@@ -1,22 +1,18 @@
 ---
 $title@: About
 image: /static/images/viktorzharina.jpg
-description: Резюме. Меня зовут Виктор Жарина. Я профессиональный веб-разработчик. Последние несколько лет пишу на Kotlin, до этого неколько лет писал на PHP.
+description: Резюме. Виктор Жарина. web-разработчик. Последние несколько лет пишу на Kotlin, до этого неколько лет писал на PHP.
 $titles:
   nav@: About
 $order: 1
 
 ---
-<img class="left" src="/static/images/viktorzharina.jpg" alt="Фотография Виктора Жарины" class="about-photo" /> Меня зовут Виктор Жарина (ударение на и). Сейчас живу в Калининграде. Разработчик программного обеспечения с фокусом на backend-разработке web-приложений. Последние несколько лет использовал Kotlin вместе со Spring Boot. До этого использовал PHP. Имею опыт использования Graphql и EventSourcing подхода. Участвовал в проектах с нуля и до эксплуатации. В проекте navio получил опцион за проделанную работу и участие в развитии компании.
-Говорю, пишу и читаю на английском. Без вредных привычек. Последние несколько лет участвовал в стартапе, который делает софт для людей, у которых диагностировали рак головного мозга.
+<p style="font-size: 36px; font-weight: bold;">Виктор Жари&#x301;на</p> 
+г. Калининград (GMT+2, MSK-1), <a href="mailto:viktor@zharina.info">viktor@zharina.info</a>, <a href="/about/">Блог</a>
 
-Образование: Томский Политехнический университет, Физико-технический факультет, Электроника и автоматика физических установок.
+Backend-разработчик. Последние несколько лет писал на Kotlin + Spring Boot. Большой опыт работы с PHP. В свободное время изучаю Rust. Участвовал в проектах с нуля и до ввода в эксплуатацию. В проекте navio получил опцион за участие. Говорю, пишу и читаю на английском. Пожалуйста обращайтесь к <a href="https://viktor.zharina.info/static/attachments/complete_resume.pdf">резюме</a> за подробной информацией.
 
-Контакты: viktor@zharina.info
-
-Сертификаты: [Coursera Algorithmic Toolbox](/static/images/coursera/cert.png)
-
-Творчество: [youtube](https://www.youtube.com/@radiopapus), [telegram](https://t.me/radiopapus)
+[youtube](https://www.youtube.com/@radiopapus), [telegram](https://t.me/radiopapus), [JVM internals](https://habr.com/ru/articles/739338/), [Опыт участия в проекте для стажеров в роли наставника](https://habr.com/ru/articles/346248/), [Coursera Algorithmic Toolbox](/static/images/coursera/cert.png)
 
 <div class="timeline">
     <div class="row">
@@ -25,36 +21,22 @@ $order: 1
                 <div class="year">2023</div>
                 <div class="month">МАР</div>
             </div>
-            <div class="line__solid line__solid_quantum"></div>
+            <div class="line__solid"></div>
             <div class="point__interval">
-                <div class="year">><script type="text/javascript">document.write(2023 - 2018 - 1);</script> лет</div>
+                <div class="year">>4 лет</div>
             </div>
-            <div class="line__solid line__solid_quantum"></div>
+            <div class="line__solid">
+                <div class="details">
+                    <div class="details__title--main"><a href="//www.quantumsoft.pro">Quantumsoft</a>, Backend-инженер в <a href="//navio.com">navio.com</a></div>
+                    <p class="details__text">Разработка программного обеспечения для людей с диагнозом глиобластома и другие виды рака. Участвовал в проекте с самого начала и до ввода в эксплуатацию. Получил опцион по результатам работы.</p>
+                    <p class="details__skill">GraphQL, REST, Kafka, Postgres, Redis, Elasticsearch, Spring Boot, Hibernate, Junit, Kotlin, Twilio, CopperCRM, Datadog, Sentry, Slack, Jira.</p>
+                </div>
+            </div>
             <div class="point">
                 <div class="year">2018</div>
                 <div class="month">ОКТ</div>
             </div>
             <div class="line__grey"></div>
-        </div>
-        <div class="details">
-            <div class="details__title--main"><a href="//www.quantumsoft.pro">Quantumsoft (Удаленно)</a></div>
-            <div class="details__title--sub">Software Developer</div>
-            <p class="details__text"><a href="navio.com">navio.com</a></p>
-            <p class="details__text">Разработка программного обеспечения для людей, у которых диагностировали рак.</p> 
-            <p class="details__text"><b>Чем занимался</b></p>
-            <p class="details__text">Переключился с PHP на Kotlin.</p>
-            <p class="details__text">Общение с заказчиками: еженедельные стречи, 1-1, планирование работ.</p>
-            <p class="details__text">Разработал REST-сервис для хранения данных пациентов.</p>
-            <p class="details__text">Активно участвовал в разработке новых функций для приложений пациента и доктора.</p>
-            <p class="details__text">Участвовал в применении подхода Event Sourcing и Kafka в качестве брокера сообщений.</p>
-            <p class="details__text">Участвовал в разработке event-source фреймворка, созданного для проекта и написанного на Kotlin. Разработал специальный сервис (event-migrator), который отправлял сообщения в Kafka и далее они считывались на стороне приложения.</p>
-            <p class="details__text">Предложил способ backup/restore на основе утилиты kafkacat для kafka.</p>
-            <p class="details__text">Добавил correaltion id в события Kafka. Это позволило быстрее идентифицировать проблемы.</p>
-            <p class="details__text">Разработал функцию поиска данных в elasticsearch по данным пациента.</p>
-            <p class="details__text">Написал несколько библиотек, которые использовали внутри проекта, такие как шаблонизатор сообщений для sms и email и клиента для cognito для выполнения простых CRUD операций для user pool.</p>
-            <p class="details__text">Периодически обновлял проекты для аудита системы и по соображениям безопасности.</p>
-            <p class="details__text"><b>Технологии</b></p>
-            <p class="details__skill">GraphQL, REST, Kafka, Postgres, Redis, Elasticsearch, Spring Boot, Hibernate, Junit, Kotlin, Twilio, CopperCRM, Datadog, Sentry, Slack, Jira.</p>
         </div>
     </div>
     <div class="row">
@@ -63,30 +45,17 @@ $order: 1
                 <div class="year">2018</div>
                 <div class="month">ОКТ</div>
             </div>
-            <div class="line__solid line__solid_ofte"></div>
+            <div class="line__solid"></div>
             <div class="point__interval">
                 <div class="year">>2 лет</div>
             </div>
-            <div class="line__solid line__solid_ofte"></div>
-            <div class="point">
-                <div class="year">2016</div>
-                <div class="month">ИЮН</div>
+            <div class="line__solid">
+                <div class="details">
+                    <div class="details__title--main">Ofte, Senior Web Developer в <a href="//usedcarsni.com">usedcarsni.com</a></div> 
+                    <p class="details__text">Сервис для покупки и продажи авто/мото транспорта в Северной Ирландии. Поддержка, рефакторинг, интеграции и разработка новых функций.</p>
+                    <p class="details__skill">PHP, Mysql, Redis, Sphinx, Redmine, GIT, Ivendi, Trustpilot, Worldpay.</p>
+                </div>
             </div>
-            <div class="line__grey"></div>
-        </div>
-        <div class="details">
-            <div class="details__title--main">ООО "Офти"</div>
-            <div class="details__title--sub">Senior Web Developer</div>
-            <p class="details__text"><a href="//usedcarsni.com">usedcarsni.com</a></p> 
-            <p class="details__text">Сервис для покупки и продажи авто/мото транспорта в Северной Ирландии</p> 
-            <p class="details__text"><b>Чем занимался</b></p> 
-            <p class="details__text">Разрабатывал функции и интеграции с сервисами: финансовый провайдер кредитных предложений Ivendi, фильтр и поиск автомобилей доступных в кредит, Trustpilot, Worldpay, Visitor Chat, 360 degree Image.</p>
-            <p class="details__text">Участвовал в переходе с версии 5.3 до 7 для PHP.</p>
-            <p class="details__text">Общение с заказчиками: планирование, задачи в Redmine.</p>
-            <p class="details__text">Участвовал в разделении монолитного legacy приложения на отдельные сервисы.</p>
-            <p class="details__text">Участвовал во внутреннем проекте как teamlead и организовал разработку чата с участием Junior разработчиков.</p>
-            <p class="details__text"><b>Технологии</b></p>
-            <p class="details__skill">PHP, Mysql, Redis, Sphinx, Redmine, GIT, Ivendi, Trustpilot, Worldpay.</p>
         </div>
     </div>
     <div class="row">
@@ -95,30 +64,23 @@ $order: 1
                 <div class="year">2016</div>
                 <div class="month">ИЮН</div>
             </div>
-            <div class="line__solid line__solid_nts"></div>
+            <div class="line__solid"></div>
             <div class="point__interval">
                 <div class="year">>2 лет</div>
             </div>
-            <div class="line__solid line__solid_nts"></div>
+            <div class="line__solid">
+                <div class="details">
+                    <div class="details__title--main"><a href="//nts.su">Интернет-провайдер "Новые Телесистемы"</a>, Программист</div>
+                    <p class="details__text">Участвовал в разработке и поддержке сайта и системы учета.</p>
+                    <p class="details__skill">PHP, MySQL, Codeigniter, Ext4js, GIT, MSSQL(2012) network devices, bash, telnet</p>
+                </div>
+            </div>
             <div class="point">
                 <div class="year">2014</div>
                 <div class="month">АПР</div>
             </div>
             <div class="line__grey"></div>
         </div>
-        <div class="details">
-            <div class="details__title--main">Интернет-провайдер "Новые Телесистемы"</div>
-            <div class="details__title--sub">Программист</div>
-            <p class="details__text">Интернет-провайдер с более чем 20 000 клиентами</p> 
-            <p class="details__text"><b>Чем занимался</b></p> 
-            <p class="details__text">Участвовал в разработке и поддержке системы учета.</p>
-            <p class="details__text">Работал и писал скрипты для работы с роутерами Cisco, Eltex, Dlink.</p>
-            <p class="details__text">Разработал утилиту для перемещения групп пользователей с одной подсети в другую.</p>
-            <p class="details__text">Разработал модуль для создания запросов на включение/отключение пользователей.</p>
-            <p class="details__text">Внедрил систему GIT вместо SVN.</p>
-            <p class="details__text"><b>Технологии</b></p>
-            <p class="details__skill">PHP, Mysql, Codeigniter, Ext4js, GIT, MSSQL(2012) network devices, bash, telnet</p>
-        </div>
     </div>
     <div class="row">
         <div class="points">
@@ -126,28 +88,21 @@ $order: 1
                 <div class="year">2014</div>
                 <div class="month">ИЮН</div>
             </div>
-            <div class="line__solid"></div>
             <div class="point__interval">
                 <div class="year">1 год</div>
             </div>
-            <div class="line__solid"></div>
+            <div class="line__solid">
+                <div class="details">
+                    <div class="details__title--main">ФорексИнн, Junior web-developer</div>
+                    <p class="details__text">Поддержка сайта форекс-брокера, изучил основы финансовой торговли и разработал модуль для проведения соревнований среди инвесторов.</p>
+                    <p class="details__skill">Symfony, PHP,jQuery, Mercurial, MetaTrader4, Bootstrap, HTML, JS</p>
+                </div>
+            </div>
             <div class="point">
                 <div class="year">2013</div>
                 <div class="month">ИЮН</div>
             </div>
             <div class="line__grey"></div>
-        </div>
-        <div class="details">
-            <div class="details__title--main">ФорексИнн</div>
-            <div class="details__title--sub">Junior web-developer</div>
-            <p class="details__text">Форекс брокер</p> 
-            <p class="details__text"><b>Чем занимался</b></p> 
-            <p class="details__text">Занимался поддержкой сайта форекс-брокера.</p>
-            <p class="details__text">Изучил основы финансовой торговли.</p>
-            <p class="details__text">Познакомился и начал использовать фреймворк symfony за короткий срок.</p>
-            <p class="details__text">Разработал модуль для проведения соревнований среди инвесторов.</p>
-            <p class="details__text"><b>Технологии</b></p>
-            <p class="details__skill">Symfony, PHP,jQuery, Mercurial, MetaTrader4, Bootstrap, HTML, JS</p>
         </div>
     </div>
     <div class="row">
@@ -156,22 +111,23 @@ $order: 1
                 <div class="year">2012</div>
                 <div class="month">ДЕК</div>
             </div>
-            <div class="line__solid"></div>
+            <div class="line__solid">
+            </div>
             <div class="point__interval">
                 <div class="year">>3 лет</div>
             </div>
-            <div class="line__solid"></div>
+            <div class="line__solid">
+                <div class="details">
+                    <div class="details__title--main"><a href="//uetm.ru">ООО «Эльмаш (УЭТМ)». Екатеринбург</a>, Специалист группы систем управления</div>
+                    <p class="details__text">Разработка программ для ПЛК Beckhoff, командировки, создание документации, наставничество.</p>
+                    <p class="details__skill">PLC, Beckhoff, EtherCAT, TwinCAT, CodeSYS</p>
+                </div>
+            </div>
             <div class="point">
                 <div class="year">2009</div>
                 <div class="month">АПР</div>
             </div>
             <div class="line__grey"></div>
-        </div>
-        <div class="details">
-            <div class="details__title--main"><a href="http://uetm.ru">ООО «Эльмаш (УЭТМ)». Екатеринбург</a></div>
-            <div class="details__title--sub">Специалист группы систем управления</div>
-            <p class="details__text">Программное обеспечение ПЛК Beckhoff, командировки, создание документации, наставничество.</p>
-            <p class="details__skill">PLC, Beckhoff, EtherCAT, TwinCAT, CodeSYS</p>
         </div>
     </div>
     <div class="row">
@@ -184,17 +140,17 @@ $order: 1
             <div class="point__interval">
                 <div class="year">>2 лет</div>
             </div>
-            <div class="line__solid"></div>
+            <div class="line__solid">
+                <div class="details">
+                    <div class="details__title--main"><a href="//datakrat.com">ЗАО НПФ «ДатаКрат-С» г. Томск</a>, Инженер</div>
+                    <p class="details__text">Автоматизация общепита и кинотеатров. Обучал персонал, решал аппаратные и программные проблемы.</p>
+                    <p class="details__skill">Rkeeper, Delphi7, StoreHouse, UCS Cinema</p>
+                </div>
+            </div>
             <div class="point">
                 <div class="year">2005</div>
                 <div class="month">МАЙ</div>
             </div>
-        </div>
-        <div class="details">
-            <div class="details__title--main"><a href="//datakrat.com">ЗАО НПФ «ДатаКрат-С» г. Томск</a></div>
-            <div class="details__title--sub">Инженер ЦТО</div>
-            <p class="details__text">Автоматизация общепита и кинотеатров. Обучал персонал, решал аппаратные и программные проблемы.</p>
-            <p class="details__skill">Rkeeper, Delphi7, StoreHouse, UCS Cinema</p>
         </div>
     </div>
 </div>
