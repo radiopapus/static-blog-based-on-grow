@@ -44,7 +44,7 @@ Interesting offer.
 
 
 
-I live in Tomsk (Syberia) now. My time is Moscow time + 3 h. My skype is viktorzharina. I can speak from 15:00 to 18:00 every day by Moscow time.</blockquote>
+I am living in Tomsk (Syberia) now. My time is Moscow time + 3 h. My skype is viktorzharina. I can speak from 15:00 to 18:00 every day by Moscow time.</blockquote>
 
 
 

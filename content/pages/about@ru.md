@@ -5,8 +5,8 @@ description: Резюме. Виктор Жарина. web-разработчик
 $titles:
   nav@: About
 $order: 1
----
 
+---
 <p style="font-size: 36px; font-weight: bold;">Виктор Жари&#x301;на</p> 
 г. Калининград (GMT+2, MSK-1), <a href="mailto:viktor@zharina.info">viktor@zharina.info</a>, <a href="/about/">Блог</a>
 
