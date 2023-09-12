@@ -1,10 +1,19 @@
 <nav>
     <ul>
+        {% set count = g.docs('posts', locale=doc.locale) | count %}
+
         {% for page in g.docs('pages', locale=doc.locale) %}
-        <li {% if doc == page %}class="active"{% endif %}>
-            <a href="{{page.url.path}}">
-                *{{_(page.titles('nav'))}}*
-            </a>
-            {% endfor %}
+            {% if page.title == 'Archive' %}
+                {% if count > 10 %}
+                    <li {% if doc == page %}class="active"{% endif %}>
+                        <a href="{{page.url.path}}"><b>{{_(page.titles('nav'))}}</b> </a>
+                    </li>
+                {% endif %}
+            {% else %}
+                <li {% if doc == page %}class="active"{% endif %}>
+                    <a href="{{page.url.path}}"><b>{{_(page.titles('nav'))}}</b> </a>
+                </li>
+            {% endif %}
+        {% endfor %}
     </ul>
 </nav>
