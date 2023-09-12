@@ -10,10 +10,7 @@ $dates:
 ---
 I live in Siberia<br/>
 This is not LA<br/>
--40 shows thermometer<br/>
--40 inside my DNA<br/>
-I live in Siberia<br/>
-This is not LA<br/>
+Minus forty celsium inside my DNA<br/>
 
 <div id="lightgallery" class="lightgallery">
 <a href="/static/images/siberia/orig/siberia.jpg" data-responsive="/static/images/siberia/thumb/siberia.jpg 800, 
