@@ -9,9 +9,9 @@ COPY . src/
 WORKDIR src/
 
 # Setup for ssh onto github
-RUN mkdir -p /root/.ssh
-ADD id_ed25519 /root/.ssh/id_ed25519
-RUN chmod 700 /root/.ssh/id_ed25519 && echo "Host github.com\n\tStrictHostKeyChecking no\n" >> /root/.ssh/config
+#RUN mkdir -p /root/.ssh
+#ADD id_ed25519 /root/.ssh/id_ed25519
+#RUN chmod 700 /root/.ssh/id_ed25519 && echo "Host github.com\n\tStrictHostKeyChecking no\n" >> /root/.ssh/config
 
 RUN adduser --disabled-password --gecos "" grow && \
     apk update && \
