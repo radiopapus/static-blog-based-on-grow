@@ -1,10 +1,13 @@
 ---
-title: Подходит ли data class для JPA Entity?
-lang: ru
+$title@: podhodit-li-data-class-dlya-jpa-entity
+author@: Виктор Жарина
 description: Мои размышления на тему выбора data class и обычного kotlin class для jpa entity
-keywords: kotlin, data class, class, jpa entity, spring
+keywords: kotlin,data class,class,jpa entity,spring
+image: /static/images/default.png
+slugRu: podhodit-li-data-class-dlya-jpa-entity
+$dates:
+  published: 2023-11-19 10:25:31
 ---
-
 <h3 style="clear: none">TLDR;</h3>
 <div class="quote__right">
  <p class="quote">У тебя класс без data!</p>

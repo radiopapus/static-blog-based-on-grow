@@ -446,6 +446,34 @@ video {
     font-weight: bold;
 }
 
+/* qoutes */
+.quote__right {
+    float: right;
+}
+
+.quote, .quote__right {
+    font-family: Tahoma;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    max-width: 400px;
+    margin: 30px;
+    color: #aaa;
+}
+.quote span.quote:before, .quote__right p.quote:before, .quote__right span.quote:before {
+    content: "“";
+    font-size: 24px;
+    line-height: 12px; 
+}
+
+.quote span.quote:after, .quote__right p.quote:after, .quote__right span.quote:after {
+    content: "”";
+    font-size: 24px;
+    line-height: 12px; 
+}
+
+
+/* search */
 form > div.search-panel {
   background: white;
   height: 2rem;
