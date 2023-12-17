@@ -1,10 +1,13 @@
 ---
-title: Отпуск длинною в год
-lang: ru
+$title@: otpusk-dlinnoyu-v-god
+author@: Виктор Жарина
 description: Про творческий отпуск за свой счет длинною 8 месяцев.
-keywords: sabbatical, саббатикал, творческий отпуск, за свой счет, опыт
+keywords: sabbatical,саббатикал,творческий отпуск,за свой счет,опыт
+image: /static/images/default.png
+slugRu: otpusk-dlinnoyu-v-god
+$dates:
+  published: 2023-12-17 11:29:01
 ---
-
 ## Предыстория
 
 Я работал в стартапе, и в августе 2022 мой контракт закончился. Я решил израсходовать примерно 45 дней отпуска,
