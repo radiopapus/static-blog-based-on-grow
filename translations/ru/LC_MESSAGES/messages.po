@@ -743,3 +743,8 @@ msgid "podhodit-li-data-class-dlya-jpa-entity"
 msgstr "Подходит ли data class для JPA Entity?"
 msgid "otpusk-dlinnoyu-v-god"
 msgstr "Отпуск длинною в год"
+
+msgid "razbiraemsya-s-coroutine-v-kotlin--chast-pervaya"
+msgstr "Разбираемся с Coroutine в Kotlin - часть первая"
+msgid "razbiraemsya-s-coroutine-v-kotlin--chast-vtoraya"
+msgstr "Разбираемся с Coroutine в Kotlin - часть вторая"
