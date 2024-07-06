@@ -1,8 +1,12 @@
 ---
-title: Разбираемся с Coroutine в Kotlin - часть четвертая
-lang: ru 
-description: корутины в kotlin и модификатор suspend 
-keywords: kotlin, coroutine, suspend, modifier, callback, async 
+$title@: razbiraemsya-s-coroutine-v-kotlin--chast-chetvertaya
+author@: Виктор Жарина
+description: корутины в kotlin и модификатор suspend
+keywords: kotlin,coroutine,suspend,modifier,callback,async
+image: /static/images/default.png
+slugRu: razbiraemsya-s-coroutine-v-kotlin--chast-chetvertaya
+$dates:
+  published: 2024-07-06 10:58:15
 ---
 ## В предыдущих сериях
 
