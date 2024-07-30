@@ -1,13 +1,14 @@
 #!/bin/sh
 
-yarn add gulp-cli
-yarn add gulp
-yarn add gulp-autoprefixer
-yarn add gulp-rename
-yarn add gulp-sass
+yarn global add gulp-cli
+yarn global add gulp
+yarn global add gulp-autoprefixer
+yarn global add gulp-rename
+yarn global add gulp-sass
 
-yarn add node-gyp
-yarn add sass
+yarn global add node-gyp
+yarn global add sass
 
-yarn add elasticlunr
-yarn add git+https://github.com/weixsong/lunr-languages.git
+yarn global add elasticlunr
+yarn global add git+https://github.com/weixsong/lunr-languages.git
+yarn cache clean
