@@ -7,19 +7,19 @@ $titles:
 $order: 1
 ---
 
-<p style="font-size: 36px; font-weight: bold;">Виктор Жари&#x301;на</p> 
-г. Калининград (GMT+2, MSK-1), <a href="mailto:viktor@zharina.info">viktor@zharina.info</a>, <a href="/about/">Блог</a>
+<p style="font-size: 36px; font-weight: bold;">Виктор Жарина</p> 
+г. Калининград (GMT+2, MSK-1), <a href="mailto:viktor@zharina.info">viktor@zharina.info</a>
 
-Backend-разработчик. Последние несколько лет пишу на Kotlin (coroutines) + Spring Boot. Большой опыт работы с PHP. Участвовал в проектах со старта и до ввода в эксплуатацию. В проекте navio получил опцион за участие. Говорю, пишу и читаю на английском. Продвигаю инженерную культуру и всегда в поисках лучших практик. Пожалуйста обращайтесь к <a href="https://viktor.zharina.info/static/attachments/complete_resume.pdf">резюме</a> за подробной информацией.
+Backend-разработчик. Последние несколько лет пишу на Kotlin + Spring Boot (Reactive + coroutines). Большой опыт работы с PHP. Участвовал в проектах со старта и до запуска. В проекте navio получил опцион. Говорю, пишу и читаю на английском. Продвигаю инженерную культуру и всегда в поисках лучших практик. Пожалуйста, обращайтесь к <a href="https://viktor.zharina.info/static/attachments/complete_resume.pdf">резюме</a> за подробной информацией.
 
-[youtube](https://www.youtube.com/@radiopapus), [telegram](https://t.me/radiopapus), [JVM internals](https://habr.com/ru/articles/739338/), [Опыт участия в проекте для стажеров в роли наставника](https://habr.com/ru/articles/346248/), [Coursera Algorithmic Toolbox](/static/images/coursera/cert.png)
+[youtube](https://www.youtube.com/@radiopapus), [telegram](https://t.me/radiopapus), [JVM internals](https://habr.com/ru/articles/739338/), Цикл статей по корутинам в Kotlin(https://habr.com/ru/articles/815407/), [Coursera Algorithmic Toolbox](/static/images/coursera/cert.png)
 
 <div class="timeline">
     <div class="row">
         <div class="points">
             <div class="point">
-                <div class="year">ТЕК.</div>
-                <div class="month"></div>
+                <div class="year">2025</div>
+                <div class="month">ИЮЛ</div>
             </div>
             <div class="line__solid"></div>
             <div class="point__interval">
@@ -28,7 +28,7 @@ Backend-разработчик. Последние несколько лет п�
             <div class="line__solid">
                 <div class="details">
                     <div class="details__title--main"><a href="//https://jsa-group.ru/">JSA</a> Старший Kotlin-разработчик</div>
-                    <p class="details__text">Разработка программного обеспечения для мобильного стройконтроля. Разработка IDM системы.</p>
+                    <p class="details__text">Разработка backend для мобильных приложений. Разработка IDM системы. Интеграции.</p>
                     <p class="details__skill">REST, Kotlin + Coroutines, Postgres, Spring Boot, Junit, Mockk.</p>
                 </div>
             </div>

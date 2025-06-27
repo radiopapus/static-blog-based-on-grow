@@ -1,0 +1,399 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"tat",
+				"tatham-article-2"
+			],
+			[
+				"strt",
+				"strtolower"
+			],
+			[
+				"res",
+				"result"
+			],
+			[
+				"q",
+				"query"
+			],
+			[
+				"IN",
+				"INDEX_FILE"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"buld",
+				"build-index"
+			],
+			[
+				"INDEX",
+				"INDEX_DATA_FILE"
+			],
+			[
+				"INDE",
+				"INDEX_PATH2"
+			],
+			[
+				"str_re",
+				"str_replace"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"text",
+				"text-align\tproperty"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: Ins",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/vz/blogging/blog"
+	],
+	"file_history":
+	[
+		"/home/vz/test.py",
+		"/home/vz/blogging/blog/drafts/post.md",
+		"/home/vz/blogging/blog/content/posts/en/2019-02-02-i-live-in-siberia-this-is-not-la@en.md",
+		"/home/vz/karniz",
+		"/home/vz/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/vz/.config/sublime-text-3/Packages/Terminus/Default.sublime-keymap",
+		"/usr/share/applications/org.telegram.desktop.desktop",
+		"/home/vz/blogging/blog/content/pages/consulting@ru.md",
+		"/home/vz/blogging/blog/content/pages/about@ru.md",
+		"/home/vz/blogging/blog/translations/ru/LC_MESSAGES/messages.po",
+		"/home/vz/blogging/blog/content/pages/index.md",
+		"/home/vz/blogging/blog/content/pages/_blueprint.yaml",
+		"/home/vz/blogging/blog/Dockerfile",
+		"/home/vz/blogging/blog/content/posts/ru/2023-11-19-podhodit-li-data-class-dlya-jpa-entity@ru.md",
+		"/home/vz/Downloads/ventoy-1.0.96-linux/ventoy-1.0.96/README",
+		"/home/vz/Documents/Data_class_JPA_entity",
+		"/home/vz/blogging/blog/drafts/draft2.md",
+		"/home/vz/Downloads/sshrasp.pub",
+		"/home/vz/blogging/blog/content/posts/ru/2023-02-16-misli-naschet-chatgpt@ru.md",
+		"/home/vz/blogging/blog/source/sass/main.scss",
+		"/home/vz/Documents/jvm internals",
+		"/home/vz/blogging/blog/translations/ru/LC_MESSAGES/messages.mo",
+		"/home/vz/blogging/blog/content/posts/ru/2022-09-11-perevod-pochemu-bumaga-formata-a4-imeet-razmer-297-mm-na-210-mm@ru.md",
+		"/home/vz/blogging/blog/content/posts/ru/2023-03-03-telegram-bot-na-rust-dva-tri-i-raspberry-pi-2@ru.md",
+		"/home/vz/blogging/viktor.zharina.info/drafts/jdk_serialization.md",
+		"/home/vz/blogging/viktor.zharina.info/drafts/post.md",
+		"/home/vz/Documents/credentials.txt",
+		"/home/vz/blogging/viktor.zharina.info/drafts/apex_diamond.md",
+		"/home/vz/blogging/viktor.zharina.info/content/pages/about@ru.md",
+		"/home/vz/blogging/viktor.zharina.info/partials/footer/footer.html",
+		"/home/vz/work/credentials",
+		"/home/vz/work/navio/apollo-auth-service/build.gradle.kts",
+		"/home/vz/blogging/viktor.zharina.info/drafts/draft2.md",
+		"/home/vz/blogging/viktor.zharina.info/source/js/search.js",
+		"/home/vz/blogging/viktor.zharina.info/gulpfile.js",
+		"/home/vz/blogging/viktor.zharina.info/partials/search.html",
+		"/home/vz/blogging/viktor.zharina.info/cli/Mashinka/Commands/Index.php",
+		"/home/vz/blogging/viktor.zharina.info/source/index/data.json",
+		"/home/vz/blogging/viktor.zharina.info/translations/ru/LC_MESSAGES/messages.po",
+		"/home/vz/blogging/viktor.zharina.info/translations/en/LC_MESSAGES/messages.po",
+		"/home/vz/blogging/viktor.zharina.info/cli/Mashinka/Util/PostHelper.php",
+		"/home/vz/blogging/viktor.zharina.info/node_modules/elasticlunr/elasticlunr.js",
+		"/home/vz/blogging/viktor.zharina.info/npm_startup.sh",
+		"/home/vz/blogging/viktor.zharina.info/README.md",
+		"/home/vz/blogging/viktor.zharina.info/Dockerfile",
+		"/home/vz/blogging/viktor.zharina.info/.dockerignore",
+		"/home/vz/blogging/viktor.zharina.info/docker-compose.yml",
+		"/home/vz/blogging/viktor.zharina.info/.env",
+		"/home/vz/blogging/viktor.zharina.info/views/base.html",
+		"/home/vz/blogging/viktor.zharina.info/source/index/index.json",
+		"/home/vz/blogging/viktor.zharina.info/podspec.yaml",
+		"/home/vz/blogging/viktor.zharina.info/node_modules/vinyl-fs/lib/dest/index.js",
+		"/home/vz/blogging/viktor.zharina.info/content/pages/indexing.md",
+		"/home/vz/blogging/viktor.zharina.info/cli/Mashinka/Commands/Publish.php",
+		"/home/vz/blogging/viktor.zharina.info/content/posts/ru/First-note-or-why-i-use-grow-i@ru.md",
+		"/home/vz/blogging/viktor.zharina.info/cli/Mashinka/Commands/CommandFactory.php",
+		"/home/vz/blogging/viktor.zharina.info/cli/Mashinka/DTO/Post.php",
+		"/home/vz/blogging/viktor.zharina.info/partials/recent.html",
+		"/home/vz/blogging/viktor.zharina.info/views/notes.html",
+		"/home/vz/blogging/viktor.zharina.info/views/posts.html",
+		"/home/vz/blogging/viktor.zharina.info/source/sass/main.scss",
+		"/home/vz/blogging/viktor.zharina.info/templates/translation.tpl",
+		"/home/vz/blogging/viktor.zharina.info/content/posts/ru/2021-01-06-17-59-02-v-kaliningrade-spustya-polgoda@ru.md",
+		"/home/vz/Downloads/navio-twentynineteen/style-rtl.css",
+		"/home/vz/Documents/вопросы_собственнику",
+		"/home/vz/Downloads/navio-twentynineteen/front-page.php",
+		"/home/vz/work/navio/icalrumba-backend/README.md",
+		"/home/vz/blogging/viktor.zharina.info/util/util.php",
+		"/home/vz/work/navio/apollo-backend-parent/.env",
+		"/home/vz/work/navio/apollo-backend-parent/docker-compose.yml",
+		"/home/vz/work/navio/apollo-patient-app/build.gradle",
+		"/home/vz/work/navio/apollo-patient-app/README.md",
+		"/home/vz/work/navio/apollo-backend-parent/docker-compose-instrumented.yml",
+		"/home/vz/work/navio/apollo-backend-parent/README.md",
+		"/home/vz/work/navio/apollo-backend-parent/docker-compose-build.yml",
+		"/home/vz/work/navio/apollo-patient-frontend/package.json",
+		"/home/vz/work/navio/apollo-backend-parent/cloneAll.sh",
+		"/home/vz/work/navio/apollo-backend-parent/build.gradle",
+		"/home/vz/work/navio/apollo-backend-parent/settings.gradle",
+		"/home/vz/work/navio/apollo-backend-parent/docker-postgresql-multiple-databases/Dockerfile",
+		"/home/vz/blogging/viktor.zharina.info/content/pages/bookmark@en.md",
+		"/home/vz/Documents/build.gradle.kts",
+		"/home/vz/Downloads/stacktrace.txt",
+		"/home/vz/Documents/Task :loadEvents",
+		"/home/vz/work/navio/apollo-cms-poc/README.md",
+		"/home/vz/work/kotleta/README.md",
+		"/home/vz/blogging/buruhina.ru/deploy.sh",
+		"/home/vz/blogging/viktor.zharina.info/.gitlab-ci.yml",
+		"/home/vz/work/static-blog-software-kotleta",
+		"/home/vz/work/navio/apollo-patient-app/.gitignore",
+		"/home/vz/work/navio/specs_and_schemas/example_data/events/12_notification.yml",
+		"/home/vz/Documents/report.log",
+		"/home/vz/work/signalfx/monitoring-service-migration-tool-demo-app/.env",
+		"/home/vz/work/signalfx/monitoring-service-migration-tool/README.md",
+		"/home/vz/work/signalfx/monitoring-service-migration-tool-demo-app/README.md",
+		"/home/vz/Downloads/test-plan-dd-sfx",
+		"/home/vz/work/signalfx/monitoring-service-migration-tool/.env-example",
+		"/home/vz/work/signalfx/monitoring-service-migration-tool/.env",
+		"/home/vz/work/signalfx/monitoring-service-migration-tool-demo-app/.env-example",
+		"/home/vz/work/navio/apollo-patient-app/src/main/kotlin/com/navio/apollo/app/patient/models/Enrollment.kt",
+		"/home/vz/work/navio/apollo-patient-app/src/main/kotlin/com/navio/apollo/app/patient/events/PatientEnrollmentCompleted.kt",
+		"/home/vz/work/navio/apollo-indexing-service/Dockerfile",
+		"/home/vz/work/signalfx/monitoring-service-migration-tool-demo-app/newrelic.ini",
+		"/home/vz/work/navio/apollo-patient-app/src/test/kotlin/com/navio/apollo/app/patient/test/models/TestTreatmentPlanModels.kt",
+		"/home/vz/work/navio/apollo-patient-app/src/main/kotlin/com/navio/apollo/app/patient/models/ContentDoc.kt",
+		"/home/vz/work/navio/apollo-patient-app/src/main/kotlin/com/navio/apollo/app/patient/events/PatientEnrollmentRequested.kt",
+		"/home/vz/work/navio/apollo-patient-app/src/main/resources/application.properties",
+		"/home/vz/work/navio/apollo-patient-app/src/main/kotlin/com/navio/apollo/app/patient/config/PatientAppConfiguration.kt",
+		"/home/vz/work/navio/apollo-patient-app/src/test/kotlin/com/navio/apollo/app/patient/test/events/TestPatientEnrollmentRequested.kt",
+		"/home/vz/work/navio/apollo-patient-app/src/main/kotlin/com/navio/apollo/app/patient/config/PatientEventPipelineConfiguration.kt",
+		"/home/vz/Downloads/bootRun.log",
+		"/home/vz/work/navio/apollo-patient-app/src/main/kotlin/com/navio/apollo/app/patient/config/EventLoaderPipelineConfiguration.kt",
+		"/home/vz/work/navio/apollo-framework-cronkite/src/main/kotlin/com/navio/framework/cronkite/event/pipeline/EventBatch.kt",
+		"/home/vz/work/navio/apollo-framework-cronkite/src/main/kotlin/com/navio/framework/cronkite/command/impl/TrivialCommandService.kt",
+		"/home/vz/work/navio/apollo-framework-cronkite/src/test/kotlin/com/navio/framework/cronkite/test/config/TestEventPipelineConfiguration.kt",
+		"/home/vz/work/navio/apollo-framework-cronkite/src/main/kotlin/com/navio/framework/cronkite/kafka/pipeline/KafkaEventSink.kt",
+		"/home/vz/work/navio/apollo-framework-cronkite/src/test/resources/application.properties",
+		"/home/vz/work/navio/apollo-framework-cronkite/src/main/kotlin/com/navio/framework/cronkite/event/pipeline/DatabaseEventSink.kt",
+		"/home/vz/work/navio/apollo-framework-cronkite/src/main/kotlin/com/navio/framework/cronkite/event/pipeline/EntityEventListenerFilter.kt",
+		"/home/vz/work/navio/apollo-framework-cronkite/src/test/kotlin/com/navio/framework/cronkite/test/kafka/TestKafkaEventPipeline.kt",
+		"/home/vz/Downloads/wordpress-5.3.2-ru_RU/wordpress/wp-includes/SimplePie/Cache/MySQL.php",
+		"/home/vz/Downloads/wordpress-5.3.2-ru_RU/wordpress/wp-includes/wp-db.php",
+		"/home/vz/Downloads/wordpress-5.3.2-ru_RU/wordpress/wp-admin/includes/network.php",
+		"/home/vz/blogging/buruhina.ru/_posts/2020-03-01-тестовый.markdown",
+		"/home/vz/.config/sublime-text-3/Packages/User/Jekyll.sublime-settings",
+		"/home/vz/.config/sublime-text-3/Packages/Jekyll/Jekyll.sublime-settings",
+		"/home/vz/blogging/buruhina.ru/_includes/sidebar.html",
+		"/home/vz/blogging/buruhina.ru/public/css/my.css"
+	],
+	"find":
+	{
+		"height": 44.0
+	},
+	"find_in_files":
+	{
+		"height": 152.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"lightgal",
+			"light",
+			"Цены",
+			")"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 44.0
+	},
+	"input":
+	{
+		"height": 51.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.Terminus":
+	{
+		"height": 445.0
+	},
+	"output.exec":
+	{
+		"height": 432.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"project": "blog.sublime-project",
+	"replace":
+	{
+		"height": 84.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"draft",
+				"drafts/post.md"
+			],
+			[
+				"Kafka",
+				"src/main/kotlin/com/navio/framework/cronkite/kafka/pipeline/KafkaEventSink.kt"
+			],
+			[
+				"Data",
+				"src/main/kotlin/com/navio/framework/cronkite/event/pipeline/DatabaseEventSink.kt"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/go.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 592.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 563.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
