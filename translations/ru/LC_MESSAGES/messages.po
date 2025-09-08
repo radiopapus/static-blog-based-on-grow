@@ -758,5 +758,6 @@ msgid "komnata-prizvaniya"
 msgstr "Комната призвания"
 msgid "dyi-gipsoviy-karniz-svoimi-rukami"
 msgstr "DYI. Гипсовый карниз своими руками"
+
 msgid "reshenie-prostoy-zadachi-kak-sposob-poznakomitsya-s-yazikom-programmirovaniya-go"
 msgstr "Решение простой задачи как способ познакомиться с языком программирования Go"
