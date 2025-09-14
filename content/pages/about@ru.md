@@ -10,9 +10,9 @@ $order: 1
 <p style="font-size: 36px; font-weight: bold;">Виктор Жарина</p> 
 г. Калининград (GMT+2, MSK-1), <a href="mailto:viktor@zharina.info">viktor@zharina.info</a>
 
-Backend-разработчик. Последние несколько лет пишу на Kotlin + Spring Boot (Reactive + coroutines). Большой опыт работы с PHP. Участвовал в проектах со старта и до запуска. В проекте navio получил опцион. Говорю, пишу и читаю на английском. Продвигаю инженерную культуру и всегда в поисках лучших практик. Пожалуйста, обращайтесь к <a href="https://viktor.zharina.info/static/attachments/complete_resume.pdf">резюме</a> за подробной информацией.
+Backend-инженер. Последние несколько лет пишу на Kotlin + Spring Boot. Знаком с другими языками (PHP, Rust, Go). Участвовал в проектах со старта и до запуска. В проекте navio получил опцион. Говорю, пишу и читаю на английском. Продвигаю инженерную культуру и всегда в поисках лучших практик. Пожалуйста, обращайтесь к <a href="https://viktor.zharina.info/static/attachments/complete_resume.pdf">резюме</a> за подробной информацией.
 
-[youtube](https://www.youtube.com/@radiopapus), [telegram](https://t.me/radiopapus), [JVM internals](https://habr.com/ru/articles/739338/), Цикл статей по корутинам в Kotlin(https://habr.com/ru/articles/815407/), [Coursera Algorithmic Toolbox](/static/images/coursera/cert.png)
+[youtube](https://www.youtube.com/@radiopapus), [telegram](https://t.me/radiopapus), [JVM internals](https://habr.com/ru/articles/739338/), [цикл статей по корутинам в Kotlin](https://habr.com/ru/articles/815407/), [Coursera Algorithmic Toolbox](/static/images/coursera/cert.png)
 
 <div class="timeline">
     <div class="row">
